@@ -1,6 +1,6 @@
 # Dresden OpenData MCP Server
 
-A Model Context Protocol (MCP) server that provides AI agents (or [whatever](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers.
+A Model Context Protocol (MCP) server that provides AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers.
 
 I personally find Dresden's OpenData portal extremely useful, but cumbersome to work with and find fitting datasets. This tries to make that a bit easier. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using this MCP server to find a dataset on Dresden's streets.
 

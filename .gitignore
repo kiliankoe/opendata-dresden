@@ -1,0 +1,33 @@
+# Binaries
+dresden-opendata-mcp
+dresden-opendata-mcp-*
+*.exe
+
+# Build artifacts
+*.o
+*.a
+*.so
+
+# Go workspace
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test coverage
+*.out
+coverage.txt
+coverage.html
+
+# Environment files
+.env
+.env.local

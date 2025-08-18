@@ -27,9 +27,7 @@ make install
 The server can be configured using environment variables:
 
 ```bash
-MAX_CONCURRENT_REQUESTS=3
 REQUEST_TIMEOUT_MS=30000
-RATE_LIMIT_PER_MINUTE=60
 ```
 
 ## MCP Tools

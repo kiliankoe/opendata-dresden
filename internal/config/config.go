@@ -15,16 +15,12 @@ const (
 )
 
 type Config struct {
-	MaxConcurrentRequests int
-	RequestTimeout        time.Duration
-	RateLimitPerMinute    int
+	RequestTimeout time.Duration
 }
 
 func LoadConfig() *Config {
 	cfg := &Config{
-		MaxConcurrentRequests: getEnvInt("MAX_CONCURRENT_REQUESTS", 3),
-		RequestTimeout:        time.Duration(getEnvInt("REQUEST_TIMEOUT_MS", 30000)) * time.Millisecond,
-		RateLimitPerMinute:    getEnvInt("RATE_LIMIT_PER_MINUTE", 60),
+		RequestTimeout: time.Duration(getEnvInt("REQUEST_TIMEOUT_MS", 30000)) * time.Millisecond,
 	}
 
 	return cfg

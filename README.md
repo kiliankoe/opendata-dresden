@@ -39,7 +39,7 @@ The server provides the following MCP tools:
 ### `list_datasets`
 List all available datasets from the Dresden OpenData portal.
 
-```json
+```js
 {
   "limit": 100  // Optional, max datasets to return
 }
@@ -56,7 +56,7 @@ Search for datasets using keywords.
   - More bureaucratic/official terms
 - Consider broader or narrower terms if initial searches don't yield results
 
-```json
+```js
 {
   "query": "Straßenbahn",
   "limit": 30
@@ -66,7 +66,7 @@ Search for datasets using keywords.
 ### `get_dataset_info`
 Get detailed information about a specific dataset.
 
-```json
+```js
 {
   "id": "dataset-id"  // Dataset ID, Node ID, or Layer ID
 }
@@ -75,7 +75,7 @@ Get detailed information about a specific dataset.
 ### `fetch_dataset`
 Fetch dataset content in a specified format.
 
-```json
+```js
 {
   "id": "dataset-id",
   "format": "GeoJSON"  // CSV, JSON, GeoJSON, WMS, WFS
@@ -85,7 +85,7 @@ Fetch dataset content in a specified format.
 ### `query_dataset`
 Query datasets using OGC API parameters.
 
-```json
+```js
 {
   "layerId": "L124",
   "limit": 50,
@@ -98,7 +98,7 @@ Query datasets using OGC API parameters.
 
 Add the server to your Claude Desktop configuration:
 
-```json
+```js
 {
   "mcpServers": {
     "dresden-opendata": {

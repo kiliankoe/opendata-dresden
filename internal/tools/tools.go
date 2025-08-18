@@ -193,10 +193,9 @@ func FetchDataset(ctx context.Context, session *mcp.ServerSession, params *mcp.C
 
 // QueryDatasetParams parameters for querying dataset
 type QueryDatasetParams struct {
-	LayerID string    `json:"layerId" jsonschema:"required,OGC layer ID e.g. L124"`
-	Limit   int       `json:"limit,omitempty" jsonschema:"Maximum number of features (default: 10)"`
-	Offset  int       `json:"offset,omitempty" jsonschema:"Offset for pagination"`
-	BBox    []float64 `json:"bbox,omitempty" jsonschema:"Bounding box as minX minY maxX maxY"`
+	LayerID string `json:"layerId" jsonschema:"required,OGC layer ID e.g. L124"`
+	Limit   int    `json:"limit,omitempty" jsonschema:"Maximum number of features (default: 10)"`
+	Offset  int    `json:"offset,omitempty" jsonschema:"Offset for pagination"`
 }
 
 // QueryDataset queries dataset with OGC API parameters

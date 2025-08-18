@@ -87,8 +87,7 @@ Query datasets using OGC API parameters.
 {
   "layerId": "L124",
   "limit": 50,
-  "offset": 0,
-  "bbox": [403458.73, 5650402.65, 419770.49, 5666619.90]
+  "offset": 0
 }
 ```
 
@@ -120,10 +119,9 @@ const tramData = await client.call('fetch_dataset', {
   format: 'GeoJSON'
 });
 
-// Query with spatial bounds
+// Query dataset features
 const results = await client.call('query_dataset', {
   layerId: 'L124',
-  bbox: [403458.73, 5650402.65, 419770.49, 5666619.90],
   limit: 50
 });
 ```

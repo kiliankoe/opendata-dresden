@@ -2,60 +2,19 @@ package portal
 
 // Dataset represents a dataset from Dresden's OpenData portal
 type Dataset struct {
-	ID              string            `json:"id"`
-	NodeID          string            `json:"nodeId,omitempty"`
-	LayerID         string            `json:"layerId,omitempty"`
-	Title           string            `json:"title"`
-	Description     string            `json:"description"`
-	Formats         []string          `json:"formats"`
-	MetadataURL     string            `json:"metadataUrl,omitempty"`
-	DataURLs        map[string]string `json:"dataUrls"`
-	UpdateFrequency string            `json:"updateFrequency,omitempty"`
-	License         string            `json:"license"`
-	Tags            []string          `json:"tags"`
-	SpatialExtent   *SpatialExtent    `json:"spatialExtent,omitempty"`
+	ID            string            `json:"id"`
+	LayerID       string            `json:"layerId,omitempty"`
+	Title         string            `json:"title"`
+	Description   string            `json:"description"`
+	Formats       []string          `json:"formats"`
+	DataURLs      map[string]string `json:"dataUrls"`
+	SpatialExtent *SpatialExtent    `json:"spatialExtent,omitempty"`
 }
 
 // SpatialExtent represents the geographic bounds of a dataset
 type SpatialExtent struct {
 	BBox []float64 `json:"bbox"`
 	CRS  []string  `json:"crs"`
-}
-
-// SearchRequest represents a search request to the portal API
-type SearchRequest struct {
-	TextSearch     string                 `json:"textSearch"`
-	SelectedThemes map[string]interface{} `json:"selectedThemes"`
-	Facets         []string               `json:"facets"`
-	NumOfResults   int                    `json:"numOfResults"`
-	PagingStart    int                    `json:"pagingStart"`
-	Sort           string                 `json:"sort"`
-}
-
-// SearchResponse represents the response from the portal search API
-type SearchResponse struct {
-	NumOfHits int                    `json:"numOfHits"`
-	Results   []SearchResult         `json:"results"`
-	Facets    map[string]interface{} `json:"facets"`
-}
-
-// SearchResult represents a single search result
-type SearchResult struct {
-	ID              string         `json:"nodeId"`
-	Bezeichnung     string         `json:"ergebnis_bezeichnung"`
-	Beschreibung    string         `json:"titel"`
-	Modified        string         `json:"ergebnis_last_modified"`
-	Themes          []string       `json:"themen_bezeichnungen"`
-	Presentations   []Presentation `json:"presentations"`
-	SpatialCoverage []string       `json:"raeume_bezeichnungen"`
-}
-
-// Presentation represents a data format/presentation of a dataset
-type Presentation struct {
-	Type        string `json:"darstellungsart_bezeichnung"`
-	URL         string `json:"schnittstelle"`
-	Format      string `json:"format,omitempty"`
-	Description string `json:"beschreibung,omitempty"`
 }
 
 // OGCAPIResponse represents a response from OGC API Features

@@ -191,28 +191,6 @@ func (c *Client) GetDatasetInfo(ctx context.Context, datasetID string) (*Dataset
 	return nil, fmt.Errorf("dataset %s not found", datasetID)
 }
 
-// normalizeFormat normalizes format names
-func (c *Client) normalizeFormat(formatType string) string {
-	formatType = strings.ToUpper(strings.TrimSpace(formatType))
-
-	switch {
-	case strings.Contains(formatType, "WMS"):
-		return "WMS"
-	case strings.Contains(formatType, "WFS"):
-		return "WFS"
-	case strings.Contains(formatType, "CSV"):
-		return "CSV"
-	case strings.Contains(formatType, "JSON"):
-		return "JSON"
-	case strings.Contains(formatType, "GEOJSON"):
-		return "GeoJSON"
-	case strings.Contains(formatType, "INFORMATION"):
-		return "Information"
-	default:
-		return formatType
-	}
-}
-
 // fetchOGCCollections fetches all collections from OGC API
 func (c *Client) fetchOGCCollections(ctx context.Context) ([]Dataset, error) {
 	ogcURL := fmt.Sprintf("%s%s/collections", config.KommisDDURL, config.OGCAPIPath)

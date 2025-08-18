@@ -7,11 +7,8 @@ import (
 )
 
 const (
-	PortalURL    = "https://opendata.dresden.de"
-	KommisDDURL  = "https://kommisdd.dresden.de"
-	IkxPath      = "/net3/public/ogc.ashx"
-	OGCAPIPath   = "/net4/public/ogcapi"
-	SearchAPIURL = "https://opendata.dresden.de/informationsportal/service/app/search/all"
+	KommisDDURL = "https://kommisdd.dresden.de"
+	OGCAPIPath  = "/net4/public/ogcapi"
 )
 
 type Config struct {

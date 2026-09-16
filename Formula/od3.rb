@@ -4,7 +4,7 @@
 class Od3 < Formula
   desc "CLI and MCP server for Dresden's OpenData portal"
   homepage "https://github.com/kiliankoe/opendata-dresden"
-  url "https://github.com/kiliankoe/opendata-dresden.git", tag: "0.2.0"
+  url "https://github.com/kiliankoe/opendata-dresden.git", tag: "0.2.1"
   license "MIT"
   head "https://github.com/kiliankoe/opendata-dresden.git", branch: "main"
 

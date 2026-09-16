@@ -1,6 +1,6 @@
 # Binaries
-od3
-od3-*
+/od3
+/od3-*
 *.exe
 
 # Build artifacts

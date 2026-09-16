@@ -87,3 +87,5 @@ pnpm check   # lint and format check with Biome, `pnpm fix` applies
 ```
 
 The web app is built from `web/` with Vite and React and deployed by GitHub Pages after every index refresh.
+
+`make release VERSION=x.y.z` bumps the version in the binary and the Homebrew formula, commits and tags. Push with `git push --follow-tags`.

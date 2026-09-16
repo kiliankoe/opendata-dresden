@@ -1,4 +1,4 @@
-.PHONY: build run test test-integration clean install fmt
+.PHONY: build run test test-integration clean install fmt release
 
 # Binary name
 BINARY=od3
@@ -51,3 +51,15 @@ deps:
 # Run with verbose logging
 debug:
 	LOG_LEVEL=debug go run $(MAIN)
+
+# Bump the version everywhere it is kept, commit and tag. Pushing is left to
+# the caller so the release stays a deliberate step.
+release:
+	@test -n "$(VERSION)" || { echo "usage: make release VERSION=x.y.z"; exit 1; }
+	@git diff --quiet HEAD || { echo "working tree is dirty"; exit 1; }
+	sed -i.bak 's/^const version = ".*"/const version = "$(VERSION)"/' $(MAIN) && rm $(MAIN).bak
+	sed -i.bak 's/tag: "[^"]*"/tag: "$(VERSION)"/' Formula/od3.rb && rm Formula/od3.rb.bak
+	go test ./...
+	git commit -am "bump version to $(VERSION)"
+	git tag -a $(VERSION) -m "$(VERSION)"
+	@echo "now run: git push --follow-tags"

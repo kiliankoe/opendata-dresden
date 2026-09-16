@@ -1,5 +1,20 @@
+import { execSync } from "node:child_process";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
+
+// The index carries no timestamp of its own, so that unchanged rebuilds stay
+// byte-identical; its last change is what git recorded
+function indexUpdated(): string {
+  try {
+    return execSync("git log -1 --format=%cs -- ../data/index.json", {
+      cwd: import.meta.dirname,
+    })
+      .toString()
+      .trim();
+  } catch {
+    return "";
+  }
+}
 
 export default defineConfig({
   plugins: [react()],
@@ -9,4 +24,5 @@ export default defineConfig({
   server: { fs: { allow: [".."] } },
   // The dependency optimizer loses MapLibre's web worker in dev mode
   optimizeDeps: { exclude: ["maplibre-gl"] },
+  define: { __INDEX_UPDATED__: JSON.stringify(indexUpdated()) },
 });

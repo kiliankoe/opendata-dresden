@@ -9,6 +9,8 @@ import { Result } from "./Result";
 
 const PAGE = 50;
 
+const germanDate = (iso: string) => iso.split("-").reverse().join(".");
+
 // The query lives in the URL's search part and the open dataset in its hash,
 // so both can be shared as links
 function readUrl() {
@@ -221,8 +223,9 @@ export default function App() {
 
       <footer>
         <a href="https://github.com/kiliankoe/opendata-dresden">Quellcode</a>,
-        auch als CLI und MCP-Server. Daten werden nächtlich aktualisiert. Karten
-        von <a href="https://openfreemap.org">OpenFreeMap</a>.
+        auch als CLI und MCP-Server. Daten werden nächtlich aktualisiert
+        {__INDEX_UPDATED__ && `, zuletzt am ${germanDate(__INDEX_UPDATED__)}`}.
+        Karten von <a href="https://openfreemap.org">OpenFreeMap</a>.
       </footer>
     </>
   );

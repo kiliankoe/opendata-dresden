@@ -29,6 +29,9 @@ jobs:
         working-directory: web
     steps:
       - uses: actions/checkout@v7
+        with:
+          # The footer shows when the index last changed, which needs its history
+          fetch-depth: 0
       - uses: pnpm/action-setup@v6
       - uses: actions/setup-node@v7
         with:

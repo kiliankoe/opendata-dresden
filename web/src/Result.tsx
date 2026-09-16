@@ -1,9 +1,9 @@
-import { lazy, Suspense } from "react";
-import { type Dataset, portalUrl, resource, sortedResources } from "./datasets";
+import { Suspense } from "react";
+import { DatasetMap, Facts } from "./DatasetPage";
+import { type Dataset, resource, sortedResources } from "./datasets";
 
-// The map library is by far the largest dependency and only geodata needs it
-const DatasetMap = lazy(() => import("./DatasetMap"));
-
+// Result summarizes a dataset in the list and unfolds its details in place,
+// for a quick look at several datasets; the page is for a closer one
 export function Result({
   dataset,
   open,
@@ -13,10 +13,8 @@ export function Result({
   open: boolean;
   onToggle: () => void;
 }) {
-  const resources = sortedResources(dataset);
-
   return (
-    <li id={dataset.id} className={open ? "result open" : "result"}>
+    <li className="result">
       <div className="summary">
         <h2>
           <a
@@ -40,70 +38,27 @@ export function Result({
             .join(" · ")}
         </p>
         <p className="formats">
-          {[...new Set(resources.map((r) => r.format))].map((format) => (
-            <span key={format}>{format}</span>
-          ))}
+          {[...new Set(sortedResources(dataset).map((r) => r.format))].map(
+            (format) => (
+              <span key={format}>{format}</span>
+            ),
+          )}
         </p>
       </div>
-      {open && <Detail dataset={dataset} resources={resources} />}
+      {open && (
+        <div className="detail">
+          <Facts dataset={dataset}>
+            <li>
+              <a href={`#${dataset.id}`}>Detailseite</a>
+            </li>
+          </Facts>
+          {(resource(dataset, "GEOJSON") || resource(dataset, "WMS")) && (
+            <Suspense fallback={<div className="map-canvas" />}>
+              <DatasetMap dataset={dataset} />
+            </Suspense>
+          )}
+        </div>
+      )}
     </li>
-  );
-}
-
-function Detail({
-  dataset,
-  resources,
-}: {
-  dataset: Dataset;
-  resources: Dataset["resources"];
-}) {
-  const years = dataset.years ?? [];
-  const facts: [string, string | undefined][] = [
-    ["Quelle", dataset.source],
-    ["Lizenz", dataset.license],
-    [
-      "Zeitraum",
-      years.length > 1
-        ? `${years[0]} bis ${years[years.length - 1]}`
-        : years[0],
-    ],
-    ["Raumbezug", dataset.regions?.join(", ")],
-    ["Herkunft", dataset.origin],
-  ];
-  return (
-    <div className="detail">
-      {dataset.description && (
-        <p className="description">{dataset.description}</p>
-      )}
-      <dl>
-        {facts
-          .filter(([, value]) => value)
-          .map(([label, value]) => (
-            <div key={label}>
-              <dt>{label}</dt>
-              <dd>{value}</dd>
-            </div>
-          ))}
-      </dl>
-      <ul className="links">
-        {resources.map((r) => (
-          <li key={r.url}>
-            <a href={r.url} target="_blank" rel="noreferrer">
-              {r.format}
-            </a>
-          </li>
-        ))}
-        <li>
-          <a href={portalUrl(dataset)} target="_blank" rel="noreferrer">
-            Im Portal öffnen
-          </a>
-        </li>
-      </ul>
-      {(resource(dataset, "GEOJSON") || resource(dataset, "WMS")) && (
-        <Suspense fallback={<div className="map-canvas" />}>
-          <DatasetMap dataset={dataset} />
-        </Suspense>
-      )}
-    </div>
   );
 }

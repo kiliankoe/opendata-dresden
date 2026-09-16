@@ -62,7 +62,7 @@ Two environment variables apply to both the CLI and the server: `REQUEST_TIMEOUT
 
 ### Web
 
-[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser and shows geodata layers on a map, either as their features for the visible area or as the portal's own map service with its legend. Statistics datasets only link to their downloads and the portal's tables, since their host allows no cross-origin requests.
+[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser. Each dataset has a page with its metadata next to a viewer for its resources: geodata layers as features on a map for the visible area, as the portal's own map service with its legend, or as an attribute table; the portal's tables, charts, thematic maps, reports and PDFs embedded as they are. Downloads and the statistics datasets' CSV and JSON are only linked, since their host allows no cross-origin requests.
 
 ## Dataset index
 

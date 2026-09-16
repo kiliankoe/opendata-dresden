@@ -9,6 +9,7 @@ import { useEffect, useRef, useState } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
+import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
 
 // MapLibre resolves its worker relative to its own script URL, which bundling
 // loses; this hands it the worker as bundled by Vite
@@ -19,10 +20,6 @@ const DRESDEN: [number, number] = [13.74, 51.05];
 // Layers can hold over a hundred thousand features, so only the visible
 // part of a layer is fetched, capped at this many features
 const FEATURE_LIMIT = 2000;
-// A few layers consist of enormous polygons, where even a capped request
-// runs to tens of megabytes. The server announces no size, so the download
-// is cut off past this many bytes unless the user asks for it.
-const AUTO_BYTES = 10 * 1024 * 1024;
 const COLOR = "#0f766e";
 
 type Mode = "geojson" | "wms";
@@ -76,7 +73,7 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
 
   return (
     <div className="map">
-      <div className="map-bar">
+      <div className="bar">
         {geojsonUrl && wmsUrl && (
           <span className="modes">
             <button
@@ -120,8 +117,6 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
     </div>
   );
 }
-
-class TooLargeError extends Error {}
 
 // showFeatures draws the layer's GeoJSON for the current view and reloads it
 // whenever the view changes; features show their attributes on click. It
@@ -201,7 +196,7 @@ function showFeatures(
       if (e instanceof TooLargeError) {
         setStatus("Mehr als 10 MB im Ausschnitt");
         setTooLarge(true);
-      } else if (!(e instanceof DOMException && e.name === "AbortError")) {
+      } else if (!isAbort(e)) {
         setStatus("Daten konnten nicht geladen werden");
       }
     }
@@ -239,37 +234,6 @@ function showFeatures(
     unlimited = true;
     void load();
   };
-}
-
-// download reads the response as it arrives and gives up once it exceeds
-// maxBytes, so an oversized layer costs at most that much traffic
-async function download(
-  url: URL,
-  signal: AbortSignal,
-  maxBytes: number,
-): Promise<string> {
-  const response = await fetch(url, { signal });
-  if (!response.body) throw new Error("empty response");
-  const reader = response.body.getReader();
-  const chunks: Uint8Array[] = [];
-  let received = 0;
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    chunks.push(value);
-    received += value.length;
-    if (received > maxBytes) {
-      await reader.cancel();
-      throw new TooLargeError();
-    }
-  }
-  const body = new Uint8Array(received);
-  let offset = 0;
-  for (const chunk of chunks) {
-    body.set(chunk, offset);
-    offset += chunk.length;
-  }
-  return new TextDecoder().decode(body);
 }
 
 // showWms overlays the portal's own rendering of the layer and returns the

@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
+import { DatasetPage } from "./DatasetPage";
 import {
   createSearch,
   type Dataset,
@@ -11,12 +12,15 @@ const PAGE = 50;
 
 const germanDate = (iso: string) => iso.split("-").reverse().join(".");
 
-// The query lives in the URL's search part and the open dataset in its hash,
-// so both can be shared as links
+// The query lives in the URL's search part and the open dataset with its
+// chosen viewer in the hash, so all of it can be shared as links. Dataset
+// links are plain hash links, which gives them browser history for free.
 function readUrl() {
+  const [openId, ...viewer] = location.hash.slice(1).split("/");
   return {
     query: new URLSearchParams(location.search).get("q") ?? "",
-    openId: decodeURIComponent(location.hash.slice(1)),
+    openId: decodeURIComponent(openId),
+    viewer: decodeURIComponent(viewer.join("/")),
   };
 }
 
@@ -27,17 +31,22 @@ export default function App() {
   const [topic, setTopic] = useState("");
   const [format, setFormat] = useState("");
   const [openId, setOpenId] = useState(() => readUrl().openId);
+  const [viewer, setViewer] = useState(() => readUrl().viewer);
+  const [unfolded, setUnfolded] = useState("");
   const [shown, setShown] = useState(PAGE);
   const input = useRef<HTMLInputElement>(null);
-  const linkedId = useRef(readUrl().openId);
 
   useEffect(() => {
     loadDatasets().then(setDatasets, (e: Error) => setError(e.message));
   }, []);
 
-  // Browser navigation between shared links changes only the hash
   useEffect(() => {
-    const onHash = () => setOpenId(readUrl().openId);
+    const onHash = () => {
+      const { openId, viewer } = readUrl();
+      setOpenId(openId);
+      setViewer(viewer);
+      window.scrollTo(0, 0);
+    };
     window.addEventListener("hashchange", onHash);
     return () => window.removeEventListener("hashchange", onHash);
   }, []);
@@ -61,16 +70,9 @@ export default function App() {
     const url = new URL(location.href);
     if (query) url.searchParams.set("q", query);
     else url.searchParams.delete("q");
-    url.hash = openId;
+    url.hash = viewer ? `${openId}/${encodeURIComponent(viewer)}` : openId;
     history.replaceState(null, "", url);
-  }, [query, openId]);
-
-  // Bring a dataset opened from a shared link into view once the list exists
-  useEffect(() => {
-    if (datasets && linkedId.current) {
-      document.getElementById(linkedId.current)?.scrollIntoView();
-    }
-  }, [datasets]);
+  }, [query, openId, viewer]);
 
   // Changing the search or filters starts the list over
   const filter =
@@ -118,17 +120,19 @@ export default function App() {
     return list;
   }, [datasets, search, byId, query, topic, format]);
 
-  // A shared link opens its dataset even when it is not among the results
-  const linked = openId && byId.get(openId);
-  const listed = results.slice(0, shown);
-  const visible =
-    linked && !listed.includes(linked) ? [linked, ...listed] : listed;
+  const open = openId && datasets && byId.get(openId);
+  // Clearing the hash goes through the hashchange handler like the links do,
+  // so the page stays in the browser history
+  const back = () => {
+    location.hash = "";
+  };
 
   const reset = () => {
     changeQuery("");
     setTopic("");
     setFormat("");
     setOpenId("");
+    setViewer("");
     window.scrollTo(0, 0);
   };
 
@@ -146,50 +150,54 @@ export default function App() {
             Dresden Open Data
           </a>
         </h1>
-        <p>
-          Durchsuche alle {datasets?.length ?? ""} Datensätze des{" "}
-          <a href="https://opendata.dresden.de">
-            Open-Data-Portals der Landeshauptstadt Dresden
-          </a>
-          .
-        </p>
-        <input
-          ref={input}
-          type="search"
-          // biome-ignore lint/a11y/noAutofocus: searching is all this page is for
-          autoFocus
-          placeholder="Suche, z. B. Straßenbahn, Bäume, Einwohner …"
-          value={query}
-          onChange={(e) => changeQuery(e.target.value)}
-        />
-        <div className="filters">
-          <select
-            value={topic}
-            onChange={(e) => changeTopic(e.target.value)}
-            aria-label="Thema"
-          >
-            <option value="">Alle Themen</option>
-            {topics.map((t) => (
-              <option key={t}>{t}</option>
-            ))}
-          </select>
-          <select
-            value={format}
-            onChange={(e) => changeFormat(e.target.value)}
-            aria-label="Format"
-          >
-            <option value="">Alle Formate</option>
-            {formats.map((f) => (
-              <option key={f}>{f}</option>
-            ))}
-          </select>
-          {datasets && (
-            <span className="count">
-              {results.length}{" "}
-              {results.length === 1 ? "Datensatz" : "Datensätze"}
-            </span>
-          )}
-        </div>
+        {!openId && (
+          <>
+            <p>
+              Durchsuche alle {datasets?.length ?? ""} Datensätze des{" "}
+              <a href="https://opendata.dresden.de">
+                Open-Data-Portals der Landeshauptstadt Dresden
+              </a>
+              .
+            </p>
+            <input
+              ref={input}
+              type="search"
+              // biome-ignore lint/a11y/noAutofocus: searching is all this page is for
+              autoFocus
+              placeholder="Suche, z. B. Straßenbahn, Bäume, Einwohner …"
+              value={query}
+              onChange={(e) => changeQuery(e.target.value)}
+            />
+            <div className="filters">
+              <select
+                value={topic}
+                onChange={(e) => changeTopic(e.target.value)}
+                aria-label="Thema"
+              >
+                <option value="">Alle Themen</option>
+                {topics.map((t) => (
+                  <option key={t}>{t}</option>
+                ))}
+              </select>
+              <select
+                value={format}
+                onChange={(e) => changeFormat(e.target.value)}
+                aria-label="Format"
+              >
+                <option value="">Alle Formate</option>
+                {formats.map((f) => (
+                  <option key={f}>{f}</option>
+                ))}
+              </select>
+              {datasets && (
+                <span className="count">
+                  {results.length}{" "}
+                  {results.length === 1 ? "Datensatz" : "Datensätze"}
+                </span>
+              )}
+            </div>
+          </>
+        )}
       </header>
 
       <main>
@@ -198,26 +206,46 @@ export default function App() {
             Der Datensatzindex konnte nicht geladen werden: {error}
           </p>
         )}
-        <ul className="results">
-          {visible.map((dataset) => (
-            <Result
-              key={dataset.id}
-              dataset={dataset}
-              open={dataset.id === openId}
-              onToggle={() =>
-                setOpenId(dataset.id === openId ? "" : dataset.id)
-              }
-            />
-          ))}
-        </ul>
-        {results.length > shown && (
-          <button
-            type="button"
-            className="more"
-            onClick={() => setShown(shown + PAGE)}
-          >
-            Weitere anzeigen
-          </button>
+        {open && (
+          <DatasetPage
+            dataset={open}
+            viewer={viewer}
+            onViewer={setViewer}
+            onBack={back}
+          />
+        )}
+        {openId && datasets && !open && (
+          <p>
+            Diesen Datensatz gibt es nicht mehr.{" "}
+            <button type="button" className="back" onClick={back}>
+              Zur Suche
+            </button>
+          </p>
+        )}
+        {!openId && (
+          <>
+            <ul className="results">
+              {results.slice(0, shown).map((dataset) => (
+                <Result
+                  key={dataset.id}
+                  dataset={dataset}
+                  open={dataset.id === unfolded}
+                  onToggle={() =>
+                    setUnfolded(dataset.id === unfolded ? "" : dataset.id)
+                  }
+                />
+              ))}
+            </ul>
+            {results.length > shown && (
+              <button
+                type="button"
+                className="more"
+                onClick={() => setShown(shown + PAGE)}
+              >
+                Weitere anzeigen
+              </button>
+            )}
+          </>
         )}
       </main>
 

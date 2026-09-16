@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
 )
 
 const (

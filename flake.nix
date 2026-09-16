@@ -14,12 +14,12 @@
         in
         {
           default = pkgs.buildGoModule {
-            pname = "dresden-opendata-mcp";
+            pname = "od3";
             version = builtins.head (
-              builtins.match ".*const version = \"([^\"]+)\".*" (builtins.readFile ./cmd/dresden-opendata-mcp/main.go)
+              builtins.match ".*const version = \"([^\"]+)\".*" (builtins.readFile ./cmd/od3/main.go)
             );
             src = self;
-            subPackages = [ "cmd/dresden-opendata-mcp" ];
+            subPackages = [ "cmd/od3" ];
             vendorHash = "sha256-nkijcLcSCEBOjEo+KipEv8Z9aAKnxT9IjavnnVIPJDI=";
           };
         }

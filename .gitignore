@@ -1,6 +1,6 @@
 # Binaries
-dresden-opendata-mcp
-dresden-opendata-mcp-*
+od3
+od3-*
 *.exe
 
 # Build artifacts

@@ -10,14 +10,14 @@ import (
 	"io"
 	"strings"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
+	"github.com/kiliankoe/opendata-dresden/internal/portal"
 )
 
 const usage = `Usage:
-  dresden-opendata-mcp                              run the MCP server on stdio
-  dresden-opendata-mcp search [flags] [query...]    search datasets, no query lists all
-  dresden-opendata-mcp info <id>                    show a dataset with all its resources
-  dresden-opendata-mcp fetch [flags] <id> <format>  download a dataset resource
+  od3                             run the MCP server on stdio
+  od3 search [flags] [query...]   search datasets, no query lists all
+  od3 info <id>                   show a dataset with all its resources
+  od3 fetch [flags] <id> <format> download a dataset resource
 
 Flags of search: --limit N (default 30), --offset N
 Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)`

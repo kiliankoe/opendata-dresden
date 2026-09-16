@@ -1,6 +1,6 @@
-# Dresden OpenData MCP Server
+# Dresden OpenData CLI and MCP server
 
-A Model Context Protocol (MCP) server that provides AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers.
+A CLI and Model Context Protocol (MCP) server that provides AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers.
 
 I personally find Dresden's OpenData portal extremely useful, but cumbersome to work with and find fitting datasets. This tries to make that a bit easier. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using this MCP server to find a dataset on Dresden's streets.
 
@@ -14,15 +14,15 @@ I personally find Dresden's OpenData portal extremely useful, but cumbersome to 
 ### Building from Source
 
 ```bash
-git clone https://github.com/kiliankoe/dresden-opendata-mcp.git
-cd dresden-opendata-mcp
+git clone https://github.com/kiliankoe/opendata-dresden.git
+cd opendata-dresden
 
 make build
 
 make install
 ```
 
-With Nix, `nix build` produces the binary at `result/bin/dresden-opendata-mcp`, and `nix develop` (or [direnv](https://direnv.net) with `direnv allow`) provides a shell with Go and its tooling.
+With Nix, `nix build` produces the binary at `result/bin/od3`, and `nix develop` (or [direnv](https://direnv.net) with `direnv allow`) provides a shell with Go and its tooling.
 
 ## Configuration
 
@@ -83,9 +83,9 @@ Geodata layers return all their features by default. The portal offers no paging
 The same three operations are available as commands, for agents or scripts that prefer running a binary over speaking MCP. Search and info print JSON, fetch prints the resource as is.
 
 ```bash
-dresden-opendata-mcp search --limit 5 Straßenbahn
-dresden-opendata-mcp info 0F6996E7-26AB-4585-81BD-1EDA4381B1BC
-dresden-opendata-mcp fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA4381B1BC GEOJSON
+od3 search --limit 5 Straßenbahn
+od3 info 0F6996E7-26AB-4585-81BD-1EDA4381B1BC
+od3 fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA4381B1BC GEOJSON
 ```
 
 Without arguments the binary runs the MCP server on stdio.
@@ -98,7 +98,7 @@ Add the server to your Claude Desktop configuration:
 {
   "mcpServers": {
     "dresden-opendata": {
-      "command": "/path/to/dresden-opendata-mcp"
+      "command": "/path/to/od3"
     }
   }
 }

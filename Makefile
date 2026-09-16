@@ -1,8 +1,8 @@
 .PHONY: build run test test-integration clean install fmt
 
 # Binary name
-BINARY=dresden-opendata-mcp
-MAIN=cmd/dresden-opendata-mcp/main.go
+BINARY=od3
+MAIN=cmd/od3/main.go
 
 # Build the binary
 build:

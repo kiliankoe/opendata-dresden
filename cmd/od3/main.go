@@ -6,10 +6,10 @@ import (
 	"log"
 	"os"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/cli"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/tools"
+	"github.com/kiliankoe/opendata-dresden/internal/cli"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/portal"
+	"github.com/kiliankoe/opendata-dresden/internal/tools"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 

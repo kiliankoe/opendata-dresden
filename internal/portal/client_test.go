@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal/portaltest"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/portal/portaltest"
 )
 
 func newFakePortal(t *testing.T) (*portaltest.Server, *Client) {

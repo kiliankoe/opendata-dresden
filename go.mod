@@ -1,4 +1,4 @@
-module github.com/kiliankoe/opendatadresdenmcp
+module github.com/kiliankoe/opendata-dresden
 
 go 1.24.5
 

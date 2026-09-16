@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 

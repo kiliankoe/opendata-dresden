@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal/portaltest"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/portal"
+	"github.com/kiliankoe/opendata-dresden/internal/portal/portaltest"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 

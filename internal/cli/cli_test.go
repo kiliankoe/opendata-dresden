@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
-	"github.com/kiliankoe/opendatadresdenmcp/internal/portal/portaltest"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/portal"
+	"github.com/kiliankoe/opendata-dresden/internal/portal/portaltest"
 )
 
 func run(t *testing.T, fake *portaltest.Server, args ...string) (string, error) {

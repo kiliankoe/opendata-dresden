@@ -122,7 +122,13 @@ export function DatasetPage({
         )}
         {active?.kind === "map" && (
           <Suspense fallback={<div className="flex-1" />}>
-            <DatasetMap dataset={dataset} onLegend={setLegend} />
+            {/* The map picks its mode from what the dataset offers, so it has
+                to start over rather than carry the last dataset's choice */}
+            <DatasetMap
+              key={dataset.id}
+              dataset={dataset}
+              onLegend={setLegend}
+            />
           </Suspense>
         )}
         {active?.kind === "table" && <FeatureTable url={active.url} />}

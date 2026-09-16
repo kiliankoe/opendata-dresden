@@ -136,10 +136,21 @@ export default function App() {
     window.scrollTo(0, 0);
   };
 
+  const select = "max-w-full rounded-md border border-line px-2 py-1 text-sm";
+
   return (
-    <>
+    // A dataset page needs the width for its viewer and fits the viewport: only
+    // the facts column scrolls, so the viewer and the footer stay in place. The
+    // search page instead grows with its results and keeps the footer below.
+    <div
+      className={`mx-auto flex w-full flex-col px-4 pt-8 ${
+        open
+          ? "min-h-[36rem] max-w-[88rem] pb-5 pane:h-screen"
+          : "min-h-screen max-w-[52rem] pb-16"
+      }`}
+    >
       <header>
-        <h1>
+        <h1 className="text-[1.75rem] font-bold">
           <a
             href="./"
             onClick={(e) => {
@@ -152,28 +163,34 @@ export default function App() {
         </h1>
         {!openId && (
           <>
-            <p className="text-sm">
-              Durchsuche alle {datasets?.length ?? ""} Datensätze des{" "}
-              <a href="https://opendata.dresden.de">
-                Open-Data-Portals der Landeshauptstadt Dresden
-              </a>
-              .
-              <br />
-              Dieses Projekt vereint die Datensätze, ihre Beschreibungen und
-              eine Instant-Suche, damit man schneller das findet, wonach man
-              sucht.
-            </p>
+            <div className="text-sm text-muted">
+              <p className="mt-1 mb-5 text-sm text-muted">
+                Dieses Projekt vereint die Datensätze und ihre Beschreibungen
+                aus dem{" "}
+                <a
+                  className="text-accent underline"
+                  href="https://opendata.dresden.de"
+                >
+                  Open-Data-Portal der Landeshauptstadt Dresden
+                </a>{" "}
+                mit einer Instant-Suche, damit man in den{" "}
+                {datasets?.length ?? ""} Datensätzen schneller den passenden
+                findet.
+              </p>
+            </div>{" "}
             <input
               ref={input}
               type="search"
               // biome-ignore lint/a11y/noAutofocus: searching is all this page is for
               autoFocus
+              className="w-full rounded-lg border border-line px-4 py-3 text-lg focus:border-transparent focus:outline-2 focus:outline-accent"
               placeholder="Suche, z. B. Straßenbahn, Bäume, Einwohner …"
               value={query}
               onChange={(e) => changeQuery(e.target.value)}
             />
-            <div className="filters">
+            <div className="mt-3 mb-6 flex flex-wrap items-center gap-2">
               <select
+                className={select}
                 value={topic}
                 onChange={(e) => changeTopic(e.target.value)}
                 aria-label="Thema"
@@ -184,6 +201,7 @@ export default function App() {
                 ))}
               </select>
               <select
+                className={select}
                 value={format}
                 onChange={(e) => changeFormat(e.target.value)}
                 aria-label="Format"
@@ -194,7 +212,7 @@ export default function App() {
                 ))}
               </select>
               {datasets && (
-                <span className="count">
+                <span className="ml-auto text-sm text-muted">
                   {results.length}{" "}
                   {results.length === 1 ? "Datensatz" : "Datensätze"}
                 </span>
@@ -204,9 +222,9 @@ export default function App() {
         )}
       </header>
 
-      <main>
+      <main className="flex min-h-0 flex-1 flex-col">
         {error && (
-          <p className="error">
+          <p className="text-red-700">
             Der Datensatzindex konnte nicht geladen werden: {error}
           </p>
         )}
@@ -221,14 +239,18 @@ export default function App() {
         {openId && datasets && !open && (
           <p>
             Diesen Datensatz gibt es nicht mehr.{" "}
-            <button type="button" className="back" onClick={back}>
+            <button
+              type="button"
+              className="cursor-pointer text-sm text-accent"
+              onClick={back}
+            >
               Zur Suche
             </button>
           </p>
         )}
         {!openId && (
           <>
-            <ul className="results">
+            <ul className="border-t border-line">
               {results.slice(0, shown).map((dataset) => (
                 <Result
                   key={dataset.id}
@@ -243,7 +265,7 @@ export default function App() {
             {results.length > shown && (
               <button
                 type="button"
-                className="more"
+                className="mx-auto mt-6 block cursor-pointer rounded-full border border-accent px-5 py-1.5 text-accent"
                 onClick={() => setShown(shown + PAGE)}
               >
                 Weitere anzeigen
@@ -253,19 +275,31 @@ export default function App() {
         )}
       </main>
 
-      <footer>
-        <p>
-          <a href="https://github.com/kiliankoe/opendata-dresden">Quellcode</a>,
-          auch als CLI und MCP-Server. Daten werden nächtlich aktualisiert
-          {__INDEX_UPDATED__ && `, zuletzt am ${germanDate(__INDEX_UPDATED__)}`}
-          . Karten von <a href="https://openfreemap.org">OpenFreeMap</a>.
-        </p>
-        <p>
+      <footer
+        className={`text-[0.8125rem] text-muted ${open ? "mt-4" : "mt-12"}`}
+      >
+        <p className="mb-1">
           Dies ist ein privates Projekt ohne Verbindung zur Landeshauptstadt
           Dresden. Die Rechte an den Daten liegen bei den jeweiligen
           Rechteinhabern, die Lizenz steht bei jedem Datensatz.
         </p>
+        <p className="mb-1">
+          <a
+            className="text-accent underline"
+            href="https://github.com/kiliankoe/opendata-dresden"
+          >
+            Quellcode zum Projekt
+          </a>
+          , auch verfügbar als CLI und MCP-Server. Daten werden nächtlich
+          aktualisiert
+          {__INDEX_UPDATED__ && `, zuletzt am ${germanDate(__INDEX_UPDATED__)}`}
+          . Karten von{" "}
+          <a className="text-accent underline" href="https://openfreemap.org">
+            OpenFreeMap
+          </a>
+          .
+        </p>
       </footer>
-    </>
+    </div>
   );
 }

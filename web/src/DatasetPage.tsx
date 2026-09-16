@@ -14,6 +14,7 @@ import {
   sortedResources,
 } from "./datasets";
 import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
+import { Badges, Modes, pill } from "./ui";
 
 // The map library is by far the largest dependency and only geodata needs it
 export const DatasetMap = lazy(() => import("./DatasetMap"));
@@ -85,47 +86,48 @@ export function DatasetPage({
   const options = viewers(dataset, resources);
   const active = options.find((v) => v.label === viewer) ?? options[0];
   return (
-    <article className="dataset">
-      <div className="about">
-        <button type="button" className="back" onClick={onBack}>
+    <article className="grid min-h-0 flex-1 grid-cols-1 grid-rows-[minmax(0,1fr)] gap-8 pane:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
+      <div className="min-h-0 pane:overflow-y-auto pane:pr-2">
+        <button
+          type="button"
+          className="mb-3 inline-block cursor-pointer text-sm text-accent"
+          onClick={onBack}
+        >
           ← Zur Suche
         </button>
-        <h2>{dataset.title}</h2>
-        {dataset.topics && (
-          <p className="formats">
-            {dataset.topics.map((t) => (
-              <span key={t}>{t}</span>
-            ))}
-          </p>
-        )}
+        <h2 className="mb-1 text-xl font-bold">{dataset.title}</h2>
+        {dataset.topics && <Badges items={dataset.topics} />}
         <Facts dataset={dataset} />
       </div>
-      <div className="viewer">
+      {/* Descriptions can be long, so on narrow screens the viewer comes first
+          and the page scrolls as a whole */}
+      <div className="-order-1 flex h-[60vh] min-h-[20rem] flex-col pane:order-none pane:h-auto pane:min-h-0">
         {options.length > 1 && (
-          <div className="modes picker">
-            {options.map((v) => (
-              <button
-                key={v.label}
-                type="button"
-                className={v === active ? "active" : ""}
-                onClick={() => onViewer(v.label)}
-              >
-                {v.label}
-              </button>
-            ))}
-          </div>
+          <Modes
+            className="mb-2"
+            options={options.map((v) => ({ label: v.label, value: v.label }))}
+            active={active?.label}
+            onSelect={onViewer}
+          />
         )}
         {!active && (
-          <p className="bar">Für diesen Datensatz gibt es nur Downloads.</p>
+          <p className="text-[0.8125rem] text-muted">
+            Für diesen Datensatz gibt es nur Downloads.
+          </p>
         )}
         {active?.kind === "map" && (
-          <Suspense fallback={<div className="map" />}>
+          <Suspense fallback={<div className="flex-1" />}>
             <DatasetMap dataset={dataset} />
           </Suspense>
         )}
         {active?.kind === "table" && <FeatureTable url={active.url} />}
         {active?.kind === "embed" && (
-          <iframe key={active.url} src={active.url} title={active.label} />
+          <iframe
+            key={active.url}
+            className="w-full flex-1 rounded-lg border border-line bg-white"
+            src={active.url}
+            title={active.label}
+          />
         )}
       </div>
     </article>
@@ -157,30 +159,35 @@ export function Facts({
   ];
 
   return (
-    <div className="facts">
+    <div>
       {dataset.description && (
-        <p className="description">{dataset.description}</p>
+        <p className="my-3 whitespace-pre-line">{dataset.description}</p>
       )}
-      <dl>
+      <dl className="mb-3 text-sm">
         {facts
           .filter(([, value]) => value)
           .map(([label, value]) => (
-            <div key={label}>
-              <dt>{label}</dt>
+            <div key={label} className="grid grid-cols-[6rem_1fr] gap-2">
+              <dt className="text-muted">{label}</dt>
               <dd>{value}</dd>
             </div>
           ))}
       </dl>
-      <ul className="links">
+      <ul className="mb-4 flex flex-wrap gap-1.5 text-sm">
         {sortedResources(dataset).map((r) => (
           <li key={r.url}>
-            <a href={r.url} target="_blank" rel="noreferrer">
+            <a className={pill} href={r.url} target="_blank" rel="noreferrer">
               {r.format}
             </a>
           </li>
         ))}
         <li>
-          <a href={portalUrl(dataset)} target="_blank" rel="noreferrer">
+          <a
+            className={pill}
+            href={portalUrl(dataset)}
+            target="_blank"
+            rel="noreferrer"
+          >
             Im Portal öffnen
           </a>
         </li>
@@ -228,14 +235,19 @@ function FeatureTable({ url }: { url: string }) {
 
   return (
     <>
-      <p className="bar">{status}</p>
+      <p className="mb-1.5 text-[0.8125rem] text-muted">{status}</p>
       {rows && (
-        <div className="table">
-          <table>
+        <div className="flex-1 overflow-auto rounded-lg border border-line text-[0.8125rem]">
+          <table className="whitespace-nowrap">
             <thead>
               <tr>
                 {columns.map((c) => (
-                  <th key={c}>{c}</th>
+                  <th
+                    key={c}
+                    className="sticky top-0 border-b border-line bg-surface px-2.5 py-1 text-left font-semibold"
+                  >
+                    {c}
+                  </th>
                 ))}
               </tr>
             </thead>
@@ -245,7 +257,12 @@ function FeatureTable({ url }: { url: string }) {
                 // biome-ignore lint/suspicious/noArrayIndexKey: static list
                 <tr key={i}>
                   {columns.map((c) => (
-                    <td key={c}>{String(row[c] ?? "")}</td>
+                    <td
+                      key={c}
+                      className="border-b border-line px-2.5 py-1 text-left"
+                    >
+                      {String(row[c] ?? "")}
+                    </td>
                   ))}
                 </tr>
               ))}

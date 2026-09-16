@@ -10,6 +10,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
 import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
+import { Modes, pill } from "./ui";
 
 // MapLibre resolves its worker relative to its own script URL, which bundling
 // loses; this hands it the worker as bundled by Vite
@@ -23,6 +24,11 @@ const FEATURE_LIMIT = 2000;
 const COLOR = "#0f766e";
 
 type Mode = "geojson" | "wms";
+
+const MODES: { label: string; value: Mode }[] = [
+  { label: "Objekte", value: "geojson" },
+  { label: "Kartendienst", value: "wms" },
+];
 
 // WmsLayer is one drawable layer of a map service with its legend graphic
 type WmsLayer = { name: string; title: string; legend?: string };
@@ -72,42 +78,30 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
   }, [dataset, mode, geojsonUrl, wmsUrl]);
 
   return (
-    <div className="map">
-      <div className="bar">
+    <div className="flex min-h-0 flex-1 flex-col">
+      <div className="mb-1.5 flex items-center gap-3 text-[0.8125rem] text-muted">
         {geojsonUrl && wmsUrl && (
-          <span className="modes">
-            <button
-              type="button"
-              className={mode === "geojson" ? "active" : ""}
-              onClick={() => setMode("geojson")}
-            >
-              Objekte
-            </button>
-            <button
-              type="button"
-              className={mode === "wms" ? "active" : ""}
-              onClick={() => setMode("wms")}
-            >
-              Kartendienst
-            </button>
-          </span>
+          <Modes options={MODES} active={mode} onSelect={setMode} />
         )}
-        <span className="status">{status}</span>
+        <span>{status}</span>
         {tooLarge && (
           <button
             type="button"
-            className="load"
+            className={pill}
             onClick={() => loadAnyway.current()}
           >
             Trotzdem laden
           </button>
         )}
       </div>
-      <div ref={container} className="map-canvas" />
+      <div
+        ref={container}
+        className="min-h-0 flex-1 overflow-hidden rounded-lg"
+      />
       {legend.length > 0 && (
-        <ul className="legend">
+        <ul className="mt-1.5 max-h-[30%] shrink-0 overflow-y-auto text-[0.8125rem]">
           {legend.map((layer) => (
-            <li key={layer.name}>
+            <li key={layer.name} className="flex items-center gap-2">
               <img src={layer.legend} alt="" />
               {legend.length > 1 && layer.title}
             </li>

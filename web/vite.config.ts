@@ -1,4 +1,5 @@
 import { execSync } from "node:child_process";
+import tailwind from "@tailwindcss/vite";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
@@ -17,7 +18,7 @@ function indexUpdated(): string {
 }
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), tailwind()],
   // Relative asset paths work wherever GitHub Pages mounts the site
   base: "./",
   // The dataset index lives outside the web root

@@ -36,21 +36,12 @@ REQUEST_TIMEOUT_MS=30000
 
 The server provides the following MCP tools:
 
-### `list_datasets`
-List all available datasets from the Dresden OpenData portal.
-
-```js
-{
-  "limit": 100  // Optional, max datasets to return
-}
-```
-
 ### `search_datasets`
-Search for datasets using keywords.
+Search for datasets. An empty query lists all datasets. Every result carries its ID and the available resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs.
 
 **Important search tips:**
 - Use German search terms for better results (e.g., "Straßenbahn" instead of "tram")
-- The underlying API has limited search capabilities - try multiple queries with:
+- The portal's search is fuzzy and has limited ranking - try multiple queries with:
   - Different synonyms (e.g., "ÖPNV", "Nahverkehr", "öffentlicher Verkehr")
   - Various forms (singular/plural, abbreviations)
   - More bureaucratic/official terms
@@ -59,37 +50,28 @@ Search for datasets using keywords.
 ```js
 {
   "query": "Straßenbahn",
-  "limit": 30
+  "limit": 30,  // Optional, default 30
+  "offset": 0   // Optional, for pagination
 }
 ```
 
 ### `get_dataset_info`
-Get detailed information about a specific dataset.
+Get a dataset with all its resources by ID.
 
 ```js
 {
-  "id": "dataset-id"  // Dataset ID, Node ID, or Layer ID
+  "id": "0F6996E7-26AB-4585-81BD-1EDA4381B1BC"
 }
 ```
 
 ### `fetch_dataset`
-Fetch dataset content in a specified format.
+Download one of a dataset's resources. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document.
 
 ```js
 {
-  "id": "dataset-id",
-  "format": "GeoJSON"  // CSV, JSON, GeoJSON, WMS, WFS
-}
-```
-
-### `query_dataset`
-Query datasets using OGC API parameters.
-
-```js
-{
-  "layerId": "L124",
-  "limit": 50,
-  "offset": 0
+  "id": "0F6996E7-26AB-4585-81BD-1EDA4381B1BC",
+  "format": "GEOJSON",
+  "limit": 50  // Optional, only for geodata layers which otherwise return all features
 }
 ```
 
@@ -110,20 +92,15 @@ Add the server to your Claude Desktop configuration:
 ## Example Usage
 
 ```typescript
-// Search for tram routes (use German terms)
-const datasets = await client.call('search_datasets', {
+// Search for tram datasets (use German terms)
+const { datasets } = await client.call('search_datasets', {
   query: 'Straßenbahn'
 });
 
-// Fetch specific dataset
-const tramData = await client.call('fetch_dataset', {
-  id: 'tram-network',
-  format: 'GeoJSON'
-});
-
-// Query dataset features
-const results = await client.call('query_dataset', {
-  layerId: 'L124',
+// Fetch the first one as GeoJSON, limited to 50 features
+const geojson = await client.call('fetch_dataset', {
+  id: datasets[0].id,
+  format: 'GEOJSON',
   limit: 50
 });
 ```
@@ -144,6 +121,6 @@ make fmt
 
 The server consists of several key components:
 
-- **Portal Client**: Handles communication with Dresden's OpenData APIs
+- **Portal Client**: Talks to the search backend of the portal's web app, which is the only place listing every dataset with all its resources
 - **MCP Tools**: Implements the MCP protocol tools for dataset operations
 - **Configuration**: Manages environment-based configuration

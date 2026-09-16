@@ -6,21 +6,20 @@ import (
 	"time"
 )
 
-const (
-	KommisDDURL = "https://kommisdd.dresden.de"
-	OGCAPIPath  = "/net4/public/ogcapi"
-)
+// DefaultPortalURL is the web app of Dresden's OpenData portal, whose search
+// backend lists every dataset together with its published resources.
+const DefaultPortalURL = "https://opendata.dresden.de/informationsportal"
 
 type Config struct {
+	PortalURL      string
 	RequestTimeout time.Duration
 }
 
 func LoadConfig() *Config {
-	cfg := &Config{
+	return &Config{
+		PortalURL:      DefaultPortalURL,
 		RequestTimeout: time.Duration(getEnvInt("REQUEST_TIMEOUT_MS", 30000)) * time.Millisecond,
 	}
-
-	return cfg
 }
 
 func getEnvInt(key string, defaultValue int) int {

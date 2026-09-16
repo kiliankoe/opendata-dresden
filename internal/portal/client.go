@@ -1,268 +1,183 @@
 package portal
 
 import (
+	"bytes"
 	"context"
 	"encoding/json"
 	"fmt"
 	"io"
 	"net/http"
 	"net/url"
+	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
 )
 
+const (
+	// guestGroupID is the user group of the portal's anonymous "opendata" user.
+	// It is what /service/app/user/groupids returns for the guest user ID in
+	// /service/app/config. Without it the search returns nothing.
+	guestGroupID = "19"
+	// datasetIDField is the search index field holding the dataset ID
+	datasetIDField = "ergebnis_id"
+)
+
+// searchFields are the index fields the portal's web app searches by default
+var searchFields = []string{"ergebnis_bezeichnung_ngram", "themen", "doc_content_nwst_ngram", "text", "content"}
+
+var layerIDPattern = regexp.MustCompile(`/ogcapi/collections/(L\d+)$`)
+
 // Client handles communication with Dresden's OpenData portal
 type Client struct {
-	config     *config.Config
+	portalURL  string
 	httpClient *http.Client
 }
 
 func NewClient(cfg *config.Config) *Client {
 	return &Client{
-		config: cfg,
+		portalURL: cfg.PortalURL,
 		httpClient: &http.Client{
 			Timeout: cfg.RequestTimeout,
 		},
 	}
 }
 
-// SearchDatasets searches for datasets using client-side filtering on OGC collections
-func (c *Client) SearchDatasets(ctx context.Context, query string, limit int) ([]Dataset, error) {
-	// Fetch all collections
-	allDatasets, err := c.fetchOGCCollections(ctx)
+// SearchDatasets runs a full-text search. An empty query lists all datasets.
+func (c *Client) SearchDatasets(ctx context.Context, query string, limit, offset int) (*SearchResult, error) {
+	return c.search(ctx, query, searchFields, limit, offset)
+}
+
+// GetDataset looks up a single dataset by its ID
+func (c *Client) GetDataset(ctx context.Context, id string) (*Dataset, error) {
+	result, err := c.search(ctx, id, []string{datasetIDField}, 1, 0)
 	if err != nil {
-		return nil, fmt.Errorf("fetching collections for search: %w", err)
+		return nil, err
 	}
+	if len(result.Datasets) == 0 {
+		return nil, fmt.Errorf("dataset %s not found", id)
+	}
+	return &result.Datasets[0], nil
+}
 
-	if query == "" {
-		// Return all datasets up to limit
-		if limit > 0 && limit < len(allDatasets) {
-			return allDatasets[:limit], nil
+// FetchResource downloads the dataset's resource in the given format. The
+// limit only applies to OGC API resources, which otherwise return whole layers.
+func (c *Client) FetchResource(ctx context.Context, dataset *Dataset, format string, limit int) ([]byte, error) {
+	for _, r := range dataset.Resources {
+		if !strings.EqualFold(r.Format, format) {
+			continue
 		}
-		return allDatasets, nil
-	}
-
-	queryLower := strings.ToLower(query)
-	queryTerms := strings.Fields(queryLower)
-
-	// Filter datasets based on query
-	var filtered []Dataset
-	for _, dataset := range allDatasets {
-		if matchesQuery(dataset, queryTerms) {
-			filtered = append(filtered, dataset)
-			if limit > 0 && len(filtered) >= limit {
-				break
+		resourceURL := r.URL
+		if limit > 0 && strings.Contains(resourceURL, "/ogcapi/") {
+			sep := "?"
+			if strings.Contains(resourceURL, "?") {
+				sep = "&"
 			}
+			resourceURL += sep + "limit=" + strconv.Itoa(limit)
 		}
-	}
-
-	return filtered, nil
-}
-
-// ListDatasets returns all available datasets from OGC API
-func (c *Client) ListDatasets(ctx context.Context) ([]Dataset, error) {
-	return c.fetchOGCCollections(ctx)
-}
-
-// FetchDataset fetches a dataset in the specified format
-func (c *Client) FetchDataset(ctx context.Context, dataset *Dataset, format string) (interface{}, error) {
-	dataURL, exists := dataset.DataURLs[strings.ToLower(format)]
-	if !exists {
-		return nil, fmt.Errorf("format %s not available for dataset %s", format, dataset.ID)
-	}
-
-	req, err := http.NewRequestWithContext(ctx, "GET", dataURL, nil)
-	if err != nil {
-		return nil, fmt.Errorf("creating fetch request: %w", err)
-	}
-
-	resp, err := c.httpClient.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("fetching dataset: %w", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("fetch returned status %d: %s", resp.StatusCode, string(body))
-	}
-
-	// Parse based on format
-	switch strings.ToLower(format) {
-	case "json", "geojson":
-		var data interface{}
-		if err := json.NewDecoder(resp.Body).Decode(&data); err != nil {
-			return nil, fmt.Errorf("decoding JSON data: %w", err)
-		}
-		return data, nil
-	case "csv":
-		data, err := io.ReadAll(resp.Body)
+		req, err := http.NewRequestWithContext(ctx, http.MethodGet, resourceURL, nil)
 		if err != nil {
-			return nil, fmt.Errorf("reading CSV data: %w", err)
+			return nil, err
 		}
-		return string(data), nil
-	default:
-		data, err := io.ReadAll(resp.Body)
-		if err != nil {
-			return nil, fmt.Errorf("reading data: %w", err)
-		}
-		return data, nil
+		return c.do(req)
 	}
+	return nil, fmt.Errorf("format %s not available for dataset %s", format, dataset.ID)
 }
 
-// FetchOGCAPIData fetches data from OGC API Features endpoint
-func (c *Client) FetchOGCAPIData(ctx context.Context, layerID string, limit int, offset int) (*OGCAPIResponse, error) {
-	ogcURL := fmt.Sprintf("%s%s/collections/%s/items", config.KommisDDURL, config.OGCAPIPath, layerID)
-
-	params := url.Values{}
-	if limit > 0 {
-		params.Set("limit", fmt.Sprintf("%d", limit))
+func (c *Client) search(ctx context.Context, text string, fields []string, limit, offset int) (*SearchResult, error) {
+	request := searchRequest{
+		TextSearch:   text,
+		NumOfResults: limit,
+		PagingStart:  offset,
+		UserGroupIDs: []string{guestGroupID},
 	}
-	if offset > 0 {
-		params.Set("offset", fmt.Sprintf("%d", offset))
+	for _, field := range fields {
+		request.TextSearchConfig.Attribute = append(request.TextSearchConfig.Attribute, searchAttribute{Name: field})
 	}
-
-	if len(params) > 0 {
-		ogcURL += "?" + params.Encode()
-	}
-
-	req, err := http.NewRequestWithContext(ctx, "GET", ogcURL, nil)
-	if err != nil {
-		return nil, fmt.Errorf("creating OGC API request: %w", err)
-	}
-
-	resp, err := c.httpClient.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("executing OGC API request: %w", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("OGC API returned status %d: %s", resp.StatusCode, string(body))
-	}
-
-	var ogcResp OGCAPIResponse
-	if err := json.NewDecoder(resp.Body).Decode(&ogcResp); err != nil {
-		return nil, fmt.Errorf("decoding OGC API response: %w", err)
-	}
-
-	return &ogcResp, nil
-}
-
-// GetDatasetInfo retrieves detailed information about a specific dataset
-func (c *Client) GetDatasetInfo(ctx context.Context, datasetID string) (*Dataset, error) {
-	// Try to fetch specific collection from OGC API
-	ogcURL := fmt.Sprintf("%s%s/collections/%s", config.KommisDDURL, config.OGCAPIPath, datasetID)
-
-	req, err := http.NewRequestWithContext(ctx, "GET", ogcURL, nil)
-	if err != nil {
-		return nil, fmt.Errorf("creating collection request: %w", err)
-	}
-
-	resp, err := c.httpClient.Do(req)
-	if err != nil {
-		return nil, fmt.Errorf("fetching collection: %w", err)
-	}
-	defer resp.Body.Close()
-
-	if resp.StatusCode == http.StatusOK {
-		var collection OGCCollection
-		if err := json.NewDecoder(resp.Body).Decode(&collection); err != nil {
-			return nil, fmt.Errorf("decoding collection response: %w", err)
-		}
-		dataset := c.convertOGCCollection(collection)
-		return &dataset, nil
-	}
-
-	// Fallback: search through all collections
-	datasets, err := c.fetchOGCCollections(ctx)
+	body, err := json.Marshal(request)
 	if err != nil {
 		return nil, err
 	}
 
-	for _, ds := range datasets {
-		if ds.ID == datasetID || ds.LayerID == datasetID {
-			return &ds, nil
-		}
+	req, err := http.NewRequestWithContext(ctx, http.MethodPost, c.portalURL+"/service/app/search/all", bytes.NewReader(body))
+	if err != nil {
+		return nil, err
+	}
+	req.Header.Set("Content-Type", "application/json")
+	respBody, err := c.do(req)
+	if err != nil {
+		return nil, fmt.Errorf("searching portal: %w", err)
 	}
 
-	return nil, fmt.Errorf("dataset %s not found", datasetID)
+	var response searchResponse
+	if err := json.Unmarshal(respBody, &response); err != nil {
+		return nil, fmt.Errorf("decoding search response: %w", err)
+	}
+
+	result := &SearchResult{Total: response.NumOfResults, Datasets: make([]Dataset, 0, len(response.Results))}
+	for _, r := range response.Results {
+		result.Datasets = append(result.Datasets, convertResult(r))
+	}
+	return result, nil
 }
 
-// fetchOGCCollections fetches all collections from OGC API
-func (c *Client) fetchOGCCollections(ctx context.Context) ([]Dataset, error) {
-	ogcURL := fmt.Sprintf("%s%s/collections", config.KommisDDURL, config.OGCAPIPath)
-
-	req, err := http.NewRequestWithContext(ctx, "GET", ogcURL, nil)
-	if err != nil {
-		return nil, fmt.Errorf("creating collections request: %w", err)
-	}
-
+func (c *Client) do(req *http.Request) ([]byte, error) {
 	resp, err := c.httpClient.Do(req)
 	if err != nil {
-		return nil, fmt.Errorf("fetching collections: %w", err)
+		return nil, err
 	}
-	defer resp.Body.Close()
+	defer func() { _ = resp.Body.Close() }()
 
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, err
+	}
 	if resp.StatusCode != http.StatusOK {
-		body, _ := io.ReadAll(resp.Body)
-		return nil, fmt.Errorf("OGC collections API returned status %d: %s", resp.StatusCode, string(body))
+		return nil, fmt.Errorf("%s returned status %d", req.URL, resp.StatusCode)
 	}
-
-	var collectionsResp OGCCollectionsResponse
-	if err := json.NewDecoder(resp.Body).Decode(&collectionsResp); err != nil {
-		return nil, fmt.Errorf("decoding collections response: %w", err)
-	}
-
-	datasets := make([]Dataset, 0, len(collectionsResp.Collections))
-	for _, collection := range collectionsResp.Collections {
-		datasets = append(datasets, c.convertOGCCollection(collection))
-	}
-
-	return datasets, nil
+	return body, nil
 }
 
-// convertOGCCollection converts an OGC collection to a Dataset
-func (c *Client) convertOGCCollection(collection OGCCollection) Dataset {
+func convertResult(r searchResult) Dataset {
 	dataset := Dataset{
-		ID:          collection.ID,
-		LayerID:     collection.ID,
-		Title:       collection.Title,
-		Description: collection.Description,
-		DataURLs:    make(map[string]string),
-		Formats:     []string{"GeoJSON", "JSON"},
+		Title:     r.Title,
+		Updated:   r.Updated,
+		Source:    r.DataSource.Name,
+		License:   r.License.Name,
+		Topics:    unique(r.Topics),
+		Regions:   unique(r.Regions),
+		Years:     unique(r.Years),
+		Resources: make([]Resource, 0, len(r.Presentations)),
 	}
 
-	// Extract data URLs from links
-	for _, link := range collection.Links {
-		if link.Rel == "items" {
-			dataset.DataURLs["geojson"] = link.Href
-			dataset.DataURLs["json"] = link.Href
+	for _, p := range r.Presentations {
+		dataset.ID = p.DatasetID
+		resourceURL := p.URL
+		if p.BaseURL != "" {
+			// Interactive views (tables, charts) carry a name to append to a base URL
+			resourceURL = p.BaseURL + (&url.URL{Path: p.URL}).EscapedPath()
 		}
-	}
-
-	// Set spatial extent if available
-	if collection.Extent != nil && collection.Extent.Spatial != nil {
-		dataset.SpatialExtent = &SpatialExtent{
-			BBox: collection.Extent.Spatial.BBox,
-			CRS:  collection.CRS,
+		if m := layerIDPattern.FindStringSubmatch(resourceURL); m != nil {
+			// The GeoJSON link points at the collection description; the features live under /items
+			dataset.LayerID = m[1]
+			resourceURL += "/items"
 		}
+		dataset.Resources = append(dataset.Resources, Resource{Format: p.Format, URL: resourceURL})
 	}
 
 	return dataset
 }
 
-// matchesQuery checks if a dataset matches the search query terms
-func matchesQuery(dataset Dataset, queryTerms []string) bool {
-	searchText := strings.ToLower(dataset.Title + " " + dataset.Description + " " + dataset.ID)
-
-	for _, term := range queryTerms {
-		if !strings.Contains(searchText, term) {
-			return false
+// unique drops repeated values; the portal lists every topic and year twice
+func unique(values []string) []string {
+	var result []string
+	seen := make(map[string]bool, len(values))
+	for _, v := range values {
+		if !seen[v] {
+			seen[v] = true
+			result = append(result, v)
 		}
 	}
-
-	return true
+	return result
 }

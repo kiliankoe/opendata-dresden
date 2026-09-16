@@ -1,63 +1,73 @@
 package portal
 
-// Dataset represents a dataset from Dresden's OpenData portal
+// Dataset is one entry of the OpenData portal with all its published resources
 type Dataset struct {
-	ID            string            `json:"id"`
-	LayerID       string            `json:"layerId,omitempty"`
-	Title         string            `json:"title"`
-	Description   string            `json:"description"`
-	Formats       []string          `json:"formats"`
-	DataURLs      map[string]string `json:"dataUrls"`
-	SpatialExtent *SpatialExtent    `json:"spatialExtent,omitempty"`
+	ID      string   `json:"id"`
+	Title   string   `json:"title"`
+	Updated string   `json:"updated,omitempty"`
+	Source  string   `json:"source,omitempty"`
+	License string   `json:"license,omitempty"`
+	Topics  []string `json:"topics,omitempty"`
+	Regions []string `json:"regions,omitempty"`
+	Years   []string `json:"years,omitempty"`
+	// LayerID names the OGC API Features collection of geodata layers
+	LayerID   string     `json:"layerId,omitempty"`
+	Resources []Resource `json:"resources"`
 }
 
-// SpatialExtent represents the geographic bounds of a dataset
-type SpatialExtent struct {
-	BBox []float64 `json:"bbox"`
-	CRS  []string  `json:"crs"`
+// Resource is one representation of a dataset, e.g. a CSV download or a WMS endpoint
+type Resource struct {
+	Format string `json:"format"`
+	URL    string `json:"url"`
 }
 
-// OGCAPIResponse represents a response from OGC API Features
-type OGCAPIResponse struct {
-	Type           string        `json:"type"`
-	Features       []interface{} `json:"features"`
-	NumberReturned int           `json:"numberReturned"`
-	NumberMatched  int           `json:"numberMatched"`
-	Links          []OGCLink     `json:"links,omitempty"`
+type SearchResult struct {
+	Total    int       `json:"total"`
+	Datasets []Dataset `json:"datasets"`
 }
 
-// OGCLink represents a link in OGC API responses
-type OGCLink struct {
-	Href  string `json:"href"`
-	Rel   string `json:"rel"`
-	Type  string `json:"type,omitempty"`
-	Title string `json:"title,omitempty"`
+// searchRequest is the subset of the portal web app's search request the
+// backend requires; it rejects requests missing any of these.
+type searchRequest struct {
+	TextSearch       string           `json:"textSearch"`
+	NumOfResults     int              `json:"numOfResults"`
+	PagingStart      int              `json:"pagingStart"`
+	UserGroupIDs     []string         `json:"userGroupIds"`
+	TextSearchConfig textSearchConfig `json:"textSearchConfig"`
+	Result           struct{}         `json:"result"`
 }
 
-// OGCCollectionsResponse represents the collections endpoint response
-type OGCCollectionsResponse struct {
-	Links       []OGCLink       `json:"links"`
-	Collections []OGCCollection `json:"collections"`
+type textSearchConfig struct {
+	Attribute []searchAttribute `json:"attribute"`
 }
 
-// OGCCollection represents a single collection in OGC API
-type OGCCollection struct {
-	ID          string     `json:"id"`
-	Title       string     `json:"title"`
-	Description string     `json:"description,omitempty"`
-	Links       []OGCLink  `json:"links"`
-	Extent      *OGCExtent `json:"extent,omitempty"`
-	CRS         []string   `json:"crs,omitempty"`
-	ItemType    string     `json:"itemType,omitempty"`
+type searchAttribute struct {
+	Name string `json:"name"`
 }
 
-// OGCExtent represents spatial and temporal extent
-type OGCExtent struct {
-	Spatial *OGCSpatialExtent `json:"spatial,omitempty"`
+type searchResponse struct {
+	NumOfResults int            `json:"numOfResults"`
+	Results      []searchResult `json:"ipResults"`
 }
 
-// OGCSpatialExtent represents spatial bounds
-type OGCSpatialExtent struct {
-	BBox []float64 `json:"bbox"`
-	CRS  string    `json:"crs,omitempty"`
+type searchResult struct {
+	Title         string         `json:"bezeichnung"`
+	Updated       string         `json:"letzteAenderung"`
+	Topics        []string       `json:"themen"`
+	Regions       []string       `json:"raeume"`
+	Years         []string       `json:"zeiten"`
+	DataSource    named          `json:"dataSource"`
+	License       named          `json:"presentationLicense"`
+	Presentations []presentation `json:"presentations"`
+}
+
+type named struct {
+	Name string `json:"name"`
+}
+
+type presentation struct {
+	DatasetID string `json:"ergebnisId"`
+	Format    string `json:"darstellungsArtBezeichnung"`
+	URL       string `json:"schnittstelle"`
+	BaseURL   string `json:"aufrufUrl"`
 }

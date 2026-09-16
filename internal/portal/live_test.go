@@ -5,7 +5,6 @@ package portal
 import (
 	"context"
 	"encoding/json"
-	"net/url"
 	"strings"
 	"testing"
 	"time"
@@ -87,7 +86,7 @@ func TestLiveFetchResource(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	csv, err := client.FetchResource(ctx, geo, "CSV", url.Values{"limit": {"2"}})
+	csv, err := client.FetchResource(ctx, geo, "CSV", FetchOptions{Limit: 2})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -95,7 +94,7 @@ func TestLiveFetchResource(t *testing.T) {
 		t.Errorf("expected a semicolon-separated header and 2 rows, got %q", csv)
 	}
 
-	geojson, err := client.FetchResource(ctx, geo, "GeoJSON", url.Values{"limit": {"2"}})
+	geojson, err := client.FetchResource(ctx, geo, "GeoJSON", FetchOptions{Limit: 2})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -108,7 +107,7 @@ func TestLiveFetchResource(t *testing.T) {
 	}
 
 	// A bounding box far outside Dresden must filter out every feature
-	outside, err := client.FetchResource(ctx, geo, "GeoJSON", url.Values{"bbox": {"13.0,50.0,13.01,50.01"}})
+	outside, err := client.FetchResource(ctx, geo, "GeoJSON", FetchOptions{BBox: "13.0,50.0,13.01,50.01"})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -120,7 +119,7 @@ func TestLiveFetchResource(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	data, err := client.FetchResource(ctx, stats, "JSON", nil)
+	data, err := client.FetchResource(ctx, stats, "JSON", FetchOptions{})
 	if err != nil {
 		t.Fatal(err)
 	}

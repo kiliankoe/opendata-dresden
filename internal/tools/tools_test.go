@@ -3,13 +3,11 @@ package tools
 import (
 	"context"
 	"encoding/json"
-	"net/http"
-	"net/http/httptest"
-	"strings"
 	"testing"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
 	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
+	"github.com/kiliankoe/opendatadresdenmcp/internal/portal/portaltest"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
@@ -19,22 +17,10 @@ func connect(t *testing.T) *mcp.ClientSession {
 	t.Helper()
 	ctx := context.Background()
 
-	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		var req struct{ TextSearch string }
-		_ = json.NewDecoder(r.Body).Decode(&req)
-		var results []any
-		if strings.Contains(strings.ToLower(req.TextSearch), "wander") {
-			results = append(results, map[string]any{
-				"bezeichnung":   "Stadtteil-Wanderwege",
-				"presentations": []any{map[string]any{"ergebnisId": "D1", "darstellungsArtBezeichnung": "CSV", "schnittstelle": "http://example.invalid/x.csv"}},
-			})
-		}
-		_ = json.NewEncoder(w).Encode(map[string]any{"numOfResults": len(results), "ipResults": results})
-	}))
-	t.Cleanup(srv.Close)
+	fake := portaltest.New(t)
 
 	server := mcp.NewServer(&mcp.Implementation{Name: "test"}, nil)
-	RegisterTools(server, &config.Config{PortalURL: srv.URL})
+	RegisterTools(server, &config.Config{PortalURL: fake.URL})
 
 	clientTransport, serverTransport := mcp.NewInMemoryTransports()
 	if _, err := server.Connect(ctx, serverTransport); err != nil {

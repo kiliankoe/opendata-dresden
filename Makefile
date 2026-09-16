@@ -2,7 +2,7 @@
 
 # Binary name
 BINARY=dresden-opendata-mcp
-MAIN=cmd/server/main.go
+MAIN=cmd/dresden-opendata-mcp/main.go
 
 # Build the binary
 build:

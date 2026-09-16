@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"net/url"
 	"regexp"
+	"strconv"
 	"strings"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
@@ -60,16 +61,32 @@ func (c *Client) GetDataset(ctx context.Context, id string) (*Dataset, error) {
 	return &result.Datasets[0], nil
 }
 
-// FetchResource downloads the dataset's resource in the given format. The
-// query only applies to OGC API resources; they accept limit and bbox and
-// otherwise return whole layers.
-func (c *Client) FetchResource(ctx context.Context, dataset *Dataset, format string, query url.Values) ([]byte, error) {
+// FetchOptions narrow geodata layers, which otherwise return all features.
+// Other resources ignore them.
+type FetchOptions struct {
+	Limit int
+	BBox  string // WGS84 minLon,minLat,maxLon,maxLat
+}
+
+func (o FetchOptions) query() url.Values {
+	query := url.Values{}
+	if o.Limit > 0 {
+		query.Set("limit", strconv.Itoa(o.Limit))
+	}
+	if o.BBox != "" {
+		query.Set("bbox", o.BBox)
+	}
+	return query
+}
+
+// FetchResource downloads the dataset's resource in the given format
+func (c *Client) FetchResource(ctx context.Context, dataset *Dataset, format string, opts FetchOptions) ([]byte, error) {
 	for _, r := range dataset.Resources {
 		if !strings.EqualFold(r.Format, format) {
 			continue
 		}
 		resourceURL := r.URL
-		if len(query) > 0 && strings.Contains(resourceURL, "/ogcapi/") {
+		if query := opts.query(); len(query) > 0 && strings.Contains(resourceURL, "/ogcapi/") {
 			sep := "?"
 			if strings.Contains(resourceURL, "?") {
 				sep = "&"

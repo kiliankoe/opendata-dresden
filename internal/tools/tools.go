@@ -4,8 +4,6 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"net/url"
-	"strconv"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
 	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
@@ -85,14 +83,7 @@ func FetchDataset(ctx context.Context, session *mcp.ServerSession, params *mcp.C
 	if err != nil {
 		return nil, fmt.Errorf("getting dataset for fetch: %w", err)
 	}
-	query := url.Values{}
-	if args.Limit > 0 {
-		query.Set("limit", strconv.Itoa(args.Limit))
-	}
-	if args.BBox != "" {
-		query.Set("bbox", args.BBox)
-	}
-	data, err := portalClient.FetchResource(ctx, dataset, args.Format, query)
+	data, err := portalClient.FetchResource(ctx, dataset, args.Format, portal.FetchOptions{Limit: args.Limit, BBox: args.BBox})
 	if err != nil {
 		return nil, fmt.Errorf("fetching dataset: %w", err)
 	}

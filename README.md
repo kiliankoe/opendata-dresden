@@ -78,6 +78,18 @@ Geodata layers return all their features by default. The portal offers no paging
 }
 ```
 
+## Command line usage
+
+The same three operations are available as commands, for agents or scripts that prefer running a binary over speaking MCP. Search and info print JSON, fetch prints the resource as is.
+
+```bash
+dresden-opendata-mcp search --limit 5 Straßenbahn
+dresden-opendata-mcp info 0F6996E7-26AB-4585-81BD-1EDA4381B1BC
+dresden-opendata-mcp fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA4381B1BC GEOJSON
+```
+
+Without arguments the binary runs the MCP server on stdio.
+
 ## Usage with Claude Desktop
 
 Add the server to your Claude Desktop configuration:
@@ -127,5 +139,5 @@ make fmt
 The server consists of several key components:
 
 - **Portal Client**: Talks to the search backend of the portal's web app, which is the only place listing every dataset with all its resources
-- **MCP Tools**: Implements the MCP protocol tools for dataset operations
+- **MCP Tools** and **CLI**: Two thin front ends over the portal client
 - **Configuration**: Manages environment-based configuration

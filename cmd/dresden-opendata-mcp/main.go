@@ -2,9 +2,13 @@ package main
 
 import (
 	"context"
+	"fmt"
 	"log"
+	"os"
 
+	"github.com/kiliankoe/opendatadresdenmcp/internal/cli"
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
+	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
 	"github.com/kiliankoe/opendatadresdenmcp/internal/tools"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
@@ -14,20 +18,23 @@ const version = "0.1.0"
 
 func main() {
 	ctx := context.Background()
-
-	// Load configuration
 	cfg := config.LoadConfig()
 
-	// Create MCP server
+	// Without arguments the binary is an MCP server, which is how MCP clients launch it
+	if len(os.Args) > 1 {
+		if err := cli.Run(ctx, portal.NewClient(cfg), os.Args[1:], os.Stdout); err != nil {
+			fmt.Fprintln(os.Stderr, err)
+			os.Exit(1)
+		}
+		return
+	}
+
 	server := mcp.NewServer(&mcp.Implementation{
 		Name:    "dresden-opendata",
 		Version: version,
 	}, nil)
-
-	// Register tools
 	tools.RegisterTools(server, cfg)
 
-	// Run server with stdio transport
 	log.Printf("Starting Dresden OpenData MCP server %s...", version)
 	if err := server.Run(ctx, mcp.NewStdioTransport()); err != nil {
 		log.Fatalf("Server error: %v", err)

@@ -8,7 +8,6 @@ import (
 
 	"github.com/kiliankoe/opendata-dresden/internal/cli"
 	"github.com/kiliankoe/opendata-dresden/internal/config"
-	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"github.com/kiliankoe/opendata-dresden/internal/tools"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
@@ -22,7 +21,7 @@ func main() {
 
 	// Without arguments the binary is an MCP server, which is how MCP clients launch it
 	if len(os.Args) > 1 {
-		if err := cli.Run(ctx, portal.NewClient(cfg), os.Args[1:], os.Stdout); err != nil {
+		if err := cli.Run(ctx, cfg, os.Args[1:], os.Stdout); err != nil {
 			fmt.Fprintln(os.Stderr, err)
 			os.Exit(1)
 		}

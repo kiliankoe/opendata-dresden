@@ -2,6 +2,7 @@ package config
 
 import (
 	"os"
+	"path/filepath"
 	"strconv"
 	"time"
 )
@@ -10,16 +11,31 @@ import (
 // backend lists every dataset together with its published resources.
 const DefaultPortalURL = "https://opendata.dresden.de/informationsportal"
 
+// DefaultIndexURL is where the nightly index of all datasets is published
+const DefaultIndexURL = "https://raw.githubusercontent.com/kiliankoe/opendata-dresden/main/data/index.json"
+
 type Config struct {
-	PortalURL      string
+	PortalURL string
+	// IndexURL locates the dataset index, either over HTTP or as a local path
+	IndexURL string
+	// CacheDir keeps a copy of the downloaded index; empty disables caching
+	CacheDir       string
 	RequestTimeout time.Duration
 }
 
 func LoadConfig() *Config {
-	return &Config{
+	cfg := &Config{
 		PortalURL:      DefaultPortalURL,
+		IndexURL:       DefaultIndexURL,
 		RequestTimeout: time.Duration(getEnvInt("REQUEST_TIMEOUT_MS", 30000)) * time.Millisecond,
 	}
+	if url := os.Getenv("INDEX_URL"); url != "" {
+		cfg.IndexURL = url
+	}
+	if dir, err := os.UserCacheDir(); err == nil {
+		cfg.CacheDir = filepath.Join(dir, "od3")
+	}
+	return cfg
 }
 
 func getEnvInt(key string, defaultValue int) int {

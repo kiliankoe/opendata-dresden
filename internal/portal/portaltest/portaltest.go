@@ -28,9 +28,10 @@ type Request struct {
 
 type Server struct {
 	*httptest.Server
-	LastSearch   Request // body of the most recent search request
-	LastQuery    string  // raw query string of the most recent OGC items request
-	InfoRequests int     // number of information page requests served
+	LastSearch     Request // body of the most recent search request
+	SearchRequests int     // number of search requests served
+	LastQuery      string  // raw query string of the most recent OGC items request
+	InfoRequests   int     // number of information page requests served
 }
 
 // infoPage mimics the metadata page of a geodata layer on kommisdd.dresden.de
@@ -103,6 +104,7 @@ func New(t *testing.T) *Server {
 	}
 
 	mux.HandleFunc("POST /service/app/search/all", func(w http.ResponseWriter, r *http.Request) {
+		fake.SearchRequests++
 		if err := json.NewDecoder(r.Body).Decode(&fake.LastSearch); err != nil {
 			http.Error(w, err.Error(), http.StatusBadRequest)
 			return

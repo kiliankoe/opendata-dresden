@@ -10,14 +10,24 @@ import (
 	"testing"
 
 	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"github.com/kiliankoe/opendata-dresden/internal/portal/portaltest"
 )
 
+// run executes a command against the fake portal and an index built from it
 func run(t *testing.T, fake *portaltest.Server, args ...string) (string, error) {
 	t.Helper()
+	cfg := &config.Config{PortalURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
+	idx, _, err := index.Build(context.Background(), portal.NewClient(cfg), &index.Index{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := idx.Write(cfg.IndexURL); err != nil {
+		t.Fatal(err)
+	}
 	var out bytes.Buffer
-	err := Run(context.Background(), portal.NewClient(&config.Config{PortalURL: fake.URL}), args, &out)
+	err = Run(context.Background(), cfg, args, &out)
 	return out.String(), err
 }
 
@@ -27,9 +37,6 @@ func TestSearch(t *testing.T) {
 	out, err := run(t, fake, "search", "--output", "json", "--limit", "5", "geborene", "nach")
 	if err != nil {
 		t.Fatal(err)
-	}
-	if fake.LastSearch.TextSearch != "geborene nach" || fake.LastSearch.NumOfResults != 5 {
-		t.Errorf("unexpected search request %+v", fake.LastSearch)
 	}
 	var result portal.SearchResult
 	if err := json.Unmarshal([]byte(out), &result); err != nil {
@@ -50,7 +57,7 @@ func TestSearchPaging(t *testing.T) {
 	if err := json.Unmarshal([]byte(out), &result); err != nil {
 		t.Fatal(err)
 	}
-	if result.Total != 3 || len(result.Datasets) != 2 || result.Datasets[0].ID != "D2" {
+	if result.Total != 3 || len(result.Datasets) != 2 || result.Datasets[0].ID != "D3" {
 		t.Errorf("unexpected page %+v", result)
 	}
 }
@@ -83,10 +90,10 @@ func TestSearchText(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := `Geborene nach Geschlecht 2020
-  D2  updated 15.07.2025  JSON, Tabelle
-Kaputter Datensatz
+	want := `Kaputter Datensatz
   D3  updated 01.01.2020  CSV
+Stadtteil-Wanderwege
+  D1  updated 13.03.2024  CSV, GEOJSON, WFS, Information
 
 2 of 3 datasets
 `
@@ -101,22 +108,27 @@ Kaputter Datensatz
 
 func TestInfoText(t *testing.T) {
 	fake := portaltest.New(t)
-	out, err := run(t, fake, "info", "D2")
+	out, err := run(t, fake, "info", "D1")
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := `Geborene nach Geschlecht 2020
-ID       D2
-Updated  15.07.2025
-Source   Einwohnermelderegister
+	want := `Stadtteil-Wanderwege
+Wanderwege durch die Dresdner Stadtteile.
+Stand 2024.
+ID       D1
+Updated  13.03.2024
+Source   Umweltamt
 License  dl-de/by-2-0
-Topics   Bevölkerung
-Regions  Stadtbezirk
-Years    2020
+Topics   Umwelt und Klima
+Regions  Dresden
+Years    2024
+Origin   Erhoben durch das Umweltamt.
 
 Resources
-  JSON     ` + fake.URL + `/dcat-ap/dataset/geborene/content.json
-  Tabelle  ` + fake.URL + `/aswdb/asw.dll/?aw=Bev%C3%B6lkerung/Geborene%20nach%20Geschlecht_2020_TAB
+  CSV          ` + fake.URL + `/ogcapi/collections/L1527/items?format=csv/ewkt&delimiter=semicolon
+  GEOJSON      ` + fake.URL + `/ogcapi/collections/L1527/items
+  WFS          ` + fake.URL + `/ogcsl.ashx?nodeid=1959&service=wfs
+  Information  ` + fake.URL + `/ogc.ashx?Service=Ikx&RenderHint=TargetHtml&NODEID=1959&
 `
 	if out != want {
 		t.Errorf("got:\n%s\nwant:\n%s", out, want)

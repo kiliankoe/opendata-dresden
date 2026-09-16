@@ -11,6 +11,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
+	"github.com/kiliankoe/opendata-dresden/internal/config"
 	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 )
@@ -28,20 +29,21 @@ Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers o
 Flags of index:  --file PATH (default data/index.json)`
 
 // Run executes one command and writes its result to stdout
-func Run(ctx context.Context, client *portal.Client, args []string, stdout io.Writer) error {
+func Run(ctx context.Context, cfg *config.Config, args []string, stdout io.Writer) error {
 	if len(args) == 0 {
 		args = []string{"help"}
 	}
-	err := runCommand(ctx, client, args[0], args[1:], stdout)
+	err := runCommand(ctx, cfg, args[0], args[1:], stdout)
 	if errors.Is(err, flag.ErrHelp) {
 		_, err = fmt.Fprintln(stdout, usage)
 	}
 	return err
 }
 
-func runCommand(ctx context.Context, client *portal.Client, command string, args []string, stdout io.Writer) error {
+func runCommand(ctx context.Context, cfg *config.Config, command string, args []string, stdout io.Writer) error {
 	flags := flag.NewFlagSet(command, flag.ContinueOnError)
 	flags.SetOutput(io.Discard)
+	catalog := index.NewCatalog(cfg)
 
 	switch command {
 	case "search":
@@ -55,7 +57,7 @@ func runCommand(ctx context.Context, client *portal.Client, command string, args
 		if err != nil {
 			return err
 		}
-		result, err := client.SearchDatasets(ctx, strings.Join(flags.Args(), " "), *limit, *offset)
+		result, err := catalog.Search(ctx, strings.Join(flags.Args(), " "), *limit, *offset)
 		if err != nil {
 			return err
 		}
@@ -73,7 +75,7 @@ func runCommand(ctx context.Context, client *portal.Client, command string, args
 		if flags.NArg() != 1 {
 			return errors.New("usage: info [flags] <id>")
 		}
-		dataset, err := client.GetDataset(ctx, flags.Arg(0))
+		dataset, err := catalog.Get(ctx, flags.Arg(0))
 		if err != nil {
 			return err
 		}
@@ -88,11 +90,7 @@ func runCommand(ctx context.Context, client *portal.Client, command string, args
 		if flags.NArg() != 2 {
 			return errors.New("usage: fetch [flags] <id> <format>")
 		}
-		dataset, err := client.GetDataset(ctx, flags.Arg(0))
-		if err != nil {
-			return err
-		}
-		data, err := client.FetchResource(ctx, dataset, flags.Arg(1), portal.FetchOptions{Limit: *limit, BBox: *bbox})
+		data, err := catalog.Fetch(ctx, flags.Arg(0), flags.Arg(1), portal.FetchOptions{Limit: *limit, BBox: *bbox})
 		if err != nil {
 			return err
 		}
@@ -108,7 +106,7 @@ func runCommand(ctx context.Context, client *portal.Client, command string, args
 		if err != nil {
 			return err
 		}
-		idx, refreshed, err := index.Build(ctx, client, previous)
+		idx, refreshed, err := index.Build(ctx, portal.NewClient(cfg), previous)
 		if err != nil {
 			return err
 		}
@@ -177,8 +175,12 @@ func writeDatasetText(w io.Writer, ds *portal.Dataset) error {
 		{"Topics", strings.Join(ds.Topics, ", ")},
 		{"Regions", strings.Join(ds.Regions, ", ")},
 		{"Years", strings.Join(ds.Years, ", ")},
+		{"Origin", ds.Origin},
 	}
 	fmt.Fprintln(w, ds.Title)
+	if ds.Description != "" {
+		fmt.Fprintf(w, "%s\n", ds.Description)
+	}
 	tw := tabwriter.NewWriter(w, 0, 0, 2, ' ', 0)
 	for _, f := range fields {
 		if f.value != "" {

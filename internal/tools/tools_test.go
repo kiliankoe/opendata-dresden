@@ -3,9 +3,11 @@ package tools
 import (
 	"context"
 	"encoding/json"
+	"path/filepath"
 	"testing"
 
 	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"github.com/kiliankoe/opendata-dresden/internal/portal/portaltest"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
@@ -18,9 +20,17 @@ func connect(t *testing.T) *mcp.ClientSession {
 	ctx := context.Background()
 
 	fake := portaltest.New(t)
+	cfg := &config.Config{PortalURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
+	idx, _, err := index.Build(ctx, portal.NewClient(cfg), &index.Index{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := idx.Write(cfg.IndexURL); err != nil {
+		t.Fatal(err)
+	}
 
 	server := mcp.NewServer(&mcp.Implementation{Name: "test"}, nil)
-	RegisterTools(server, &config.Config{PortalURL: fake.URL})
+	RegisterTools(server, cfg)
 
 	clientTransport, serverTransport := mcp.NewInMemoryTransports()
 	if _, err := server.Connect(ctx, serverTransport, nil); err != nil {

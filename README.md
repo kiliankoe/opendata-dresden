@@ -30,6 +30,7 @@ The server can be configured using environment variables:
 
 ```bash
 REQUEST_TIMEOUT_MS=30000
+INDEX_URL=data/index.json   # a URL or path of the dataset index, see below
 ```
 
 ## MCP Tools
@@ -37,15 +38,7 @@ REQUEST_TIMEOUT_MS=30000
 The server provides the following MCP tools:
 
 ### `search_datasets`
-Search for datasets. An empty query lists all datasets. Every result carries its ID and the available resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs.
-
-**Important search tips:**
-- Use German search terms for better results (e.g., "Straßenbahn" instead of "tram")
-- The portal's search is fuzzy and has limited ranking - try multiple queries with:
-  - Different synonyms (e.g., "ÖPNV", "Nahverkehr", "öffentlicher Verkehr")
-  - Various forms (singular/plural, abbreviations)
-  - More bureaucratic/official terms
-- Consider broader or narrower terms if initial searches don't yield results
+Search for datasets. Every word of the query has to appear in a dataset's title, topics, source or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Every result carries its ID and the available resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs.
 
 ```js
 {
@@ -94,6 +87,8 @@ Without arguments the binary runs the MCP server on stdio.
 ## Dataset index
 
 [`data/index.json`](data/index.json) is a snapshot of every dataset in the portal, refreshed nightly by a GitHub Action. It adds the descriptions from the metadata pages of the geodata layers, which the portal's search does not return; the statistics datasets have no description anywhere. Its git history records how the portal's catalog changes over time.
+
+Search and info answer from this index rather than the portal, whose search has no useful ranking. The binary downloads the index on first use and keeps it in the user's cache directory for a day. Datasets not in the index yet are looked up in the portal.
 
 ```bash
 od3 index   # rebuild data/index.json, fetching details only for new or changed datasets
@@ -148,5 +143,6 @@ make fmt
 The server consists of several key components:
 
 - **Portal Client**: Talks to the search backend of the portal's web app, which is the only place listing every dataset with all its resources
-- **MCP Tools** and **CLI**: Two thin front ends over the portal client
+- **Index**: Builds the nightly snapshot from the portal client and answers searches from it
+- **MCP Tools** and **CLI**: Two thin front ends over the index
 - **Configuration**: Manages environment-based configuration

@@ -6,19 +6,20 @@ import (
 	"fmt"
 
 	"github.com/kiliankoe/opendata-dresden/internal/config"
+	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
-var portalClient *portal.Client
+var catalog *index.Catalog
 
 // RegisterTools registers all MCP tools with the server
 func RegisterTools(server *mcp.Server, cfg *config.Config) {
-	portalClient = portal.NewClient(cfg)
+	catalog = index.NewCatalog(cfg)
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "search_datasets",
-		Description: "Search Dresden's OpenData portal for datasets. An empty query lists all datasets. Use German search terms (e.g. 'Straßenbahn' not 'tram'); the search is fuzzy, so try synonyms and official terms. Each dataset lists its resources (CSV, JSON, GeoJSON, WMS, WFS, ...) with their URLs.",
+		Description: "Search Dresden's OpenData datasets. Every word of the query has to appear in a dataset's title, topics, source or description; results with matches in the title rank first. Use German terms (e.g. 'Straßenbahn' not 'tram'). An empty query lists all datasets. Each dataset lists its resources (CSV, JSON, GeoJSON, WMS, WFS, ...) with their URLs.",
 	}, SearchDatasets)
 
 	mcp.AddTool(server, &mcp.Tool{
@@ -45,7 +46,7 @@ func SearchDatasets(ctx context.Context, _ *mcp.CallToolRequest, args SearchData
 		args.Limit = 30
 	}
 
-	result, err := portalClient.SearchDatasets(ctx, args.Query, args.Limit, args.Offset)
+	result, err := catalog.Search(ctx, args.Query, args.Limit, args.Offset)
 	if err != nil {
 		return nil, nil, fmt.Errorf("searching datasets: %w", err)
 	}
@@ -59,7 +60,7 @@ type GetDatasetInfoParams struct {
 
 // GetDatasetInfo gets detailed dataset information
 func GetDatasetInfo(ctx context.Context, _ *mcp.CallToolRequest, args GetDatasetInfoParams) (*mcp.CallToolResult, any, error) {
-	dataset, err := portalClient.GetDataset(ctx, args.ID)
+	dataset, err := catalog.Get(ctx, args.ID)
 	if err != nil {
 		return nil, nil, fmt.Errorf("getting dataset info: %w", err)
 	}
@@ -76,11 +77,7 @@ type FetchDatasetParams struct {
 
 // FetchDataset fetches dataset content
 func FetchDataset(ctx context.Context, _ *mcp.CallToolRequest, args FetchDatasetParams) (*mcp.CallToolResult, any, error) {
-	dataset, err := portalClient.GetDataset(ctx, args.ID)
-	if err != nil {
-		return nil, nil, fmt.Errorf("getting dataset for fetch: %w", err)
-	}
-	data, err := portalClient.FetchResource(ctx, dataset, args.Format, portal.FetchOptions{Limit: args.Limit, BBox: args.BBox})
+	data, err := catalog.Fetch(ctx, args.ID, args.Format, portal.FetchOptions{Limit: args.Limit, BBox: args.BBox})
 	if err != nil {
 		return nil, nil, fmt.Errorf("fetching dataset: %w", err)
 	}

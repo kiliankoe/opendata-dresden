@@ -44,6 +44,7 @@ func TestSearchDatasets(t *testing.T) {
 			{Format: "CSV", URL: fake.URL + "/ogcapi/collections/L1527/items?format=csv/ewkt&delimiter=semicolon"},
 			{Format: "GEOJSON", URL: fake.URL + "/ogcapi/collections/L1527/items"},
 			{Format: "WFS", URL: fake.URL + "/ogcsl.ashx?nodeid=1959&service=wfs"},
+			{Format: "Information", URL: fake.URL + "/ogc.ashx?Service=Ikx&RenderHint=TargetHtml&NODEID=1959&"},
 		},
 	})
 	if string(got) != string(want) {
@@ -129,5 +130,23 @@ func TestFetchResource(t *testing.T) {
 	}
 	if _, err := client.FetchResource(ctx, broken, "CSV", FetchOptions{}); err == nil {
 		t.Error("expected error for HTTP 500, got nil")
+	}
+}
+
+func TestDescribe(t *testing.T) {
+	_, client := newFakePortal(t)
+	ctx := context.Background()
+	geo, _ := client.GetDataset(ctx, "D1")
+	if err := client.Describe(ctx, geo); err != nil {
+		t.Fatal(err)
+	}
+	if geo.Description != "Wanderwege durch die Dresdner Stadtteile.\nStand 2024." || geo.Origin != "Erhoben durch das Umweltamt." {
+		t.Errorf("got description %q origin %q", geo.Description, geo.Origin)
+	}
+
+	// Statistics datasets have no page worth reading and stay untouched
+	stats, _ := client.GetDataset(ctx, "D2")
+	if err := client.Describe(ctx, stats); err != nil || stats.Description != "" {
+		t.Errorf("stats: err=%v description=%q", err, stats.Description)
 	}
 }

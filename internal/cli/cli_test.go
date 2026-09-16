@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"os"
+	"path/filepath"
 	"strings"
 	"testing"
 
@@ -152,5 +154,21 @@ func TestHelpAndUnknownCommand(t *testing.T) {
 	}
 	if _, err := run(t, fake, "bogus"); err == nil || !strings.Contains(err.Error(), "bogus") {
 		t.Errorf("expected error naming the unknown command, got %v", err)
+	}
+}
+
+func TestIndex(t *testing.T) {
+	fake := portaltest.New(t)
+	file := filepath.Join(t.TempDir(), "index.json")
+	out, err := run(t, fake, "index", "--file", file)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if out != "3 datasets, 3 new or changed\n" {
+		t.Errorf("unexpected output %q", out)
+	}
+	data, err := os.ReadFile(file)
+	if err != nil || !strings.Contains(string(data), `"description": "Wanderwege`) {
+		t.Errorf("index file: err=%v content=%s", err, data)
 	}
 }

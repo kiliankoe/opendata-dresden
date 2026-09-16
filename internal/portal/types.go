@@ -13,6 +13,9 @@ type Dataset struct {
 	// LayerID names the OGC API Features collection of geodata layers
 	LayerID   string     `json:"layerId,omitempty"`
 	Resources []Resource `json:"resources"`
+	// Description and Origin come from the dataset's information page, see Client.Describe
+	Description string `json:"description,omitempty"`
+	Origin      string `json:"origin,omitempty"`
 }
 
 // Resource is one representation of a dataset, e.g. a CSV download or a WMS endpoint

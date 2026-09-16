@@ -28,9 +28,23 @@ type Request struct {
 
 type Server struct {
 	*httptest.Server
-	LastSearch Request // body of the most recent search request
-	LastQuery  string  // raw query string of the most recent OGC items request
+	LastSearch   Request // body of the most recent search request
+	LastQuery    string  // raw query string of the most recent OGC items request
+	InfoRequests int     // number of information page requests served
 }
+
+// infoPage mimics the metadata page of a geodata layer on kommisdd.dresden.de
+const infoPage = `<html><body><table>
+<tr class="mainsection"><td class="mainsection" colspan="2">Beschreibung </td></tr>
+<tr class="data0"><td class="caption0">Name </td><td class="value0">Stadtteil-Wanderwege
+        </td></tr>
+<tr class="data0"><td class="caption0">Beschreibung</td><td class="value0">
+  <p class="text-absatz">Wanderwege durch die Dresdner Stadtteile.<br>Stand 2024.</p>
+</td></tr>
+<tr class="data0"><td class="caption0">Herkunft</td><td class="value0">
+  <p class="text-absatz">Erhoben durch das Umweltamt. </p>
+</td></tr>
+</table></body></html>`
 
 // fixtures replicate the portal's search results for a geodata layer (D1), a
 // statistics table (D2) and a dataset whose download is broken (D3).
@@ -41,7 +55,8 @@ const fixtures = `[
   "presentations":[
    {"ergebnisId":"D1","darstellungsArtBezeichnung":"CSV","schnittstelle":"{{base}}/ogcapi/collections/L1527/items?format=csv/ewkt&delimiter=semicolon","aufrufUrl":null},
    {"ergebnisId":"D1","darstellungsArtBezeichnung":"GEOJSON","schnittstelle":"{{base}}/ogcapi/collections/L1527","aufrufUrl":null},
-   {"ergebnisId":"D1","darstellungsArtBezeichnung":"WFS","schnittstelle":"{{base}}/ogcsl.ashx?nodeid=1959&service=wfs","aufrufUrl":null}]},
+   {"ergebnisId":"D1","darstellungsArtBezeichnung":"WFS","schnittstelle":"{{base}}/ogcsl.ashx?nodeid=1959&service=wfs","aufrufUrl":null},
+   {"ergebnisId":"D1","darstellungsArtBezeichnung":"Information","schnittstelle":"{{base}}/ogc.ashx?Service=Ikx&RenderHint=TargetHtml&NODEID=1959&","aufrufUrl":null}]},
  {"bezeichnung":"Geborene nach Geschlecht 2020","letzteAenderung":"15.07.2025",
   "themen":["Bevölkerung","Bevölkerung"],"raeume":["Stadtbezirk"],"zeiten":["2020","2020"],
   "dataSource":{"name":"Einwohnermelderegister"},"presentationLicense":{"name":"dl-de/by-2-0"},
@@ -116,6 +131,10 @@ func New(t *testing.T) *Server {
 	})
 	mux.HandleFunc("/dcat-ap/dataset/geborene/content.json", func(w http.ResponseWriter, r *http.Request) {
 		_ = json.NewEncoder(w).Encode(map[string]any{"data": []any{map[string]any{"Jahr": "2020"}}})
+	})
+	mux.HandleFunc("/ogc.ashx", func(w http.ResponseWriter, r *http.Request) {
+		fake.InfoRequests++
+		_, _ = w.Write([]byte(infoPage))
 	})
 	mux.HandleFunc("/broken", func(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "boom", http.StatusInternalServerError)

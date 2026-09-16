@@ -91,6 +91,14 @@ od3 fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA
 
 Without arguments the binary runs the MCP server on stdio.
 
+## Dataset index
+
+[`data/index.json`](data/index.json) is a snapshot of every dataset in the portal, refreshed nightly by a GitHub Action. It adds the descriptions from the metadata pages of the geodata layers, which the portal's search does not return; the statistics datasets have no description anywhere. Its git history records how the portal's catalog changes over time.
+
+```bash
+od3 index   # rebuild data/index.json, fetching details only for new or changed datasets
+```
+
 ## Usage with Claude Desktop
 
 Add the server to your Claude Desktop configuration:

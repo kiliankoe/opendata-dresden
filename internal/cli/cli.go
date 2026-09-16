@@ -11,6 +11,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
+	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 )
 
@@ -19,10 +20,12 @@ const usage = `Usage:
   od3 search [flags] [query...]   search datasets, no query lists all
   od3 info <id>                   show a dataset with all its resources
   od3 fetch [flags] <id> <format> download a dataset resource
+  od3 index [flags]               snapshot all datasets with their descriptions
 
 Flags of search: --limit N (default 30), --offset N, --output text|json
 Flags of info:   --output text|json
-Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)`
+Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)
+Flags of index:  --file PATH (default data/index.json)`
 
 // Run executes one command and writes its result to stdout
 func Run(ctx context.Context, client *portal.Client, args []string, stdout io.Writer) error {
@@ -94,6 +97,25 @@ func runCommand(ctx context.Context, client *portal.Client, command string, args
 			return err
 		}
 		_, err = stdout.Write(data)
+		return err
+
+	case "index":
+		file := flags.String("file", "data/index.json", "")
+		if err := flags.Parse(args); err != nil {
+			return err
+		}
+		previous, err := index.Read(*file)
+		if err != nil {
+			return err
+		}
+		idx, refreshed, err := index.Build(ctx, client, previous)
+		if err != nil {
+			return err
+		}
+		if err := idx.Write(*file); err != nil {
+			return err
+		}
+		_, err = fmt.Fprintf(stdout, "%d datasets, %d new or changed\n", len(idx.Datasets), refreshed)
 		return err
 
 	case "help", "-h", "--help":

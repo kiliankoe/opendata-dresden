@@ -14,7 +14,7 @@ import (
 )
 
 // version is also parsed by flake.nix, keep the declaration on one line.
-const version = "0.1.0"
+const version = "0.2.0"
 
 func main() {
 	ctx := context.Background()

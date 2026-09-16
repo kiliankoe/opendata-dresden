@@ -31,3 +31,7 @@ coverage.html
 # Environment files
 .env
 .env.local
+
+# Nix
+.direnv/
+result

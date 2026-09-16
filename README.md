@@ -8,7 +8,7 @@ I personally find Dresden's OpenData portal extremely useful, but cumbersome to 
 
 ### Prerequisites
 
-- Go 1.21 or higher
+- Go 1.24 or higher, or [Nix](https://nixos.org) with flakes enabled
 - An MCP-compatible AI client (e.g. Claude Desktop)
 
 ### Building from Source
@@ -21,6 +21,8 @@ make build
 
 make install
 ```
+
+With Nix, `nix build` produces the binary at `result/bin/dresden-opendata-mcp`, and `nix develop` (or [direnv](https://direnv.net) with `direnv allow`) provides a shell with Go and its tooling.
 
 ## Configuration
 

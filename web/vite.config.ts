@@ -22,7 +22,5 @@ export default defineConfig({
   base: "./",
   // The dataset index lives outside the web root
   server: { fs: { allow: [".."] } },
-  // The dependency optimizer loses MapLibre's web worker in dev mode
-  optimizeDeps: { exclude: ["maplibre-gl"] },
   define: { __INDEX_UPDATED__: JSON.stringify(indexUpdated()) },
 });

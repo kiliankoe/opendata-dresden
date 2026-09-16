@@ -3,10 +3,16 @@ import {
   Map as MaplibreMap,
   NavigationControl,
   Popup,
+  setWorkerUrl,
 } from "maplibre-gl";
 import { useEffect, useRef, useState } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
+import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
+
+// MapLibre resolves its worker relative to its own script URL, which bundling
+// loses; this hands it the worker as bundled by Vite
+setWorkerUrl(workerUrl);
 
 const STYLE = "https://tiles.openfreemap.org/styles/positron";
 const DRESDEN: [number, number] = [13.74, 51.05];

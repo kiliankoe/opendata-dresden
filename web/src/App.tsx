@@ -147,11 +147,11 @@ export default function App() {
           </a>
         </h1>
         <p>
-          Alle {datasets?.length ?? ""} Datensätze des{" "}
+          Durchsuche alle {datasets?.length ?? ""} Datensätze des{" "}
           <a href="https://opendata.dresden.de">
             Open-Data-Portals der Landeshauptstadt Dresden
-          </a>{" "}
-          durchsuchen, mit Karte für Geodaten.
+          </a>
+          .
         </p>
         <input
           ref={input}

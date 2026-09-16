@@ -27,18 +27,23 @@ const COLOR = "#0f766e";
 
 type Mode = "geojson" | "wms";
 
+// WmsLayer is one drawable layer of a map service with its legend graphic
+type WmsLayer = { name: string; title: string; legend?: string };
+
 export default function DatasetMap({ dataset }: { dataset: Dataset }) {
   const geojsonUrl = resource(dataset, "GEOJSON");
   const wmsUrl = resource(dataset, "WMS");
   const [mode, setMode] = useState<Mode>(geojsonUrl ? "geojson" : "wms");
   const [status, setStatus] = useState("");
   const [tooLarge, setTooLarge] = useState(false);
+  const [legend, setLegend] = useState<WmsLayer[]>([]);
   const container = useRef<HTMLDivElement>(null);
   const loadAnyway = useRef<() => void>(() => {});
 
   useEffect(() => {
     setStatus("");
     setTooLarge(false);
+    setLegend([]);
     if (!container.current) return;
     const map = new MaplibreMap({
       container: container.current,
@@ -58,9 +63,9 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
           setTooLarge,
         );
       } else if (wmsUrl) {
-        showWms(map, wmsUrl, dataset.layerId, controller.signal).catch(() =>
-          setStatus("Kartendienst nicht erreichbar"),
-        );
+        showWms(map, wmsUrl, dataset.layerId, controller.signal)
+          .then(setLegend)
+          .catch(() => setStatus("Kartendienst nicht erreichbar"));
       }
     });
     return () => {
@@ -102,6 +107,16 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
         )}
       </div>
       <div ref={container} className="map-canvas" />
+      {legend.length > 0 && (
+        <ul className="legend">
+          {legend.map((layer) => (
+            <li key={layer.name}>
+              <img src={layer.legend} alt="" />
+              {legend.length > 1 && layer.title}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }
@@ -257,15 +272,19 @@ async function download(
   return new TextDecoder().decode(body);
 }
 
-// showWms overlays the portal's own rendering of the layer. Datasets with a
-// GeoJSON resource name their layer, the others need the capabilities document.
+// showWms overlays the portal's own rendering of the layer and returns the
+// drawn layers that have a legend graphic. Datasets with a GeoJSON resource
+// name their layer, the others get the service's top-level layer, which draws
+// all layers of the service.
 async function showWms(
   map: MaplibreMap,
   url: string,
   layerId: string | undefined,
   signal: AbortSignal,
-) {
-  const layer = layerId ?? (await firstLayer(url, signal));
+): Promise<WmsLayer[]> {
+  const capabilities = await fetchCapabilities(url, signal);
+  const layer =
+    layerId ?? layerName(capabilities.getElementsByTagName("Layer")[0]);
   const base = new URL(url);
   for (const key of [...base.searchParams.keys()]) {
     if (["service", "request", "version"].includes(key.toLowerCase()))
@@ -275,7 +294,7 @@ async function showWms(
     `service=WMS&version=1.3.0&request=GetMap&layers=${encodeURIComponent(layer)}&styles=` +
     "&format=image/png&transparent=true&crs=EPSG:3857&width=256&height=256&bbox={bbox-epsg-3857}";
   const tiles = `${base}${base.search ? "&" : "?"}${params}`;
-  if (signal.aborted) return;
+  if (signal.aborted) return [];
   map.addSource("wms", { type: "raster", tiles: [tiles], tileSize: 256 });
   map.addLayer({
     id: "wms",
@@ -283,20 +302,37 @@ async function showWms(
     source: "wms",
     paint: { "raster-opacity": 0.85 },
   });
+  return leafLayers(capabilities).filter(
+    (l) => l.legend && (!layerId || l.name === layerId),
+  );
 }
 
-async function firstLayer(
-  capabilitiesUrl: string,
+async function fetchCapabilities(
+  url: string,
   signal: AbortSignal,
-): Promise<string> {
-  const response = await fetch(capabilitiesUrl, { signal });
-  const doc = new DOMParser().parseFromString(
-    await response.text(),
-    "text/xml",
-  );
-  const name = doc
-    .getElementsByTagName("Layer")[0]
-    ?.getElementsByTagName("Name")[0]?.textContent;
+): Promise<Document> {
+  const response = await fetch(url, { signal });
+  return new DOMParser().parseFromString(await response.text(), "text/xml");
+}
+
+function layerName(layer: Element | undefined): string {
+  const name = layer?.getElementsByTagName("Name")[0]?.textContent;
   if (!name) throw new Error("no layer in capabilities");
   return name;
+}
+
+// leafLayers lists the layers that draw something. Group layers only serve
+// to request their children together and return no usable legend.
+function leafLayers(capabilities: Document): WmsLayer[] {
+  return [...capabilities.getElementsByTagName("Layer")]
+    .filter((layer) => layer.getElementsByTagName("Layer").length === 0)
+    .map((layer) => ({
+      name: layerName(layer),
+      title: layer.getElementsByTagName("Title")[0]?.textContent ?? "",
+      legend:
+        layer
+          .getElementsByTagName("LegendURL")[0]
+          ?.getElementsByTagName("OnlineResource")[0]
+          ?.getAttributeNS("http://www.w3.org/1999/xlink", "href") ?? undefined,
+    }));
 }

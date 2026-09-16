@@ -96,7 +96,7 @@ od3 index   # rebuild data/index.json, fetching details only for new or changed 
 
 ## Web
 
-[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser and shows geodata layers on a map, either as their features for the visible area or as the portal's own map service. Statistics datasets only link to their downloads and the portal's tables, since their host allows no cross-origin requests. The page is built from `web/` with Vite and React and deployed by GitHub Pages after every index refresh.
+[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser and shows geodata layers on a map, either as their features for the visible area or as the portal's own map service with its legend. Statistics datasets only link to their downloads and the portal's tables, since their host allows no cross-origin requests. The page is built from `web/` with Vite and React and deployed by GitHub Pages after every index refresh.
 
 ```bash
 cd web

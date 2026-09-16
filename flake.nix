@@ -20,7 +20,7 @@
             );
             src = self;
             subPackages = [ "cmd/od3" ];
-            vendorHash = "sha256-nkijcLcSCEBOjEo+KipEv8Z9aAKnxT9IjavnnVIPJDI=";
+            vendorHash = "sha256-u6gYQO9elwgy2MPPYpRpcOPAWvgYb9YeXmIauIxv4vw=";
           };
         }
       );

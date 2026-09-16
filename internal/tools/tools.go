@@ -40,64 +40,61 @@ type SearchDatasetsParams struct {
 }
 
 // SearchDatasets searches for datasets
-func SearchDatasets(ctx context.Context, session *mcp.ServerSession, params *mcp.CallToolParamsFor[SearchDatasetsParams]) (*mcp.CallToolResultFor[any], error) {
-	args := params.Arguments
+func SearchDatasets(ctx context.Context, _ *mcp.CallToolRequest, args SearchDatasetsParams) (*mcp.CallToolResult, any, error) {
 	if args.Limit == 0 {
 		args.Limit = 30
 	}
 
 	result, err := portalClient.SearchDatasets(ctx, args.Query, args.Limit, args.Offset)
 	if err != nil {
-		return nil, fmt.Errorf("searching datasets: %w", err)
+		return nil, nil, fmt.Errorf("searching datasets: %w", err)
 	}
 	return jsonResult(result)
 }
 
 // GetDatasetInfoParams parameters for getting dataset info
 type GetDatasetInfoParams struct {
-	ID string `json:"id" jsonschema:"required,Dataset ID as returned by search_datasets"`
+	ID string `json:"id" jsonschema:"Dataset ID as returned by search_datasets"`
 }
 
 // GetDatasetInfo gets detailed dataset information
-func GetDatasetInfo(ctx context.Context, session *mcp.ServerSession, params *mcp.CallToolParamsFor[GetDatasetInfoParams]) (*mcp.CallToolResultFor[any], error) {
-	dataset, err := portalClient.GetDataset(ctx, params.Arguments.ID)
+func GetDatasetInfo(ctx context.Context, _ *mcp.CallToolRequest, args GetDatasetInfoParams) (*mcp.CallToolResult, any, error) {
+	dataset, err := portalClient.GetDataset(ctx, args.ID)
 	if err != nil {
-		return nil, fmt.Errorf("getting dataset info: %w", err)
+		return nil, nil, fmt.Errorf("getting dataset info: %w", err)
 	}
 	return jsonResult(dataset)
 }
 
 // FetchDatasetParams parameters for fetching dataset
 type FetchDatasetParams struct {
-	ID     string `json:"id" jsonschema:"required,Dataset ID as returned by search_datasets"`
-	Format string `json:"format" jsonschema:"required,One of the dataset's resource formats, e.g. CSV, JSON, GEOJSON, WFS, WMS"`
+	ID     string `json:"id" jsonschema:"Dataset ID as returned by search_datasets"`
+	Format string `json:"format" jsonschema:"One of the dataset's resource formats, e.g. CSV, JSON, GEOJSON, WFS, WMS"`
 	Limit  int    `json:"limit,omitempty" jsonschema:"Maximum number of features for geodata layers (CSV and GEOJSON)"`
 	BBox   string `json:"bbox,omitempty" jsonschema:"Only return features of geodata layers inside this WGS84 bounding box: minLon,minLat,maxLon,maxLat"`
 }
 
 // FetchDataset fetches dataset content
-func FetchDataset(ctx context.Context, session *mcp.ServerSession, params *mcp.CallToolParamsFor[FetchDatasetParams]) (*mcp.CallToolResultFor[any], error) {
-	args := params.Arguments
-
+func FetchDataset(ctx context.Context, _ *mcp.CallToolRequest, args FetchDatasetParams) (*mcp.CallToolResult, any, error) {
 	dataset, err := portalClient.GetDataset(ctx, args.ID)
 	if err != nil {
-		return nil, fmt.Errorf("getting dataset for fetch: %w", err)
+		return nil, nil, fmt.Errorf("getting dataset for fetch: %w", err)
 	}
 	data, err := portalClient.FetchResource(ctx, dataset, args.Format, portal.FetchOptions{Limit: args.Limit, BBox: args.BBox})
 	if err != nil {
-		return nil, fmt.Errorf("fetching dataset: %w", err)
+		return nil, nil, fmt.Errorf("fetching dataset: %w", err)
 	}
-	return textResult(string(data)), nil
+	return textResult(string(data)), nil, nil
 }
 
-func jsonResult(v any) (*mcp.CallToolResultFor[any], error) {
+func jsonResult(v any) (*mcp.CallToolResult, any, error) {
 	data, err := json.Marshal(v)
 	if err != nil {
-		return nil, fmt.Errorf("marshaling result: %w", err)
+		return nil, nil, fmt.Errorf("marshaling result: %w", err)
 	}
-	return textResult(string(data)), nil
+	return textResult(string(data)), nil, nil
 }
 
-func textResult(text string) *mcp.CallToolResultFor[any] {
-	return &mcp.CallToolResultFor[any]{Content: []mcp.Content{&mcp.TextContent{Text: text}}}
+func textResult(text string) *mcp.CallToolResult {
+	return &mcp.CallToolResult{Content: []mcp.Content{&mcp.TextContent{Text: text}}}
 }

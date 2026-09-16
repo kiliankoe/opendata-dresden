@@ -23,10 +23,10 @@ func connect(t *testing.T) *mcp.ClientSession {
 	RegisterTools(server, &config.Config{PortalURL: fake.URL})
 
 	clientTransport, serverTransport := mcp.NewInMemoryTransports()
-	if _, err := server.Connect(ctx, serverTransport); err != nil {
+	if _, err := server.Connect(ctx, serverTransport, nil); err != nil {
 		t.Fatal(err)
 	}
-	session, err := mcp.NewClient(&mcp.Implementation{Name: "client"}, nil).Connect(ctx, clientTransport)
+	session, err := mcp.NewClient(&mcp.Implementation{Name: "client"}, nil).Connect(ctx, clientTransport, nil)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -74,4 +74,38 @@ func TestSearchDatasetsTool(t *testing.T) {
 	if result.Total != 1 || len(result.Datasets) != 1 || result.Datasets[0].ID != "D1" {
 		t.Errorf("got %+v, want only D1", result)
 	}
+}
+
+// The SDK derives required properties from the absence of omitempty and uses
+// the jsonschema tag verbatim as the description.
+func TestFetchDatasetSchema(t *testing.T) {
+	session := connect(t)
+	res, err := session.ListTools(context.Background(), nil)
+	if err != nil {
+		t.Fatal(err)
+	}
+	for _, tool := range res.Tools {
+		if tool.Name != "fetch_dataset" {
+			continue
+		}
+		schema, err := json.Marshal(tool.InputSchema)
+		if err != nil {
+			t.Fatal(err)
+		}
+		var got struct {
+			Required   []string                  `json:"required"`
+			Properties map[string]map[string]any `json:"properties"`
+		}
+		if err := json.Unmarshal(schema, &got); err != nil {
+			t.Fatal(err)
+		}
+		if len(got.Required) != 2 || got.Required[0] != "id" || got.Required[1] != "format" {
+			t.Errorf("required = %v, want [id format]", got.Required)
+		}
+		if desc, _ := got.Properties["id"]["description"].(string); desc != "Dataset ID as returned by search_datasets" {
+			t.Errorf("id description = %q", desc)
+		}
+		return
+	}
+	t.Fatal("fetch_dataset not registered")
 }

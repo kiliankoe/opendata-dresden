@@ -8,7 +8,7 @@ I personally find Dresden's OpenData portal extremely useful, but cumbersome to 
 
 ### Prerequisites
 
-- Go 1.24 or higher, or [Nix](https://nixos.org) with flakes enabled
+- Go 1.26 or higher, or [Nix](https://nixos.org) with flakes enabled
 - An MCP-compatible AI client (e.g. Claude Desktop)
 
 ### Building from Source

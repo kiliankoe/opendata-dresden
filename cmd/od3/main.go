@@ -36,7 +36,7 @@ func main() {
 	tools.RegisterTools(server, cfg)
 
 	log.Printf("Starting Dresden OpenData MCP server %s...", version)
-	if err := server.Run(ctx, mcp.NewStdioTransport()); err != nil {
+	if err := server.Run(ctx, &mcp.StdioTransport{}); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}
 }

@@ -444,6 +444,10 @@ footer {
   color: var(--muted);
 }
 
+footer p {
+  margin: 0 0 0.25rem;
+}
+
 #root:has(.dataset) footer {
   margin-top: 1rem;
 }

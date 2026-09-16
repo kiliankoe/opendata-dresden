@@ -2,6 +2,8 @@
 
 A CLI, [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server and [search page](https://kiliankoe.github.io/opendata-dresden/) for [Dresden's OpenData portal](https://opendata.dresden.de). The portal publishes a lot of useful civic data, but finding a fitting dataset is cumbersome. This project snapshots the whole catalog nightly and answers searches from that index, for humans in the browser and for AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) over MCP. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using the MCP server to find a dataset on Dresden's streets.
 
+This is a private project and not affiliated with the City of Dresden. The rights to the data stay with their respective holders; each dataset carries its license.
+
 ## Installation
 
 The CLI and the MCP server are the same binary, `od3`. Pick one of:

@@ -250,10 +250,17 @@ export default function App() {
       </main>
 
       <footer>
-        <a href="https://github.com/kiliankoe/opendata-dresden">Quellcode</a>,
-        auch als CLI und MCP-Server. Daten werden nächtlich aktualisiert
-        {__INDEX_UPDATED__ && `, zuletzt am ${germanDate(__INDEX_UPDATED__)}`}.
-        Karten von <a href="https://openfreemap.org">OpenFreeMap</a>.
+        <p>
+          <a href="https://github.com/kiliankoe/opendata-dresden">Quellcode</a>,
+          auch als CLI und MCP-Server. Daten werden nächtlich aktualisiert
+          {__INDEX_UPDATED__ && `, zuletzt am ${germanDate(__INDEX_UPDATED__)}`}
+          . Karten von <a href="https://openfreemap.org">OpenFreeMap</a>.
+        </p>
+        <p>
+          Dies ist ein privates Projekt ohne Verbindung zur Landeshauptstadt
+          Dresden. Die Rechte an den Daten liegen bei den jeweiligen
+          Rechteinhabern, die Lizenz steht bei jedem Datensatz.
+        </p>
       </footer>
     </>
   );

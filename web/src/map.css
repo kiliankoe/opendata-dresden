@@ -1,0 +1,63 @@
+/* MapLibre's own chrome is built outside of React and ships in light colors,
+   so it takes the palette here. This file must load after maplibre-gl.css,
+   which the import order in DatasetMap.tsx arranges; both end up in the
+   lazily loaded map chunk. */
+
+.maplibregl-popup-content {
+  background: var(--surface);
+  color: var(--ink);
+  font-size: 0.8125rem;
+  max-height: 16rem;
+  overflow: auto;
+}
+
+/* The popup tip is a CSS triangle whose color sits on whichever border side
+   faces the popup, so it depends on where the popup is anchored. */
+.maplibregl-popup[class*="anchor-top"] .maplibregl-popup-tip {
+  border-bottom-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-bottom"] .maplibregl-popup-tip {
+  border-top-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-left"] .maplibregl-popup-tip {
+  border-right-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-right"] .maplibregl-popup-tip {
+  border-left-color: var(--surface);
+}
+
+.maplibregl-popup-content td {
+  vertical-align: top;
+  padding: 0.0625rem 0.5rem 0.0625rem 0;
+}
+
+.maplibregl-popup-content td:first-child {
+  color: var(--muted);
+}
+
+.maplibregl-ctrl-group,
+.maplibregl-ctrl.maplibregl-ctrl-attrib {
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top-color: var(--line);
+}
+
+.maplibregl-ctrl-attrib a {
+  color: var(--muted);
+}
+
+/* The button icons are background images, so they can only be flipped rather
+   than recolored; the hue rotation keeps the compass needle red. */
+@media (prefers-color-scheme: dark) {
+  .maplibregl-ctrl-icon,
+  .maplibregl-ctrl-attrib-button,
+  .maplibregl-ctrl-attrib.maplibregl-compact::after {
+    filter: invert(1) hue-rotate(180deg);
+  }
+}

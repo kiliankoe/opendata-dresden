@@ -7,6 +7,7 @@ import {
 } from "maplibre-gl";
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
+import "./map.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
 import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";

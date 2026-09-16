@@ -1,6 +1,6 @@
-# Dresden OpenData CLI and MCP server
+# Dresden OpenData CLI, MCP server and search page
 
-A CLI and Model Context Protocol (MCP) server that provides AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers.
+A CLI and Model Context Protocol (MCP) server that provides AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) with access to [Dresden's OpenData Portal](https://opendata.dresden.de), enabling these systems to automatically discover, fetch, and process open civic datasets published by the city or other providers. For humans there is a [search page](https://kiliankoe.github.io/opendata-dresden/) over the same data, with a map for geodata.
 
 I personally find Dresden's OpenData portal extremely useful, but cumbersome to work with and find fitting datasets. This tries to make that a bit easier. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using this MCP server to find a dataset on Dresden's streets.
 
@@ -94,6 +94,16 @@ Search and info answer from this index rather than the portal, whose search has 
 od3 index   # rebuild data/index.json, fetching details only for new or changed datasets
 ```
 
+## Web
+
+[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser and shows geodata layers on a map, either as their features for the visible area or as the portal's own map service. Statistics datasets only link to their downloads and the portal's tables, since their host allows no cross-origin requests. The page is built from `web/` with Vite and React and deployed by GitHub Pages after every index refresh.
+
+```bash
+cd web
+pnpm install
+pnpm dev
+```
+
 ## Usage with Claude Desktop
 
 Add the server to your Claude Desktop configuration:
@@ -145,4 +155,5 @@ The server consists of several key components:
 - **Portal Client**: Talks to the search backend of the portal's web app, which is the only place listing every dataset with all its resources
 - **Index**: Builds the nightly snapshot from the portal client and answers searches from it
 - **MCP Tools** and **CLI**: Two thin front ends over the index
+- **Web**: A third front end that ships the index to the browser
 - **Configuration**: Manages environment-based configuration

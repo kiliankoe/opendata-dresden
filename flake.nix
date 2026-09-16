@@ -37,6 +37,8 @@
               gopls
               gotools
               golangci-lint
+              nodejs
+              pnpm
             ];
           };
         }

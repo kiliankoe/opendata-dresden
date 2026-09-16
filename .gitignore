@@ -35,3 +35,7 @@ coverage.html
 # Nix
 .direnv/
 result
+
+# Web
+web/node_modules/
+web/dist/

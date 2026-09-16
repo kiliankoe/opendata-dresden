@@ -80,10 +80,11 @@ Geodata layers return all their features by default. The portal offers no paging
 
 ## Command line usage
 
-The same three operations are available as commands, for agents or scripts that prefer running a binary over speaking MCP. Search and info print JSON, fetch prints the resource as is.
+The same three operations are available as commands, for humans as well as for agents or scripts that prefer running a binary over speaking MCP. Search and info print a readable summary by default and the same JSON as the MCP tools with `--output json`. Fetch prints the resource as is.
 
 ```bash
 od3 search --limit 5 Straßenbahn
+od3 search --output json Straßenbahn
 od3 info 0F6996E7-26AB-4585-81BD-1EDA4381B1BC
 od3 fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA4381B1BC GEOJSON
 ```

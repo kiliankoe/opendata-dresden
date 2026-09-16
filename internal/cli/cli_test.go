@@ -22,7 +22,7 @@ func run(t *testing.T, fake *portaltest.Server, args ...string) (string, error) 
 func TestSearch(t *testing.T) {
 	fake := portaltest.New(t)
 	// Query words are joined so no quoting is needed on the shell
-	out, err := run(t, fake, "search", "--limit", "5", "geborene", "nach")
+	out, err := run(t, fake, "search", "--output", "json", "--limit", "5", "geborene", "nach")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -40,7 +40,7 @@ func TestSearch(t *testing.T) {
 
 func TestSearchPaging(t *testing.T) {
 	fake := portaltest.New(t)
-	out, err := run(t, fake, "search", "--limit", "2", "--offset", "1")
+	out, err := run(t, fake, "search", "--output", "json", "--limit", "2", "--offset", "1")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -55,7 +55,7 @@ func TestSearchPaging(t *testing.T) {
 
 func TestInfo(t *testing.T) {
 	fake := portaltest.New(t)
-	out, err := run(t, fake, "info", "D2")
+	out, err := run(t, fake, "info", "--output", "json", "D2")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -72,6 +72,52 @@ func TestInfo(t *testing.T) {
 	}
 	if _, err := run(t, fake, "info"); err == nil {
 		t.Error("expected error for missing id, got nil")
+	}
+}
+
+func TestSearchText(t *testing.T) {
+	fake := portaltest.New(t)
+	out, err := run(t, fake, "search", "--limit", "2", "--offset", "1")
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := `Geborene nach Geschlecht 2020
+  D2  updated 15.07.2025  JSON, Tabelle
+Kaputter Datensatz
+  D3  updated 01.01.2020  CSV
+
+2 of 3 datasets
+`
+	if out != want {
+		t.Errorf("got:\n%s\nwant:\n%s", out, want)
+	}
+
+	if _, err := run(t, fake, "search", "--output", "yaml"); err == nil {
+		t.Error("expected error for unknown output format, got nil")
+	}
+}
+
+func TestInfoText(t *testing.T) {
+	fake := portaltest.New(t)
+	out, err := run(t, fake, "info", "D2")
+	if err != nil {
+		t.Fatal(err)
+	}
+	want := `Geborene nach Geschlecht 2020
+ID       D2
+Updated  15.07.2025
+Source   Einwohnermelderegister
+License  dl-de/by-2-0
+Topics   Bevölkerung
+Regions  Stadtbezirk
+Years    2020
+
+Resources
+  JSON     ` + fake.URL + `/dcat-ap/dataset/geborene/content.json
+  Tabelle  ` + fake.URL + `/aswdb/asw.dll/?aw=Bev%C3%B6lkerung/Geborene%20nach%20Geschlecht_2020_TAB
+`
+	if out != want {
+		t.Errorf("got:\n%s\nwant:\n%s", out, want)
 	}
 }
 

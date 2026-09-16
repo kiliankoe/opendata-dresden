@@ -102,6 +102,7 @@ od3 index   # rebuild data/index.json, fetching details only for new or changed 
 cd web
 pnpm install
 pnpm dev
+pnpm check   # lint and format check with Biome, `pnpm fix` applies
 ```
 
 ## Usage with Claude Desktop

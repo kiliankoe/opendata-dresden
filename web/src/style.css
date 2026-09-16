@@ -45,13 +45,32 @@
   }
 }
 
-/* MapLibre builds its popups outside of React. They sit on the map, which is
-   light in either color scheme, hence the fixed colors. */
+/* MapLibre builds its popups outside of React, so they take the palette here
+   rather than through a utility class. */
 .maplibregl-popup-content {
-  color: #1c1917;
+  background: var(--surface);
+  color: var(--ink);
   font-size: 0.8125rem;
   max-height: 16rem;
   overflow: auto;
+}
+
+/* The popup tip is a CSS triangle whose color sits on whichever border side
+   faces the popup, so it depends on where the popup is anchored. */
+.maplibregl-popup[class*="anchor-top"] .maplibregl-popup-tip {
+  border-bottom-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-bottom"] .maplibregl-popup-tip {
+  border-top-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-left"] .maplibregl-popup-tip {
+  border-right-color: var(--surface);
+}
+
+.maplibregl-popup[class*="anchor-right"] .maplibregl-popup-tip {
+  border-left-color: var(--surface);
 }
 
 .maplibregl-popup-content td {
@@ -60,5 +79,5 @@
 }
 
 .maplibregl-popup-content td:first-child {
-  color: #78716c;
+  color: var(--muted);
 }

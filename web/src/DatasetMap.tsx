@@ -5,7 +5,7 @@ import {
   Popup,
   setWorkerUrl,
 } from "maplibre-gl";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
@@ -16,12 +16,41 @@ import { Modes, pill } from "./ui";
 // loses; this hands it the worker as bundled by Vite
 setWorkerUrl(workerUrl);
 
-const STYLE = "https://tiles.openfreemap.org/styles/positron";
 const DRESDEN: [number, number] = [13.74, 51.05];
 // Layers can hold over a hundred thousand features, so only the visible
 // part of a layer is fetched, capped at this many features
 const FEATURE_LIMIT = 2000;
-const COLOR = "#0f766e";
+
+// Basemap and feature colors follow the page's color scheme. The accents
+// match the palette in style.css, the outline the basemap's own background.
+type Theme = {
+  style: string;
+  accent: string;
+  outline: string;
+  water?: string;
+};
+
+const LIGHT: Theme = {
+  style: "https://tiles.openfreemap.org/styles/positron",
+  accent: "#0f766e",
+  outline: "#fff",
+};
+
+const DARK: Theme = {
+  style: "https://tiles.openfreemap.org/styles/dark",
+  accent: "#2dd4bf",
+  outline: "#0c0c0c",
+  // The style draws water nearly in its background color, which loses the
+  // Elbe, the one landmark that orients a map of Dresden
+  water: "#24343d",
+};
+
+const darkScheme = matchMedia("(prefers-color-scheme: dark)");
+
+const watchScheme = (onChange: () => void) => {
+  darkScheme.addEventListener("change", onChange);
+  return () => darkScheme.removeEventListener("change", onChange);
+};
 
 type Mode = "geojson" | "wms";
 
@@ -42,6 +71,9 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
   const [legend, setLegend] = useState<WmsLayer[]>([]);
   const container = useRef<HTMLDivElement>(null);
   const loadAnyway = useRef<() => void>(() => {});
+  const theme = useSyncExternalStore(watchScheme, () => darkScheme.matches)
+    ? DARK
+    : LIGHT;
 
   useEffect(() => {
     setStatus("");
@@ -50,17 +82,22 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
     if (!container.current) return;
     const map = new MaplibreMap({
       container: container.current,
-      style: STYLE,
+      style: theme.style,
       center: DRESDEN,
       zoom: 11,
     });
     map.addControl(new NavigationControl(), "top-right");
     const controller = new AbortController();
     map.on("load", () => {
+      if (theme.water) {
+        map.setPaintProperty("water", "fill-color", theme.water);
+        map.setPaintProperty("waterway", "line-color", theme.water);
+      }
       if (mode === "geojson" && geojsonUrl) {
         loadAnyway.current = showFeatures(
           map,
           geojsonUrl,
+          theme,
           controller.signal,
           setStatus,
           setTooLarge,
@@ -75,7 +112,7 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
       controller.abort();
       map.remove();
     };
-  }, [dataset, mode, geojsonUrl, wmsUrl]);
+  }, [dataset, mode, geojsonUrl, wmsUrl, theme]);
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -118,6 +155,7 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
 function showFeatures(
   map: MaplibreMap,
   url: string,
+  theme: Theme,
   signal: AbortSignal,
   setStatus: (s: string) => void,
   setTooLarge: (b: boolean) => void,
@@ -131,14 +169,14 @@ function showFeatures(
     type: "fill",
     source: "data",
     filter: ["==", ["geometry-type"], "Polygon"],
-    paint: { "fill-color": COLOR, "fill-opacity": 0.2 },
+    paint: { "fill-color": theme.accent, "fill-opacity": 0.2 },
   });
   map.addLayer({
     id: "line",
     type: "line",
     source: "data",
     filter: ["in", ["geometry-type"], ["literal", ["Polygon", "LineString"]]],
-    paint: { "line-color": COLOR, "line-width": 2 },
+    paint: { "line-color": theme.accent, "line-width": 2 },
   });
   map.addLayer({
     id: "point",
@@ -147,8 +185,8 @@ function showFeatures(
     filter: ["==", ["geometry-type"], "Point"],
     paint: {
       "circle-radius": 5,
-      "circle-color": COLOR,
-      "circle-stroke-color": "#fff",
+      "circle-color": theme.accent,
+      "circle-stroke-color": theme.outline,
       "circle-stroke-width": 1.5,
     },
   });

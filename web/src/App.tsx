@@ -26,10 +26,33 @@ export default function App() {
   const [format, setFormat] = useState("");
   const [openId, setOpenId] = useState(() => readUrl().openId);
   const [shown, setShown] = useState(PAGE);
+  const input = useRef<HTMLInputElement>(null);
   const linkedId = useRef(readUrl().openId);
 
   useEffect(() => {
     loadDatasets().then(setDatasets, (e: Error) => setError(e.message));
+  }, []);
+
+  // Browser navigation between shared links changes only the hash
+  useEffect(() => {
+    const onHash = () => setOpenId(readUrl().openId);
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
+
+  // "/" focuses the search like on many sites
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (
+        e.key !== "/" ||
+        (e.target as HTMLElement).closest("input, textarea, select")
+      )
+        return;
+      e.preventDefault();
+      input.current?.focus();
+    };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
   }, []);
 
   useEffect(() => {
@@ -99,10 +122,28 @@ export default function App() {
   const visible =
     linked && !listed.includes(linked) ? [linked, ...listed] : listed;
 
+  const reset = () => {
+    changeQuery("");
+    setTopic("");
+    setFormat("");
+    setOpenId("");
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <header>
-        <h1>Dresden Open Data</h1>
+        <h1>
+          <a
+            href="./"
+            onClick={(e) => {
+              e.preventDefault();
+              reset();
+            }}
+          >
+            Dresden Open Data
+          </a>
+        </h1>
         <p>
           Alle {datasets?.length ?? ""} Datensätze des{" "}
           <a href="https://opendata.dresden.de">
@@ -111,6 +152,7 @@ export default function App() {
           durchsuchen, mit Karte für Geodaten.
         </p>
         <input
+          ref={input}
           type="search"
           // biome-ignore lint/a11y/noAutofocus: searching is all this page is for
           autoFocus

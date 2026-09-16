@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 	"net/http/httptest"
+	"net/url"
 	"strings"
 	"testing"
 
@@ -163,8 +164,9 @@ func TestFetchResource(t *testing.T) {
 	geo, _ := fake.client.GetDataset(ctx, "D1")
 	stats, _ := fake.client.GetDataset(ctx, "D2")
 	broken, _ := fake.client.GetDataset(ctx, "D3")
+	limit := url.Values{"limit": {"5"}}
 
-	data, err := fake.client.FetchResource(ctx, geo, "csv", 0)
+	data, err := fake.client.FetchResource(ctx, geo, "csv", nil)
 	if err != nil || !strings.HasPrefix(string(data), "\"id\";") {
 		t.Errorf("CSV fetch: err=%v data=%q", err, data)
 	}
@@ -172,28 +174,34 @@ func TestFetchResource(t *testing.T) {
 		t.Errorf("CSV query = %q", fake.lastQuery)
 	}
 
-	if _, err := fake.client.FetchResource(ctx, geo, "GeoJSON", 5); err != nil {
+	if _, err := fake.client.FetchResource(ctx, geo, "GeoJSON", limit); err != nil {
 		t.Fatal(err)
 	}
 	if fake.lastQuery != "limit=5" {
 		t.Errorf("GeoJSON query = %q, want limit=5", fake.lastQuery)
 	}
-	if _, err := fake.client.FetchResource(ctx, geo, "CSV", 5); err != nil {
+	if _, err := fake.client.FetchResource(ctx, geo, "CSV", limit); err != nil {
 		t.Fatal(err)
 	}
 	if fake.lastQuery != "format=csv/ewkt&delimiter=semicolon&limit=5" {
 		t.Errorf("CSV query with limit = %q", fake.lastQuery)
 	}
+	if _, err := fake.client.FetchResource(ctx, geo, "GeoJSON", url.Values{"bbox": {"13.7,51.0,13.8,51.1"}}); err != nil {
+		t.Fatal(err)
+	}
+	if got := fake.lastQuery; got != "bbox=13.7,51.0,13.8,51.1" && got != "bbox=13.7%2C51.0%2C13.8%2C51.1" {
+		t.Errorf("GeoJSON query with bbox = %q", got)
+	}
 
-	data, err = fake.client.FetchResource(ctx, stats, "JSON", 5)
+	data, err = fake.client.FetchResource(ctx, stats, "JSON", limit)
 	if err != nil || !strings.Contains(string(data), `"Jahr"`) {
 		t.Errorf("JSON fetch: err=%v data=%q", err, data)
 	}
 
-	if _, err := fake.client.FetchResource(ctx, stats, "CSV", 0); err == nil {
+	if _, err := fake.client.FetchResource(ctx, stats, "CSV", nil); err == nil {
 		t.Error("expected error for unavailable format, got nil")
 	}
-	if _, err := fake.client.FetchResource(ctx, broken, "CSV", 0); err == nil {
+	if _, err := fake.client.FetchResource(ctx, broken, "CSV", nil); err == nil {
 		t.Error("expected error for HTTP 500, got nil")
 	}
 }

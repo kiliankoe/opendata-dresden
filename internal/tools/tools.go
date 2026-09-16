@@ -4,6 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"net/url"
+	"strconv"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
 	"github.com/kiliankoe/opendatadresdenmcp/internal/portal"
@@ -28,7 +30,7 @@ func RegisterTools(server *mcp.Server, cfg *config.Config) {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "fetch_dataset",
-		Description: "Download a dataset resource in one of its formats. CSV, JSON and GeoJSON return data; WMS and WFS return the service's capabilities document.",
+		Description: "Download a dataset resource in one of its formats. CSV, JSON and GeoJSON return data; WMS and WFS return the service's capabilities document. Geodata layers return all features unless narrowed by limit or bbox.",
 	}, FetchDataset)
 }
 
@@ -71,7 +73,8 @@ func GetDatasetInfo(ctx context.Context, session *mcp.ServerSession, params *mcp
 type FetchDatasetParams struct {
 	ID     string `json:"id" jsonschema:"required,Dataset ID as returned by search_datasets"`
 	Format string `json:"format" jsonschema:"required,One of the dataset's resource formats, e.g. CSV, JSON, GEOJSON, WFS, WMS"`
-	Limit  int    `json:"limit,omitempty" jsonschema:"Maximum number of features for geodata layers (CSV and GEOJSON); default returns the whole layer"`
+	Limit  int    `json:"limit,omitempty" jsonschema:"Maximum number of features for geodata layers (CSV and GEOJSON)"`
+	BBox   string `json:"bbox,omitempty" jsonschema:"Only return features of geodata layers inside this WGS84 bounding box: minLon,minLat,maxLon,maxLat"`
 }
 
 // FetchDataset fetches dataset content
@@ -82,7 +85,14 @@ func FetchDataset(ctx context.Context, session *mcp.ServerSession, params *mcp.C
 	if err != nil {
 		return nil, fmt.Errorf("getting dataset for fetch: %w", err)
 	}
-	data, err := portalClient.FetchResource(ctx, dataset, args.Format, args.Limit)
+	query := url.Values{}
+	if args.Limit > 0 {
+		query.Set("limit", strconv.Itoa(args.Limit))
+	}
+	if args.BBox != "" {
+		query.Set("bbox", args.BBox)
+	}
+	data, err := portalClient.FetchResource(ctx, dataset, args.Format, query)
 	if err != nil {
 		return nil, fmt.Errorf("fetching dataset: %w", err)
 	}

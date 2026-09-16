@@ -67,11 +67,14 @@ Get a dataset with all its resources by ID.
 ### `fetch_dataset`
 Download one of a dataset's resources. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document.
 
+Geodata layers return all their features by default. The portal offers no paging, so `limit` and `bbox` are the only ways to narrow a large layer.
+
 ```js
 {
   "id": "0F6996E7-26AB-4585-81BD-1EDA4381B1BC",
   "format": "GEOJSON",
-  "limit": 50  // Optional, only for geodata layers which otherwise return all features
+  "limit": 50,                          // Optional, geodata layers only
+  "bbox": "13.72,51.04,13.76,51.07"     // Optional, WGS84 minLon,minLat,maxLon,maxLat
 }
 ```
 

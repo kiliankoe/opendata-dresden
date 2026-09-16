@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"net/url"
 	"regexp"
-	"strconv"
 	"strings"
 
 	"github.com/kiliankoe/opendatadresdenmcp/internal/config"
@@ -62,19 +61,20 @@ func (c *Client) GetDataset(ctx context.Context, id string) (*Dataset, error) {
 }
 
 // FetchResource downloads the dataset's resource in the given format. The
-// limit only applies to OGC API resources, which otherwise return whole layers.
-func (c *Client) FetchResource(ctx context.Context, dataset *Dataset, format string, limit int) ([]byte, error) {
+// query only applies to OGC API resources; they accept limit and bbox and
+// otherwise return whole layers.
+func (c *Client) FetchResource(ctx context.Context, dataset *Dataset, format string, query url.Values) ([]byte, error) {
 	for _, r := range dataset.Resources {
 		if !strings.EqualFold(r.Format, format) {
 			continue
 		}
 		resourceURL := r.URL
-		if limit > 0 && strings.Contains(resourceURL, "/ogcapi/") {
+		if len(query) > 0 && strings.Contains(resourceURL, "/ogcapi/") {
 			sep := "?"
 			if strings.Contains(resourceURL, "?") {
 				sep = "&"
 			}
-			resourceURL += sep + "limit=" + strconv.Itoa(limit)
+			resourceURL += sep + query.Encode()
 		}
 		req, err := http.NewRequestWithContext(ctx, http.MethodGet, resourceURL, nil)
 		if err != nil {

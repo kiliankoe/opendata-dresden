@@ -5,6 +5,7 @@ package portal
 import (
 	"context"
 	"encoding/json"
+	"net/url"
 	"strings"
 	"testing"
 	"time"
@@ -86,7 +87,7 @@ func TestLiveFetchResource(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	csv, err := client.FetchResource(ctx, geo, "CSV", 2)
+	csv, err := client.FetchResource(ctx, geo, "CSV", url.Values{"limit": {"2"}})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -94,7 +95,7 @@ func TestLiveFetchResource(t *testing.T) {
 		t.Errorf("expected a semicolon-separated header and 2 rows, got %q", csv)
 	}
 
-	geojson, err := client.FetchResource(ctx, geo, "GeoJSON", 2)
+	geojson, err := client.FetchResource(ctx, geo, "GeoJSON", url.Values{"limit": {"2"}})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -106,11 +107,20 @@ func TestLiveFetchResource(t *testing.T) {
 		t.Errorf("expected a FeatureCollection with 2 features, got type=%q features=%d err=%v", fc.Type, len(fc.Features), err)
 	}
 
+	// A bounding box far outside Dresden must filter out every feature
+	outside, err := client.FetchResource(ctx, geo, "GeoJSON", url.Values{"bbox": {"13.0,50.0,13.01,50.01"}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := json.Unmarshal(outside, &fc); err != nil || len(fc.Features) != 0 {
+		t.Errorf("expected no features outside the bbox, got %d err=%v", len(fc.Features), err)
+	}
+
 	stats, err := client.GetDataset(ctx, statsDatasetID)
 	if err != nil {
 		t.Fatal(err)
 	}
-	data, err := client.FetchResource(ctx, stats, "JSON", 0)
+	data, err := client.FetchResource(ctx, stats, "JSON", nil)
 	if err != nil {
 		t.Fatal(err)
 	}

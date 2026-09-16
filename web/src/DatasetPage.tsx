@@ -6,6 +6,7 @@ import {
   useMemo,
   useState,
 } from "react";
+import type { WmsLayer } from "./DatasetMap";
 import {
   type Dataset,
   portalUrl,
@@ -85,6 +86,9 @@ export function DatasetPage({
   const resources = sortedResources(dataset);
   const options = viewers(dataset, resources);
   const active = options.find((v) => v.label === viewer) ?? options[0];
+  // The map reports the legend of its map service; it belongs with the facts
+  // rather than below the map, where it would eat into the map's height
+  const [legend, setLegend] = useState<WmsLayer[]>([]);
   return (
     <article className="grid min-h-0 flex-1 grid-cols-1 grid-rows-[minmax(0,1fr)] gap-8 pane:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
       <div className="min-h-0 pane:overflow-y-auto pane:pr-2">
@@ -97,6 +101,7 @@ export function DatasetPage({
         </button>
         <h2 className="mb-1 text-xl font-bold">{dataset.title}</h2>
         {dataset.topics && <Badges items={dataset.topics} />}
+        <Legend layers={legend} />
         <Facts dataset={dataset} />
       </div>
       {/* Descriptions can be long, so on narrow screens the viewer comes first
@@ -117,7 +122,7 @@ export function DatasetPage({
         )}
         {active?.kind === "map" && (
           <Suspense fallback={<div className="flex-1" />}>
-            <DatasetMap dataset={dataset} />
+            <DatasetMap dataset={dataset} onLegend={setLegend} />
           </Suspense>
         )}
         {active?.kind === "table" && <FeatureTable url={active.url} />}
@@ -131,6 +136,25 @@ export function DatasetPage({
         )}
       </div>
     </article>
+  );
+}
+
+// Legend shows what the map service draws. Its graphics label themselves,
+// so layer titles only help when there is more than one.
+export function Legend({ layers }: { layers: WmsLayer[] }) {
+  if (layers.length === 0) return null;
+  return (
+    <>
+      <h3 className="mt-4 mb-1 text-sm font-semibold">Legende</h3>
+      <ul className="text-[0.8125rem]">
+        {layers.map((layer) => (
+          <li key={layer.name} className="flex items-center gap-2">
+            <img src={layer.legend} alt="" />
+            {layers.length > 1 && layer.title}
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 

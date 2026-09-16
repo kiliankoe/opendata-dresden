@@ -61,15 +61,22 @@ const MODES: { label: string; value: Mode }[] = [
 ];
 
 // WmsLayer is one drawable layer of a map service with its legend graphic
-type WmsLayer = { name: string; title: string; legend?: string };
+export type WmsLayer = { name: string; title: string; legend?: string };
 
-export default function DatasetMap({ dataset }: { dataset: Dataset }) {
+// The legend belongs to the map but is drawn by the page next to it, so the
+// layers are reported upwards rather than rendered here
+export default function DatasetMap({
+  dataset,
+  onLegend,
+}: {
+  dataset: Dataset;
+  onLegend: (layers: WmsLayer[]) => void;
+}) {
   const geojsonUrl = resource(dataset, "GEOJSON");
   const wmsUrl = resource(dataset, "WMS");
   const [mode, setMode] = useState<Mode>(geojsonUrl ? "geojson" : "wms");
   const [status, setStatus] = useState("");
   const [tooLarge, setTooLarge] = useState(false);
-  const [legend, setLegend] = useState<WmsLayer[]>([]);
   const container = useRef<HTMLDivElement>(null);
   const loadAnyway = useRef<() => void>(() => {});
   const theme = useSyncExternalStore(watchScheme, () => darkScheme.matches)
@@ -79,7 +86,7 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
   useEffect(() => {
     setStatus("");
     setTooLarge(false);
-    setLegend([]);
+    onLegend([]);
     if (!container.current) return;
     const map = new MaplibreMap({
       container: container.current,
@@ -105,15 +112,16 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
         );
       } else if (wmsUrl) {
         showWms(map, wmsUrl, dataset.layerId, controller.signal)
-          .then(setLegend)
+          .then(onLegend)
           .catch(() => setStatus("Kartendienst nicht erreichbar"));
       }
     });
     return () => {
       controller.abort();
       map.remove();
+      onLegend([]);
     };
-  }, [dataset, mode, geojsonUrl, wmsUrl, theme]);
+  }, [dataset, mode, geojsonUrl, wmsUrl, theme, onLegend]);
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
@@ -136,16 +144,6 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
         ref={container}
         className="min-h-0 flex-1 overflow-hidden rounded-lg"
       />
-      {legend.length > 0 && (
-        <ul className="mt-1.5 max-h-[30%] shrink-0 overflow-y-auto text-[0.8125rem]">
-          {legend.map((layer) => (
-            <li key={layer.name} className="flex items-center gap-2">
-              <img src={layer.legend} alt="" />
-              {legend.length > 1 && layer.title}
-            </li>
-          ))}
-        </ul>
-      )}
     </div>
   );
 }

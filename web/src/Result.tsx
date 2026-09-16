@@ -1,5 +1,6 @@
-import { Suspense } from "react";
-import { DatasetMap, Facts } from "./DatasetPage";
+import { Suspense, useState } from "react";
+import type { WmsLayer } from "./DatasetMap";
+import { DatasetMap, Facts, Legend } from "./DatasetPage";
 import { type Dataset, resource, sortedResources } from "./datasets";
 import { Badges, pill } from "./ui";
 
@@ -14,6 +15,7 @@ export function Result({
   open: boolean;
   onToggle: () => void;
 }) {
+  const [legend, setLegend] = useState<WmsLayer[]>([]);
   return (
     <li className="border-b border-line">
       <div className="group relative py-3">
@@ -53,11 +55,14 @@ export function Result({
             </li>
           </Facts>
           {(resource(dataset, "GEOJSON") || resource(dataset, "WMS")) && (
-            <div className="flex h-[26rem] flex-col">
-              <Suspense fallback={null}>
-                <DatasetMap dataset={dataset} />
-              </Suspense>
-            </div>
+            <>
+              <div className="flex h-[26rem] flex-col">
+                <Suspense fallback={null}>
+                  <DatasetMap dataset={dataset} onLegend={setLegend} />
+                </Suspense>
+              </div>
+              <Legend layers={legend} />
+            </>
           )}
         </div>
       )}

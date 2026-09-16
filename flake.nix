@@ -15,7 +15,9 @@
         {
           default = pkgs.buildGoModule {
             pname = "dresden-opendata-mcp";
-            version = "0.1.0";
+            version = builtins.head (
+              builtins.match ".*const version = \"([^\"]+)\".*" (builtins.readFile ./cmd/server/main.go)
+            );
             src = self;
             subPackages = [ "cmd/server" ];
             vendorHash = "sha256-nkijcLcSCEBOjEo+KipEv8Z9aAKnxT9IjavnnVIPJDI=";

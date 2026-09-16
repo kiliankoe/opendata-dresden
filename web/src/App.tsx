@@ -147,17 +147,21 @@ export default function App() {
               reset();
             }}
           >
-            Dresden Open Data
+            Dresden Open Data Suche
           </a>
         </h1>
         {!openId && (
           <>
-            <p>
+            <p className="text-sm">
               Durchsuche alle {datasets?.length ?? ""} Datensätze des{" "}
               <a href="https://opendata.dresden.de">
                 Open-Data-Portals der Landeshauptstadt Dresden
               </a>
               .
+              <br />
+              Dieses Projekt vereint die Datensätze, ihre Beschreibungen und
+              eine Instant-Suche, damit man schneller das findet, wonach man
+              sucht.
             </p>
             <input
               ref={input}

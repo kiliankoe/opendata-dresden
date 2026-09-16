@@ -3,6 +3,7 @@
 # Binary name
 BINARY=od3
 MAIN=cmd/od3/main.go
+CONFIG=internal/config/config.go
 
 # Build the binary
 build:
@@ -57,7 +58,7 @@ debug:
 release:
 	@test -n "$(VERSION)" || { echo "usage: make release VERSION=x.y.z"; exit 1; }
 	@git diff --quiet HEAD || { echo "working tree is dirty"; exit 1; }
-	sed -i.bak 's/^const version = ".*"/const version = "$(VERSION)"/' $(MAIN) && rm $(MAIN).bak
+	sed -i.bak 's/^const Version = ".*"/const Version = "$(VERSION)"/' $(CONFIG) && rm $(CONFIG).bak
 	sed -i.bak 's/tag: "[^"]*"/tag: "$(VERSION)"/' Formula/od3.rb && rm Formula/od3.rb.bak
 	go test ./...
 	git commit -am "bump version to $(VERSION)"

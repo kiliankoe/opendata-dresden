@@ -12,9 +12,6 @@ import (
 	"github.com/modelcontextprotocol/go-sdk/mcp"
 )
 
-// version is also parsed by flake.nix, keep the declaration on one line.
-const version = "0.2.0"
-
 func main() {
 	ctx := context.Background()
 	cfg := config.LoadConfig()
@@ -30,11 +27,11 @@ func main() {
 
 	server := mcp.NewServer(&mcp.Implementation{
 		Name:    "dresden-opendata",
-		Version: version,
+		Version: config.Version,
 	}, nil)
 	tools.RegisterTools(server, cfg)
 
-	log.Printf("Starting Dresden OpenData MCP server %s...", version)
+	log.Printf("Starting Dresden OpenData MCP server %s...", config.Version)
 	if err := server.Run(ctx, &mcp.StdioTransport{}); err != nil {
 		log.Fatalf("Server error: %v", err)
 	}

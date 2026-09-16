@@ -184,3 +184,13 @@ func TestIndex(t *testing.T) {
 		t.Errorf("index file: err=%v content=%s", err, data)
 	}
 }
+
+func TestVersion(t *testing.T) {
+	fake := portaltest.New(t)
+	for _, args := range [][]string{{"version"}, {"--version"}} {
+		out, err := run(t, fake, args...)
+		if err != nil || out != "od3 "+config.Version+"\n" {
+			t.Errorf("%v: err=%v out=%q", args, err, out)
+		}
+	}
+}

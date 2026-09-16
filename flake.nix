@@ -11,7 +11,7 @@
         buildGoModule {
           pname = "od3";
           version = builtins.head (
-            builtins.match ".*const version = \"([^\"]+)\".*" (builtins.readFile ./cmd/od3/main.go)
+            builtins.match ".*const Version = \"([^\"]+)\".*" (builtins.readFile ./internal/config/config.go)
           );
           src = self;
           subPackages = [ "cmd/od3" ];

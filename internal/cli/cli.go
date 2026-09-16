@@ -22,6 +22,7 @@ const usage = `Usage:
   od3 info <id>                   show a dataset with all its resources
   od3 fetch [flags] <id> <format> download a dataset resource
   od3 index [flags]               snapshot all datasets with their descriptions
+  od3 version                     print the version
 
 Flags of search: --limit N (default 30), --offset N, --output text|json
 Flags of info:   --output text|json
@@ -114,6 +115,10 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 			return err
 		}
 		_, err = fmt.Fprintf(stdout, "%d datasets, %d new or changed\n", len(idx.Datasets), refreshed)
+		return err
+
+	case "version", "--version":
+		_, err := fmt.Fprintln(stdout, "od3", config.Version)
 		return err
 
 	case "help", "-h", "--help":

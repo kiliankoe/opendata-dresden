@@ -209,6 +209,16 @@ input[type="search"]:focus {
   color: var(--muted);
 }
 
+.map-bar .load {
+  font: inherit;
+  color: var(--accent);
+  background: transparent;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.125rem 0.625rem;
+  cursor: pointer;
+}
+
 .modes button {
   font: inherit;
   color: inherit;

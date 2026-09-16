@@ -13,6 +13,10 @@ const DRESDEN: [number, number] = [13.74, 51.05];
 // Layers can hold over a hundred thousand features, so only the visible
 // part of a layer is fetched, capped at this many features
 const FEATURE_LIMIT = 2000;
+// A few layers consist of enormous polygons, where even a capped request
+// runs to tens of megabytes. The server announces no size, so the download
+// is cut off past this many bytes unless the user asks for it.
+const AUTO_BYTES = 10 * 1024 * 1024;
 const COLOR = "#0f766e";
 
 type Mode = "geojson" | "wms";
@@ -22,10 +26,13 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
   const wmsUrl = resource(dataset, "WMS");
   const [mode, setMode] = useState<Mode>(geojsonUrl ? "geojson" : "wms");
   const [status, setStatus] = useState("");
+  const [tooLarge, setTooLarge] = useState(false);
   const container = useRef<HTMLDivElement>(null);
+  const loadAnyway = useRef<() => void>(() => {});
 
   useEffect(() => {
     setStatus("");
+    setTooLarge(false);
     if (!container.current) return;
     const map = new MaplibreMap({
       container: container.current,
@@ -37,7 +44,13 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
     const controller = new AbortController();
     map.on("load", () => {
       if (mode === "geojson" && geojsonUrl) {
-        showFeatures(map, geojsonUrl, controller.signal, setStatus);
+        loadAnyway.current = showFeatures(
+          map,
+          geojsonUrl,
+          controller.signal,
+          setStatus,
+          setTooLarge,
+        );
       } else if (wmsUrl) {
         showWms(map, wmsUrl, dataset.layerId, controller.signal).catch(() =>
           setStatus("Kartendienst nicht erreichbar"),
@@ -72,19 +85,32 @@ export default function DatasetMap({ dataset }: { dataset: Dataset }) {
           </span>
         )}
         <span className="status">{status}</span>
+        {tooLarge && (
+          <button
+            type="button"
+            className="load"
+            onClick={() => loadAnyway.current()}
+          >
+            Trotzdem laden
+          </button>
+        )}
       </div>
       <div ref={container} className="map-canvas" />
     </div>
   );
 }
 
+class TooLargeError extends Error {}
+
 // showFeatures draws the layer's GeoJSON for the current view and reloads it
-// whenever the view changes; features show their attributes on click
+// whenever the view changes; features show their attributes on click. It
+// returns a function that loads the current view without the size cutoff.
 function showFeatures(
   map: MaplibreMap,
   url: string,
   signal: AbortSignal,
   setStatus: (s: string) => void,
+  setTooLarge: (b: boolean) => void,
 ) {
   map.addSource("data", {
     type: "geojson",
@@ -118,6 +144,7 @@ function showFeatures(
   });
 
   let inflight: AbortController | undefined;
+  let unlimited = false;
   const load = async () => {
     inflight?.abort();
     inflight = new AbortController();
@@ -134,9 +161,14 @@ function showFeatures(
     );
     target.searchParams.set("limit", String(FEATURE_LIMIT));
     setStatus("Lade …");
+    setTooLarge(false);
     try {
-      const response = await fetch(target, { signal: inflight.signal });
-      const data = await response.json();
+      const body = await download(
+        target,
+        inflight.signal,
+        unlimited ? Infinity : AUTO_BYTES,
+      );
+      const data = JSON.parse(body);
       (map.getSource("data") as GeoJSONSource).setData(data);
       const n = data.features.length;
       setStatus(
@@ -145,7 +177,10 @@ function showFeatures(
           : `${n} Objekte im Ausschnitt`,
       );
     } catch (e) {
-      if (!(e instanceof DOMException && e.name === "AbortError")) {
+      if (e instanceof TooLargeError) {
+        setStatus("Mehr als 10 MB im Ausschnitt");
+        setTooLarge(true);
+      } else if (!(e instanceof DOMException && e.name === "AbortError")) {
         setStatus("Daten konnten nicht geladen werden");
       }
     }
@@ -178,6 +213,42 @@ function showFeatures(
       .setDOMContent(table)
       .addTo(map);
   });
+
+  return () => {
+    unlimited = true;
+    void load();
+  };
+}
+
+// download reads the response as it arrives and gives up once it exceeds
+// maxBytes, so an oversized layer costs at most that much traffic
+async function download(
+  url: URL,
+  signal: AbortSignal,
+  maxBytes: number,
+): Promise<string> {
+  const response = await fetch(url, { signal });
+  if (!response.body) throw new Error("empty response");
+  const reader = response.body.getReader();
+  const chunks: Uint8Array[] = [];
+  let received = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    chunks.push(value);
+    received += value.length;
+    if (received > maxBytes) {
+      await reader.cancel();
+      throw new TooLargeError();
+    }
+  }
+  const body = new Uint8Array(received);
+  let offset = 0;
+  for (const chunk of chunks) {
+    body.set(chunk, offset);
+    offset += chunk.length;
+  }
+  return new TextDecoder().decode(body);
 }
 
 // showWms overlays the portal's own rendering of the layer. Datasets with a

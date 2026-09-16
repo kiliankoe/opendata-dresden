@@ -1,4 +1,4 @@
-.PHONY: build run test clean install fmt
+.PHONY: build run test test-integration clean install fmt
 
 # Binary name
 BINARY=dresden-opendata-mcp
@@ -16,9 +16,13 @@ run:
 install:
 	go build -o $$(go env GOPATH)/bin/$(BINARY) $(MAIN)
 
-# Run tests
+# Run unit tests
 test:
-	go test -v ./...
+	go test ./...
+
+# Also run the tests that talk to the live portal
+test-integration:
+	go test -tags integration ./...
 
 # Format code
 fmt:

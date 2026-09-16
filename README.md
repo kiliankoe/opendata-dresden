@@ -112,6 +112,8 @@ make build
 
 make test
 
+make test-integration  # also runs tests against the live portal
+
 make fmt
 ```
 

@@ -19,7 +19,7 @@ func RegisterTools(server *mcp.Server, cfg *config.Config) {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "search_datasets",
-		Description: "Search Dresden's OpenData datasets. Every word of the query has to appear in a dataset's title, topics, source or description; results with matches in the title rank first. Use German terms (e.g. 'Straßenbahn' not 'tram'). An empty query lists all datasets. Each dataset lists its resources (CSV, JSON, GeoJSON, WMS, WFS, ...) with their URLs.",
+		Description: "Search Dresden's OpenData datasets and the feature layers of the city's ArcGIS Online organization (portal 'ArcGIS Online'). Every word of the query has to appear in a dataset's title, topics, source, portal or description; results with matches in the title rank first. Use German terms (e.g. 'Straßenbahn' not 'tram'). An empty query lists all datasets. Each dataset lists its resources (CSV, JSON, GeoJSON, WMS, WFS, FeatureServer, ...) with their URLs.",
 	}, SearchDatasets)
 
 	mcp.AddTool(server, &mcp.Tool{
@@ -29,7 +29,7 @@ func RegisterTools(server *mcp.Server, cfg *config.Config) {
 
 	mcp.AddTool(server, &mcp.Tool{
 		Name:        "fetch_dataset",
-		Description: "Download a dataset resource in one of its formats. CSV, JSON and GeoJSON return data; WMS and WFS return the service's capabilities document. Geodata layers return all features unless narrowed by limit or bbox.",
+		Description: "Download a dataset resource in one of its formats. CSV, JSON and GeoJSON return data; WMS and WFS return the service's capabilities document and FeatureServer the layer's description. Geodata layers return all features unless narrowed by limit or bbox.",
 	}, FetchDataset)
 }
 
@@ -70,7 +70,7 @@ func GetDatasetInfo(ctx context.Context, _ *mcp.CallToolRequest, args GetDataset
 // FetchDatasetParams parameters for fetching dataset
 type FetchDatasetParams struct {
 	ID     string `json:"id" jsonschema:"Dataset ID as returned by search_datasets"`
-	Format string `json:"format" jsonschema:"One of the dataset's resource formats, e.g. CSV, JSON, GEOJSON, WFS, WMS"`
+	Format string `json:"format" jsonschema:"One of the dataset's resource formats, e.g. CSV, JSON, GEOJSON, WFS, WMS, FeatureServer"`
 	Limit  int    `json:"limit,omitempty" jsonschema:"Maximum number of features for geodata layers (CSV and GEOJSON)"`
 	BBox   string `json:"bbox,omitempty" jsonschema:"Only return features of geodata layers inside this WGS84 bounding box: minLon,minLat,maxLon,maxLat"`
 }

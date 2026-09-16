@@ -18,8 +18,8 @@ import (
 // run executes a command against the fake portal and an index built from it
 func run(t *testing.T, fake *portaltest.Server, args ...string) (string, error) {
 	t.Helper()
-	cfg := &config.Config{PortalURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
-	idx, _, err := index.Build(context.Background(), portal.NewClient(cfg), &index.Index{})
+	cfg := &config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
+	idx, _, err := index.Build(context.Background(), cfg, &index.Index{})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -57,7 +57,7 @@ func TestSearchPaging(t *testing.T) {
 	if err := json.Unmarshal([]byte(out), &result); err != nil {
 		t.Fatal(err)
 	}
-	if result.Total != 3 || len(result.Datasets) != 2 || result.Datasets[0].ID != "D3" {
+	if result.Total != 4 || len(result.Datasets) != 2 || result.Datasets[0].ID != "a1b2-0" {
 		t.Errorf("unexpected page %+v", result)
 	}
 }
@@ -90,12 +90,12 @@ func TestSearchText(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := `Kaputter Datensatz
+	want := `Haltestellen
+  a1b2-0  updated 17.09.2025  GEOJSON, FeatureServer
+Kaputter Datensatz
   D3  updated 01.01.2020  CSV
-Stadtteil-Wanderwege
-  D1  updated 13.03.2024  CSV, GEOJSON, WFS, Information
 
-2 of 3 datasets
+2 of 4 datasets
 `
 	if out != want {
 		t.Errorf("got:\n%s\nwant:\n%s", out, want)
@@ -176,7 +176,7 @@ func TestIndex(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	if out != "3 datasets, 3 new or changed\n" {
+	if out != "4 datasets, 4 new or changed\n" {
 		t.Errorf("unexpected output %q", out)
 	}
 	data, err := os.ReadFile(file)

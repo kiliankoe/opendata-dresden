@@ -1,6 +1,6 @@
 # Dresden OpenData
 
-A CLI, [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server and [search page](https://kiliankoe.github.io/opendata-dresden/) for [Dresden's OpenData portal](https://opendata.dresden.de). The portal publishes a lot of useful civic data, but finding a fitting dataset is cumbersome. This project snapshots the whole catalog nightly and answers searches from that index, for humans in the browser and for AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) over MCP. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using the MCP server to find a dataset on Dresden's streets.
+A CLI, [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server and [search page](https://kiliankoe.github.io/opendata-dresden/) for [Dresden's OpenData portal](https://opendata.dresden.de). The portal publishes a lot of useful civic data, but finding a fitting dataset is cumbersome. This project snapshots the whole catalog nightly and answers searches from that index, for humans in the browser and for AI agents (or [your toaster](https://worksonmymachine.ai/p/mcp-an-accidentally-universal-plugin)) over MCP. The index also covers the public feature layers of the city's [ArcGIS Online organization](https://stva-dd.maps.arcgis.com), which publishes data the portal lacks, such as road closures, carsharing stations and property market figures. [Here](https://claude.ai/share/41f6ee24-1f5d-4e54-9d34-1645ad55b457)'s an example interaction with Claude using the MCP server to find a dataset on Dresden's streets.
 
 This is a private project and not affiliated with the City of Dresden. The rights to the data stay with their respective holders; each dataset carries its license.
 
@@ -43,9 +43,9 @@ Without arguments `od3` runs the MCP server on stdio. Register it with your clie
 
 The server offers three tools:
 
-- `search_datasets` searches the index. Every word of the query has to appear in a dataset's title, topics, source or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Results carry the dataset's ID and its resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs. `limit` and `offset` paginate.
+- `search_datasets` searches the index. Every word of the query has to appear in a dataset's title, topics, source, portal or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Results carry the dataset's ID and its resources (CSV, JSON, GeoJSON, WMS, WFS, FeatureServer, tables, charts, ...) with their URLs. `limit` and `offset` paginate.
 - `get_dataset_info` returns a dataset with all its resources by ID.
-- `fetch_dataset` downloads one resource by dataset ID and format. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document. Geodata layers return all their features by default. The portal offers no paging, so `limit` and a `bbox` (WGS84 `minLon,minLat,maxLon,maxLat`) are the only ways to narrow a large layer.
+- `fetch_dataset` downloads one resource by dataset ID and format. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document, FeatureServer the layer's description. Geodata layers return all their features by default; ArcGIS layers are collected across the service's result pages. The portal offers no paging, so `limit` and a `bbox` (WGS84 `minLon,minLat,maxLon,maxLat`) are the only ways to narrow a large layer.
 
 You can introspect the server with the [MCP Inspector](https://modelcontextprotocol.io/legacy/tools/inspector).
 
@@ -69,6 +69,8 @@ Two environment variables apply to both the CLI and the server: `REQUEST_TIMEOUT
 ## Dataset index
 
 [`data/index.json`](data/index.json) is a snapshot of every dataset in the portal, refreshed nightly by a GitHub Action. It adds the descriptions from the metadata pages of the geodata layers, which the portal's search does not return; the statistics datasets have no description anywhere. Its git history records how the portal's catalog changes over time.
+
+The ArcGIS Online layers are listed through the site's search API and marked with `"portal": "ArcGIS Online"`. Each layer of a feature service is one dataset, with the layer's REST endpoint as its FeatureServer resource and a query URL as its GeoJSON. Their license field carries the organization's terms-of-use note rather than an open data license.
 
 Search and info answer from this index rather than the portal, whose search has no useful ranking. The binary downloads the index on first use and keeps it in the user's cache directory for a day. Datasets not in the index yet are looked up in the portal. `od3 index` rebuilds the file, fetching details only for new or changed datasets.
 

@@ -13,23 +13,26 @@ import (
 
 func TestBuild(t *testing.T) {
 	fake := portaltest.New(t)
-	client := portal.NewClient(&config.Config{PortalURL: fake.URL})
+	cfg := &config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL}
 	ctx := context.Background()
 
-	idx, refreshed, err := Build(ctx, client, &Index{})
+	idx, refreshed, err := Build(ctx, cfg, &Index{})
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(idx.Datasets) != 3 || refreshed != 3 || fake.InfoRequests != 1 {
+	if len(idx.Datasets) != 4 || refreshed != 4 || fake.InfoRequests != 1 {
 		t.Fatalf("got %d datasets, %d refreshed, %d info requests", len(idx.Datasets), refreshed, fake.InfoRequests)
 	}
 	if got := idx.Datasets[0]; got.ID != "D1" || got.Description == "" || got.Origin == "" {
 		t.Errorf("first dataset = %+v, want described D1", got)
 	}
+	if got := idx.Datasets[3]; got.ID != "a1b2-0" || got.Portal != "ArcGIS Online" {
+		t.Errorf("last dataset = %+v, want the ArcGIS layer", got)
+	}
 
 	// Unchanged datasets keep their details without another page fetch;
 	// only the geodata fixture D1 has a page to fetch at all
-	again, refreshed, err := Build(ctx, client, idx)
+	again, refreshed, err := Build(ctx, cfg, idx)
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -39,7 +42,7 @@ func TestBuild(t *testing.T) {
 
 	// A changed update date invalidates the details
 	idx.Datasets[0].Updated = "01.01.2000"
-	if _, refreshed, err = Build(ctx, client, idx); err != nil || refreshed != 1 || fake.InfoRequests != 2 {
+	if _, refreshed, err = Build(ctx, cfg, idx); err != nil || refreshed != 1 || fake.InfoRequests != 2 {
 		t.Errorf("changed: err=%v %d refreshed, %d info requests", err, refreshed, fake.InfoRequests)
 	}
 }

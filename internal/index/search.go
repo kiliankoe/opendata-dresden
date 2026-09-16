@@ -8,7 +8,7 @@ import (
 )
 
 // Search ranks datasets by how many of the query's words appear in their
-// title, then their topics and source, then their description. Every word
+// title, then their topics, source and portal, then their description. Every word
 // has to match somewhere. An empty query lists all datasets by title.
 func (idx *Index) Search(query string, limit, offset int) *portal.SearchResult {
 	terms := strings.Fields(fold(query))
@@ -46,7 +46,7 @@ func score(ds portal.Dataset, terms []string) (int, bool) {
 		weight int
 	}{
 		{ds.Title, 3},
-		{strings.Join(append(ds.Topics, ds.Source), " "), 2},
+		{strings.Join(ds.Topics, " ") + " " + ds.Source + " " + ds.Portal, 2},
 		{ds.Description + " " + ds.Origin, 1},
 	}
 	total := 0

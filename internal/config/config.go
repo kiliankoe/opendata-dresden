@@ -15,11 +15,17 @@ const Version = "0.2.1"
 // backend lists every dataset together with its published resources.
 const DefaultPortalURL = "https://opendata.dresden.de/informationsportal"
 
+// DefaultArcGISURL is the ArcGIS Online site whose search API lists the items
+// of the city's organization. The organization's own hostname does not
+// scope searches, so the generic site is queried with the organization ID.
+const DefaultArcGISURL = "https://www.arcgis.com"
+
 // DefaultIndexURL is where the nightly index of all datasets is published
 const DefaultIndexURL = "https://raw.githubusercontent.com/kiliankoe/opendata-dresden/main/data/index.json"
 
 type Config struct {
 	PortalURL string
+	ArcGISURL string
 	// IndexURL locates the dataset index, either over HTTP or as a local path
 	IndexURL string
 	// CacheDir keeps a copy of the downloaded index; empty disables caching
@@ -30,6 +36,7 @@ type Config struct {
 func LoadConfig() *Config {
 	cfg := &Config{
 		PortalURL:      DefaultPortalURL,
+		ArcGISURL:      DefaultArcGISURL,
 		IndexURL:       DefaultIndexURL,
 		RequestTimeout: time.Duration(getEnvInt("REQUEST_TIMEOUT_MS", 30000)) * time.Millisecond,
 	}

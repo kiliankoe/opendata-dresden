@@ -1,12 +1,15 @@
 package portal
 
-// Dataset is one entry of the OpenData portal with all its published resources
+// Dataset is one entry of the OpenData portal with all its published
+// resources, or a feature layer of the city's ArcGIS Online organization
 type Dataset struct {
-	ID      string   `json:"id"`
-	Title   string   `json:"title"`
-	Updated string   `json:"updated,omitempty"`
-	Source  string   `json:"source,omitempty"`
-	License string   `json:"license,omitempty"`
+	ID      string `json:"id"`
+	Title   string `json:"title"`
+	Updated string `json:"updated,omitempty"`
+	Source  string `json:"source,omitempty"`
+	License string `json:"license,omitempty"`
+	// Portal names where the dataset comes from; empty means the OpenData portal
+	Portal  string   `json:"portal,omitempty"`
 	Topics  []string `json:"topics,omitempty"`
 	Regions []string `json:"regions,omitempty"`
 	Years   []string `json:"years,omitempty"`

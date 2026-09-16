@@ -9,7 +9,13 @@ import { useEffect, useRef, useState } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
 import workerUrl from "maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url";
 import { type Dataset, resource } from "./datasets";
-import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
+import {
+  AUTO_BYTES,
+  download,
+  isAbort,
+  narrowed,
+  TooLargeError,
+} from "./features";
 
 // MapLibre resolves its worker relative to its own script URL, which bundling
 // loses; this hands it the worker as bundled by Vite
@@ -165,17 +171,13 @@ function showFeatures(
     inflight?.abort();
     inflight = new AbortController();
     signal.addEventListener("abort", () => inflight?.abort());
-    const bounds = map.getBounds();
-    const target = new URL(url);
-    target.searchParams.set(
-      "bbox",
-      bounds
-        .toArray()
-        .flat()
-        .map((n) => n.toFixed(5))
-        .join(","),
-    );
-    target.searchParams.set("limit", String(FEATURE_LIMIT));
+    const bbox = map
+      .getBounds()
+      .toArray()
+      .flat()
+      .map((n) => n.toFixed(5))
+      .join(",");
+    const target = narrowed(url, FEATURE_LIMIT, bbox);
     setStatus("Lade …");
     setTooLarge(false);
     try {

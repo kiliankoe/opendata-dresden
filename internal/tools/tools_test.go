@@ -20,8 +20,8 @@ func connect(t *testing.T) *mcp.ClientSession {
 	ctx := context.Background()
 
 	fake := portaltest.New(t)
-	cfg := &config.Config{PortalURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
-	idx, _, err := index.Build(ctx, portal.NewClient(cfg), &index.Index{})
+	cfg := &config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json")}
+	idx, _, err := index.Build(ctx, cfg, &index.Index{})
 	if err != nil {
 		t.Fatal(err)
 	}

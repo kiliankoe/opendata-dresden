@@ -8,6 +8,7 @@ export interface Dataset {
   updated?: string;
   source?: string;
   license?: string;
+  portal?: string;
   topics?: string[];
   regions?: string[];
   years?: string[];
@@ -59,7 +60,15 @@ export function createSearch(datasets: Dataset[]) {
 
 // resourceOrder puts the formats people can use directly first; the portal
 // lists resources in no particular order
-const resourceOrder = ["GEOJSON", "CSV", "JSON", "WMS", "WFS", "Tabelle"];
+const resourceOrder = [
+  "GEOJSON",
+  "CSV",
+  "JSON",
+  "WMS",
+  "WFS",
+  "FeatureServer",
+  "Tabelle",
+];
 
 export function sortedResources(dataset: Dataset): Resource[] {
   const rank = (r: Resource) => {
@@ -81,6 +90,10 @@ export function updatedTime(dataset: Dataset): number {
   return year ? Date.UTC(year, month - 1, day) : 0;
 }
 
+// portalUrl links the dataset's page at its source. ArcGIS layers are
+// identified by their item's ID and the layer number.
 export function portalUrl(dataset: Dataset): string {
+  if (dataset.portal === "ArcGIS Online")
+    return `https://stva-dd.maps.arcgis.com/home/item.html?id=${dataset.id.split("-")[0]}`;
   return `https://opendata.dresden.de/informationsportal/?open=1&result=${dataset.id}#app/mainpage`;
 }

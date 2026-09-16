@@ -18,7 +18,7 @@ import (
 // counting the downloads
 func indexServer(t *testing.T, fake *portaltest.Server) (*httptest.Server, *int) {
 	t.Helper()
-	idx, _, err := Build(context.Background(), portal.NewClient(&config.Config{PortalURL: fake.URL}), &Index{})
+	idx, _, err := Build(context.Background(), &config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL}, &Index{})
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -47,7 +47,7 @@ func ids(result *portal.SearchResult) []string {
 func TestSearch(t *testing.T) {
 	fake := portaltest.New(t)
 	server, _ := indexServer(t, fake)
-	catalog := NewCatalog(&config.Config{PortalURL: fake.URL, IndexURL: server.URL + "/index.json"})
+	catalog := NewCatalog(&config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL, IndexURL: server.URL + "/index.json"})
 	ctx := context.Background()
 
 	tests := []struct {
@@ -56,14 +56,15 @@ func TestSearch(t *testing.T) {
 		want          []string
 		total         int
 	}{
-		{"", 30, 0, []string{"D2", "D3", "D1"}, 3}, // everything, by title
-		{"", 1, 1, []string{"D3"}, 3},
+		{"", 30, 0, []string{"D2", "a1b2-0", "D3", "D1"}, 4}, // everything, by title
+		{"", 1, 1, []string{"a1b2-0"}, 4},
 		{"wanderwege", 30, 0, []string{"D1"}, 1},
 		{"geborene geschlecht", 30, 0, []string{"D2"}, 1},
 		{"geborene wanderwege", 30, 0, nil, 0},     // all words must match
 		{"Bevoelkerung", 30, 0, []string{"D2"}, 1}, // umlauts fold both ways
 		{"umweltamt", 30, 0, []string{"D1"}, 1},    // source and description count too
 		{"D3", 30, 0, []string{"D3"}, 1},
+		{"arcgis", 30, 0, []string{"a1b2-0"}, 1}, // the portal counts like a topic
 	}
 	for _, tt := range tests {
 		result, err := catalog.Search(ctx, tt.query, tt.limit, tt.offset)
@@ -89,7 +90,7 @@ func TestSearchRanksTitleFirst(t *testing.T) {
 func TestCatalogCache(t *testing.T) {
 	fake := portaltest.New(t)
 	server, downloads := indexServer(t, fake)
-	cfg := &config.Config{PortalURL: fake.URL, IndexURL: server.URL + "/index.json", CacheDir: t.TempDir()}
+	cfg := &config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL, IndexURL: server.URL + "/index.json", CacheDir: t.TempDir()}
 	ctx := context.Background()
 
 	if _, err := NewCatalog(cfg).Search(ctx, "", 1, 0); err != nil || *downloads != 1 {
@@ -113,7 +114,7 @@ func TestCatalogCache(t *testing.T) {
 		t.Fatal(err)
 	}
 	server.Close()
-	if result, err := NewCatalog(cfg).Search(ctx, "", 1, 0); err != nil || result.Total != 3 {
+	if result, err := NewCatalog(cfg).Search(ctx, "", 1, 0); err != nil || result.Total != 4 {
 		t.Errorf("offline load: err=%v result=%+v", err, result)
 	}
 
@@ -125,7 +126,7 @@ func TestCatalogCache(t *testing.T) {
 func TestCatalogGetAndFetch(t *testing.T) {
 	fake := portaltest.New(t)
 	server, _ := indexServer(t, fake)
-	catalog := NewCatalog(&config.Config{PortalURL: fake.URL, IndexURL: server.URL + "/index.json"})
+	catalog := NewCatalog(&config.Config{PortalURL: fake.URL, ArcGISURL: fake.URL, IndexURL: server.URL + "/index.json"})
 	ctx := context.Background()
 
 	ds, err := catalog.Get(ctx, "D1")
@@ -147,5 +148,9 @@ func TestCatalogGetAndFetch(t *testing.T) {
 	data, err := catalog.Fetch(ctx, "D1", "geojson", portal.FetchOptions{Limit: 2})
 	if err != nil || fake.LastQuery != "limit=2" {
 		t.Errorf("Fetch: err=%v data=%q query=%q", err, data, fake.LastQuery)
+	}
+	// ArcGIS layers are fetched from their own service
+	if _, err := catalog.Fetch(ctx, "a1b2-0", "geojson", portal.FetchOptions{Limit: 2}); err != nil || len(fake.LayerQueries) != 1 {
+		t.Errorf("Fetch ArcGIS: err=%v queries=%q", err, fake.LayerQueries)
 	}
 }

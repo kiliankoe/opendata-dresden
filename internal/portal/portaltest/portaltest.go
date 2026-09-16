@@ -1,5 +1,7 @@
-// Package portaltest serves a fake OpenData portal for tests. It answers
-// search requests from three fixture datasets and serves their resources.
+// Package portaltest serves a fake OpenData portal and a fake ArcGIS Online
+// organization for tests. The portal answers search requests from three
+// fixture datasets and serves their resources; the organization has one
+// feature service with a single layer.
 package portaltest
 
 import (
@@ -28,11 +30,21 @@ type Request struct {
 
 type Server struct {
 	*httptest.Server
-	LastSearch     Request // body of the most recent search request
-	SearchRequests int     // number of search requests served
-	LastQuery      string  // raw query string of the most recent OGC items request
-	InfoRequests   int     // number of information page requests served
+	LastSearch     Request  // body of the most recent search request
+	SearchRequests int      // number of search requests served
+	LastQuery      string   // raw query string of the most recent OGC items request
+	InfoRequests   int      // number of information page requests served
+	LayerQueries   []string // raw query strings of the feature layer queries served
 }
+
+// arcgisItems is the ArcGIS Online search result for the organization's
+// feature services
+const arcgisItems = `{"total":1,"start":1,"num":100,"nextStart":-1,"results":[
+ {"id":"a1b2","title":"Haltestellen","type":"Feature Service","owner":"afguk_e1",
+  "modified":1757980800000,"snippet":"Haltestellen des ÖPNV",
+  "description":"<p>Alle <b>Haltestellen</b> in Dresden.</p>","licenseInfo":"<span>Beachten Sie die Nutzungsbedingungen.</span>",
+  "accessInformation":"Landeshauptstadt Dresden","tags":["Dresden"],
+  "url":"{{base}}/rest/services/Haltestellen/FeatureServer"}]}`
 
 // infoPage mimics the metadata page of a geodata layer on kommisdd.dresden.de
 const infoPage = `<html><body><table>
@@ -140,6 +152,29 @@ func New(t *testing.T) *Server {
 	})
 	mux.HandleFunc("/broken", func(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "boom", http.StatusInternalServerError)
+	})
+
+	mux.HandleFunc("/sharing/rest/search", func(w http.ResponseWriter, r *http.Request) {
+		_, _ = w.Write([]byte(strings.ReplaceAll(arcgisItems, "{{base}}", fake.URL)))
+	})
+	mux.HandleFunc("/rest/services/Haltestellen/FeatureServer", func(w http.ResponseWriter, r *http.Request) {
+		_ = json.NewEncoder(w).Encode(map[string]any{"layers": []any{map[string]any{"id": 0, "name": "Haltestellen"}}})
+	})
+	mux.HandleFunc("/rest/services/Haltestellen/FeatureServer/0", func(w http.ResponseWriter, r *http.Request) {
+		_ = json.NewEncoder(w).Encode(map[string]any{"editingInfo": map[string]any{"lastEditDate": 1758067200000}})
+	})
+	// The layer holds two features but hands out one per page, like the
+	// live service does with its transfer limit
+	mux.HandleFunc("/rest/services/Haltestellen/FeatureServer/0/query", func(w http.ResponseWriter, r *http.Request) {
+		fake.LayerQueries = append(fake.LayerQueries, r.URL.RawQuery)
+		feature := func(id int) map[string]any {
+			return map[string]any{"type": "Feature", "id": id, "geometry": map[string]any{"type": "Point", "coordinates": []float64{13.7, 51.0}}, "properties": map[string]any{"Name": "Stop"}}
+		}
+		page := map[string]any{"type": "FeatureCollection", "features": []any{feature(1)}, "properties": map[string]any{"exceededTransferLimit": true}}
+		if r.URL.Query().Get("resultOffset") == "1" {
+			page = map[string]any{"type": "FeatureCollection", "features": []any{feature(2)}}
+		}
+		_ = json.NewEncoder(w).Encode(page)
 	})
 	return fake
 }

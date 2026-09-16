@@ -12,6 +12,7 @@ import (
 	"sync"
 	"time"
 
+	"github.com/kiliankoe/opendata-dresden/internal/arcgis"
 	"github.com/kiliankoe/opendata-dresden/internal/config"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 )
@@ -21,10 +22,11 @@ const maxAge = 24 * time.Hour
 
 // Catalog answers searches and lookups from the index, which is loaded on
 // first use. Datasets the index does not know yet are looked up in the
-// portal, and resources are always fetched from the portal.
+// portal, and resources are always fetched from their source.
 type Catalog struct {
 	cfg    *config.Config
 	client *portal.Client
+	arcgis *arcgis.Client
 
 	mu    sync.Mutex
 	index *Index
@@ -32,7 +34,7 @@ type Catalog struct {
 }
 
 func NewCatalog(cfg *config.Config) *Catalog {
-	return &Catalog{cfg: cfg, client: portal.NewClient(cfg)}
+	return &Catalog{cfg: cfg, client: portal.NewClient(cfg), arcgis: arcgis.NewClient(cfg)}
 }
 
 func (c *Catalog) Search(ctx context.Context, query string, limit, offset int) (*portal.SearchResult, error) {
@@ -56,6 +58,9 @@ func (c *Catalog) Fetch(ctx context.Context, id, format string, opts portal.Fetc
 	ds, err := c.Get(ctx, id)
 	if err != nil {
 		return nil, err
+	}
+	if ds.Portal == arcgis.Portal {
+		return c.arcgis.FetchResource(ctx, ds, format, opts)
 	}
 	return c.client.FetchResource(ctx, ds, format, opts)
 }

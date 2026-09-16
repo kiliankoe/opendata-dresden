@@ -5,6 +5,26 @@ export const AUTO_BYTES = 10 * 1024 * 1024;
 
 export class TooLargeError extends Error {}
 
+// narrowed limits a GeoJSON request to a feature count and bounding box in
+// the dialect of its host: the portal's OGC API, or an ArcGIS feature
+// service, which takes the box as a filter geometry
+export function narrowed(url: string, limit: number, bbox?: string): URL {
+  const target = new URL(url);
+  const arcgis = target.pathname.includes("/FeatureServer/");
+  target.searchParams.set(
+    arcgis ? "resultRecordCount" : "limit",
+    String(limit),
+  );
+  if (bbox && arcgis) {
+    target.searchParams.set("geometry", bbox);
+    target.searchParams.set("geometryType", "esriGeometryEnvelope");
+    target.searchParams.set("inSR", "4326");
+  } else if (bbox) {
+    target.searchParams.set("bbox", bbox);
+  }
+  return target;
+}
+
 export const isAbort = (e: unknown) =>
   e instanceof DOMException && e.name === "AbortError";
 

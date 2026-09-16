@@ -1,6 +1,7 @@
 // Package index builds and reads the snapshot of the portal's datasets that
 // is committed to the repository and refreshed nightly. It adds the
-// descriptions the portal's search does not return.
+// descriptions the portal's search does not return, and the layers of the
+// city's ArcGIS Online organization.
 package index
 
 import (
@@ -11,6 +12,8 @@ import (
 	"slices"
 	"strings"
 
+	"github.com/kiliankoe/opendata-dresden/internal/arcgis"
+	"github.com/kiliankoe/opendata-dresden/internal/config"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"golang.org/x/sync/errgroup"
 )
@@ -59,15 +62,17 @@ func (idx *Index) Write(path string) error {
 	return os.WriteFile(path, append(data, '\n'), 0o644)
 }
 
-// Build lists every dataset of the portal. Details are fetched only for
-// datasets that are new or changed since previous; the others keep theirs.
-// It returns the new index and the number of new or changed datasets.
-func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index, int, error) {
+// Build lists every dataset of the portal and every ArcGIS Online layer.
+// Portal details are fetched only for datasets that are new or changed since
+// previous; the others keep theirs. It returns the new index and the number
+// of new or changed datasets.
+func Build(ctx context.Context, cfg *config.Config, previous *Index) (*Index, int, error) {
 	known := make(map[string]portal.Dataset, len(previous.Datasets))
 	for _, ds := range previous.Datasets {
 		known[ds.ID] = ds
 	}
 
+	client := portal.NewClient(cfg)
 	all, err := client.SearchDatasets(ctx, "", listLimit, 0)
 	if err != nil {
 		return nil, 0, err
@@ -82,6 +87,11 @@ func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index,
 	refreshed := 0
 	group, ctx := errgroup.WithContext(ctx)
 	group.SetLimit(describeWorkers)
+	var layers []portal.Dataset
+	group.Go(func() (err error) {
+		layers, err = arcgis.NewClient(cfg).ListDatasets(ctx)
+		return err
+	})
 	for i := range datasets {
 		ds := &datasets[i]
 		if old, ok := known[ds.ID]; ok && old.Updated == ds.Updated {
@@ -94,6 +104,12 @@ func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index,
 	if err := group.Wait(); err != nil {
 		return nil, 0, err
 	}
+	for _, ds := range layers {
+		if old, ok := known[ds.ID]; !ok || old.Updated != ds.Updated {
+			refreshed++
+		}
+	}
+	datasets = append(datasets, layers...)
 
 	idx := &Index{Datasets: datasets}
 	slices.SortFunc(idx.Datasets, func(a, b portal.Dataset) int { return strings.Compare(a.ID, b.ID) })

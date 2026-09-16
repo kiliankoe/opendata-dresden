@@ -107,7 +107,7 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		if err != nil {
 			return err
 		}
-		idx, refreshed, err := index.Build(ctx, portal.NewClient(cfg), previous)
+		idx, refreshed, err := index.Build(ctx, cfg, previous)
 		if err != nil {
 			return err
 		}
@@ -177,6 +177,7 @@ func writeDatasetText(w io.Writer, ds *portal.Dataset) error {
 		{"Updated", ds.Updated},
 		{"Source", ds.Source},
 		{"License", ds.License},
+		{"Portal", ds.Portal},
 		{"Topics", strings.Join(ds.Topics, ", ")},
 		{"Regions", strings.Join(ds.Regions, ", ")},
 		{"Years", strings.Join(ds.Years, ", ")},

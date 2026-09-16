@@ -1693,6 +1693,23 @@
       ]
     },
     {
+      "id": "092434552f944955b2dd17f5de85cdc4-0",
+      "title": "Frühjahrsmarkt_regionale Produkte und Spezialitäten",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_regionale_Produkte_und_Spezialitäten/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_regionale_Produkte_und_Spezialitäten/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "092519EB-1F9E-4F1C-91A3-3FD65B95646D",
       "title": "Fließgewässer",
       "updated": "28.04.2026",
@@ -3538,6 +3555,42 @@
       ]
     },
     {
+      "id": "0c9d78cd6ed94fdaa65d6f106001c709-0",
+      "title": "Hochwasserschutzanlagen_LTV_3d",
+      "updated": "17.08.2020",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d/FeatureServer/0"
+        }
+      ],
+      "description": "Hochwasserschutzanlagen der Landestalsperrenverwaltung (LTV) 3d. Lage und Höhe angepasst auf Höhenmodell bzw. Wasserstand 924cm am Pegel Dresden, keine wahren Konstruktionshöhen!"
+    },
+    {
+      "id": "0f1d719a9d8948f1be334f7e286d030f-0",
+      "title": "GWE_Marktdaten_DD_Stadtflaeche_Sicht",
+      "updated": "11.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/GWE_Marktdaten_DD_Stadtflaeche_Sicht/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/GWE_Marktdaten_DD_Stadtflaeche_Sicht/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "100AC6CC-340D-4D6B-B4C1-4EBA936DDBDF",
       "title": "Kommunale Gewerbegebiete",
       "updated": "15.09.2020",
@@ -3827,6 +3880,23 @@
       ]
     },
     {
+      "id": "11aa93e98274439c8ced31bfdb7bf00f-0",
+      "title": "Striezelmarkt_regionale Produkte und Spezialitäten",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_regionale_Produkte_und_Spezialitäten/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_regionale_Produkte_und_Spezialitäten/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "121BB93D-2C2F-4554-83E9-3BA1CD450647",
       "title": "Apotheken",
       "updated": "04.02.2026",
@@ -4045,6 +4115,25 @@
       ],
       "description": "In der Landeshauptstadt Dresden wird der Radverkehr seit dem Jahre 1990 im Rahmen der Verkehrszählungen (Querschnitts- und Knotenpunktzählungen) mit erhoben. Insgesamt hatten die Erhebungen exemplarischen Charakter und ließen daher keine kontinuierliche und nachvollziehbare Betrachtung der Entwicklung des Radverkehrsaufkommens im Stadtgebiet zu. Aufgrund der häufig sehr langen Zeitabstände zwischen den Erhebungen waren auch die Ergebnisse an den Einzelstandorten zum Teil nur eingeschränkt verwendbar.\n\nMit dem Beschluss des Stadtrates für eine weitere Verbesserung der städtischen Radverkehrsbedingungen entstand die Anforderung einer dauerhaften Erhebung des Radverkehrs im Stadtgebiet Dresden.\n\nDie Dauerzählstellen liefern Daten zum jahreszeitlichen Verlauf des Radverkehrsaufkommens, und gestatten damit Rückschlüsse auf das jährliche Radverkehrsaufkommen bei Stichprobenzählungen sowie die Ermittlung von Faktoren für Hochrechnungen bei Kurzzeitzählungen.",
       "origin": "Die Verkehrsdaten an den Dauerzählstellen für den Radverkehr werden mittels eines optoelektronischen Sensors an der Fahrradzählstelle erhoben. Bei der Überfahrt eines Fahrzeuges wird anhand einer Logik entschieden, ob es sich um ein Fahrrad handelt oder nicht. Überfahrten anderer Fahrzeuge werden verworfen. Die Anzahl der Fahrradüberfahrten wird richtungsfein gezählt und in der Datenbank des Straßen- und Tiefbauamtes abgelegt."
+    },
+    {
+      "id": "13330ac3b94541bc930a04065715a546-0",
+      "title": "Laufrouten Erlebnisregion",
+      "updated": "25.01.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und Anwendungen hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and applications following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Laufrouten_gesamt/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Laufrouten_gesamt/FeatureServer/0"
+        }
+      ],
+      "description": "Feature Layer \"Laufrouten\" für die Anwendung \"Interaktive Karte der Erlebnisregion Dresden\", unter https://www.erlebnisregion-dresden.de/interaktive-karte.html"
     },
     {
       "id": "136A6552-A342-4199-BD90-D0161020215B",
@@ -4416,6 +4505,23 @@
       ],
       "description": "Die Katasterübersichtskarte (KUEK5) ist ein speziell für Dresden entwickelter Geobasisdatenbestand (Grundlagenkarte) und bildet das Stadtgebiet der Landeshauptstadt Dresden mit Hilfe ausgewählter, zum Teil generalisierter Daten aus dem Amtlichen Liegenschaftskatasterinformationssystem (ALKIS) im Maßstab 1:5.000 ab.\n\nDarstellung der Brücken (ab einer Breite von 1 m) im Stadtgebiet der Landeshauptstadt Dresden.",
       "origin": "Abgeleitete Daten aus der Digitalen Stadtkarte der Landeshauptstadt Dresden."
+    },
+    {
+      "id": "1626c17bdf744d85a62e7db78218d761-0",
+      "title": "Herbstmarkt_Service_Symbole",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Service_Symbole/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Service_Symbole/FeatureServer/0"
+        }
+      ]
     },
     {
       "id": "1654ACF6-75AC-4447-BCBB-7BD563AC82CE",
@@ -6310,6 +6416,78 @@
       "origin": "Öffentlichkeitsarbeit der Träger der Einrichtungen und Sozialamt der Landeshauptstadt Dresden"
     },
     {
+      "id": "1c778feb48084d86bbc4c311797ed542-0",
+      "title": "3D_Visualisierungen_view",
+      "updated": "19.03.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/3D_Visualisierungen_view/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/3D_Visualisierungen_view/FeatureServer/0"
+        }
+      ],
+      "description": "3D-Visualisierungen"
+    },
+    {
+      "id": "1d2657ab2ba5471697293e2fb22b025b-0",
+      "title": "Herbstmarkt_Newcomerhuette",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Newcomerhuette/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Newcomerhuette/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "1d53caf5130c4e23b7e012a8ae1b2373-0",
+      "title": "Hochwassermarken_LHD_View1",
+      "updated": "14.04.2020",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwassermarken_LHD_View1/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwassermarken_LHD_View1/FeatureServer/0"
+        }
+      ],
+      "description": "Es werden Standorte von Hochwassermarken angezeigt. Durch Anklicken der Punkte gelangt man zu Fotos der einzelnen Objekte, die durch Aufnahmen vergangener Hochwasserereignisse im näheren Umfeld des jeweiligen Standortes ergänzt werden. Eine weiterführende Beschreibung liegt zum Download bereit: Erläuterungen abrufen"
+    },
+    {
+      "id": "2008f585e18a474fae061da34d93febc-1",
+      "title": "Bäckerei_exp",
+      "updated": "30.04.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Bäckerei_exp/FeatureServer/1/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Bäckerei_exp/FeatureServer/1"
+        }
+      ],
+      "description": "Bäckerei"
+    },
+    {
       "id": "2032042D-BDC8-46C9-B37A-8EFA78E027A5",
       "title": "Zentren",
       "updated": "15.06.2023",
@@ -6886,6 +7064,23 @@
       "origin": "Die Daten stammen von der Landeshauptstadt Dresden."
     },
     {
+      "id": "241f9e8d837a4f6b85233a7058d5e9c0-0",
+      "title": "Umfrage Gebäudedaten_form",
+      "updated": "09.11.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/survey123_1663ff53faa9409ea2c5ed4ba3ce368f_form/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/survey123_1663ff53faa9409ea2c5ed4ba3ce368f_form/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "2452566B-4109-4ECE-A381-5BF3B223A655",
       "title": "Tourismus nach Gästeherkunft (endgültige Jahreswerte)",
       "updated": "18.05.2026",
@@ -7117,6 +7312,58 @@
       ],
       "description": "Darstellung des Standortes der Regenrückhaltebecken, die in Oberflächengewässer zweiter Ordnung einleiten, als Punkt. Dabei werden die RRB unterschieden in ober- und unterirdische Becken.\nZu den einzelnen RRB werden, soweit vorhanden, Sachdaten wie eindeutige Bezeichnung, Lagebeschreibung, Bauart, maximales Einstauvolumen in m³, maximaler Drosselabfluss in l/s für das Bemessungsereignis, Gewässer, in das eingeleitet wird, Jahr der Inbetriebnahme, Betreiber, Aktenzeichen der Planfeststellung und Aktenzeichen im Umweltamt zur Verfügung gestellt. Oft ist auch ein Foto vorhanden. Grundlage für die Sachdaten sind in der Regel Betreiberangaben.",
       "origin": "Umweltamt Dresden"
+    },
+    {
+      "id": "24ab0b886fe14b068873021b4d1fd615-0",
+      "title": "Frühjahrsmarkt_Service_Symbole",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Service_Symbole/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Service_Symbole/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "24b371bbfb024804af5eeb8295822587-0",
+      "title": "Haltestellen_p",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Haltestellen_p/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Haltestellen_p/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "24b5b337670e4b20a4170196ecc4b665-2",
+      "title": "3D_Objekte",
+      "updated": "02.05.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/3D_Objekte/FeatureServer/2/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/3D_Objekte/FeatureServer/2"
+        }
+      ],
+      "description": "3D_Objekte"
     },
     {
       "id": "252C3C08-1C14-4FE1-B952-2F2C2929365B",
@@ -9440,6 +9687,23 @@
       "origin": "Landeshauptstadt Dresden, Umweltamt"
     },
     {
+      "id": "316a9263f3fb4cde9661d3b1023e41f7-0",
+      "title": "Striezelmarkt_Fluchtwege_f",
+      "updated": "08.01.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Fluchtwege_f/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Fluchtwege_f/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "3184F463-9745-428B-8BCC-AC6B1E64D333",
       "title": "Flächen für Landwirtschaft usw. 2022",
       "updated": "06.04.2022",
@@ -11325,6 +11589,24 @@
       "origin": "Amt für Kultur und Denkmalschutz der Landeshauptstadt Dresden, Städtische Bibliotheken Dresden und Öffentlichkeitsarbeit anderer Anbieter"
     },
     {
+      "id": "39ebde46096d4cc0813beef87fe01ae1-0",
+      "title": "Schule_exp",
+      "updated": "29.04.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Schule_exp/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Schule_exp/FeatureServer/0"
+        }
+      ],
+      "description": "Schule"
+    },
+    {
       "id": "3A580563-B18F-443C-B62A-EEFCB4DF1955",
       "title": "Bodenrichtwerte - Satzungen 2009",
       "updated": "01.01.2009",
@@ -12482,6 +12764,23 @@
       "origin": "Brand- und Katastrophenschutzamt der Landeshauptstadt Dresden"
     },
     {
+      "id": "3e621c9851264b1481bb78b8546d9453-0",
+      "title": "GWE Stadtteile Marktdaten Sicht",
+      "updated": "15.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/GWE_Stadtteile_Marktdaten_Sicht/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/GWE_Stadtteile_Marktdaten_Sicht/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "40021E16-7C7D-4BCB-9F1C-9E2C9C4D668A",
       "title": "Lehrpfade",
       "updated": "15.10.2024",
@@ -13472,6 +13771,23 @@
       "origin": "Die Daten stammen aus einer Datensammlung aus dem Infoportal Barrierefreiheit des Amts für Stadtplanung und Mobilität der Landeshauptstadt Dresden."
     },
     {
+      "id": "453e7770135b4851bb6184cecb637dd4-0",
+      "title": "Frühjahrsmarkt_regionales Handwerk und Kunsthandwerk",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "454FF8BC-1622-4C2A-9100-7338F004FCCE",
       "title": "Planen \u0026 Bauen",
       "updated": "15.04.2025",
@@ -14006,6 +14322,23 @@
       "origin": "Die dargestellten Daten wurden durch das Sächsischen Landesamtes für Umwelt, Landwirtschaft und Geologie (LfULG) für die Verifizierung des Luftreinhalteplanes 2011 für die Landeshauptstadt Dresden im Jahr 2017 berechnet und zur Verfügung gestellt."
     },
     {
+      "id": "47d18faa72dd43429b6a434916ccbd25-0",
+      "title": "Herbstmarkt_regionale Produkte und Spezialitäten",
+      "updated": "12.08.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Weitere_Sortimente/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Weitere_Sortimente/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "485ED5AD-C62F-49A3-8336-8BAA79D16066",
       "title": "Bodenfunktionen",
       "updated": "28.10.2024",
@@ -14172,6 +14505,23 @@
       ],
       "description": "Die Basisblockkarte (BBK) ist ein speziell für Dresden entwickelter Geobasisdatenbestand (Grundlagenkarte) der die klein- und grobräumige Gliederung des Stadtgebietes der Landeshauptstadt Dresden in sogenannte Brutto-/Nettoblöcke abbildet. Ausgehend von Straßenkanten des Straßenknotennetzes 1:5000 (SKN5), Gemarkungsgrenzen und ausgewählten Gewässern (Elbe und stehende Gewässer größer 10000 m²) sowie Trennlinien (z. B. Grenze eines Bahngeländes) erfolgt die Bildung der einzelnen Blöcke nach administrativen, statistischen und siedlungsstrukturellen Gesichtspunkten.\n\nSeit 1992 ist das Dresdner Stadtgebiet für statistische, stadtplanerische und verwaltungstechnische Zwecke hierarchisch in Stadtbezirke (ehemals Ortsämter). Die weitere Unterteilung erfolgt in Stadtteile. Infolge der Eingemeindungen von 1997 und 1999 entstanden neben den Stadtbezirken noch neun weitere Ortschaften, denen sieben neue Stadtteile zugeordnet wurden.",
       "origin": "Die Daten werden gemeinschaftlich vom Amt für Geodaten und Kataster sowie Bürgeramt, Kommunale Statistikstelle der Landeshauptstadt Dresden erfasst."
+    },
+    {
+      "id": "493c4f40de254599ab251d3111d69503-0",
+      "title": "Striezelmarkt_Newcomerhütte",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Newcomerhütte/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Newcomerhütte/FeatureServer/0"
+        }
+      ]
     },
     {
       "id": "49653200-570C-4B40-BC24-5BF7C70698BB",
@@ -15604,6 +15954,23 @@
       "origin": "Die Daten stammen von der Landeshauptstadt Dresden."
     },
     {
+      "id": "4e32f3027eed45e6b53e481214e04d38-0",
+      "title": "Striezelmarkt_Sonstige Waren",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Sonstige_Waren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Sonstige_Waren/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "500E75F0-EBA0-4623-BE01-21B064D687DF",
       "title": "Verkehrsnetz - Autobahnen, Straßen, Wege, Brücken und Tunnel",
       "updated": "22.05.2026",
@@ -15875,6 +16242,23 @@
       ],
       "description": "Etwa jeder zehnte Bürger der Landeshauptstadt Dresden lebt mit einer Behinderung. Für diese Menschen ist es wichtig, dass sie ihren Alltag weitgehend selbstständig und selbstbestimmt meistern können. Dazu bedarf es der barrierefreien Stadt.",
       "origin": "Öffentlichkeitsarbeit der Träger der Einrichtungen und Sozialamt der Landeshauptstadt Dresden"
+    },
+    {
+      "id": "51bff0a1d3cb44bfb536f9c326bf7321-0",
+      "title": "Frühjahrsmarkt_Imbiss, Süßwaren und Ausschank",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Imbiss_Süßwaren_Ausschank/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Imbiss_Süßwaren_Ausschank/FeatureServer/0"
+        }
+      ]
     },
     {
       "id": "52A108FD-59FA-4EC8-A750-48099FA19BB5",
@@ -16773,6 +17157,25 @@
       "origin": "Schulverwaltungsamt der Landeshauptstadt Dresden"
     },
     {
+      "id": "55f81d28fc0448c4ae8579f666dad94d-0",
+      "title": "Pegel_Augustusbruecke_shp",
+      "updated": "25.04.2025",
+      "source": "Landeshochwasserzentrum Sachsen, WSV",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!) © Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie und Wasserstraßen- und Schifffahrtsverwaltung des Bundes LHWZ-Webportal",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Pegel_Augustusbruecke_shp/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Pegel_Augustusbruecke_shp/FeatureServer/0"
+        }
+      ],
+      "description": "Link auf den Live-Wasserstand am Pegel Dresden Augustusbrücke. weitere Informationen: LHWZ-Webportal © Sächsisches Landesamt für Umwelt, Landwirtschaft und Geologie und Wasserstraßen- und Schifffahrtsverwaltung des Bundes"
+    },
+    {
       "id": "5610B8C2-0B13-4CE4-8433-5B11C048F870",
       "title": "Flughafen",
       "updated": "24.04.2025",
@@ -17010,6 +17413,23 @@
         {
           "format": "JSON",
           "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-gewerbe_verarbeitendes__md_2008ff_dd_wz_08-hauptgruppen_________betriebe_beschaeftigte_entgelte_umsaetze_betr_ab_20_besch_endgueltjahreswerte/content.json"
+        }
+      ]
+    },
+    {
+      "id": "56c2a5e8b00e4d14a095f23b157552bc-0",
+      "title": "Herbstmarkt_regionales Handwerk und Kunsthandwerk",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0"
         }
       ]
     },
@@ -19344,6 +19764,59 @@
       "origin": "Die Daten stammen von der Dresdner Verkehrsbetriebe (DVB) AG."
     },
     {
+      "id": "5e8aa6079b7543799aa269551ff230cf-0",
+      "title": "Frühjahrsmarkt Hütten",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Hütten/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Hütten/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "5f28a3da35ef4f83a9523206dc9dfe58-0",
+      "title": "Herbstmarkt Hütten",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Hütten/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Hütten/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "5ff3eba8ee27469c8d54095af6f1a5c9-0",
+      "title": "Tour_3D_Bilder_und_Punkte",
+      "updated": "20.12.2017",
+      "source": "Amt für Geodaten und Kataster",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Tour_3D_Bilder_und_Punkte/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Tour_3D_Bilder_und_Punkte/FeatureServer/0"
+        }
+      ],
+      "description": "Test Layer mit Links zu 3D-Visualisieungen als Video auf YouTube. Basis für die Test-Storymap \"Übersicht 3D-Szenen Dresden\" und auch eingebunden in die 3D-WebSzenen"
+    },
+    {
       "id": "603A0A96-7C26-473A-BCA2-40E54655155F",
       "title": "Wahlbezirke - Landtagswahl 2019",
       "updated": "02.08.2019",
@@ -19596,6 +20069,23 @@
       ],
       "description": "Im Infoportal-Barrierefreiheit sind Einrichtungen mit öffentlicher Nutzung hinsichtlich ihrer:\n- barrierefreien Zugänglichkeit und Erreichbarkeit\n- der Ausstattung mit barrierefreien Toiletten und deren Beschaffenheit\n- der Ausstattung mit technischen Hilfsmitteln für Menschen mit Behinderungen\n- besonderen Angeboten und Leistungen für Menschen mit Behinderung erfasst.\nFür jede erfasste Einrichtung gibt es detaillierte Information, die jeweils auf einer eigenen Webseite zusammengefasst sind. Alle Informationen stehen in drei Sprachen (DE, CS und EN) zur Verfügung.\nDas Infoportal hat eine eigene Webseite unter www.dresden.de/dabeisein. Dort gibt es für Nutzende eine erweiterte Suchfunktion.\nDarüber hinaus ist die Datenerfassung nach einmaliger Registrierung für jedermann möglich (Schaltfläche \u003cMitmachen\u003e im Infoportal). Es gibt eine Videoanleitung, die die Datenaufnahme erklärt. Veröffentlicht werden die von anderen Nutzenden selbst erfassten Einrichtungen in der Regel nur nach einer Überprüfung vor Ort.\nDie meisten enthaltenen Einrichtungen wurden von einem Dienstleister im Rahmen des über INTERREG geförderten Projektes \"Das böhmisch sächsische Grenzgebiet barrierefrei\" aufgenommen. Über das Projekt wurde auch die Softwareentwicklung finanziert, die der Eigenbetrieb IT der Landeshauptstadt Dresden umgesetzt hat.",
       "origin": "Die Daten stammen aus einer Datensammlung aus dem Infoportal Barrierefreiheit des Amts für Stadtplanung und Mobilität der Landeshauptstadt Dresden sowie aus Daten der Tourismus- und Marketinggesellschaft Sachsen (Unterkünfte und Hotels)."
+    },
+    {
+      "id": "6179f90687f94c4493c617acadc14652-0",
+      "title": "Striezelmarkt_Hütten",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Hütten/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Hütten/FeatureServer/0"
+        }
+      ]
     },
     {
       "id": "61B6242E-E628-4AD1-BC14-3B35B5E2BC5A",
@@ -20063,6 +20553,23 @@
       ]
     },
     {
+      "id": "63aff8951ccf42b7b76aaf6a426eac89-0",
+      "title": "Striezelmarkt_regionale Produkte und Speisen",
+      "updated": "11.11.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/regional Produkte und Speisen/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/regional Produkte und Speisen/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "64A6F62D-A429-463F-89E9-6A3F8480D229",
       "title": "Bodenrichtwertzonen 2015 - Beschriftung",
       "updated": "17.04.2015",
@@ -20288,6 +20795,25 @@
       ],
       "description": "Die vorliegende Vegetationsstruktur des Grünvolumens basiert auf einem Zwischenergebnis aus dem durch das Leibniz-Institut für ökologische Raumentwicklung e.V. (IÖR) erstellten Gutachten \"Grünvolumenbestimmung der Stadt Dresden auf der Grundlage von Laserscandaten\" vom August 2014. Dieses ist unter dem zugeordneten Dokument einsehbar.\n\nEinleitung:\nStädtisches Grün ist aus stadtökologischer und sozialer Sicht unverzichtbar und erfüllt wichtige Funktionen wie Staubbindung, Temperaturminderung, Winddämpfung oder Grundwasserneubildung. Darüber hinaus bilden öffentliche Grünanlagen Oasen der Ruhe, die der Erholung, Freizeitgestaltung und Kommunikation dienen und wichtige soziale Funktionen erfüllen.\n\nDie ökologische Wirksamkeit des städtischen Grüns ist im besonderen Maße von der vorliegenden Vegetionsstruktur abhängig. So besitzt niedrige Vegetation (Rasen und Wiesen) vor allem in den Abend- und Nachtstunden eine abkühlende Wirkung, während hohe Vegetation (mittlere bis große Bäume) vorwiegend am Tag zu einer Absenkung der klimatischen Belastung beiträgt, aber zugleich die Belüftung negativ beeinträchtigen kann. Mittlere Vegetation (Sträucher, Stauden, Hecken und kleine Bäume) verfügt ebenso wie die hohe Vegetation über ein hohes Maß an Staubbindevermögen aus der Luft, während niedrige Vegetation vorwiegend Staub- und Gasteile aus den Niederschlägen bindet und aufgrund der hohen Versickerungsleistung einen großen Anteil zur Grundwasserneubildung beiträgt (siehe auch Metadaten zur Planungshinweiskarte Stadtklima).\n\nHintergrund:\nFür die Grünvolumenbestimmung war es zwingend erforderlich, Vegetation von anthropogenen Objekten mit einer relevanten Höhe über dem Boden, wie Gebäuden, Laternen, Fahrzeugen etc. zu trennen. Gleichzeitig war für die Anwendung der Kronenformkorrektur (nur auf Laubbäume) und des pauschalen Aufschlages für Rasen und Ackerflächen eine weitere Differenzierung nach Vegetationstypen erforderlich. Folgende Vegetationstypen sollten voneinander getrennt werden:\n- Laubbaum\n- Nadelbaum\n- Sträucher\n- Rasen\n- Acker.\n\nDatengrundlage/Methodik:\nGrundlage der Bestimmung der Vegetationsstruktur (als Zwischenergebnis der Grünvolumenbestimmung) sind Laserscandaten, RGBI-Bilddaten sowie Gebäudedaten.\n\n\nKlassifizierung der Vegetationsstruktur des Grünvolumens:\n- Value 0: vegetationslos =\u003e (farblos oder weiß)\n- Value 1: Laubbaum =\u003e (grün)\n- Value 2: Nadelbaum =\u003e (dunkelgrün)\n- Value 3: Sträucher =\u003e (braungrün)\n- Value 4: Rasen, Wiesen und sonstige niedrige Vegetation =\u003e (gelbgrün/hellgrün)\n- Value 5: Acker =\u003e (gelbgrün/hellgrün)",
       "origin": "Die Vegetationsstruktur des Grünvolumen basiert auf einem Zwischenergebnis aus dem durch das Leibniz-Institut für ökologische Raumentwicklung e.V. (IÖR) erstellten Gutachten."
+    },
+    {
+      "id": "6529a1275253425bbc793957026e4fdc-0",
+      "title": "Ferdinandplatz_Parkplatzflaeche",
+      "updated": "11.06.2025",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Ferdinandplatz_Parkplatzflaeche/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Ferdinandplatz_Parkplatzflaeche/FeatureServer/0"
+        }
+      ],
+      "description": "einfaches Polygon zum Überlagern der Parkplatzfläche Ferdinandplatz"
     },
     {
       "id": "658E233F-E235-4290-B31C-8F24915A5CF2",
@@ -22470,6 +22996,23 @@
       "origin": "Hergestellt aus den Luftbildern der Bildflüge vom:\n25.03.2012: Digital Mapping Camera II 230, ca. 1700 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung\n30.03.2021: Digital Mapping Camera III, ca. 2240 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung\n11.03.2022: Digital Mapping Camera III, ca. 2240 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung"
     },
     {
+      "id": "6dcf9a0aab584b64a54136871dbb3093-0",
+      "title": "Striezelmarkt_Service_Symbole",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Service_Symbole/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Service_Symbole/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "702F0653-D023-49AB-9B33-52F4E8F35FD2",
       "title": "Geborene nach Geschlecht 1999 - 2012",
       "updated": "15.07.2025",
@@ -23473,6 +24016,23 @@
         {
           "format": "Säulen-/Balkendiagramm",
           "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Bev%C3%B6lkerung/Bev%C3%B6lkerung%20nach%20Hauptwohner,%20Deutsche-Ausl%C3%A4nder,%20Wohndauer_2017_DIABALK"
+        }
+      ]
+    },
+    {
+      "id": "747b7fd1a8f34e4ab11d58f89f5c011f-0",
+      "title": "Frühjahrsmarkt_Sonstige Waren",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Sonstige_Waren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Sonstige_Waren/FeatureServer/0"
         }
       ]
     },
@@ -25972,6 +26532,23 @@
       "origin": "Die Daten stammen vom Amt für Stadtplanung und Mobilität der Landeshauptstadt Dresden."
     },
     {
+      "id": "7e4b61c72f8248d9b572d1cb102724e9-0",
+      "title": "Herbstmarkt_Imbiss, Süßwaren und Ausschank",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Süßwaren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Süßwaren/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "803660BD-6CEE-4AA3-8044-03684C510446",
       "title": "Migration \u0026 Asyl",
       "updated": "24.08.2018",
@@ -26423,6 +27000,24 @@
       ],
       "description": "1890 - Scheitel: 06./07.09.1890, Durchfluss ca. 4.350 m³/s, Wasserstand von 8,37 m am Pegel Dresden\nQuelle:\nDie Darstellungen wurden nach GIS-technischer Auswertung historischer Kartenwerke durch das Institut für ökologische Raumentwicklung i. A. des Umweltamtes im Januar 2003 angefertigt und stehen nur als georeferenzierte Vektordaten zur Verfügung.",
       "origin": "Institut für ökologische Raumentwicklung"
+    },
+    {
+      "id": "832e1737be1e43dfbf3e0ba1fb1be4c7-0",
+      "title": "Erlebnisregion - Freizeit und Veranstaltungsorte",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Erlebnisregion_p/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Erlebnisregion_p/FeatureServer/0"
+        }
+      ],
+      "description": "Überblick Dieser Feature Service stellt eine umfassende Sammlung von Informationen über Freizeit- und Veranstaltungsorte innerhalb der Erlebnisregion Dresden bereit. Er dient dazu, verschiedene Einrichtungen und Angebote zu kategorisieren und detaillierte Kontaktdaten bereitzustellen, um Nutzern die Orientierung und Planung von Aktivitäten zu erleichtern. Feature Layer Erlebnisregion_p : Dieser Layer enthält Punktdaten zu einzelnen Freizeit- und Veranstaltungseinrichtungen. Die Informationen umfassen neben dem Namen auch die Art der Einrichtung, die jeweilige Kategorie, Kontaktdaten wie Adresse, Telefon und E-Mail sowie eine zugehörige Website. Darüber hinaus wird der Träger der Einrichtung angegeben, was Einblicke in Organisations- und Verwaltungsstrukturen ermöglicht. Geographische Abdeckung Der Dienst deckt eine spezifische Erlebnisregion ab, wobei der genaue geografische Umfang durch die Punkte im Layer definiert wird. Die Zusammenstellung erlaubt es, lokal relevante Freizeitangebote übersichtlich darzustellen. Anwendungsbereiche Touristische Planung und Information Nutzung durch Kommunen zur Darstellung regionaler Freizeitangebote Unterstützung von Veranstaltungsmanagement und Freizeitgestaltung"
     },
     {
       "id": "83329DB3-AA6C-4097-A852-93C3226F0557",
@@ -28712,6 +29307,23 @@
       ]
     },
     {
+      "id": "8aa5d84141314410aaaa2fd8321ed7df-0",
+      "title": "Striezelmarkt_regionales Handwerk und Kunsthandwerk",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_regionales_Handwerk_und_Kunsthandwerk/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "90534AD8-53B1-4706-B00B-B71DDD93ABCF",
       "title": "Gefährdungspotenzial Überschwemmung durch Starkregen",
       "updated": "29.11.2024",
@@ -29255,6 +29867,240 @@
       ]
     },
     {
+      "id": "92a51dd79f3d449cb28538701992dd73-0",
+      "title": "Dresdner Friedhöfe - historische Gräber",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/0"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-1",
+      "title": "Dresdner Friedhöfe - Symbole",
+      "updated": "30.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/1/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/1"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-10",
+      "title": "Dresdner Friedhöfe - Grabfelder",
+      "updated": "28.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/10/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/10"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-11",
+      "title": "Dresdner Friedhöfe - sonstige Flächen",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/11/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/11"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-12",
+      "title": "Dresdner Friedhöfe - Straßen",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/12/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/12"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-13",
+      "title": "Dresdner Friedhöfe - Friedhofsfläche",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/13/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/13"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-2",
+      "title": "Dresdner Friedhöfe - Haltestellen Dresden",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/2/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/2"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-3",
+      "title": "Dresdner Friedhöfe - Friedhofsgebäude",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/3/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/3"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-4",
+      "title": "Dresdner Friedhöfe - Friedhofsumrandung",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/4/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/4"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-5",
+      "title": "Dresdner Friedhöfe - sonstige Linien",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/5/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/5"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-6",
+      "title": "Dresdner Friedhöfe - Treppen",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/6/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/6"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-8",
+      "title": "Dresdner Friedhöfe - Grabfelder KO04 bis 1:1000",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/8/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/8"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
+      "id": "92a51dd79f3d449cb28538701992dd73-9",
+      "title": "Dresdner Friedhöfe - Grabfelder KO04 ab 1:1001",
+      "updated": "22.05.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/9/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe_gesamt/FeatureServer/9"
+        }
+      ],
+      "description": "alle Dresdner Friedhöfe"
+    },
+    {
       "id": "93044F1C-D592-495C-BDB6-694B6876E5AD",
       "title": "SGB II-Empfänger und Bedarfsgemeinschaften - Quartalszahlen (seit 2018)",
       "updated": "15.07.2026",
@@ -29591,6 +30437,23 @@
       "origin": "Grundwasserüberwachung Frühjahrshochwasser 2006, ARGE UBV/DGC,2006"
     },
     {
+      "id": "944bff24202f4fc096176bccbd6e2149-0",
+      "title": "Frühjahrsmarkt_Dresdner Stollen",
+      "updated": "21.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Dresdner_Stollen/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Dresdner_Stollen/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "949B9062-4158-4F43-ABB4-ED84E6C7AD0F",
       "title": "Biotoptypenkartierung - Flächenelemente",
       "updated": "24.03.2026",
@@ -29788,6 +30651,23 @@
         {
           "format": "CSV",
           "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-einwohner_geborene_md13_2017_od_bevoelkerung_ab_stadtbezirk_mit_zugeordneten_ortschaften_geschlecht/content.csv"
+        }
+      ]
+    },
+    {
+      "id": "959520ec470548d9846e2b0b1a2d942b-0",
+      "title": "Herbstmarkt_Souvenirs",
+      "updated": "04.10.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Souvenirs/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Souvenirs/FeatureServer/0"
         }
       ]
     },
@@ -30279,6 +31159,23 @@
       ]
     },
     {
+      "id": "9793cdb27e6040f78a47d48b68ffceae-0",
+      "title": "Carsharing_p",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Carsharing_p/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Carsharing_p/FeatureServer/0"
+        }
+      ]
+    },
+    {
       "id": "981A318A-F23B-4429-A9EA-253136FAAB00",
       "title": "Bevölkerung - Bewegung - Binnenwanderung (bezogen auf Dresdner Basiswohnung) 2019",
       "updated": "15.07.2025",
@@ -30704,6 +31601,23 @@
         {
           "format": "JSON",
           "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-einwohner_-_haushalte_md23e_2020_od_bevoelkerung_ab_stadtteil_haushalt-groesse_in_5_klassen/content.json"
+        }
+      ]
+    },
+    {
+      "id": "997089f29b9f4f5f8fed19f649dece02-0",
+      "title": "Striezelmarkt_Barrierefreiheit_f",
+      "updated": "06.01.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Barrierefreiheit/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Barrierefreiheit/FeatureServer/0"
         }
       ]
     },
@@ -32058,6 +32972,44 @@
       ],
       "description": "Darstellung des Gebietes, das die Stadtteile Wilsdruffer Vorstadt, Seevorstadt und Pirnaische Vorstadt im Stadtbezirk Altstadt auf der südlichen Elbseite sowie die Innere Neustadt auf der nördlichen Elbseite der Landeshauptstadt Dresden umfasst. Die Bezeichnung \"26er-Ring\" leitet sich von der historischen Straßenbahnringlinie 26 ab, die erstmals 1904 eingerichtet wurde. Der Name \"26er-Ring\" hat sich im Dresdner Sprachgebrauch erhalten und wird häufig für die Abgrenzung der Innenstadt genutzt.",
       "origin": "Die Daten stammen aus einer Auskunft der Kommunalen Statistikstelle der Landeshauptstadt Dresden."
+    },
+    {
+      "id": "9ae715db5a6e4b2aa212b6c43a5d670a-0",
+      "title": "Radrouten Erlebnisregion",
+      "updated": "02.02.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und Anwendungen hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and applications following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Radrouten_gesamt/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Radrouten_gesamt/FeatureServer/0"
+        }
+      ],
+      "description": "Feature-Layer \"Radrouten\" für die Anwendung \"Interaktive Karte der Erlebnisregion Dresden\", unter https://www.erlebnisregion-dresden.de/interaktive-karte.html"
+    },
+    {
+      "id": "9b419e12401c4193b5fca481942c2646-0",
+      "title": "Ferdinandplatz_Fahrzeuge_PublicView",
+      "updated": "03.01.2022",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Ferdinandplatz_Fahrzeuge_PublicView/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Ferdinandplatz_Fahrzeuge_PublicView/FeatureServer/0"
+        }
+      ],
+      "description": "Fahrzeuge Ferdinandplatz zur Belebung der 3D Szene"
     },
     {
       "id": "A06C0C4B-3C27-4DC5-AEA1-488AEA5B4069",
@@ -50373,6 +51325,644 @@
       ],
       "description": "Im Infoportal-Barrierefreiheit sind Einrichtungen mit öffentlicher Nutzung hinsichtlich ihrer:\n- barrierefreien Zugänglichkeit und Erreichbarkeit\n- der Ausstattung mit barrierefreien Toiletten und deren Beschaffenheit\n- der Ausstattung mit technischen Hilfsmitteln für Menschen mit Behinderungen\n- besonderen Angeboten und Leistungen für Menschen mit Behinderung erfasst.\nFür jede erfasste Einrichtung gibt es detaillierte Information, die jeweils auf einer eigenen Webseite zusammengefasst sind. Alle Informationen stehen in drei Sprachen (DE, CS und EN) zur Verfügung.\nDas Infoportal hat eine eigene Webseite unter www.dresden.de/dabeisein. Dort gibt es für Nutzende eine erweiterte Suchfunktion.\nDarüber hinaus ist die Datenerfassung nach einmaliger Registrierung für jedermann möglich (Schaltfläche \u003cMitmachen\u003e im Infoportal). Es gibt eine Videoanleitung, die die Datenaufnahme erklärt. Veröffentlicht werden die von anderen Nutzenden selbst erfassten Einrichtungen in der Regel nur nach einer Überprüfung vor Ort.\nDie meisten enthaltenen Einrichtungen wurden von einem Dienstleister im Rahmen des über INTERREG geförderten Projektes \"Das böhmisch sächsische Grenzgebiet barrierefrei\" aufgenommen. Über das Projekt wurde auch die Softwareentwicklung finanziert, die der Eigenbetrieb IT der Landeshauptstadt Dresden umgesetzt hat.",
       "origin": "Die Daten stammen aus einer Datensammlung aus dem Infoportal Barrierefreiheit des Amts für Stadtplanung und Mobilität der Landeshauptstadt Dresden."
+    },
+    {
+      "id": "a60f8db6cfb6429b9d4494c5b27bb82c-0",
+      "title": "Elbe_3d_view",
+      "updated": "24.09.2020",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Elbe_3d_view/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Elbe_3d_view/FeatureServer/0"
+        }
+      ],
+      "description": "3D-Fläche der Elbe, aufbereitet für 3D-Stadtmodell (verbreitert, Höhenanpassung auf DGM1_2020, Höhenversatz für Darstellung). Mit diesem Polygon der Wasserfläche der Elbe lässt sich die Elbe als reflektierende Fläche im 3D-Szenen darstellen."
+    },
+    {
+      "id": "a666eb5940144ceca7f75140dd8fdfa7-0",
+      "title": "Striezelmarkt_Imbiss_Süßwaren und Ausschank",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Imbiss_Süßwaren_und_Ausschank/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Imbiss_Süßwaren_und_Ausschank/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "a72aec22627940ae86d4239042b1df80-0",
+      "title": "Striezelmarkt_Souvenirs",
+      "updated": "11.11.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Souvenirs/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Souvenirs/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "a7e2de525832461fb867215a83faea22-0",
+      "title": "Hochwasserschutzanlagen_LTV_3d_Deiche",
+      "updated": "19.04.2021",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d_Deiche_puf20m/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d_Deiche_puf20m/FeatureServer/0"
+        }
+      ],
+      "description": "Um die Verlaufslinie der Deiche wurde zur Darstellung im 3D-Stadmodell ein Polygon mit +-10m Puffer erstellt. Durch das Polygon wird das Deichgelände im zugrundeliegenden Geländemodell hervorgehoben."
+    },
+    {
+      "id": "b2cf2dcbfe36480bbf9d414c96cc5002-0",
+      "title": "Hochwasserschutzanlagen_LTV_3d_Mauern",
+      "updated": "14.05.2025",
+      "source": "Landeshauptstadt Dresden",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d_Mauern/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Hochwasserschutzanlagen_LTV_3d_Mauern/FeatureServer/0"
+        }
+      ],
+      "description": "Hochwasserschutzanlagen der Landestalsperrenverwaltung (LTV) 3d. Lage und Höhe auf Basis LTV-Abschnitts-Höhen, validiert mit Höhenmodell."
+    },
+    {
+      "id": "b7f7b0219fce4004b1cc6f04f9d66533-2",
+      "title": "INSEK 2035 - INSEK 2035+ Schlüsselprojekte",
+      "updated": "14.11.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/2/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/2"
+        }
+      ],
+      "description": "Integrierte Stadtentwicklungskonzept „Zukunft Dresden 2035+“, kurz INSEK"
+    },
+    {
+      "id": "b7f7b0219fce4004b1cc6f04f9d66533-3",
+      "title": "INSEK 2035 - INSEK 2035+ Schwerpunkträume f",
+      "updated": "14.11.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/3/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/3"
+        }
+      ],
+      "description": "Integrierte Stadtentwicklungskonzept „Zukunft Dresden 2035+“, kurz INSEK"
+    },
+    {
+      "id": "b7f7b0219fce4004b1cc6f04f9d66533-4",
+      "title": "INSEK 2035 - INSEK 2035+ Schwerpunktraeume p",
+      "updated": "23.02.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/4/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/INSEK_2035/FeatureServer/4"
+        }
+      ],
+      "description": "Integrierte Stadtentwicklungskonzept „Zukunft Dresden 2035+“, kurz INSEK"
+    },
+    {
+      "id": "b89c145331594e088cd65ca234e2dd6c-0",
+      "title": "Frühjahrsmarkt_Lebensmittel und Frischwaren",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "b8d107d8d85348ea870c0282a7e8aeef-0",
+      "title": "Frühjahrsmarkt_Newcomerhütte",
+      "updated": "17.05.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Newcomerhütte/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Newcomerhütte/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "c6cf9d9f451b4640adced07a8b111418-0",
+      "title": "Herbstmarkt_Service",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Service/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Service/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "c91340242d61432994efbfc9b44413be-0",
+      "title": "Wanderrouten Erlebnisregion",
+      "updated": "26.03.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und Anwendungen hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and applications following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Wanderrouten_gesamt/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Wanderrouten_gesamt/FeatureServer/0"
+        }
+      ],
+      "description": "Feature Layer \"Wanderrouten\" für die Anwendung \"Interaktive Karte der Erlebnisregion Dresden\", unter https://www.erlebnisregion-dresden.de/interaktive-karte.html"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-0",
+      "title": "Dresdner Friedhöfe - historische Gräber",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/0"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-1",
+      "title": "Dresdner Friedhöfe - Symbole",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/1/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/1"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-10",
+      "title": "Dresdner Friedhöfe - Grabfelder KO04 ab 1:1001",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/10/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/10"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-11",
+      "title": "Dresdner Friedhöfe - Grabfelder",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/11/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/11"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-12",
+      "title": "Dresdner Friedhöfe - sonstige Flächen",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/12/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/12"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-13",
+      "title": "Dresdner Friedhöfe - Friedhofsfläche",
+      "updated": "14.08.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/13/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/13"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-2",
+      "title": "Dresdner Friedhöfe - Zugang (rotes Dreieck)",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/2/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/2"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-3",
+      "title": "Dresdner Friedhöfe - Haltestellen Dresden",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/3/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/3"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-4",
+      "title": "Dresdner Friedhöfe - Friedhofsgebäude",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/4/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/4"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-5",
+      "title": "Dresdner Friedhöfe - Friedhofsumrandung",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/5/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/5"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-6",
+      "title": "Dresdner Friedhöfe - sonstige Linien",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/6/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/6"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-7",
+      "title": "Dresdner Friedhöfe - Treppen",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/7/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/7"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d04f199fa0ac4beeb204170ed918957e-9",
+      "title": "Dresdner Friedhöfe - Grabfelder KO04 bis 1:1000",
+      "updated": "05.06.2023",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/9/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Dresdner_Friedhöfe/FeatureServer/9"
+        }
+      ],
+      "description": "Dresdner Friedhöfe"
+    },
+    {
+      "id": "d4f9999f25ff4cd58f198cbc02b74aa4-0",
+      "title": "Herbstmarkt_Lebensmittel und Frischwaren",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "d576ec34dbc84d52b01d6a32a19e3562-0",
+      "title": "Frühjahrsmarkt_Souvenirs",
+      "updated": "02.04.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Souvenirs/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Souvenirs/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "e491364eeecc42d3bd169d45f129712c-0",
+      "title": "Tour_3D_Visualisierungen",
+      "updated": "20.12.2017",
+      "source": "Amt für Geodaten und Kataster",
+      "license": "Beachten Sie die verlinkten Nutzungsbedingungen für die Daten, Karten und 3D-Ansichten hinsichtlich Urheberschutz und Weiterverwendung: Link zu den Nutzungsbedingungen (Please note the terms and conditions of use of the data, maps and 3d-scenes following the link above!)",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Tour_3D_Bilder_und_Punkte/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Tour_3D_Bilder_und_Punkte/FeatureServer/0"
+        }
+      ],
+      "description": "Symbole mit links auf 3D-Visalisierungen als Film"
+    },
+    {
+      "id": "e5ad790d155c4d29bb66de7411cb1a23-0",
+      "title": "Verkehrsbehinderungen",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Verkehrsbehinderungen/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Verkehrsbehinderungen/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "e69ec146f4a242bdbb66be8e112ad7e3-0",
+      "title": "Herbstmarkt_Marktfläche",
+      "updated": "29.08.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Marktfläche/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Marktfläche/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "e7271e0ff49d4832bbb705d269ee1c4a-0",
+      "title": "Striezelmarkt_Lebensmittel und Frischwaren",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Lebensmittel_und_Frischwaren/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "e85ff263679f4d41aaba8b12893ba5c2-0",
+      "title": "Herbstmarkt_Sonstige Waren",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Sonstige_Waren/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Sonstige_Waren/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "ea24704ed2ab4709bd83aa67d547603b-0",
+      "title": "Striezelmarkt_Marktfläche",
+      "updated": "08.01.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Marktfläche/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Marktfläche/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "f856fc620d2b4313abdee6164b4f09a3-0",
+      "title": "Herbstmarkt_Erlebnisse und Unterhaltung",
+      "updated": "16.09.2026",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Imbiss_und_Ausschank/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Herbstmarkt_Imbiss_und_Ausschank/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "f8e561e689d44093963adc26940a79b9-0",
+      "title": "Striezelmarkt_Dresdner Stollen",
+      "updated": "24.12.2025",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Dresdner_Stollen/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Striezelmarkt_Dresdner_Stollen/FeatureServer/0"
+        }
+      ]
+    },
+    {
+      "id": "fbccf3a9de36496bbd4c5b4814792c43-0",
+      "title": "Frühjahrsmarkt_Marktfläche",
+      "updated": "23.04.2024",
+      "source": "Amt für Geodaten und Kataster",
+      "portal": "ArcGIS Online",
+      "resources": [
+        {
+          "format": "GEOJSON",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Marktfläche/FeatureServer/0/query?where=1%3D1\u0026outFields=*\u0026f=geojson"
+        },
+        {
+          "format": "FeatureServer",
+          "url": "https://services.arcgis.com/ORpvigFPJUhb8RDF/arcgis/rest/services/Frühjahrsmarkt_Marktfläche/FeatureServer/0"
+        }
+      ]
     }
   ]
 }

@@ -13,7 +13,13 @@ import {
   resource,
   sortedResources,
 } from "./datasets";
-import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
+import {
+  AUTO_BYTES,
+  download,
+  isAbort,
+  narrowed,
+  TooLargeError,
+} from "./features";
 
 // The map library is by far the largest dependency and only geodata needs it
 export const DatasetMap = lazy(() => import("./DatasetMap"));
@@ -154,6 +160,7 @@ export function Facts({
     ],
     ["Raumbezug", dataset.regions?.join(", ")],
     ["Herkunft", dataset.origin],
+    ["Portal", dataset.portal],
   ];
 
   return (
@@ -199,8 +206,7 @@ function FeatureTable({ url }: { url: string }) {
 
   useEffect(() => {
     const controller = new AbortController();
-    const target = new URL(url);
-    target.searchParams.set("limit", String(TABLE_ROWS));
+    const target = narrowed(url, TABLE_ROWS);
     setRows(undefined);
     setStatus("Lade …");
     download(target, controller.signal, AUTO_BYTES)

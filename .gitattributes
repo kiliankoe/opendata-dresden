@@ -1,0 +1,5 @@
+# The mirrored tables are stored exactly as the portal serves them, CRLF and
+# all, so git must not rewrite their line endings. Both they and the index are
+# written by the nightly Action, so GitHub collapses them in diffs.
+data/index.json linguist-generated
+data/statistics/*.csv -text linguist-generated

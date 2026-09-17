@@ -72,6 +72,12 @@ Two environment variables apply to both the CLI and the server: `REQUEST_TIMEOUT
 
 Search and info answer from this index rather than the portal, whose search has no useful ranking. The binary downloads the index on first use and keeps it in the user's cache directory for a day. Datasets not in the index yet are looked up in the portal. `od3 index` rebuilds the file, fetching details only for new or changed datasets.
 
+## Mirrored statistics tables
+
+[`data/statistics/`](data/statistics) holds the CSV download of every statistics dataset, copied byte for byte and refreshed by the same Action with `od3 index --data data/statistics`. The portal publishes only the current version of each table, so this git history is the only record of how the numbers change. The whole set is about 39 MB and roughly 8 of the 323 tables change in a month.
+
+A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot.
+
 ## Development
 
 `nix develop`, or [direnv](https://direnv.net) with `direnv allow`, provides Go and Node tooling.

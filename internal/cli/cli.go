@@ -135,9 +135,6 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		if err != nil {
 			return err
 		}
-		if err := idx.Write(*file); err != nil {
-			return err
-		}
 		summary := fmt.Sprintf("%d datasets, %d new or changed", len(idx.Datasets), len(changed))
 		if *data != "" {
 			written, err := index.Mirror(ctx, client, idx, changed, *data)
@@ -145,6 +142,10 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 				return err
 			}
 			summary += fmt.Sprintf(", %d mirrored", written)
+		}
+		// Mirroring dates the datasets whose tables moved, so it goes first
+		if err := idx.Write(*file); err != nil {
+			return err
 		}
 		_, err = fmt.Fprintln(stdout, summary)
 		return err
@@ -225,6 +226,7 @@ func writeDatasetText(w io.Writer, ds *portal.Dataset) error {
 	fields := []struct{ label, value string }{
 		{"ID", ds.ID},
 		{"Updated", ds.Updated},
+		{"Changed", ds.Changed},
 		{"Source", ds.Source},
 		{"License", ds.License},
 		{"Topics", strings.Join(ds.Topics, ", ")},

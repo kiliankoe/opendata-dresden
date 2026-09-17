@@ -19,7 +19,7 @@ import {
   sortedResources,
 } from "./datasets";
 import { AUTO_BYTES, download, isAbort, TooLargeError } from "./features";
-import { Badges, Modes, pill } from "./ui";
+import { Badges, DatesHelp, Modes, pill } from "./ui";
 
 // The map library is by far the largest dependency and only geodata needs it
 export const DatasetMap = lazy(() => import("./DatasetMap"));
@@ -187,9 +187,12 @@ export function Facts({
   children?: ReactNode;
 }) {
   const years = dataset.years ?? [];
-  const facts: [string, string | undefined][] = [
+  // The third element marks the fact whose label carries the explanation of
+  // the two dates
+  const facts: [string, string | undefined, boolean?][] = [
     ["Quelle", dataset.source],
     ["Stand", dataset.updated],
+    ["Geändert", dataset.changed, true],
     ["Lizenz", dataset.license],
     [
       "Zeitraum",
@@ -209,9 +212,12 @@ export function Facts({
       <dl className="mb-3 text-sm">
         {facts
           .filter(([, value]) => value)
-          .map(([label, value]) => (
+          .map(([label, value, help]) => (
             <div key={label} className="grid grid-cols-[6rem_1fr] gap-2">
-              <dt className="text-muted">{label}</dt>
+              <dt className="flex items-center gap-1 text-muted">
+                {label}
+                {help && <DatesHelp />}
+              </dt>
               <dd>{value}</dd>
             </div>
           ))}

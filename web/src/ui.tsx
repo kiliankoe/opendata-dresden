@@ -54,3 +54,32 @@ export function Badges({ items }: { items: string[] }) {
     </p>
   );
 }
+
+// DatesHelp explains the two dates a dataset carries, which read alike but
+// come from different places. The bubble opens on hover and on keyboard
+// focus; align it away from whatever edge would clip it.
+export function DatesHelp({ align = "left" }: { align?: "left" | "right" }) {
+  return (
+    <span className="group relative inline-flex align-middle">
+      <button
+        type="button"
+        aria-label="Woher kommen die beiden Daten?"
+        className="flex size-4 cursor-help items-center justify-center rounded-full border border-line text-[0.625rem] text-muted"
+      >
+        ?
+      </button>
+      <span
+        className={`pointer-events-none invisible absolute bottom-full z-10 mb-1.5 w-56 rounded-md border border-line bg-surface p-2 text-left text-[0.8125rem] leading-snug font-normal text-ink shadow-lg group-focus-within:visible group-hover:visible ${
+          align === "right" ? "right-0" : "left-0"
+        }`}
+      >
+        <b className="font-semibold">Stand</b> gibt das Open-Data-Portal selbst
+        an. Es wechselt, sobald die Stadt einen Datensatz neu veröffentlicht,
+        auch wenn die Zahlen gleich bleiben.{" "}
+        <b className="font-semibold">Geändert</b> ist der Tag, an dem sich die
+        Zahlen in der nächtlichen Kopie hier zuletzt wirklich unterschieden
+        haben.
+      </span>
+    </span>
+  );
+}

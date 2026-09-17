@@ -6,6 +6,7 @@ export interface Dataset {
   id: string;
   title: string;
   updated?: string;
+  changed?: string;
   source?: string;
   license?: string;
   topics?: string[];
@@ -75,17 +76,25 @@ export function resource(dataset: Dataset, format: string): string | undefined {
   return dataset.resources.find((r) => r.format === format)?.url;
 }
 
-// The portal dates datasets as dd.mm.yyyy
-export function updatedTime(dataset: Dataset): number {
-  const [day, month, year] = (dataset.updated ?? "").split(".").map(Number);
+// Both of a dataset's dates are written dd.mm.yyyy, see portal.Dataset
+export type DateField = "updated" | "changed";
+
+export function dateValue(date: string | undefined): number {
+  const [day, month, year] = (date ?? "").split(".").map(Number);
   return year ? Date.UTC(year, month - 1, day) : 0;
 }
 
-// byUpdated leads with the newest datasets. The sort is stable, so the many
-// datasets sharing a date keep the order they came in, which is their
-// relevance order when the list comes out of a search.
-export function byUpdated(datasets: Dataset[]): Dataset[] {
-  return [...datasets].sort((a, b) => updatedTime(b) - updatedTime(a));
+// byDate leads with the newest datasets. Equal dates fall back to the portal's
+// date, which is what keeps sorting by the change date readable while few
+// datasets have one. The sort is stable, so whatever still ties keeps the
+// order it came in, which is its relevance order when the list comes out of a
+// search.
+export function byDate(datasets: Dataset[], field: DateField): Dataset[] {
+  return [...datasets].sort(
+    (a, b) =>
+      dateValue(b[field]) - dateValue(a[field]) ||
+      dateValue(b.updated) - dateValue(a.updated),
+  );
 }
 
 export function portalUrl(dataset: Dataset): string {

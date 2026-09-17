@@ -7,7 +7,8 @@ change, which the portal itself does not.
 
 The file name is the dataset's DCAT identifier without the shared
 `de-sn-dresden-` prefix. [`data/index.json`](../index.json) maps it back to the
-dataset's title, source and portal links.
+dataset's title, source and portal links, and records in its `changed` field
+the day each table's rows last differed from the night before.
 
 Geodata layers are not mirrored. Their attribute tables alone come to roughly
 1.3 GB per snapshot against 39 MB for these, see issue #4.

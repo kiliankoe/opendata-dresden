@@ -43,7 +43,7 @@ Without arguments `od3` runs the MCP server on stdio. Register it with your clie
 
 The server offers four tools:
 
-- `search_datasets` searches the index. Every word of the query has to appear in a dataset's title, topics, source or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Results carry the dataset's ID and its resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs. `limit` and `offset` paginate.
+- `search_datasets` searches the index. Every word of the query has to appear in a dataset's title, topics, source or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Results carry the dataset's ID, its two dates and its resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs. `limit` and `offset` paginate.
 - `get_dataset_info` returns a dataset with all its resources by ID.
 - `fetch_dataset` downloads one resource by dataset ID and format. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document. Geodata layers return all their features by default. The portal offers no paging, so `limit` and a `bbox` (WGS84 `minLon,minLat,maxLon,maxLat`) are the only ways to narrow a large layer.
 - `dataset_history` reports how a statistics dataset's numbers changed over time, newest first, from the mirrored tables described below. `diff` adds the rows that moved. Geodata layers are not mirrored.
@@ -79,6 +79,8 @@ Search and info answer from this index rather than the portal, whose search has 
 [`data/statistics/`](data/statistics) holds the CSV download of every statistics dataset, copied byte for byte and refreshed by the same Action with `od3 index --data data/statistics`. The portal publishes only the current version of each table, so this git history is the only record of how the numbers change. The whole set is about 39 MB and roughly 8 of the 323 tables change in a month.
 
 A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot.
+
+Comparing a fresh download against the mirrored copy also gives every dataset a second date. `updated` is the portal's own, which moves whenever the city republishes a dataset, whether or not the numbers moved with it. `changed` is the day the rows last actually differed, and stays empty until this project has seen that happen. Both are written dd.mm.yyyy and both are in [`data/index.json`](data/index.json), so the CLI, the MCP tools and the search page can sort and show them. This is why `od3 index --data` mirrors the tables before it writes the index.
 
 `od3 history <id>` and the `dataset_history` tool report what that history recorded, newest first, reading the commits through GitHub's API. `--diff` adds the rows that moved, at the cost of one request per change. Unauthenticated that API allows 60 requests per hour; set `GITHUB_TOKEN` to raise it. The web app reads the same API for its "Änderungen" view and the tables from `raw.githubusercontent.com`, which sends the CORS headers the portal does not.
 

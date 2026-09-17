@@ -49,6 +49,30 @@ func TestMirror(t *testing.T) {
 	if written, err = Mirror(ctx, client, idx, nil, dir); err != nil || written != 1 {
 		t.Errorf("missing file: err=%v written=%d", err, written)
 	}
+	if got := mirrored(t, idx).Changed; got != "" {
+		t.Errorf("a first copy recorded a change on %q, with nothing to compare against", got)
+	}
+
+	// The portal republishing the dataset makes Mirror read the table again.
+	// Its rows moved, so the day goes into the index.
+	defer func(original func() string) { today = original }(today)
+	today = func() string { return "05.03.2026" }
+	fake.StatsBody = "Jahr;Stadtbezirk;Geborene\r\n2020;Altstadt;124\r\n"
+	if _, err := Mirror(ctx, client, idx, []string{"D2"}, dir); err != nil {
+		t.Fatal(err)
+	}
+	if got := mirrored(t, idx).Changed; got != "05.03.2026" {
+		t.Errorf("changed = %q, want the day the rows moved", got)
+	}
+
+	// Republishing the same numbers is no change, so the date stays put
+	today = func() string { return "06.03.2026" }
+	if _, err := Mirror(ctx, client, idx, []string{"D2"}, dir); err != nil {
+		t.Fatal(err)
+	}
+	if got := mirrored(t, idx).Changed; got != "05.03.2026" {
+		t.Errorf("changed = %q after republishing identical rows, want the earlier day", got)
+	}
 
 	// Datasets the portal stops listing take their file with them
 	stray := filepath.Join(dir, "verschwunden.csv")
@@ -61,4 +85,16 @@ func TestMirror(t *testing.T) {
 	if _, err := os.Stat(stray); !os.IsNotExist(err) {
 		t.Errorf("stray file survived: %v", err)
 	}
+}
+
+// mirrored returns the one fixture dataset with a table, D2
+func mirrored(t *testing.T, idx *Index) *portal.Dataset {
+	t.Helper()
+	for i := range idx.Datasets {
+		if idx.Datasets[i].ID == "D2" {
+			return &idx.Datasets[i]
+		}
+	}
+	t.Fatal("the statistics fixture is missing from the index")
+	return nil
 }

@@ -2,9 +2,14 @@ package portal
 
 // Dataset is one entry of the OpenData portal with all its published resources
 type Dataset struct {
-	ID      string   `json:"id"`
-	Title   string   `json:"title"`
-	Updated string   `json:"updated,omitempty"`
+	ID      string `json:"id"`
+	Title   string `json:"title"`
+	Updated string `json:"updated,omitempty"`
+	// Changed is the day this project last saw the dataset's mirrored table
+	// differ from the night before, in the same dd.mm.yyyy form as Updated.
+	// The portal moves Updated whenever it republishes a dataset, whether or
+	// not the numbers moved with it, see index.Mirror.
+	Changed string   `json:"changed,omitempty"`
 	Source  string   `json:"source,omitempty"`
 	License string   `json:"license,omitempty"`
 	Topics  []string `json:"topics,omitempty"`

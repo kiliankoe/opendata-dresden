@@ -84,9 +84,14 @@ func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index,
 	group.SetLimit(describeWorkers)
 	for i := range datasets {
 		ds := &datasets[i]
-		if old, ok := known[ds.ID]; ok && old.Updated == ds.Updated {
-			ds.Description, ds.Origin = old.Description, old.Origin
-			continue
+		if old, ok := known[ds.ID]; ok {
+			// Mirror only reads the tables of datasets the portal republished,
+			// so the date it recorded has to survive the runs in between
+			ds.Changed = old.Changed
+			if old.Updated == ds.Updated {
+				ds.Description, ds.Origin = old.Description, old.Origin
+				continue
+			}
 		}
 		changed = append(changed, ds.ID)
 		group.Go(func() error { return client.Describe(ctx, ds) })

@@ -1,12 +1,14 @@
 package index
 
 import (
+	"bytes"
 	"context"
 	"fmt"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
+	"time"
 
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
 	"golang.org/x/sync/errgroup"
@@ -16,6 +18,10 @@ import (
 // tables rather than pages, and the portal starts refusing connections when
 // several of them run at once.
 const mirrorWorkers = 2
+
+// today dates the tables whose rows moved, in the portal's own form so that
+// both dates of a dataset read alike. Tests replace it.
+var today = func() string { return time.Now().Format("02.01.2006") }
 
 // statsCSVPath matches the download of a statistics table. Geodata layers
 // publish their CSV under /ogcapi instead and are three orders of magnitude
@@ -73,6 +79,7 @@ func Mirror(ctx context.Context, client *portal.Client, idx *Index, changed []st
 		todo = append(todo, job{ds, path})
 	}
 
+	stamp := today()
 	group, ctx := errgroup.WithContext(ctx)
 	group.SetLimit(mirrorWorkers)
 	for _, j := range todo {
@@ -80,6 +87,10 @@ func Mirror(ctx context.Context, client *portal.Client, idx *Index, changed []st
 			data, err := client.FetchResource(ctx, j.dataset, "CSV", portal.FetchOptions{})
 			if err != nil {
 				return fmt.Errorf("mirroring %s: %w", j.dataset.ID, err)
+			}
+			// A table with no copy yet has nothing to have changed from
+			if old, err := os.ReadFile(j.path); err == nil && !bytes.Equal(old, data) {
+				j.dataset.Changed = stamp
 			}
 			return os.WriteFile(j.path, data, 0o644)
 		})

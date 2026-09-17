@@ -1,13 +1,13 @@
 import { describe, expect, test } from "vitest";
 import {
-  byUpdated,
+  byDate,
   createSearch,
   type Dataset,
+  dateValue,
   mirrorPath,
   mirrorUrl,
   parseCsv,
   sortedResources,
-  updatedTime,
 } from "./datasets";
 
 const dataset = (...resources: [string, string][]): Dataset => ({
@@ -98,22 +98,44 @@ describe("dataset helpers", () => {
     ]);
   });
 
-  test("updatedTime reads the portal's dd.mm.yyyy, and nothing else", () => {
-    expect(updatedTime({ ...stats, updated: "15.07.2025" })).toBe(
-      Date.UTC(2025, 6, 15),
-    );
-    expect(updatedTime(stats)).toBe(0);
+  test("dateValue reads the portal's dd.mm.yyyy, and nothing else", () => {
+    expect(dateValue("15.07.2025")).toBe(Date.UTC(2025, 6, 15));
+    expect(dateValue(undefined)).toBe(0);
   });
 
-  test("byUpdated leads with the newest and keeps equal dates in order", () => {
+  test("byDate leads with the newest and keeps equal dates in order", () => {
     const d = (id: string, updated?: string) => ({ ...stats, id, updated });
-    const order = byUpdated([
-      d("A", "01.01.2020"),
-      d("B"),
-      d("C", "02.01.2020"),
-      d("D", "01.01.2020"),
-    ]);
+    const order = byDate(
+      [
+        d("A", "01.01.2020"),
+        d("B"),
+        d("C", "02.01.2020"),
+        d("D", "01.01.2020"),
+      ],
+      "updated",
+    );
     expect(order.map((entry) => entry.id)).toEqual(["C", "A", "D", "B"]);
+  });
+
+  // Most datasets have no change date yet. Falling back to the portal's date
+  // keeps that list readable instead of dropping it into index order.
+  test("byDate trails datasets without a change date, in update order", () => {
+    const d = (id: string, changed: string | undefined, updated: string) => ({
+      ...stats,
+      id,
+      changed,
+      updated,
+    });
+    const order = byDate(
+      [
+        d("A", undefined, "03.01.2020"),
+        d("B", "01.01.2020", "01.01.2020"),
+        d("C", undefined, "04.01.2020"),
+        d("D", "02.01.2020", "01.01.2020"),
+      ],
+      "changed",
+    );
+    expect(order.map((entry) => entry.id)).toEqual(["D", "B", "C", "A"]);
   });
 
   test("search folds umlauts both ways", () => {

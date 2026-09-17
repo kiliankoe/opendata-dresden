@@ -239,6 +239,30 @@ func TestIndexWithData(t *testing.T) {
 	}
 }
 
+// The change date lands on the datasets while the tables are mirrored, so the
+// index file has to be written after that, not before
+func TestIndexRecordsChangedTables(t *testing.T) {
+	fake := portaltest.New(t)
+	dir := t.TempDir()
+	file := filepath.Join(dir, "index.json")
+	data := filepath.Join(dir, "statistics")
+	// An earlier night's copy holding different numbers
+	if err := os.MkdirAll(data, 0o755); err != nil {
+		t.Fatal(err)
+	}
+	old := []byte("Jahr;Stadtbezirk;Geborene\r\n2020;Altstadt;1\r\n")
+	if err := os.WriteFile(filepath.Join(data, "geborene.csv"), old, 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := run(t, fake, "index", "--file", file, "--data", data); err != nil {
+		t.Fatal(err)
+	}
+	written, err := os.ReadFile(file)
+	if err != nil || !strings.Contains(string(written), `"changed": "`) {
+		t.Errorf("index written without the recorded change: err=%v content=%s", err, written)
+	}
+}
+
 func TestVersion(t *testing.T) {
 	fake := portaltest.New(t)
 	for _, args := range [][]string{{"version"}, {"--version"}} {

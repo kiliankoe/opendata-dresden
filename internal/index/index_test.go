@@ -42,6 +42,14 @@ func TestBuild(t *testing.T) {
 	if _, changed, err = Build(ctx, client, idx); err != nil || len(changed) != 1 || changed[0] != "D1" || fake.InfoRequests != 2 {
 		t.Errorf("changed: err=%v changed=%v, %d info requests", err, changed, fake.InfoRequests)
 	}
+
+	// Mirror only reads the tables of republished datasets, so the date it
+	// recorded has to survive every rebuild, including those
+	idx.Datasets[0].Changed = "05.03.2026"
+	idx.Datasets[0].Updated = "02.01.2000"
+	if again, _, err = Build(ctx, client, idx); err != nil || again.Datasets[0].Changed != "05.03.2026" {
+		t.Errorf("rebuild dropped the change date: err=%v dataset=%+v", err, again.Datasets[0])
+	}
 }
 
 func TestReadWrite(t *testing.T) {

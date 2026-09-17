@@ -1,14 +1,19 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { DatasetPage } from "./DatasetPage";
 import {
-  byUpdated,
+  byDate,
   createSearch,
   type Dataset,
+  type DateField,
   loadDatasets,
 } from "./datasets";
 import { Result } from "./Result";
+import { DatesHelp } from "./ui";
 
 const PAGE = 50;
+
+// An empty sort leaves the results in the order the search ranked them
+type Sort = "" | DateField;
 
 const germanDate = (iso: string) => iso.split("-").reverse().join(".");
 
@@ -30,7 +35,7 @@ export default function App() {
   const [query, setQuery] = useState(() => readUrl().query);
   const [topic, setTopic] = useState("");
   const [format, setFormat] = useState("");
-  const [sort, setSort] = useState("");
+  const [sort, setSort] = useState<Sort>("");
   const [openId, setOpenId] = useState(() => readUrl().openId);
   const [viewer, setViewer] = useState(() => readUrl().viewer);
   const [unfolded, setUnfolded] = useState("");
@@ -120,7 +125,8 @@ export default function App() {
     if (format)
       list = list.filter((d) => d.resources.some((r) => r.format === format));
     // There is nothing to rank without a query, so that list goes by date too
-    return sort === "updated" || !query.trim() ? byUpdated(list) : list;
+    const order: Sort = sort || (query.trim() ? "" : "updated");
+    return order ? byDate(list, order) : list;
   }, [datasets, search, byId, query, topic, format, sort]);
 
   const open = openId && datasets && byId.get(openId);
@@ -218,12 +224,14 @@ export default function App() {
               <select
                 className={select}
                 value={sort}
-                onChange={(e) => changeSort(e.target.value)}
+                onChange={(e) => changeSort(e.target.value as Sort)}
                 aria-label="Sortierung"
               >
                 <option value="">Relevanz</option>
-                <option value="updated">Zuletzt aktualisiert</option>
+                <option value="updated">Neuester Stand</option>
+                <option value="changed">Zuletzt geändert</option>
               </select>
+              <DatesHelp align="right" />
               {datasets && (
                 <span className="ml-auto text-sm text-muted">
                   {results.length}{" "}

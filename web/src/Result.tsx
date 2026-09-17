@@ -36,6 +36,7 @@ export function Result({
           {[
             dataset.source,
             dataset.updated && `Stand ${dataset.updated}`,
+            dataset.changed && `Geändert ${dataset.changed}`,
             ...(dataset.topics ?? []),
           ]
             .filter(Boolean)

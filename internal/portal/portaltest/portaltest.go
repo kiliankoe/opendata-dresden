@@ -33,6 +33,7 @@ type Server struct {
 	LastQuery      string  // raw query string of the most recent OGC items request
 	InfoRequests   int     // number of information page requests served
 	CSVRequests    int     // number of statistics table downloads served
+	StatsBody      string  // table served for the statistics fixture, StatsCSV by default
 }
 
 // infoPage mimics the metadata page of a geodata layer on kommisdd.dresden.de
@@ -86,7 +87,7 @@ type dataset struct {
 
 func New(t *testing.T) *Server {
 	t.Helper()
-	fake := &Server{}
+	fake := &Server{StatsBody: StatsCSV}
 	mux := http.NewServeMux()
 	fake.Server = httptest.NewServer(mux)
 	t.Cleanup(fake.Close)
@@ -142,7 +143,7 @@ func New(t *testing.T) *Server {
 	})
 	mux.HandleFunc("/dcat-ap/dataset/de-sn-dresden-geborene/content.csv", func(w http.ResponseWriter, r *http.Request) {
 		fake.CSVRequests++
-		_, _ = w.Write([]byte(StatsCSV))
+		_, _ = w.Write([]byte(fake.StatsBody))
 	})
 	mux.HandleFunc("/ogc.ashx", func(w http.ResponseWriter, r *http.Request) {
 		fake.InfoRequests++

@@ -63,18 +63,29 @@ const MODES: { label: string; value: Mode }[] = [
 // WmsLayer is one drawable layer of a map service with its legend graphic
 export type WmsLayer = { name: string; title: string; legend?: string };
 
-// The legend belongs to the map but is drawn by the page next to it, so the
-// layers are reported upwards rather than rendered here
+// The mode is named by its label and held by the caller, which is what puts
+// it in the URL on a dataset page. The legend belongs to the map but is drawn
+// by the page next to it, so the layers are reported upwards as well.
 export default function DatasetMap({
   dataset,
+  mode,
+  onMode,
   onLegend,
 }: {
   dataset: Dataset;
+  mode: string;
+  onMode: (mode: string) => void;
   onLegend: (layers: WmsLayer[]) => void;
 }) {
   const geojsonUrl = resource(dataset, "GEOJSON");
   const wmsUrl = resource(dataset, "WMS");
-  const [mode, setMode] = useState<Mode>(geojsonUrl ? "geojson" : "wms");
+  // A mode the dataset does not offer falls back to the one it starts with,
+  // so a link to another dataset's mode still opens a map
+  const modes = MODES.filter(({ value }) =>
+    value === "geojson" ? geojsonUrl : wmsUrl,
+  );
+  const active = modes.find((m) => m.label === mode) ?? modes[0];
+  const kind = active.value;
   const [status, setStatus] = useState("");
   const [tooLarge, setTooLarge] = useState(false);
   const container = useRef<HTMLDivElement>(null);
@@ -101,7 +112,7 @@ export default function DatasetMap({
         map.setPaintProperty("water", "fill-color", theme.water);
         map.setPaintProperty("waterway", "line-color", theme.water);
       }
-      if (mode === "geojson" && geojsonUrl) {
+      if (kind === "geojson" && geojsonUrl) {
         loadAnyway.current = showFeatures(
           map,
           geojsonUrl,
@@ -121,16 +132,16 @@ export default function DatasetMap({
       map.remove();
       onLegend([]);
     };
-  }, [dataset, mode, geojsonUrl, wmsUrl, theme, onLegend]);
+  }, [dataset, kind, geojsonUrl, wmsUrl, theme, onLegend]);
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      {geojsonUrl && wmsUrl && (
+      {modes.length > 1 && (
         <Modes
           className="mb-1.5 text-[0.8125rem] text-muted"
-          options={MODES}
-          active={mode}
-          onSelect={setMode}
+          options={modes.map(({ label }) => ({ label, value: label }))}
+          active={active.label}
+          onSelect={onMode}
         />
       )}
       {/* The status lies on the map instead of above it. Above it, a line of

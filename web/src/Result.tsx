@@ -16,6 +16,9 @@ export function Result({
   onToggle: () => void;
 }) {
   const [legend, setLegend] = useState<WmsLayer[]>([]);
+  // Only a dataset page shares its map mode through the URL, a result in the
+  // list keeps its own
+  const [mapMode, setMapMode] = useState("");
   return (
     <li className="border-b border-line">
       <div className="group relative py-3">
@@ -59,7 +62,12 @@ export function Result({
             <>
               <div className="flex h-[26rem] flex-col">
                 <Suspense fallback={null}>
-                  <DatasetMap dataset={dataset} onLegend={setLegend} />
+                  <DatasetMap
+                    dataset={dataset}
+                    mode={mapMode}
+                    onMode={setMapMode}
+                    onLegend={setLegend}
+                  />
                 </Suspense>
               </div>
               <Legend layers={legend} />

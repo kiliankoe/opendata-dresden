@@ -16,15 +16,36 @@ type Sort = "" | DateField;
 
 const germanDate = (iso: string) => iso.split("-").reverse().join(".");
 
-// The query lives in the URL's search part and the open dataset with its
-// chosen viewer in the hash, so all of it can be shared as links. Dataset
-// links are plain hash links, which gives them browser history for free.
+// Place is where the hash points: the open dataset, the viewer it shows and,
+// for the map, which of its maps is drawn
+type Place = { openId: string; viewer: string; mapMode: string };
+
+export function parseHash(hash: string): Place {
+  const [openId = "", viewer = "", mapMode = ""] = hash
+    .replace(/^#/, "")
+    .split("/");
+  return {
+    openId: decodeURIComponent(openId),
+    viewer: decodeURIComponent(viewer),
+    mapMode: decodeURIComponent(mapMode),
+  };
+}
+
+// Labels are encoded because some carry a slash of their own, and the mode
+// is dropped without a viewer, where it would leave an empty segment
+export function formatHash({ openId, viewer, mapMode }: Place): string {
+  const path = viewer ? [openId, viewer, mapMode] : [openId];
+  const hash = path.filter(Boolean).map(encodeURIComponent).join("/");
+  return hash && `#${hash}`;
+}
+
+// The query lives in the URL's search part and the place in the hash, so all
+// of it can be shared as links. Dataset links are plain hash links, which
+// gives them browser history for free.
 function readUrl() {
-  const [openId, ...viewer] = location.hash.slice(1).split("/");
   return {
     query: new URLSearchParams(location.search).get("q") ?? "",
-    openId: decodeURIComponent(openId),
-    viewer: decodeURIComponent(viewer.join("/")),
+    ...parseHash(location.hash),
   };
 }
 
@@ -37,6 +58,7 @@ export default function App() {
   const [sort, setSort] = useState<Sort>("");
   const [openId, setOpenId] = useState(() => readUrl().openId);
   const [viewer, setViewer] = useState(() => readUrl().viewer);
+  const [mapMode, setMapMode] = useState(() => readUrl().mapMode);
   const [unfolded, setUnfolded] = useState("");
   const [shown, setShown] = useState(PAGE);
   const input = useRef<HTMLInputElement>(null);
@@ -47,9 +69,10 @@ export default function App() {
 
   useEffect(() => {
     const onHash = () => {
-      const { openId, viewer } = readUrl();
+      const { openId, viewer, mapMode } = readUrl();
       setOpenId(openId);
       setViewer(viewer);
+      setMapMode(mapMode);
       window.scrollTo(0, 0);
     };
     window.addEventListener("hashchange", onHash);
@@ -75,9 +98,15 @@ export default function App() {
     const url = new URL(location.href);
     if (query) url.searchParams.set("q", query);
     else url.searchParams.delete("q");
-    url.hash = viewer ? `${openId}/${encodeURIComponent(viewer)}` : openId;
+    url.hash = formatHash({ openId, viewer, mapMode });
     history.replaceState(null, "", url);
-  }, [query, openId, viewer]);
+  }, [query, openId, viewer, mapMode]);
+
+  // The map mode belongs to the map, so any other viewer leaves it behind
+  const changeViewer = (viewer: string, mapMode = "") => {
+    setViewer(viewer);
+    setMapMode(mapMode);
+  };
 
   // Changing the search or filters starts the list over
   const filter =
@@ -141,7 +170,7 @@ export default function App() {
     setFormat("");
     setSort("");
     setOpenId("");
-    setViewer("");
+    changeViewer("");
     window.scrollTo(0, 0);
   };
 
@@ -251,7 +280,8 @@ export default function App() {
           <DatasetPage
             dataset={open}
             viewer={viewer}
-            onViewer={setViewer}
+            mapMode={mapMode}
+            onViewer={changeViewer}
             onBack={back}
           />
         )}

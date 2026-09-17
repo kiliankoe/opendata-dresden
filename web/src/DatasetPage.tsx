@@ -86,12 +86,16 @@ function viewers(dataset: Dataset, resources: Resource[]): Viewer[] {
 export function DatasetPage({
   dataset,
   viewer,
+  mapMode,
   onViewer,
   onBack,
 }: {
   dataset: Dataset;
   viewer: string;
-  onViewer: (label: string) => void;
+  mapMode: string;
+  // The map reports its mode alongside its own label, so that both end up in
+  // the URL and a shared link opens the map the sender saw
+  onViewer: (label: string, mapMode?: string) => void;
   onBack: () => void;
 }) {
   const resources = sortedResources(dataset);
@@ -133,11 +137,10 @@ export function DatasetPage({
         )}
         {active?.kind === "map" && (
           <Suspense fallback={<div className="flex-1" />}>
-            {/* The map picks its mode from what the dataset offers, so it has
-                to start over rather than carry the last dataset's choice */}
             <DatasetMap
-              key={dataset.id}
               dataset={dataset}
+              mode={mapMode}
+              onMode={(mode) => onViewer(active.label, mode)}
               onLegend={setLegend}
             />
           </Suspense>

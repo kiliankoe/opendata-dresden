@@ -61,8 +61,8 @@ func (idx *Index) Write(path string) error {
 
 // Build lists every dataset of the portal. Details are fetched only for
 // datasets that are new or changed since previous; the others keep theirs.
-// It returns the new index and the number of new or changed datasets.
-func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index, int, error) {
+// It returns the new index and the IDs of those new or changed datasets.
+func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index, []string, error) {
 	known := make(map[string]portal.Dataset, len(previous.Datasets))
 	for _, ds := range previous.Datasets {
 		known[ds.ID] = ds
@@ -70,16 +70,16 @@ func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index,
 
 	all, err := client.SearchDatasets(ctx, "", listLimit, 0)
 	if err != nil {
-		return nil, 0, err
+		return nil, nil, err
 	}
 	if all.Total > len(all.Datasets) {
 		if all, err = client.SearchDatasets(ctx, "", all.Total, 0); err != nil {
-			return nil, 0, err
+			return nil, nil, err
 		}
 	}
 	datasets := all.Datasets
 
-	refreshed := 0
+	var changed []string
 	group, ctx := errgroup.WithContext(ctx)
 	group.SetLimit(describeWorkers)
 	for i := range datasets {
@@ -88,14 +88,14 @@ func Build(ctx context.Context, client *portal.Client, previous *Index) (*Index,
 			ds.Description, ds.Origin = old.Description, old.Origin
 			continue
 		}
-		refreshed++
+		changed = append(changed, ds.ID)
 		group.Go(func() error { return client.Describe(ctx, ds) })
 	}
 	if err := group.Wait(); err != nil {
-		return nil, 0, err
+		return nil, nil, err
 	}
 
 	idx := &Index{Datasets: datasets}
 	slices.SortFunc(idx.Datasets, func(a, b portal.Dataset) int { return strings.Compare(a.ID, b.ID) })
-	return idx, refreshed, nil
+	return idx, changed, nil
 }

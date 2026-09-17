@@ -27,7 +27,7 @@ const usage = `Usage:
 Flags of search: --limit N (default 30), --offset N, --output text|json
 Flags of info:   --output text|json
 Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)
-Flags of index:  --file PATH (default data/index.json)`
+Flags of index:  --file PATH (default data/index.json), --data DIR mirrors the tables`
 
 // Run executes one command and writes its result to stdout
 func Run(ctx context.Context, cfg *config.Config, args []string, stdout io.Writer) error {
@@ -100,6 +100,7 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 
 	case "index":
 		file := flags.String("file", "data/index.json", "")
+		data := flags.String("data", "", "")
 		if err := flags.Parse(args); err != nil {
 			return err
 		}
@@ -107,14 +108,23 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		if err != nil {
 			return err
 		}
-		idx, refreshed, err := index.Build(ctx, portal.NewClient(cfg), previous)
+		client := portal.NewClient(cfg)
+		idx, changed, err := index.Build(ctx, client, previous)
 		if err != nil {
 			return err
 		}
 		if err := idx.Write(*file); err != nil {
 			return err
 		}
-		_, err = fmt.Fprintf(stdout, "%d datasets, %d new or changed\n", len(idx.Datasets), refreshed)
+		summary := fmt.Sprintf("%d datasets, %d new or changed", len(idx.Datasets), len(changed))
+		if *data != "" {
+			written, err := index.Mirror(ctx, client, idx, changed, *data)
+			if err != nil {
+				return err
+			}
+			summary += fmt.Sprintf(", %d mirrored", written)
+		}
+		_, err = fmt.Fprintln(stdout, summary)
 		return err
 
 	case "version", "--version":

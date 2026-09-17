@@ -32,6 +32,7 @@ type Server struct {
 	SearchRequests int     // number of search requests served
 	LastQuery      string  // raw query string of the most recent OGC items request
 	InfoRequests   int     // number of information page requests served
+	CSVRequests    int     // number of statistics table downloads served
 }
 
 // infoPage mimics the metadata page of a geodata layer on kommisdd.dresden.de
@@ -46,6 +47,10 @@ const infoPage = `<html><body><table>
   <p class="text-absatz">Erhoben durch das Umweltamt. </p>
 </td></tr>
 </table></body></html>`
+
+// StatsCSV is the table the statistics fixture D2 downloads as, kept with the
+// portal's CRLF line endings
+const StatsCSV = "Jahr;Stadtbezirk;Geborene\r\n2020;Altstadt;123\r\n"
 
 // fixtures replicate the portal's search results for a geodata layer (D1), a
 // statistics table (D2) and a dataset whose download is broken (D3).
@@ -62,7 +67,8 @@ const fixtures = `[
   "themen":["Bevölkerung","Bevölkerung"],"raeume":["Stadtbezirk"],"zeiten":["2020","2020"],
   "dataSource":{"name":"Einwohnermelderegister"},"presentationLicense":{"name":"dl-de/by-2-0"},
   "presentations":[
-   {"ergebnisId":"D2","darstellungsArtBezeichnung":"JSON","schnittstelle":"{{base}}/dcat-ap/dataset/geborene/content.json","aufrufUrl":null},
+   {"ergebnisId":"D2","darstellungsArtBezeichnung":"JSON","schnittstelle":"{{base}}/dcat-ap/dataset/de-sn-dresden-geborene/content.json","aufrufUrl":null},
+   {"ergebnisId":"D2","darstellungsArtBezeichnung":"CSV","schnittstelle":"{{base}}/dcat-ap/dataset/de-sn-dresden-geborene/content.csv","aufrufUrl":null},
    {"ergebnisId":"D2","darstellungsArtBezeichnung":"Tabelle","schnittstelle":"Bevölkerung/Geborene nach Geschlecht_2020_TAB","aufrufUrl":"{{base}}/aswdb/asw.dll/?aw="}]},
  {"bezeichnung":"Kaputter Datensatz","letzteAenderung":"01.01.2020","themen":[],"raeume":[],"zeiten":[],
   "dataSource":{"name":"Test"},"presentationLicense":{"name":"none"},
@@ -131,8 +137,12 @@ func New(t *testing.T) *Server {
 		}
 		_ = json.NewEncoder(w).Encode(map[string]any{"type": "FeatureCollection", "features": []any{}})
 	})
-	mux.HandleFunc("/dcat-ap/dataset/geborene/content.json", func(w http.ResponseWriter, r *http.Request) {
+	mux.HandleFunc("/dcat-ap/dataset/de-sn-dresden-geborene/content.json", func(w http.ResponseWriter, r *http.Request) {
 		_ = json.NewEncoder(w).Encode(map[string]any{"data": []any{map[string]any{"Jahr": "2020"}}})
+	})
+	mux.HandleFunc("/dcat-ap/dataset/de-sn-dresden-geborene/content.csv", func(w http.ResponseWriter, r *http.Request) {
+		fake.CSVRequests++
+		_, _ = w.Write([]byte(StatsCSV))
 	})
 	mux.HandleFunc("/ogc.ashx", func(w http.ResponseWriter, r *http.Request) {
 		fake.InfoRequests++

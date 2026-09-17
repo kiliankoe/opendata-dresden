@@ -72,7 +72,7 @@ func TestInfo(t *testing.T) {
 	if err := json.Unmarshal([]byte(out), &ds); err != nil {
 		t.Fatal(err)
 	}
-	if ds.Title != "Geborene nach Geschlecht 2020" || len(ds.Resources) != 2 {
+	if ds.Title != "Geborene nach Geschlecht 2020" || len(ds.Resources) != 3 {
 		t.Errorf("unexpected dataset %+v", ds)
 	}
 
@@ -182,6 +182,22 @@ func TestIndex(t *testing.T) {
 	data, err := os.ReadFile(file)
 	if err != nil || !strings.Contains(string(data), `"description": "Wanderwege`) {
 		t.Errorf("index file: err=%v content=%s", err, data)
+	}
+}
+
+func TestIndexWithData(t *testing.T) {
+	fake := portaltest.New(t)
+	dir := t.TempDir()
+	out, err := run(t, fake, "index", "--file", filepath.Join(dir, "index.json"), "--data", filepath.Join(dir, "statistics"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if out != "3 datasets, 3 new or changed, 1 mirrored\n" {
+		t.Errorf("unexpected output %q", out)
+	}
+	table, err := os.ReadFile(filepath.Join(dir, "statistics", "geborene.csv"))
+	if err != nil || string(table) != portaltest.StatsCSV {
+		t.Errorf("mirrored table: err=%v content=%q", err, table)
 	}
 }
 

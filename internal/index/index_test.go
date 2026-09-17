@@ -16,12 +16,12 @@ func TestBuild(t *testing.T) {
 	client := portal.NewClient(&config.Config{PortalURL: fake.URL})
 	ctx := context.Background()
 
-	idx, refreshed, err := Build(ctx, client, &Index{})
+	idx, changed, err := Build(ctx, client, &Index{})
 	if err != nil {
 		t.Fatal(err)
 	}
-	if len(idx.Datasets) != 3 || refreshed != 3 || fake.InfoRequests != 1 {
-		t.Fatalf("got %d datasets, %d refreshed, %d info requests", len(idx.Datasets), refreshed, fake.InfoRequests)
+	if len(idx.Datasets) != 3 || len(changed) != 3 || fake.InfoRequests != 1 {
+		t.Fatalf("got %d datasets, %d changed, %d info requests", len(idx.Datasets), len(changed), fake.InfoRequests)
 	}
 	if got := idx.Datasets[0]; got.ID != "D1" || got.Description == "" || got.Origin == "" {
 		t.Errorf("first dataset = %+v, want described D1", got)
@@ -29,18 +29,18 @@ func TestBuild(t *testing.T) {
 
 	// Unchanged datasets keep their details without another page fetch;
 	// only the geodata fixture D1 has a page to fetch at all
-	again, refreshed, err := Build(ctx, client, idx)
+	again, changed, err := Build(ctx, client, idx)
 	if err != nil {
 		t.Fatal(err)
 	}
-	if refreshed != 0 || fake.InfoRequests != 1 || again.Datasets[0].Description != idx.Datasets[0].Description {
-		t.Errorf("rebuild: %d refreshed, %d info requests, description %q", refreshed, fake.InfoRequests, again.Datasets[0].Description)
+	if len(changed) != 0 || fake.InfoRequests != 1 || again.Datasets[0].Description != idx.Datasets[0].Description {
+		t.Errorf("rebuild: %d changed, %d info requests, description %q", len(changed), fake.InfoRequests, again.Datasets[0].Description)
 	}
 
 	// A changed update date invalidates the details
 	idx.Datasets[0].Updated = "01.01.2000"
-	if _, refreshed, err = Build(ctx, client, idx); err != nil || refreshed != 1 || fake.InfoRequests != 2 {
-		t.Errorf("changed: err=%v %d refreshed, %d info requests", err, refreshed, fake.InfoRequests)
+	if _, changed, err = Build(ctx, client, idx); err != nil || len(changed) != 1 || changed[0] != "D1" || fake.InfoRequests != 2 {
+		t.Errorf("changed: err=%v changed=%v, %d info requests", err, changed, fake.InfoRequests)
 	}
 }
 

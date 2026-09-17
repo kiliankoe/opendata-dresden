@@ -76,7 +76,7 @@ func TestGetDataset(t *testing.T) {
 		t.Errorf("unexpected dataset %+v", ds)
 	}
 	wantTable := fake.URL + "/aswdb/asw.dll/?aw=Bev%C3%B6lkerung/Geborene%20nach%20Geschlecht_2020_TAB"
-	if len(ds.Resources) != 2 || ds.Resources[1].URL != wantTable {
+	if len(ds.Resources) != 3 || ds.Resources[2].URL != wantTable {
 		t.Errorf("table resource = %+v, want URL %s", ds.Resources, wantTable)
 	}
 
@@ -125,7 +125,7 @@ func TestFetchResource(t *testing.T) {
 		t.Errorf("JSON fetch: err=%v data=%q", err, data)
 	}
 
-	if _, err := client.FetchResource(ctx, stats, "CSV", FetchOptions{}); err == nil {
+	if _, err := client.FetchResource(ctx, stats, "WFS", FetchOptions{}); err == nil {
 		t.Error("expected error for unavailable format, got nil")
 	}
 	if _, err := client.FetchResource(ctx, broken, "CSV", FetchOptions{}); err == nil {

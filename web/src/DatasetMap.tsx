@@ -125,25 +125,34 @@ export default function DatasetMap({
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      <div className="mb-1.5 flex items-center gap-3 text-[0.8125rem] text-muted">
-        {geojsonUrl && wmsUrl && (
-          <Modes options={MODES} active={mode} onSelect={setMode} />
-        )}
-        <span>{status}</span>
-        {tooLarge && (
-          <button
-            type="button"
-            className={pill}
-            onClick={() => loadAnyway.current()}
-          >
-            Trotzdem laden
-          </button>
+      {geojsonUrl && wmsUrl && (
+        <Modes
+          className="mb-1.5 text-[0.8125rem] text-muted"
+          options={MODES}
+          active={mode}
+          onSelect={setMode}
+        />
+      )}
+      {/* The status lies on the map instead of above it. Above it, a line of
+          text appearing or wrapping resizes the map, and every resize reloads
+          the view, which changes the status again. */}
+      <div className="relative min-h-0 flex-1">
+        <div ref={container} className="h-full overflow-hidden rounded-lg" />
+        {status && (
+          <div className="pointer-events-none absolute top-2 left-2 flex max-w-[calc(100%-1rem)] flex-wrap items-center gap-2 rounded-md border border-line bg-surface px-2 py-1 text-[0.8125rem] text-muted shadow-sm">
+            {status}
+            {tooLarge && (
+              <button
+                type="button"
+                className={`pointer-events-auto ${pill}`}
+                onClick={() => loadAnyway.current()}
+              >
+                Trotzdem laden
+              </button>
+            )}
+          </div>
         )}
       </div>
-      <div
-        ref={container}
-        className="min-h-0 flex-1 overflow-hidden rounded-lg"
-      />
     </div>
   );
 }

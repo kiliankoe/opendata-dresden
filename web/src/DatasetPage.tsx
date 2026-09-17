@@ -6,9 +6,13 @@ import {
   useMemo,
   useState,
 } from "react";
+import { Changes } from "./Changes";
 import type { WmsLayer } from "./DatasetMap";
 import {
   type Dataset,
+  mirrorPath,
+  mirrorUrl,
+  parseCsv,
   portalUrl,
   type Resource,
   resource,
@@ -51,6 +55,8 @@ const embeddable = (r: Resource) =>
 type Viewer =
   | { label: "Karte"; kind: "map" }
   | { label: "Attribute"; kind: "table"; url: string }
+  | { label: "Tabelle"; kind: "stats"; url: string }
+  | { label: "Änderungen"; kind: "changes"; path: string }
   | { label: string; kind: "embed"; url: string };
 
 function viewers(dataset: Dataset, resources: Resource[]): Viewer[] {
@@ -59,6 +65,11 @@ function viewers(dataset: Dataset, resources: Resource[]): Viewer[] {
   if (geojson || resource(dataset, "WMS"))
     list.push({ label: "Karte", kind: "map" });
   if (geojson) list.push({ label: "Attribute", kind: "table", url: geojson });
+  // Pushed before the frames so the dedup below drops the portal's own table
+  const mirror = mirrorUrl(dataset);
+  const path = mirrorPath(dataset);
+  if (mirror) list.push({ label: "Tabelle", kind: "stats", url: mirror });
+  if (path) list.push({ label: "Änderungen", kind: "changes", path });
   const embeds = resources
     .filter(embeddable)
     .map((r) => ({ label: r.format, kind: "embed" as const, url: r.url }));
@@ -132,6 +143,8 @@ export function DatasetPage({
           </Suspense>
         )}
         {active?.kind === "table" && <FeatureTable url={active.url} />}
+        {active?.kind === "stats" && <StatsTable url={active.url} />}
+        {active?.kind === "changes" && <Changes path={active.path} />}
         {active?.kind === "embed" && (
           <iframe
             key={active.url}
@@ -239,7 +252,7 @@ function FeatureTable({ url }: { url: string }) {
     const target = new URL(url);
     target.searchParams.set("limit", String(TABLE_ROWS));
     setRows(undefined);
-    setStatus("Lade …");
+    setStatus("Lade \u2026");
     download(target, controller.signal, AUTO_BYTES)
       .then((body) => {
         const features: { properties: Row }[] = JSON.parse(body).features;
@@ -262,7 +275,62 @@ function FeatureTable({ url }: { url: string }) {
     () => [...new Set(rows?.flatMap(Object.keys))],
     [rows],
   );
+  const cells = useMemo(
+    () => rows?.map((row) => columns.map((c) => String(row[c] ?? ""))),
+    [rows, columns],
+  );
 
+  return <DataTable status={status} columns={columns} rows={cells} />;
+}
+
+// StatsTable shows a statistics dataset from our mirrored copy. The portal's
+// own download allows no cross-origin request, which is why it is mirrored.
+function StatsTable({ url }: { url: string }) {
+  const [table, setTable] = useState<string[][]>();
+  const [status, setStatus] = useState("");
+
+  useEffect(() => {
+    const controller = new AbortController();
+    setTable(undefined);
+    setStatus("Lade \u2026");
+    download(new URL(url), controller.signal, AUTO_BYTES)
+      .then((body) => {
+        const rows = parseCsv(body);
+        setTable(rows);
+        setStatus(
+          rows.length - 1 > TABLE_ROWS
+            ? `Die ersten ${TABLE_ROWS} von ${rows.length - 1} Zeilen`
+            : `${rows.length - 1} Zeilen`,
+        );
+      })
+      .catch((e) => {
+        if (e instanceof TooLargeError)
+          setStatus("Mehr als 10 MB, bitte den Download nutzen");
+        else if (!isAbort(e)) setStatus("Tabelle konnte nicht geladen werden");
+      });
+    return () => controller.abort();
+  }, [url]);
+
+  return (
+    <DataTable
+      status={status}
+      columns={table?.[0] ?? []}
+      rows={table?.slice(1, TABLE_ROWS + 1)}
+    />
+  );
+}
+
+// DataTable renders rows that are already strings, with the header staying
+// put while the body scrolls
+function DataTable({
+  status,
+  columns,
+  rows,
+}: {
+  status: string;
+  columns: string[];
+  rows: string[][] | undefined;
+}) {
   return (
     <>
       <p className="mb-1.5 text-[0.8125rem] text-muted">{status}</p>
@@ -286,12 +354,13 @@ function FeatureTable({ url }: { url: string }) {
                 // Rows have no reliable key of their own
                 // biome-ignore lint/suspicious/noArrayIndexKey: static list
                 <tr key={i}>
-                  {columns.map((c) => (
+                  {row.map((value, c) => (
+                    // Cells line up with the header, whose names are unique
                     <td
-                      key={c}
+                      key={columns[c]}
                       className="border-b border-line px-2.5 py-1 text-left"
                     >
-                      {String(row[c] ?? "")}
+                      {value}
                     </td>
                   ))}
                 </tr>

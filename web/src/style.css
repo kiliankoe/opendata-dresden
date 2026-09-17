@@ -9,6 +9,8 @@
   --color-accent: var(--accent);
   --color-surface: var(--surface);
   --color-badge: var(--badge);
+  --color-added: var(--added);
+  --color-removed: var(--removed);
 }
 
 @theme {
@@ -24,6 +26,8 @@
   --accent: #0f766e;
   --surface: #fafaf9;
   --badge: #f5f5f4;
+  --added: #15803d;
+  --removed: #b91c1c;
   color-scheme: light dark;
 }
 
@@ -35,6 +39,8 @@
     --accent: #2dd4bf;
     --surface: #1c1917;
     --badge: #292524;
+    --added: #4ade80;
+    --removed: #fca5a5;
   }
 }
 

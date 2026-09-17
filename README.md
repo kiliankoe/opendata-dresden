@@ -66,7 +66,7 @@ These environment variables apply to both the CLI and the server: `REQUEST_TIMEO
 
 ### Web
 
-[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser. Each dataset has a page with its metadata next to a viewer for its resources: geodata layers as features on a map for the visible area, as the portal's own map service with its legend, or as an attribute table; the portal's tables, charts, thematic maps, reports and PDFs embedded as they are. Downloads and the statistics datasets' CSV and JSON are only linked, since their host allows no cross-origin requests.
+[kiliankoe.github.io/opendata-dresden](https://kiliankoe.github.io/opendata-dresden/) searches the index in the browser. Each dataset has a page with its metadata next to a viewer for its resources: geodata layers as features on a map for the visible area, as the portal's own map service with its legend, or as an attribute table; the portal's charts, thematic maps, reports and PDFs embedded as they are. Statistics datasets show their mirrored table and the changes recorded for it. Downloads are only linked, since the portal allows no cross-origin requests.
 
 ## Dataset index
 
@@ -80,7 +80,9 @@ Search and info answer from this index rather than the portal, whose search has 
 
 A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot.
 
-`od3 history <id>` and the `dataset_history` tool report what that history recorded, newest first, reading the commits through GitHub's API. `--diff` adds the rows that moved, at the cost of one request per change. Unauthenticated that API allows 60 requests per hour; set `GITHUB_TOKEN` to raise it. Fetching a dataset always goes to the portal, so you get the city's current numbers and never the mirror's copy of them.
+`od3 history <id>` and the `dataset_history` tool report what that history recorded, newest first, reading the commits through GitHub's API. `--diff` adds the rows that moved, at the cost of one request per change. Unauthenticated that API allows 60 requests per hour; set `GITHUB_TOKEN` to raise it. The web app reads the same API for its "Änderungen" view and the tables from `raw.githubusercontent.com`, which sends the CORS headers the portal does not.
+
+Fetching a dataset always goes to the portal, so you get the city's current numbers and never the mirror's copy of them. The portal's own charts stay as they are: the tables mix counts with rates, averages and cumulative figures, so a chart built without knowing which is which would show wrong numbers.
 
 ## Development
 

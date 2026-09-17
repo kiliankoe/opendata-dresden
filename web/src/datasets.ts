@@ -84,3 +84,55 @@ export function updatedTime(dataset: Dataset): number {
 export function portalUrl(dataset: Dataset): string {
   return `https://opendata.dresden.de/informationsportal/?open=1&result=${dataset.id}#app/mainpage`;
 }
+
+// RAW serves the repository's files with CORS headers, which the portal's own
+// downloads do not, so this is how the page reads a mirrored table
+const RAW =
+  "https://raw.githubusercontent.com/kiliankoe/opendata-dresden/main/";
+
+// mirrorPath locates a dataset's mirrored table inside the repository,
+// mirroring statsFile of the Go code, see internal/index/mirror.go. Geodata
+// layers are not mirrored.
+export function mirrorPath(dataset: Dataset): string | undefined {
+  const csv = dataset.resources.find((r) => r.format === "CSV");
+  const slug = csv?.url.match(
+    /\/dcat-ap\/dataset\/([^/]+)\/content\.csv$/,
+  )?.[1];
+  return slug
+    ? `data/statistics/${slug.replace(/^de-sn-dresden-/, "")}.csv`
+    : undefined;
+}
+
+export function mirrorUrl(dataset: Dataset): string | undefined {
+  const path = mirrorPath(dataset);
+  return path && RAW + path;
+}
+
+// parseCsv splits the portal's semicolon separated tables. Fields are quoted
+// only when they contain a semicolon, and none span several lines.
+export function parseCsv(text: string): string[][] {
+  return text
+    .split(/\r?\n/)
+    .filter((line) => line.trim() !== "")
+    .map((line) => {
+      const fields: string[] = [];
+      let field = "";
+      let quoted = false;
+      for (let i = 0; i < line.length; i++) {
+        const c = line[i];
+        if (c === '"' && line[i + 1] === '"') {
+          field += '"';
+          i++;
+        } else if (c === '"') {
+          quoted = !quoted;
+        } else if (c === ";" && !quoted) {
+          fields.push(field.trim());
+          field = "";
+        } else {
+          field += c;
+        }
+      }
+      fields.push(field.trim());
+      return fields;
+    });
+}

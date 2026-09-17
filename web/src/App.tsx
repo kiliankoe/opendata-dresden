@@ -199,6 +199,17 @@ export default function App() {
             Dresden Open Data Suche
           </a>
         </h1>
+        {openId && (
+          // Above the dataset page rather than in its facts column, which the
+          // narrow layout puts below the viewer
+          <button
+            type="button"
+            className="mt-1 mb-3 cursor-pointer text-sm text-accent"
+            onClick={back}
+          >
+            ← Zur Suche
+          </button>
+        )}
         {!openId && (
           <>
             <div className="text-sm text-muted">
@@ -282,20 +293,10 @@ export default function App() {
             viewer={viewer}
             mapMode={mapMode}
             onViewer={changeViewer}
-            onBack={back}
           />
         )}
         {openId && datasets && !open && (
-          <p>
-            Diesen Datensatz gibt es nicht mehr.{" "}
-            <button
-              type="button"
-              className="cursor-pointer text-sm text-accent"
-              onClick={back}
-            >
-              Zur Suche
-            </button>
-          </p>
+          <p>Diesen Datensatz gibt es nicht mehr.</p>
         )}
         {!openId && (
           <>

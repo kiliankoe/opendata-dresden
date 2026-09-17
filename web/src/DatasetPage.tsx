@@ -88,7 +88,6 @@ export function DatasetPage({
   viewer,
   mapMode,
   onViewer,
-  onBack,
 }: {
   dataset: Dataset;
   viewer: string;
@@ -96,7 +95,6 @@ export function DatasetPage({
   // The map reports its mode alongside its own label, so that both end up in
   // the URL and a shared link opens the map the sender saw
   onViewer: (label: string, mapMode?: string) => void;
-  onBack: () => void;
 }) {
   const resources = sortedResources(dataset);
   const options = viewers(dataset, resources);
@@ -107,13 +105,6 @@ export function DatasetPage({
   return (
     <article className="grid min-h-0 flex-1 grid-cols-1 grid-rows-[minmax(0,1fr)] gap-8 pane:grid-cols-[minmax(0,22rem)_minmax(0,1fr)]">
       <div className="min-h-0 pane:overflow-y-auto pane:pr-2">
-        <button
-          type="button"
-          className="mb-3 inline-block cursor-pointer text-sm text-accent"
-          onClick={onBack}
-        >
-          ← Zur Suche
-        </button>
         <h2 className="mb-1 text-xl font-bold">{dataset.title}</h2>
         {dataset.topics && <Badges items={dataset.topics} />}
         <Legend layers={legend} />

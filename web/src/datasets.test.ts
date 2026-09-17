@@ -1,5 +1,6 @@
 import { describe, expect, test } from "vitest";
 import {
+  byUpdated,
   createSearch,
   type Dataset,
   mirrorPath,
@@ -102,6 +103,17 @@ describe("dataset helpers", () => {
       Date.UTC(2025, 6, 15),
     );
     expect(updatedTime(stats)).toBe(0);
+  });
+
+  test("byUpdated leads with the newest and keeps equal dates in order", () => {
+    const d = (id: string, updated?: string) => ({ ...stats, id, updated });
+    const order = byUpdated([
+      d("A", "01.01.2020"),
+      d("B"),
+      d("C", "02.01.2020"),
+      d("D", "01.01.2020"),
+    ]);
+    expect(order.map((entry) => entry.id)).toEqual(["C", "A", "D", "B"]);
   });
 
   test("search folds umlauts both ways", () => {

@@ -81,6 +81,13 @@ export function updatedTime(dataset: Dataset): number {
   return year ? Date.UTC(year, month - 1, day) : 0;
 }
 
+// byUpdated leads with the newest datasets. The sort is stable, so the many
+// datasets sharing a date keep the order they came in, which is their
+// relevance order when the list comes out of a search.
+export function byUpdated(datasets: Dataset[]): Dataset[] {
+  return [...datasets].sort((a, b) => updatedTime(b) - updatedTime(a));
+}
+
 export function portalUrl(dataset: Dataset): string {
   return `https://opendata.dresden.de/informationsportal/?open=1&result=${dataset.id}#app/mainpage`;
 }

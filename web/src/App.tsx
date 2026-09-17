@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { DatasetPage } from "./DatasetPage";
 import {
+  byUpdated,
   createSearch,
   type Dataset,
   loadDatasets,
-  updatedTime,
 } from "./datasets";
 import { Result } from "./Result";
 
@@ -30,6 +30,7 @@ export default function App() {
   const [query, setQuery] = useState(() => readUrl().query);
   const [topic, setTopic] = useState("");
   const [format, setFormat] = useState("");
+  const [sort, setSort] = useState("");
   const [openId, setOpenId] = useState(() => readUrl().openId);
   const [viewer, setViewer] = useState(() => readUrl().viewer);
   const [unfolded, setUnfolded] = useState("");
@@ -84,6 +85,7 @@ export default function App() {
   const changeQuery = filter(setQuery);
   const changeTopic = filter(setTopic);
   const changeFormat = filter(setFormat);
+  const changeSort = filter(setSort);
 
   const search = useMemo(() => datasets && createSearch(datasets), [datasets]);
   const byId = useMemo(
@@ -113,12 +115,13 @@ export default function App() {
     if (!datasets || !search) return [];
     let list = query.trim()
       ? search.search(query).flatMap((hit) => byId.get(hit.id) ?? [])
-      : [...datasets].sort((a, b) => updatedTime(b) - updatedTime(a));
+      : datasets;
     if (topic) list = list.filter((d) => d.topics?.includes(topic));
     if (format)
       list = list.filter((d) => d.resources.some((r) => r.format === format));
-    return list;
-  }, [datasets, search, byId, query, topic, format]);
+    // There is nothing to rank without a query, so that list goes by date too
+    return sort === "updated" || !query.trim() ? byUpdated(list) : list;
+  }, [datasets, search, byId, query, topic, format, sort]);
 
   const open = openId && datasets && byId.get(openId);
   // Clearing the hash goes through the hashchange handler like the links do,
@@ -131,6 +134,7 @@ export default function App() {
     changeQuery("");
     setTopic("");
     setFormat("");
+    setSort("");
     setOpenId("");
     setViewer("");
     window.scrollTo(0, 0);
@@ -210,6 +214,15 @@ export default function App() {
                 {formats.map((f) => (
                   <option key={f}>{f}</option>
                 ))}
+              </select>
+              <select
+                className={select}
+                value={sort}
+                onChange={(e) => changeSort(e.target.value)}
+                aria-label="Sortierung"
+              >
+                <option value="">Relevanz</option>
+                <option value="updated">Zuletzt aktualisiert</option>
               </select>
               {datasets && (
                 <span className="ml-auto text-sm text-muted">

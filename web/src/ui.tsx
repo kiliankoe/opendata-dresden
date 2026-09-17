@@ -1,11 +1,12 @@
 // The bits of presentation that more than one view needs
 
 // pill is the shape of the small round-bordered links and buttons
-export const pill =
-  "inline-block cursor-pointer rounded-full border border-accent px-2.5 py-0.5 text-accent";
+const shape = "cursor-pointer rounded-full border px-2.5 py-0.5";
+export const pill = `inline-block ${shape} border-accent text-accent`;
 
-// Modes switches between the views of a dataset. The buttons share their
-// borders, so the group reads as one control.
+// Modes switches between the views of a dataset. Each button carries its own
+// border: joining them into one segmented control breaks as soon as the row
+// wraps, because CSS cannot tell which button ends a line.
 export function Modes<T>({
   options,
   active,
@@ -18,17 +19,13 @@ export function Modes<T>({
   className?: string;
 }) {
   return (
-    <span className={`flex flex-wrap ${className}`}>
+    <span className={`flex flex-wrap gap-1.5 ${className}`}>
       {options.map(({ label, value }) => (
         <button
           key={label}
           type="button"
-          // The active button lies above its neighbors, so that all of its
-          // border shows the accent
-          className={`cursor-pointer border px-2.5 py-0.5 not-first:-ml-px first:rounded-l-full last:rounded-r-full ${
-            value === active
-              ? "relative border-accent text-accent"
-              : "border-line"
+          className={`${shape} ${
+            value === active ? "border-accent text-accent" : "border-line"
           }`}
           onClick={() => onSelect(value)}
         >

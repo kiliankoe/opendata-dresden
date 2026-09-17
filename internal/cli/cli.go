@@ -21,13 +21,15 @@ const usage = `Usage:
   od3 search [flags] [query...]   search datasets, no query lists all
   od3 info <id>                   show a dataset with all its resources
   od3 fetch [flags] <id> <format> download a dataset resource
+  od3 history [flags] <id>        show how a statistics table changed over time
   od3 index [flags]               snapshot all datasets with their descriptions
   od3 version                     print the version
 
-Flags of search: --limit N (default 30), --offset N, --output text|json
-Flags of info:   --output text|json
-Flags of fetch:  --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)
-Flags of index:  --file PATH (default data/index.json), --data DIR mirrors the tables`
+Flags of search:  --limit N (default 30), --offset N, --output text|json
+Flags of info:    --output text|json
+Flags of fetch:   --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)
+Flags of history: --limit N (default 10), --diff shows the changed rows, --output text|json
+Flags of index:   --file PATH (default data/index.json), --data DIR mirrors the tables`
 
 // Run executes one command and writes its result to stdout
 func Run(ctx context.Context, cfg *config.Config, args []string, stdout io.Writer) error {
@@ -98,6 +100,26 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		_, err = stdout.Write(data)
 		return err
 
+	case "history":
+		limit := flags.Int("limit", 10, "")
+		diff := flags.Bool("diff", false, "")
+		output := flags.String("output", "text", "")
+		if err := flags.Parse(args); err != nil {
+			return err
+		}
+		write, err := writer(*output)
+		if err != nil {
+			return err
+		}
+		if flags.NArg() != 1 {
+			return errors.New("usage: history [flags] <id>")
+		}
+		history, err := catalog.History(ctx, flags.Arg(0), *limit, *diff)
+		if err != nil {
+			return err
+		}
+		return write(stdout, history)
+
 	case "index":
 		file := flags.String("file", "data/index.json", "")
 		data := flags.String("data", "", "")
@@ -162,6 +184,8 @@ func writeText(w io.Writer, v any) error {
 		return writeSearchText(w, v)
 	case *portal.Dataset:
 		return writeDatasetText(w, v)
+	case *index.History:
+		return writeHistoryText(w, v)
 	default:
 		return fmt.Errorf("no text format for %T", v)
 	}
@@ -177,6 +201,22 @@ func writeSearchText(w io.Writer, result *portal.SearchResult) error {
 		fmt.Fprintf(&b, "%s\n  %s  updated %s  %s\n", ds.Title, ds.ID, ds.Updated, strings.Join(formats, ", "))
 	}
 	fmt.Fprintf(&b, "\n%d of %d datasets\n", len(result.Datasets), result.Total)
+	_, err := io.WriteString(w, b.String())
+	return err
+}
+
+func writeHistoryText(w io.Writer, h *index.History) error {
+	var b strings.Builder
+	fmt.Fprintln(&b, h.Title)
+	if len(h.Changes) == 0 {
+		fmt.Fprintln(&b, "no recorded changes yet")
+	}
+	for _, c := range h.Changes {
+		fmt.Fprintf(&b, "%s  %.7s  %s\n", c.Date, c.Commit, c.Message)
+		if c.Diff != "" {
+			fmt.Fprintf(&b, "%s\n", c.Diff)
+		}
+	}
 	_, err := io.WriteString(w, b.String())
 	return err
 }

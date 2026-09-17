@@ -50,7 +50,7 @@ func TestRegisterTools(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := map[string]bool{"search_datasets": true, "get_dataset_info": true, "fetch_dataset": true}
+	want := map[string]bool{"search_datasets": true, "get_dataset_info": true, "fetch_dataset": true, "dataset_history": true}
 	if len(res.Tools) != len(want) {
 		t.Errorf("got %d tools, want %d", len(res.Tools), len(want))
 	}

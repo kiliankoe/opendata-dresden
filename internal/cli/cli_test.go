@@ -4,6 +4,9 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
+	"io"
+	"net/http"
+	"net/http/httptest"
 	"os"
 	"path/filepath"
 	"strings"
@@ -166,6 +169,41 @@ func TestHelpAndUnknownCommand(t *testing.T) {
 	}
 	if _, err := run(t, fake, "bogus"); err == nil || !strings.Contains(err.Error(), "bogus") {
 		t.Errorf("expected error naming the unknown command, got %v", err)
+	}
+}
+
+func TestHistory(t *testing.T) {
+	fake := portaltest.New(t)
+	repo := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		_, _ = io.WriteString(w, `[{"sha":"bbb2222222","commit":{"message":"update data\n\nbody","committer":{"date":"2026-09-18T03:21:07Z"}}}]`)
+	}))
+	t.Cleanup(repo.Close)
+
+	cfg := &config.Config{PortalURL: fake.URL, IndexURL: filepath.Join(t.TempDir(), "index.json"), RepoAPI: repo.URL}
+	idx, _, err := index.Build(context.Background(), portal.NewClient(cfg), &index.Index{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if err := idx.Write(cfg.IndexURL); err != nil {
+		t.Fatal(err)
+	}
+
+	var out bytes.Buffer
+	if err := Run(context.Background(), cfg, []string{"history", "D2"}, &out); err != nil {
+		t.Fatal(err)
+	}
+	want := "Geborene nach Geschlecht 2020\n2026-09-18  bbb2222  update data\n"
+	if out.String() != want {
+		t.Errorf("got:\n%s\nwant:\n%s", out.String(), want)
+	}
+
+	// Geodata layers have no mirrored table, and the id is required
+	out.Reset()
+	if err := Run(context.Background(), cfg, []string{"history", "D1"}, &out); err == nil || !strings.Contains(err.Error(), "not mirrored") {
+		t.Errorf("geodata: err=%v", err)
+	}
+	if err := Run(context.Background(), cfg, []string{"history"}, &out); err == nil {
+		t.Error("expected error for missing id, got nil")
 	}
 }
 

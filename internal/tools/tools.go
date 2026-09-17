@@ -31,6 +31,11 @@ func RegisterTools(server *mcp.Server, cfg *config.Config) {
 		Name:        "fetch_dataset",
 		Description: "Download a dataset resource in one of its formats. CSV, JSON and GeoJSON return data; WMS and WFS return the service's capabilities document. Geodata layers return all features unless narrowed by limit or bbox.",
 	}, FetchDataset)
+
+	mcp.AddTool(server, &mcp.Tool{
+		Name:        "dataset_history",
+		Description: "Show how a statistics dataset's published numbers changed over time, newest first. This repository mirrors those tables nightly, so its commit history is the only record of revisions; the portal itself publishes only the current version. Set diff to see the rows that moved. Geodata layers are not mirrored.",
+	}, DatasetHistory)
 }
 
 // SearchDatasetsParams parameters for searching datasets
@@ -82,6 +87,25 @@ func FetchDataset(ctx context.Context, _ *mcp.CallToolRequest, args FetchDataset
 		return nil, nil, fmt.Errorf("fetching dataset: %w", err)
 	}
 	return textResult(string(data)), nil, nil
+}
+
+// DatasetHistoryParams parameters for reading a dataset's recorded history
+type DatasetHistoryParams struct {
+	ID    string `json:"id" jsonschema:"Dataset ID as returned by search_datasets"`
+	Limit int    `json:"limit,omitempty" jsonschema:"Maximum number of changes to report (default: 10)"`
+	Diff  bool   `json:"diff,omitempty" jsonschema:"Include the changed rows of each change in unified diff format"`
+}
+
+// DatasetHistory reports the recorded changes of a mirrored statistics table
+func DatasetHistory(ctx context.Context, _ *mcp.CallToolRequest, args DatasetHistoryParams) (*mcp.CallToolResult, any, error) {
+	if args.Limit == 0 {
+		args.Limit = 10
+	}
+	history, err := catalog.History(ctx, args.ID, args.Limit, args.Diff)
+	if err != nil {
+		return nil, nil, fmt.Errorf("reading dataset history: %w", err)
+	}
+	return jsonResult(history)
 }
 
 func jsonResult(v any) (*mcp.CallToolResult, any, error) {

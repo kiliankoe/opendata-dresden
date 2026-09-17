@@ -41,26 +41,28 @@ Without arguments `od3` runs the MCP server on stdio. Register it with your clie
 }
 ```
 
-The server offers three tools:
+The server offers four tools:
 
 - `search_datasets` searches the index. Every word of the query has to appear in a dataset's title, topics, source or description; matches in the title rank first, and umlauts may be spelled out ("strasse" finds "Straße"). Use German terms. An empty query lists all datasets. Results carry the dataset's ID and its resources (CSV, JSON, GeoJSON, WMS, WFS, tables, charts, ...) with their URLs. `limit` and `offset` paginate.
 - `get_dataset_info` returns a dataset with all its resources by ID.
 - `fetch_dataset` downloads one resource by dataset ID and format. CSV, JSON and GeoJSON return data, WMS and WFS return the service's capabilities document. Geodata layers return all their features by default. The portal offers no paging, so `limit` and a `bbox` (WGS84 `minLon,minLat,maxLon,maxLat`) are the only ways to narrow a large layer.
+- `dataset_history` reports how a statistics dataset's numbers changed over time, newest first, from the mirrored tables described below. `diff` adds the rows that moved. Geodata layers are not mirrored.
 
 You can introspect the server with the [MCP Inspector](https://modelcontextprotocol.io/legacy/tools/inspector).
 
 ### CLI
 
-The same three operations are available as commands. Search and info print a readable summary by default and the same JSON as the MCP tools with `--output json`. Fetch prints the resource as is.
+The same operations are available as commands. Search and info print a readable summary by default and the same JSON as the MCP tools with `--output json`. Fetch prints the resource as is.
 
 ```bash
 od3 search --limit 5 Straßenbahn
 od3 search --output json Straßenbahn
 od3 info 0F6996E7-26AB-4585-81BD-1EDA4381B1BC
 od3 fetch --limit 50 --bbox 13.72,51.04,13.76,51.07 0F6996E7-26AB-4585-81BD-1EDA4381B1BC GEOJSON
+od3 history --diff 001CCBCE-C798-4445-8680-9C8BD1FEC2DC
 ```
 
-Two environment variables apply to both the CLI and the server: `REQUEST_TIMEOUT_MS` (default 30000) and `INDEX_URL`, a URL or path of the dataset index described below.
+These environment variables apply to both the CLI and the server: `REQUEST_TIMEOUT_MS` (default 30000), `INDEX_URL`, a URL or path of the dataset index described below, `REPO_API` for the repository whose history `history` reads, and `GITHUB_TOKEN` to raise that API's rate limit.
 
 ### Web
 
@@ -77,6 +79,8 @@ Search and info answer from this index rather than the portal, whose search has 
 [`data/statistics/`](data/statistics) holds the CSV download of every statistics dataset, copied byte for byte and refreshed by the same Action with `od3 index --data data/statistics`. The portal publishes only the current version of each table, so this git history is the only record of how the numbers change. The whole set is about 39 MB and roughly 8 of the 323 tables change in a month.
 
 A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot.
+
+`od3 history <id>` and the `dataset_history` tool report what that history recorded, newest first, reading the commits through GitHub's API. `--diff` adds the rows that moved, at the cost of one request per change. Unauthenticated that API allows 60 requests per hour; set `GITHUB_TOKEN` to raise it. Fetching a dataset always goes to the portal, so you get the city's current numbers and never the mirror's copy of them.
 
 ## Development
 

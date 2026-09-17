@@ -2,7 +2,7 @@ import { Suspense, useState } from "react";
 import type { WmsLayer } from "./DatasetMap";
 import { DatasetMap, Facts, Legend } from "./DatasetPage";
 import { type Dataset, resource, sortedResources } from "./datasets";
-import { Badges, pill } from "./ui";
+import { Badges } from "./ui";
 
 // Result summarizes a dataset in the list and unfolds its details in place,
 // for a quick look at several datasets; the page is for a closer one
@@ -22,19 +22,31 @@ export function Result({
   return (
     <li className="border-b border-line">
       <div className="group relative py-3">
-        <h2 className="text-base font-semibold">
-          {/* The ::after covers the summary, so all of it opens the dataset */}
+        <div className="flex items-baseline justify-between gap-3">
+          <h2 className="text-base font-semibold">
+            {/* The ::after covers the summary, so all of it opens the dataset */}
+            <a
+              className="after:absolute after:inset-0 group-hover:text-accent"
+              href={`#${dataset.id}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onToggle();
+              }}
+            >
+              {dataset.title}
+            </a>
+          </h2>
+          {/* Lifted above that overlay, so the page stays one click away
+              without unfolding first. Its label repeats for every result,
+              hence the title in the accessible name. */}
           <a
-            className="after:absolute after:inset-0 group-hover:text-accent"
+            className="relative z-10 shrink-0 text-[0.8125rem] whitespace-nowrap text-accent"
             href={`#${dataset.id}`}
-            onClick={(e) => {
-              e.preventDefault();
-              onToggle();
-            }}
+            aria-label={`Detailseite: ${dataset.title}`}
           >
-            {dataset.title}
+            Detailseite →
           </a>
-        </h2>
+        </div>
         <p className="mt-0.5 text-[0.8125rem] text-muted">
           {[
             dataset.source,
@@ -51,13 +63,7 @@ export function Result({
       </div>
       {open && (
         <div className="pb-5">
-          <Facts dataset={dataset}>
-            <li>
-              <a className={pill} href={`#${dataset.id}`}>
-                Detailseite
-              </a>
-            </li>
-          </Facts>
+          <Facts dataset={dataset} />
           {(resource(dataset, "GEOJSON") || resource(dataset, "WMS")) && (
             <>
               <div className="flex h-[26rem] flex-col">

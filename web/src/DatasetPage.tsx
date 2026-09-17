@@ -1,11 +1,4 @@
-import {
-  lazy,
-  type ReactNode,
-  Suspense,
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { Changes } from "./Changes";
 import type { WmsLayer } from "./DatasetMap";
 import {
@@ -171,15 +164,8 @@ export function Legend({ layers }: { layers: WmsLayer[] }) {
   );
 }
 
-// Facts shows a dataset's description, metadata and resource links; children
-// are added to the links
-export function Facts({
-  dataset,
-  children,
-}: {
-  dataset: Dataset;
-  children?: ReactNode;
-}) {
+// Facts shows a dataset's description, metadata and resource links
+export function Facts({ dataset }: { dataset: Dataset }) {
   const years = dataset.years ?? [];
   // The third element marks the fact whose label carries the explanation of
   // the two dates
@@ -234,7 +220,6 @@ export function Facts({
             Im Portal öffnen
           </a>
         </li>
-        {children}
       </ul>
     </div>
   );

@@ -16,6 +16,11 @@ type Sort = "" | DateField;
 
 const germanDate = (iso: string) => iso.split("-").reverse().join(".");
 
+// Naming the open dataset keeps tabs, bookmarks and history entries apart
+export function pageTitle(dataset?: Dataset): string {
+  return dataset ? `OD3 - ${dataset.title}` : "Dresden Open Data Suche";
+}
+
 // Place is where the hash points: the open dataset, the viewer it shows and,
 // for the map, which of its maps is drawn
 type Place = { openId: string; viewer: string; mapMode: string };
@@ -163,6 +168,10 @@ export default function App() {
   const back = () => {
     location.hash = "";
   };
+
+  useEffect(() => {
+    document.title = pageTitle(open || undefined);
+  }, [open]);
 
   const reset = () => {
     changeQuery("");

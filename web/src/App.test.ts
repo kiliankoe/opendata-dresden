@@ -1,5 +1,5 @@
 import { describe, expect, test } from "vitest";
-import { formatHash, parseHash } from "./App";
+import { formatHash, pageTitle, parseHash } from "./App";
 
 describe("parseHash", () => {
   test("reads dataset, viewer and map mode", () => {
@@ -52,5 +52,17 @@ describe("formatHash", () => {
     expect(formatHash({ openId: "D", viewer: "", mapMode: "Objekte" })).toBe(
       "#D",
     );
+  });
+});
+
+describe("pageTitle", () => {
+  test("names the open dataset", () => {
+    expect(pageTitle({ id: "D", title: "Baumkataster", resources: [] })).toBe(
+      "OD3 - Baumkataster",
+    );
+  });
+
+  test("falls back to the search page without one", () => {
+    expect(pageTitle()).toBe("Dresden Open Data Suche");
   });
 });

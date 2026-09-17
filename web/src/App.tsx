@@ -8,7 +8,6 @@ import {
   loadDatasets,
 } from "./datasets";
 import { Result } from "./Result";
-import { DatesHelp } from "./ui";
 
 const PAGE = 50;
 
@@ -231,7 +230,6 @@ export default function App() {
                 <option value="updated">Neuester Stand</option>
                 <option value="changed">Zuletzt geändert</option>
               </select>
-              <DatesHelp align="right" />
               {datasets && (
                 <span className="ml-auto text-sm text-muted">
                   {results.length}{" "}

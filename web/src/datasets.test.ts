@@ -1,0 +1,116 @@
+import { describe, expect, test } from "vitest";
+import {
+  createSearch,
+  type Dataset,
+  mirrorPath,
+  mirrorUrl,
+  parseCsv,
+  sortedResources,
+  updatedTime,
+} from "./datasets";
+
+const dataset = (...resources: [string, string][]): Dataset => ({
+  id: "D",
+  title: "Test",
+  resources: resources.map(([format, url]) => ({ format, url })),
+});
+
+const stats = dataset([
+  "CSV",
+  "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-einwohner_geborene_md121_2015/content.csv",
+]);
+
+describe("parseCsv", () => {
+  test("splits the portal's semicolon separated rows", () => {
+    expect(parseCsv("Jahr;Ort;Zahl\r\n2015;Altstadt;12\r\n")).toEqual([
+      ["Jahr", "Ort", "Zahl"],
+      ["2015", "Altstadt", "12"],
+    ]);
+  });
+
+  // 16 of the mirrored tables quote a field precisely because it holds a
+  // semicolon, so splitting on the separator alone loses columns
+  test("keeps a semicolon inside a quoted field", () => {
+    expect(parseCsv('a;"eins; zwei";c')).toEqual([["a", "eins; zwei", "c"]]);
+  });
+
+  test("unescapes doubled quotes", () => {
+    expect(parseCsv('a;"sagt ""hallo""";c')).toEqual([
+      ["a", 'sagt "hallo"', "c"],
+    ]);
+  });
+
+  test("trims the padding the portal writes and skips blank lines", () => {
+    expect(parseCsv("a ;  b\n\n c;d \n")).toEqual([
+      ["a", "b"],
+      ["c", "d"],
+    ]);
+  });
+
+  test("reads plain newlines as well as the portal's CRLF", () => {
+    expect(parseCsv("a;b\nc;d")).toEqual([
+      ["a", "b"],
+      ["c", "d"],
+    ]);
+  });
+});
+
+describe("mirrorPath", () => {
+  test("names a statistics table without the shared prefix", () => {
+    expect(mirrorPath(stats)).toBe(
+      "data/statistics/einwohner_geborene_md121_2015.csv",
+    );
+    expect(mirrorUrl(stats)).toBe(
+      "https://raw.githubusercontent.com/kiliankoe/opendata-dresden/main/data/statistics/einwohner_geborene_md121_2015.csv",
+    );
+  });
+
+  test("ignores geodata layers, whose CSV is not mirrored", () => {
+    const layer = dataset([
+      "CSV",
+      "https://kommisdd.dresden.de/net4/public/ogcapi/collections/L1527/items?format=csv/ewkt",
+    ]);
+    expect(mirrorPath(layer)).toBeUndefined();
+    expect(mirrorUrl(layer)).toBeUndefined();
+  });
+
+  test("ignores datasets without a CSV at all", () => {
+    expect(
+      mirrorPath(dataset(["WMS", "https://example.org/wms"])),
+    ).toBeUndefined();
+  });
+});
+
+describe("dataset helpers", () => {
+  test("sortedResources puts directly usable formats first", () => {
+    const mixed = dataset(
+      ["Information", "i"],
+      ["WMS", "w"],
+      ["GEOJSON", "g"],
+      ["CSV", "c"],
+    );
+    expect(sortedResources(mixed).map((r) => r.format)).toEqual([
+      "GEOJSON",
+      "CSV",
+      "WMS",
+      "Information",
+    ]);
+  });
+
+  test("updatedTime reads the portal's dd.mm.yyyy, and nothing else", () => {
+    expect(updatedTime({ ...stats, updated: "15.07.2025" })).toBe(
+      Date.UTC(2025, 6, 15),
+    );
+    expect(updatedTime(stats)).toBe(0);
+  });
+
+  test("search folds umlauts both ways", () => {
+    const datasets: Dataset[] = [
+      { ...stats, id: "A", title: "Straßenbahn" },
+      { ...stats, id: "B", title: "Bevölkerung" },
+    ];
+    const search = createSearch(datasets);
+    expect(search.search("strasse").map((r) => r.id)).toEqual(["A"]);
+    expect(search.search("bevoelkerung").map((r) => r.id)).toEqual(["B"]);
+  });
+});

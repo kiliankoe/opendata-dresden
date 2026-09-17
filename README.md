@@ -97,6 +97,7 @@ make fmt
 cd web
 pnpm install
 pnpm dev
+pnpm test    # unit tests with Vitest
 pnpm check   # lint and format check with Biome, `pnpm fix` applies
 ```
 

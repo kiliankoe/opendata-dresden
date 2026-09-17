@@ -1,0 +1,489 @@
+Jahr;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Familienstand;Geschlecht;Anzahl Einwohner
+2017;01 Innere Altstadt;StB 0 Altstadt;ledig;männlich;487
+2017;01 Innere Altstadt;StB 0 Altstadt;ledig;weiblich;388
+2017;01 Innere Altstadt;StB 0 Altstadt;verheiratet;männlich;282
+2017;01 Innere Altstadt;StB 0 Altstadt;verheiratet;weiblich;264
+2017;01 Innere Altstadt;StB 0 Altstadt;verwitwet;männlich;31
+2017;01 Innere Altstadt;StB 0 Altstadt;verwitwet;weiblich;148
+2017;01 Innere Altstadt;StB 0 Altstadt;geschieden;männlich;36
+2017;01 Innere Altstadt;StB 0 Altstadt;geschieden;weiblich;69
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;ledig;männlich;1722
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;ledig;weiblich;1379
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;verheiratet;männlich;832
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;verheiratet;weiblich;800
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;verwitwet;männlich;99
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;verwitwet;weiblich;497
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;geschieden;männlich;220
+2017;02 Pirnaische Vorstadt;StB 0 Altstadt;geschieden;weiblich;355
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;ledig;männlich;2350
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;ledig;weiblich;1643
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;verheiratet;männlich;1156
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;verheiratet;weiblich;1132
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;verwitwet;männlich;141
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;verwitwet;weiblich;598
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;geschieden;männlich;247
+2017;03 Seevorstadt-Ost;StB 0 Altstadt;geschieden;weiblich;355
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;ledig;männlich;2277
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;ledig;weiblich;1822
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verheiratet;männlich;1468
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verheiratet;weiblich;1450
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verwitwet;männlich;161
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verwitwet;weiblich;742
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;geschieden;männlich;315
+2017;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;geschieden;weiblich;552
+2017;05 Friedrichstadt;StB 0 Altstadt;ledig;männlich;3814
+2017;05 Friedrichstadt;StB 0 Altstadt;ledig;weiblich;2598
+2017;05 Friedrichstadt;StB 0 Altstadt;verheiratet;männlich;884
+2017;05 Friedrichstadt;StB 0 Altstadt;verheiratet;weiblich;830
+2017;05 Friedrichstadt;StB 0 Altstadt;verwitwet;männlich;72
+2017;05 Friedrichstadt;StB 0 Altstadt;verwitwet;weiblich;352
+2017;05 Friedrichstadt;StB 0 Altstadt;geschieden;männlich;269
+2017;05 Friedrichstadt;StB 0 Altstadt;geschieden;weiblich;337
+2017;06 Johannstadt-Nord;StB 0 Altstadt;ledig;männlich;3211
+2017;06 Johannstadt-Nord;StB 0 Altstadt;ledig;weiblich;2976
+2017;06 Johannstadt-Nord;StB 0 Altstadt;verheiratet;männlich;2078
+2017;06 Johannstadt-Nord;StB 0 Altstadt;verheiratet;weiblich;2110
+2017;06 Johannstadt-Nord;StB 0 Altstadt;verwitwet;männlich;215
+2017;06 Johannstadt-Nord;StB 0 Altstadt;verwitwet;weiblich;893
+2017;06 Johannstadt-Nord;StB 0 Altstadt;geschieden;männlich;359
+2017;06 Johannstadt-Nord;StB 0 Altstadt;geschieden;weiblich;614
+2017;07 Johannstadt-Süd;StB 0 Altstadt;ledig;männlich;2365
+2017;07 Johannstadt-Süd;StB 0 Altstadt;ledig;weiblich;2278
+2017;07 Johannstadt-Süd;StB 0 Altstadt;verheiratet;männlich;2494
+2017;07 Johannstadt-Süd;StB 0 Altstadt;verheiratet;weiblich;2505
+2017;07 Johannstadt-Süd;StB 0 Altstadt;verwitwet;männlich;292
+2017;07 Johannstadt-Süd;StB 0 Altstadt;verwitwet;weiblich;1233
+2017;07 Johannstadt-Süd;StB 0 Altstadt;geschieden;männlich;340
+2017;07 Johannstadt-Süd;StB 0 Altstadt;geschieden;weiblich;821
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;ledig;männlich;7503
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;ledig;weiblich;6346
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verheiratet;männlich;1524
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verheiratet;weiblich;1480
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verwitwet;männlich;61
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verwitwet;weiblich;221
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;geschieden;männlich;427
+2017;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;geschieden;weiblich;530
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;ledig;männlich;2733
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;ledig;weiblich;2376
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;verheiratet;männlich;1472
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;verheiratet;weiblich;1468
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;verwitwet;männlich;62
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;verwitwet;weiblich;226
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;geschieden;männlich;306
+2017;12 Radeberger Vorstadt;StB 1 Neustadt;geschieden;weiblich;373
+2017;13 Innere Neustadt;StB 1 Neustadt;ledig;männlich;2514
+2017;13 Innere Neustadt;StB 1 Neustadt;ledig;weiblich;2132
+2017;13 Innere Neustadt;StB 1 Neustadt;verheiratet;männlich;1127
+2017;13 Innere Neustadt;StB 1 Neustadt;verheiratet;weiblich;1086
+2017;13 Innere Neustadt;StB 1 Neustadt;verwitwet;männlich;62
+2017;13 Innere Neustadt;StB 1 Neustadt;verwitwet;weiblich;294
+2017;13 Innere Neustadt;StB 1 Neustadt;geschieden;männlich;202
+2017;13 Innere Neustadt;StB 1 Neustadt;geschieden;weiblich;316
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;ledig;männlich;5293
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;ledig;weiblich;4100
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;verheiratet;männlich;1281
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;verheiratet;weiblich;1283
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;verwitwet;männlich;69
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;verwitwet;weiblich;208
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;geschieden;männlich;283
+2017;14 Leipziger Vorstadt;StB 1 Neustadt;geschieden;weiblich;327
+2017;15 Albertstadt;StB 1 Neustadt;ledig;männlich;1096
+2017;15 Albertstadt;StB 1 Neustadt;ledig;weiblich;738
+2017;15 Albertstadt;StB 1 Neustadt;verheiratet;männlich;495
+2017;15 Albertstadt;StB 1 Neustadt;verheiratet;weiblich;461
+2017;15 Albertstadt;StB 1 Neustadt;verwitwet;männlich;35
+2017;15 Albertstadt;StB 1 Neustadt;verwitwet;weiblich;159
+2017;15 Albertstadt;StB 1 Neustadt;geschieden;männlich;109
+2017;15 Albertstadt;StB 1 Neustadt;geschieden;weiblich;93
+2017;21 Pieschen-Süd;StB 2 Pieschen;ledig;männlich;4474
+2017;21 Pieschen-Süd;StB 2 Pieschen;ledig;weiblich;3913
+2017;21 Pieschen-Süd;StB 2 Pieschen;verheiratet;männlich;1367
+2017;21 Pieschen-Süd;StB 2 Pieschen;verheiratet;weiblich;1338
+2017;21 Pieschen-Süd;StB 2 Pieschen;verwitwet;männlich;55
+2017;21 Pieschen-Süd;StB 2 Pieschen;verwitwet;weiblich;269
+2017;21 Pieschen-Süd;StB 2 Pieschen;geschieden;männlich;316
+2017;21 Pieschen-Süd;StB 2 Pieschen;geschieden;weiblich;470
+2017;22 Mickten;StB 2 Pieschen;ledig;männlich;3692
+2017;22 Mickten;StB 2 Pieschen;ledig;weiblich;3196
+2017;22 Mickten;StB 2 Pieschen;verheiratet;männlich;2072
+2017;22 Mickten;StB 2 Pieschen;verheiratet;weiblich;2078
+2017;22 Mickten;StB 2 Pieschen;verwitwet;männlich;129
+2017;22 Mickten;StB 2 Pieschen;verwitwet;weiblich;548
+2017;22 Mickten;StB 2 Pieschen;geschieden;männlich;469
+2017;22 Mickten;StB 2 Pieschen;geschieden;weiblich;602
+2017;23 Kaditz;StB 2 Pieschen;ledig;männlich;1492
+2017;23 Kaditz;StB 2 Pieschen;ledig;weiblich;1284
+2017;23 Kaditz;StB 2 Pieschen;verheiratet;männlich;996
+2017;23 Kaditz;StB 2 Pieschen;verheiratet;weiblich;997
+2017;23 Kaditz;StB 2 Pieschen;verwitwet;männlich;76
+2017;23 Kaditz;StB 2 Pieschen;verwitwet;weiblich;235
+2017;23 Kaditz;StB 2 Pieschen;geschieden;männlich;208
+2017;23 Kaditz;StB 2 Pieschen;geschieden;weiblich;295
+2017;24 Trachau;StB 2 Pieschen;ledig;männlich;2488
+2017;24 Trachau;StB 2 Pieschen;ledig;weiblich;2250
+2017;24 Trachau;StB 2 Pieschen;verheiratet;männlich;2032
+2017;24 Trachau;StB 2 Pieschen;verheiratet;weiblich;2049
+2017;24 Trachau;StB 2 Pieschen;verwitwet;männlich;127
+2017;24 Trachau;StB 2 Pieschen;verwitwet;weiblich;448
+2017;24 Trachau;StB 2 Pieschen;geschieden;männlich;339
+2017;24 Trachau;StB 2 Pieschen;geschieden;weiblich;487
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;ledig;männlich;4025
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;ledig;weiblich;3238
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verheiratet;männlich;1884
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verheiratet;weiblich;1870
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verwitwet;männlich;144
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verwitwet;weiblich;551
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;geschieden;männlich;435
+2017;25 Pieschen-N/Trachenberge;StB 2 Pieschen;geschieden;weiblich;594
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;3380
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;2740
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;3113
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;3074
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;205
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;819
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;490
+2017;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;647
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;1300
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;1104
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1563
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1579
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;101
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;281
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;184
+2017;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;202
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;1177
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;949
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1594
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1594
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;78
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;288
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;136
+2017;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;171
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;895
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;806
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1115
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1106
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;65
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;210
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;85
+2017;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;135
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;1154
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;1109
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1321
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1307
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;53
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;239
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;190
+2017;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;255
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;2410
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;2327
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;2581
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;2583
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;164
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;621
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;330
+2017;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;490
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;702
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;563
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;776
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;774
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;44
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;211
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;120
+2017;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;176
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;1239
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;1018
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1283
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1280
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;64
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;315
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;219
+2017;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;307
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;852
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;670
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1038
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1040
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;45
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;155
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;121
+2017;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;108
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;749
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;572
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;843
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;846
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;34
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;136
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;78
+2017;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;74
+2017;51 Blasewitz;StB 5 Blasewitz;ledig;männlich;2376
+2017;51 Blasewitz;StB 5 Blasewitz;ledig;weiblich;2338
+2017;51 Blasewitz;StB 5 Blasewitz;verheiratet;männlich;2114
+2017;51 Blasewitz;StB 5 Blasewitz;verheiratet;weiblich;2123
+2017;51 Blasewitz;StB 5 Blasewitz;verwitwet;männlich;121
+2017;51 Blasewitz;StB 5 Blasewitz;verwitwet;weiblich;495
+2017;51 Blasewitz;StB 5 Blasewitz;geschieden;männlich;262
+2017;51 Blasewitz;StB 5 Blasewitz;geschieden;weiblich;479
+2017;52 Striesen-Ost;StB 5 Blasewitz;ledig;männlich;4284
+2017;52 Striesen-Ost;StB 5 Blasewitz;ledig;weiblich;4111
+2017;52 Striesen-Ost;StB 5 Blasewitz;verheiratet;männlich;2688
+2017;52 Striesen-Ost;StB 5 Blasewitz;verheiratet;weiblich;2707
+2017;52 Striesen-Ost;StB 5 Blasewitz;verwitwet;männlich;106
+2017;52 Striesen-Ost;StB 5 Blasewitz;verwitwet;weiblich;479
+2017;52 Striesen-Ost;StB 5 Blasewitz;geschieden;männlich;385
+2017;52 Striesen-Ost;StB 5 Blasewitz;geschieden;weiblich;658
+2017;53 Striesen-Süd;StB 5 Blasewitz;ledig;männlich;2996
+2017;53 Striesen-Süd;StB 5 Blasewitz;ledig;weiblich;2621
+2017;53 Striesen-Süd;StB 5 Blasewitz;verheiratet;männlich;2165
+2017;53 Striesen-Süd;StB 5 Blasewitz;verheiratet;weiblich;2181
+2017;53 Striesen-Süd;StB 5 Blasewitz;verwitwet;männlich;170
+2017;53 Striesen-Süd;StB 5 Blasewitz;verwitwet;weiblich;668
+2017;53 Striesen-Süd;StB 5 Blasewitz;geschieden;männlich;344
+2017;53 Striesen-Süd;StB 5 Blasewitz;geschieden;weiblich;598
+2017;54 Striesen-West;StB 5 Blasewitz;ledig;männlich;3139
+2017;54 Striesen-West;StB 5 Blasewitz;ledig;weiblich;3082
+2017;54 Striesen-West;StB 5 Blasewitz;verheiratet;männlich;2511
+2017;54 Striesen-West;StB 5 Blasewitz;verheiratet;weiblich;2554
+2017;54 Striesen-West;StB 5 Blasewitz;verwitwet;männlich;178
+2017;54 Striesen-West;StB 5 Blasewitz;verwitwet;weiblich;784
+2017;54 Striesen-West;StB 5 Blasewitz;geschieden;männlich;369
+2017;54 Striesen-West;StB 5 Blasewitz;geschieden;weiblich;663
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;ledig;männlich;2614
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;ledig;weiblich;2487
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verheiratet;männlich;2242
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verheiratet;weiblich;2256
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verwitwet;männlich;151
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verwitwet;weiblich;609
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;geschieden;männlich;379
+2017;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;geschieden;weiblich;640
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;ledig;männlich;3233
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;ledig;weiblich;2853
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;verheiratet;männlich;2617
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;verheiratet;weiblich;2642
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;verwitwet;männlich;147
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;verwitwet;weiblich;697
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;geschieden;männlich;509
+2017;56 Seidnitz/Dobritz;StB 5 Blasewitz;geschieden;weiblich;775
+2017;57 Gruna;StB 5 Blasewitz;ledig;männlich;2867
+2017;57 Gruna;StB 5 Blasewitz;ledig;weiblich;2759
+2017;57 Gruna;StB 5 Blasewitz;verheiratet;männlich;2762
+2017;57 Gruna;StB 5 Blasewitz;verheiratet;weiblich;2756
+2017;57 Gruna;StB 5 Blasewitz;verwitwet;männlich;213
+2017;57 Gruna;StB 5 Blasewitz;verwitwet;weiblich;865
+2017;57 Gruna;StB 5 Blasewitz;geschieden;männlich;401
+2017;57 Gruna;StB 5 Blasewitz;geschieden;weiblich;694
+2017;61 Leuben;StB 6 Leuben;ledig;männlich;2876
+2017;61 Leuben;StB 6 Leuben;ledig;weiblich;2600
+2017;61 Leuben;StB 6 Leuben;verheiratet;männlich;2132
+2017;61 Leuben;StB 6 Leuben;verheiratet;weiblich;2170
+2017;61 Leuben;StB 6 Leuben;verwitwet;männlich;226
+2017;61 Leuben;StB 6 Leuben;verwitwet;weiblich;797
+2017;61 Leuben;StB 6 Leuben;geschieden;männlich;476
+2017;61 Leuben;StB 6 Leuben;geschieden;weiblich;821
+2017;62 Laubegast;StB 6 Leuben;ledig;männlich;2649
+2017;62 Laubegast;StB 6 Leuben;ledig;weiblich;2344
+2017;62 Laubegast;StB 6 Leuben;verheiratet;männlich;2652
+2017;62 Laubegast;StB 6 Leuben;verheiratet;weiblich;2690
+2017;62 Laubegast;StB 6 Leuben;verwitwet;männlich;150
+2017;62 Laubegast;StB 6 Leuben;verwitwet;weiblich;632
+2017;62 Laubegast;StB 6 Leuben;geschieden;männlich;467
+2017;62 Laubegast;StB 6 Leuben;geschieden;weiblich;643
+2017;63 Kleinzschachwitz;StB 6 Leuben;ledig;männlich;1703
+2017;63 Kleinzschachwitz;StB 6 Leuben;ledig;weiblich;1526
+2017;63 Kleinzschachwitz;StB 6 Leuben;verheiratet;männlich;2109
+2017;63 Kleinzschachwitz;StB 6 Leuben;verheiratet;weiblich;2120
+2017;63 Kleinzschachwitz;StB 6 Leuben;verwitwet;männlich;120
+2017;63 Kleinzschachwitz;StB 6 Leuben;verwitwet;weiblich;438
+2017;63 Kleinzschachwitz;StB 6 Leuben;geschieden;männlich;261
+2017;63 Kleinzschachwitz;StB 6 Leuben;geschieden;weiblich;347
+2017;64 Großzschachwitz;StB 6 Leuben;ledig;männlich;1536
+2017;64 Großzschachwitz;StB 6 Leuben;ledig;weiblich;1241
+2017;64 Großzschachwitz;StB 6 Leuben;verheiratet;männlich;1251
+2017;64 Großzschachwitz;StB 6 Leuben;verheiratet;weiblich;1242
+2017;64 Großzschachwitz;StB 6 Leuben;verwitwet;männlich;99
+2017;64 Großzschachwitz;StB 6 Leuben;verwitwet;weiblich;397
+2017;64 Großzschachwitz;StB 6 Leuben;geschieden;männlich;240
+2017;64 Großzschachwitz;StB 6 Leuben;geschieden;weiblich;315
+2017;71 Prohlis-Nord;StB 7 Prohlis;ledig;männlich;1602
+2017;71 Prohlis-Nord;StB 7 Prohlis;ledig;weiblich;1219
+2017;71 Prohlis-Nord;StB 7 Prohlis;verheiratet;männlich;1121
+2017;71 Prohlis-Nord;StB 7 Prohlis;verheiratet;weiblich;1122
+2017;71 Prohlis-Nord;StB 7 Prohlis;verwitwet;männlich;82
+2017;71 Prohlis-Nord;StB 7 Prohlis;verwitwet;weiblich;368
+2017;71 Prohlis-Nord;StB 7 Prohlis;geschieden;männlich;315
+2017;71 Prohlis-Nord;StB 7 Prohlis;geschieden;weiblich;403
+2017;72 Prohlis-Süd;StB 7 Prohlis;ledig;männlich;2274
+2017;72 Prohlis-Süd;StB 7 Prohlis;ledig;weiblich;1596
+2017;72 Prohlis-Süd;StB 7 Prohlis;verheiratet;männlich;1407
+2017;72 Prohlis-Süd;StB 7 Prohlis;verheiratet;weiblich;1357
+2017;72 Prohlis-Süd;StB 7 Prohlis;verwitwet;männlich;173
+2017;72 Prohlis-Süd;StB 7 Prohlis;verwitwet;weiblich;648
+2017;72 Prohlis-Süd;StB 7 Prohlis;geschieden;männlich;466
+2017;72 Prohlis-Süd;StB 7 Prohlis;geschieden;weiblich;636
+2017;73 Niedersedlitz;StB 7 Prohlis;ledig;männlich;1360
+2017;73 Niedersedlitz;StB 7 Prohlis;ledig;weiblich;1089
+2017;73 Niedersedlitz;StB 7 Prohlis;verheiratet;männlich;1382
+2017;73 Niedersedlitz;StB 7 Prohlis;verheiratet;weiblich;1381
+2017;73 Niedersedlitz;StB 7 Prohlis;verwitwet;männlich;70
+2017;73 Niedersedlitz;StB 7 Prohlis;verwitwet;weiblich;259
+2017;73 Niedersedlitz;StB 7 Prohlis;geschieden;männlich;156
+2017;73 Niedersedlitz;StB 7 Prohlis;geschieden;weiblich;231
+2017;74 Lockwitz;StB 7 Prohlis;ledig;männlich;1439
+2017;74 Lockwitz;StB 7 Prohlis;ledig;weiblich;1258
+2017;74 Lockwitz;StB 7 Prohlis;verheiratet;männlich;1738
+2017;74 Lockwitz;StB 7 Prohlis;verheiratet;weiblich;1715
+2017;74 Lockwitz;StB 7 Prohlis;verwitwet;männlich;82
+2017;74 Lockwitz;StB 7 Prohlis;verwitwet;weiblich;225
+2017;74 Lockwitz;StB 7 Prohlis;geschieden;männlich;203
+2017;74 Lockwitz;StB 7 Prohlis;geschieden;weiblich;205
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;ledig;männlich;3166
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;ledig;weiblich;2651
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;verheiratet;männlich;3148
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;verheiratet;weiblich;3171
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;verwitwet;männlich;177
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;verwitwet;weiblich;726
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;geschieden;männlich;482
+2017;75 Leubnitz-Neuostra;StB 7 Prohlis;geschieden;weiblich;619
+2017;76 Strehlen;StB 7 Prohlis;ledig;männlich;3465
+2017;76 Strehlen;StB 7 Prohlis;ledig;weiblich;2728
+2017;76 Strehlen;StB 7 Prohlis;verheiratet;männlich;1694
+2017;76 Strehlen;StB 7 Prohlis;verheiratet;weiblich;1662
+2017;76 Strehlen;StB 7 Prohlis;verwitwet;männlich;99
+2017;76 Strehlen;StB 7 Prohlis;verwitwet;weiblich;473
+2017;76 Strehlen;StB 7 Prohlis;geschieden;männlich;381
+2017;76 Strehlen;StB 7 Prohlis;geschieden;weiblich;494
+2017;77 Reick;StB 7 Prohlis;ledig;männlich;1314
+2017;77 Reick;StB 7 Prohlis;ledig;weiblich;1128
+2017;77 Reick;StB 7 Prohlis;verheiratet;männlich;970
+2017;77 Reick;StB 7 Prohlis;verheiratet;weiblich;990
+2017;77 Reick;StB 7 Prohlis;verwitwet;männlich;57
+2017;77 Reick;StB 7 Prohlis;verwitwet;weiblich;341
+2017;77 Reick;StB 7 Prohlis;geschieden;männlich;188
+2017;77 Reick;StB 7 Prohlis;geschieden;weiblich;322
+2017;81 Südvorstadt-West;StB 8 Plauen;ledig;männlich;4659
+2017;81 Südvorstadt-West;StB 8 Plauen;ledig;weiblich;3335
+2017;81 Südvorstadt-West;StB 8 Plauen;verheiratet;männlich;1950
+2017;81 Südvorstadt-West;StB 8 Plauen;verheiratet;weiblich;1962
+2017;81 Südvorstadt-West;StB 8 Plauen;verwitwet;männlich;161
+2017;81 Südvorstadt-West;StB 8 Plauen;verwitwet;weiblich;627
+2017;81 Südvorstadt-West;StB 8 Plauen;geschieden;männlich;261
+2017;81 Südvorstadt-West;StB 8 Plauen;geschieden;weiblich;451
+2017;82 Südvorstadt-Ost;StB 8 Plauen;ledig;männlich;4145
+2017;82 Südvorstadt-Ost;StB 8 Plauen;ledig;weiblich;2377
+2017;82 Südvorstadt-Ost;StB 8 Plauen;verheiratet;männlich;978
+2017;82 Südvorstadt-Ost;StB 8 Plauen;verheiratet;weiblich;951
+2017;82 Südvorstadt-Ost;StB 8 Plauen;verwitwet;männlich;53
+2017;82 Südvorstadt-Ost;StB 8 Plauen;verwitwet;weiblich;229
+2017;82 Südvorstadt-Ost;StB 8 Plauen;geschieden;männlich;166
+2017;82 Südvorstadt-Ost;StB 8 Plauen;geschieden;weiblich;214
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;ledig;männlich;2479
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;ledig;weiblich;1814
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;verheiratet;männlich;2018
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;verheiratet;weiblich;2042
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;verwitwet;männlich;133
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;verwitwet;weiblich;528
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;geschieden;männlich;307
+2017;83 Räcknitz/Zschertnitz;StB 8 Plauen;geschieden;weiblich;451
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;ledig;männlich;1509
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;ledig;weiblich;1202
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;verheiratet;männlich;1769
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;verheiratet;weiblich;1769
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;verwitwet;männlich;99
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;verwitwet;weiblich;399
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;geschieden;männlich;259
+2017;84 Kleinpestitz/Mockritz;StB 8 Plauen;geschieden;weiblich;342
+2017;85 Coschütz/Gittersee;StB 8 Plauen;ledig;männlich;1556
+2017;85 Coschütz/Gittersee;StB 8 Plauen;ledig;weiblich;1129
+2017;85 Coschütz/Gittersee;StB 8 Plauen;verheiratet;männlich;1230
+2017;85 Coschütz/Gittersee;StB 8 Plauen;verheiratet;weiblich;1215
+2017;85 Coschütz/Gittersee;StB 8 Plauen;verwitwet;männlich;77
+2017;85 Coschütz/Gittersee;StB 8 Plauen;verwitwet;weiblich;257
+2017;85 Coschütz/Gittersee;StB 8 Plauen;geschieden;männlich;180
+2017;85 Coschütz/Gittersee;StB 8 Plauen;geschieden;weiblich;224
+2017;86 Plauen;StB 8 Plauen;ledig;männlich;3503
+2017;86 Plauen;StB 8 Plauen;ledig;weiblich;2841
+2017;86 Plauen;StB 8 Plauen;verheiratet;männlich;2131
+2017;86 Plauen;StB 8 Plauen;verheiratet;weiblich;2132
+2017;86 Plauen;StB 8 Plauen;verwitwet;männlich;101
+2017;86 Plauen;StB 8 Plauen;verwitwet;weiblich;487
+2017;86 Plauen;StB 8 Plauen;geschieden;männlich;292
+2017;86 Plauen;StB 8 Plauen;geschieden;weiblich;419
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;ledig;männlich;1653
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1443
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1789
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1758
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;87
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;387
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;258
+2017;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;283
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;ledig;männlich;3460
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2913
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1780
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1784
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;88
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;400
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;422
+2017;91 Cotta;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;607
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;ledig;männlich;3513
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2854
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1109
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1106
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;51
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;274
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;206
+2017;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;283
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;ledig;männlich;4185
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;3324
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1423
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1417
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;72
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;360
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;295
+2017;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;416
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2421
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1975
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;2050
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;2038
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;92
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;383
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;283
+2017;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;392
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2962
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1790
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1238
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1209
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;96
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;469
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;499
+2017;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;530
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;ledig;männlich;1691
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1290
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1024
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1024
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;77
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;447
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;277
+2017;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;448
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;1946
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1306
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;958
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;925
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;45
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;247
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;301
+2017;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;346
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2672
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2228
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;2437
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;2414
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;135
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;484
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;362
+2017;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;436
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;850
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;721
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1189
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1191
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;49
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;154
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;114
+2017;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;122

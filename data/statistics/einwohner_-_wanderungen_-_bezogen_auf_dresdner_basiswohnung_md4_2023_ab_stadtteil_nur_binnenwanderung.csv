@@ -1,0 +1,1225 @@
+Jahr;Fortzug / Zuzug;Wanderungstyp;Wanderungsgebiet;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Stadtraum;Anzahl Einwohner
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;10
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;23
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;23
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;25
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;44
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;25
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;17
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;63
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;16
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;24
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;66
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;47
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;32
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;28
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;4
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;7
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;51
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;27
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;11
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;14
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;6
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;8
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;36
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;5
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;12
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;15
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;14
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;8
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;61 Leuben;StB 6 Leuben;10 StB Leuben;32
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;62 Laubegast;StB 6 Leuben;10 StB Leuben;15
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;9
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;10
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);12
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);46
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);7
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);6
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);14
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);9
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);10
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);14
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;21
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;12
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;8
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;8
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;15
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;13
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;14
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;44
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;29
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;24
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;10
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;43
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;19
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;19
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;23
+2023;Fortzug;Außenwanderung;unbekannt, unzutreffend;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;13
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;24
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;46
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;78
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;152
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;84
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;67
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;114
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;69
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;42
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;93
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;85
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;142
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;170
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;107
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;121
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;162
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;100
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;48
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;40
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;37
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;18
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;45
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;26
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;35
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;21
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;22
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;59
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;102
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;56
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;92
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;77
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;81
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;79
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;61 Leuben;StB 6 Leuben;10 StB Leuben;108
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;62 Laubegast;StB 6 Leuben;10 StB Leuben;88
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;64
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;83
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);69
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);47
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);49
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);52
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);89
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);21
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);31
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);61
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;108
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;61
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;73
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;57
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;76
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;99
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;93
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;116
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;115
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;139
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;103
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;92
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;37
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;45
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;94
+2023;Fortzug;Außenwanderung;B1 Nahes Umland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;40
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;8
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;15
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;30
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;51
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;361
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;45
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;41
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;51
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;35
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;20
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;55
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;311
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;92
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;68
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;23
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;46
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;65
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;52
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;16
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;20
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;23
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;7
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;33
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;13
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;15
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;8
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;12
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;27
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;58
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;38
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;33
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;56
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;29
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;29
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;61 Leuben;StB 6 Leuben;10 StB Leuben;47
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;62 Laubegast;StB 6 Leuben;10 StB Leuben;33
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;25
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;33
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);18
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);23
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);13
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);14
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);55
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);18
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);30
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);33
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;58
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;30
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;42
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;34
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;32
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;43
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;35
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;62
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;75
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;82
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;30
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;37
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;23
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;35
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;61
+2023;Fortzug;Außenwanderung;B2 Fernes Umland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;9
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;26
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;44
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;73
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;48
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1832
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;69
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;62
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;132
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;41
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;73
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;100
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1761
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;91
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;89
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;28
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;40
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;85
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;47
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;11
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;10
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;7
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;19
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;59
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;17
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;17
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;6
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;44
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;100
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;50
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;61
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;62
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;53
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;64
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;61 Leuben;StB 6 Leuben;10 StB Leuben;57
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;62 Laubegast;StB 6 Leuben;10 StB Leuben;46
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;24
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;22
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);35
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);38
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);24
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);13
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);44
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);44
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);64
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);39
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;113
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;154
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;44
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;18
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;25
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;74
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;25
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;76
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;93
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;106
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;51
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;47
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;36
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;31
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;41
+2023;Fortzug;Außenwanderung;C Übriges Sachsen;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;14
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;41
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;59
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;81
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;67
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;104
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;122
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;61
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;220
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;54
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;77
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;144
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;46
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;116
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;60
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;20
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;25
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;79
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;60
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;18
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;13
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;11
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;28
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;51
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;12
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;7
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;57
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;98
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;73
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;79
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;45
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;41
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;58
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;61 Leuben;StB 6 Leuben;10 StB Leuben;45
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;62 Laubegast;StB 6 Leuben;10 StB Leuben;44
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;22
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;19
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);28
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);37
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);31
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);16
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);52
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);18
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);69
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);15
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;156
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;137
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;52
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;32
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;11
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;88
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;23
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;42
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;94
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;109
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;38
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;26
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;17
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;33
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;51
+2023;Fortzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;4
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;94
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;102
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;135
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;139
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;155
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;169
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;114
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;302
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;70
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;149
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;162
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;77
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;130
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;74
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;22
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;23
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;92
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;66
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;19
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;13
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;14
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;37
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;83
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;8
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;23
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;33
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;11
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;85
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;122
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;119
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;96
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;49
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;58
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;68
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;61 Leuben;StB 6 Leuben;10 StB Leuben;45
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;62 Laubegast;StB 6 Leuben;10 StB Leuben;62
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;36
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;26
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);59
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);58
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);25
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);31
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);66
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);48
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);150
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);38
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;279
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;282
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;91
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;34
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;31
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;115
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;19
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;77
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;134
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;164
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;45
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;100
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;38
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;54
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;49
+2023;Fortzug;Außenwanderung;E Alte BL ohne Berlin;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;9
+2023;Fortzug;Außenwanderung;F Ausland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;74
+2023;Fortzug;Außenwanderung;F Ausland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;147
+2023;Fortzug;Außenwanderung;F Ausland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;169
+2023;Fortzug;Außenwanderung;F Ausland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;251
+2023;Fortzug;Außenwanderung;F Ausland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;300
+2023;Fortzug;Außenwanderung;F Ausland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;124
+2023;Fortzug;Außenwanderung;F Ausland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;112
+2023;Fortzug;Außenwanderung;F Ausland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;258
+2023;Fortzug;Außenwanderung;F Ausland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;98
+2023;Fortzug;Außenwanderung;F Ausland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;148
+2023;Fortzug;Außenwanderung;F Ausland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;154
+2023;Fortzug;Außenwanderung;F Ausland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;156
+2023;Fortzug;Außenwanderung;F Ausland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;88
+2023;Fortzug;Außenwanderung;F Ausland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;81
+2023;Fortzug;Außenwanderung;F Ausland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;22
+2023;Fortzug;Außenwanderung;F Ausland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;30
+2023;Fortzug;Außenwanderung;F Ausland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;105
+2023;Fortzug;Außenwanderung;F Ausland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;78
+2023;Fortzug;Außenwanderung;F Ausland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;24
+2023;Fortzug;Außenwanderung;F Ausland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;22
+2023;Fortzug;Außenwanderung;F Ausland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;10
+2023;Fortzug;Außenwanderung;F Ausland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;25
+2023;Fortzug;Außenwanderung;F Ausland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;72
+2023;Fortzug;Außenwanderung;F Ausland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;15
+2023;Fortzug;Außenwanderung;F Ausland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;29
+2023;Fortzug;Außenwanderung;F Ausland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;47
+2023;Fortzug;Außenwanderung;F Ausland;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;6
+2023;Fortzug;Außenwanderung;F Ausland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;51
+2023;Fortzug;Außenwanderung;F Ausland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;69
+2023;Fortzug;Außenwanderung;F Ausland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;95
+2023;Fortzug;Außenwanderung;F Ausland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;81
+2023;Fortzug;Außenwanderung;F Ausland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;51
+2023;Fortzug;Außenwanderung;F Ausland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;60
+2023;Fortzug;Außenwanderung;F Ausland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;67
+2023;Fortzug;Außenwanderung;F Ausland;61 Leuben;StB 6 Leuben;10 StB Leuben;107
+2023;Fortzug;Außenwanderung;F Ausland;62 Laubegast;StB 6 Leuben;10 StB Leuben;70
+2023;Fortzug;Außenwanderung;F Ausland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;32
+2023;Fortzug;Außenwanderung;F Ausland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;43
+2023;Fortzug;Außenwanderung;F Ausland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);96
+2023;Fortzug;Außenwanderung;F Ausland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);129
+2023;Fortzug;Außenwanderung;F Ausland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);80
+2023;Fortzug;Außenwanderung;F Ausland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);25
+2023;Fortzug;Außenwanderung;F Ausland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);86
+2023;Fortzug;Außenwanderung;F Ausland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);96
+2023;Fortzug;Außenwanderung;F Ausland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);123
+2023;Fortzug;Außenwanderung;F Ausland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);50
+2023;Fortzug;Außenwanderung;F Ausland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;656
+2023;Fortzug;Außenwanderung;F Ausland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;348
+2023;Fortzug;Außenwanderung;F Ausland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;133
+2023;Fortzug;Außenwanderung;F Ausland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;32
+2023;Fortzug;Außenwanderung;F Ausland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;101
+2023;Fortzug;Außenwanderung;F Ausland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;102
+2023;Fortzug;Außenwanderung;F Ausland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;13
+2023;Fortzug;Außenwanderung;F Ausland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;70
+2023;Fortzug;Außenwanderung;F Ausland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;92
+2023;Fortzug;Außenwanderung;F Ausland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;109
+2023;Fortzug;Außenwanderung;F Ausland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;51
+2023;Fortzug;Außenwanderung;F Ausland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;222
+2023;Fortzug;Außenwanderung;F Ausland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;77
+2023;Fortzug;Außenwanderung;F Ausland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;357
+2023;Fortzug;Außenwanderung;F Ausland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;56
+2023;Fortzug;Außenwanderung;F Ausland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;8
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;33
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;82
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;132
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;186
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;534
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;256
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;152
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;628
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;132
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;147
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;318
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;336
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;190
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;331
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;55
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;172
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;213
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;375
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;38
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;57
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;68
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;54
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;176
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;24
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;99
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;20
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;102
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;179
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;117
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;166
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;169
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;167
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;146
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;61 Leuben;StB 6 Leuben;10 StB Leuben;242
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;62 Laubegast;StB 6 Leuben;10 StB Leuben;173
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;126
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;105
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);113
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);196
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);50
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);42
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);199
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);77
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);85
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);70
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;249
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;293
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;105
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;57
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;49
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;173
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;117
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;157
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;181
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;202
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;62
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;267
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;87
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;241
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;117
+2023;Fortzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;25
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;91
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;162
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;154
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;212
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;270
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;200
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;177
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;556
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;182
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;170
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;376
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;143
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;256
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;236
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;119
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;148
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;241
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;89
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;64
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;50
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;23
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;74
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;116
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;14
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;39
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;33
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;31
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;206
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;336
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;226
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;240
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;159
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;148
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;232
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;61 Leuben;StB 6 Leuben;10 StB Leuben;100
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;62 Laubegast;StB 6 Leuben;10 StB Leuben;79
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;75
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;90
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);207
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);142
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);113
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);79
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);172
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);84
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);124
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);113
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;294
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;300
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;154
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;82
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;77
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;188
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;110
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;331
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;299
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;325
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;148
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;297
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;176
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;306
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;191
+2023;Fortzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;24
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;233
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;359
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;571
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;563
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2252
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;575
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;462
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;919
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;441
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;459
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;749
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1267
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;546
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;401
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;135
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;189
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;528
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;384
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;101
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;80
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;67
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;141
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;293
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;81
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;148
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;87
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;44
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;300
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;534
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;517
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;489
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;442
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;441
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;415
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;61 Leuben;StB 6 Leuben;10 StB Leuben;507
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;62 Laubegast;StB 6 Leuben;10 StB Leuben;422
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;172
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;210
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);228
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);297
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);278
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);164
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);419
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);301
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);528
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);214
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;918
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;836
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;393
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;186
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;174
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;422
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;100
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;364
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;494
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;592
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;217
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;317
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;143
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;233
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;198
+2023;Fortzug;Binnenwanderung;A3 Umzug innerhalb Dresden;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;41
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;7
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;5
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;8
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;10
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;6
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;61 Leuben;StB 6 Leuben;10 StB Leuben;5
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;62 Laubegast;StB 6 Leuben;10 StB Leuben;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);11
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);6
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;7
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;6
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;5
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;7
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;3
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;4
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2
+2023;Zuzug;Außenwanderung;unbekannt, unzutreffend;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;1
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;19
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;49
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;80
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;78
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;104
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;68
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;52
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;86
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;39
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;47
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;91
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;54
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;68
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;131
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;83
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;60
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;88
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;150
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;29
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;19
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;43
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;12
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;21
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;10
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;32
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;10
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;28
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;68
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;62
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;58
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;65
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;74
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;64
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;61 Leuben;StB 6 Leuben;10 StB Leuben;94
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;62 Laubegast;StB 6 Leuben;10 StB Leuben;50
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;57
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;58
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);45
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);85
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);38
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);44
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);94
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);34
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);43
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);37
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;95
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;54
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;58
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;25
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;46
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;64
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;64
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;77
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;88
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;112
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;58
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;72
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;55
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;44
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;61
+2023;Zuzug;Außenwanderung;B1 Nahes Umland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;24
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;17
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;43
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;55
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;67
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;99
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;59
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;41
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;51
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;36
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;42
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;72
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;49
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;52
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;80
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;15
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;17
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;60
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;45
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;14
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;7
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;10
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;19
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;13
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;27
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;9
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;19
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;38
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;49
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;51
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;49
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;43
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;39
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;61 Leuben;StB 6 Leuben;10 StB Leuben;63
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;62 Laubegast;StB 6 Leuben;10 StB Leuben;43
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;14
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;26
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);50
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);51
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);16
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);25
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);45
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);10
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);41
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);21
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;86
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;73
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;28
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;17
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;19
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;32
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;24
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;50
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;64
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;74
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;29
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;53
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;21
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;39
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;30
+2023;Zuzug;Außenwanderung;B2 Fernes Umland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;12
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;44
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;145
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;152
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;143
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;505
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;131
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;94
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;173
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;62
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;94
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;183
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;606
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;138
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;136
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;36
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;30
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;111
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;124
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;11
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;21
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;9
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;23
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;60
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;19
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;19
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;22
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;8
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;50
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;105
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;99
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;111
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;56
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;71
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;59
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;61 Leuben;StB 6 Leuben;10 StB Leuben;88
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;62 Laubegast;StB 6 Leuben;10 StB Leuben;58
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;12
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;60
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);48
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);137
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);69
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);37
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);107
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);58
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);99
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);58
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;196
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;234
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;88
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;30
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;29
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;91
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;34
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;114
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;185
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;191
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;67
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;110
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;60
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;105
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;57
+2023;Zuzug;Außenwanderung;C Übriges Sachsen;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;7
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;74
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;58
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;135
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;147
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;144
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;165
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;88
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;201
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;63
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;76
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;174
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;60
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;85
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;112
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;17
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;30
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;78
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;85
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;11
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;10
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;18
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;21
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;53
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;15
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;12
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;62
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;103
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;82
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;103
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;37
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;68
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;80
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;61 Leuben;StB 6 Leuben;10 StB Leuben;66
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;62 Laubegast;StB 6 Leuben;10 StB Leuben;41
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;19
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;23
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);33
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);60
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);16
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);8
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);49
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);16
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);68
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);25
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;254
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;240
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;57
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;23
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;29
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;96
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;24
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;87
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;143
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;131
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;44
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;63
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;45
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;37
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;47
+2023;Zuzug;Außenwanderung;D  Neue BL mit Berlin o.Sachsen;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;13
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;94
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;87
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;135
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;164
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;183
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;171
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;135
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;312
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;89
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;158
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;195
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;111
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;111
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;118
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;28
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;35
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;99
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;86
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;24
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;17
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;16
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;30
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;61
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;10
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;32
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;17
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;9
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;75
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;121
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;91
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;110
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;75
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;66
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;83
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;61 Leuben;StB 6 Leuben;10 StB Leuben;68
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;62 Laubegast;StB 6 Leuben;10 StB Leuben;57
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;31
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;16
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);48
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);50
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);22
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);19
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);79
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);35
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);96
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);41
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;216
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;252
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;89
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;29
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;32
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;96
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;29
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;90
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;130
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;137
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;57
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;86
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;51
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;61
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;45
+2023;Zuzug;Außenwanderung;E Alte BL ohne Berlin;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;4
+2023;Zuzug;Außenwanderung;F Ausland;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;108
+2023;Zuzug;Außenwanderung;F Ausland;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;141
+2023;Zuzug;Außenwanderung;F Ausland;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;241
+2023;Zuzug;Außenwanderung;F Ausland;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;260
+2023;Zuzug;Außenwanderung;F Ausland;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3181
+2023;Zuzug;Außenwanderung;F Ausland;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;169
+2023;Zuzug;Außenwanderung;F Ausland;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;196
+2023;Zuzug;Außenwanderung;F Ausland;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;318
+2023;Zuzug;Außenwanderung;F Ausland;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;108
+2023;Zuzug;Außenwanderung;F Ausland;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;211
+2023;Zuzug;Außenwanderung;F Ausland;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;172
+2023;Zuzug;Außenwanderung;F Ausland;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2184
+2023;Zuzug;Außenwanderung;F Ausland;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;131
+2023;Zuzug;Außenwanderung;F Ausland;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;150
+2023;Zuzug;Außenwanderung;F Ausland;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;36
+2023;Zuzug;Außenwanderung;F Ausland;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;46
+2023;Zuzug;Außenwanderung;F Ausland;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;147
+2023;Zuzug;Außenwanderung;F Ausland;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;171
+2023;Zuzug;Außenwanderung;F Ausland;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;28
+2023;Zuzug;Außenwanderung;F Ausland;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;12
+2023;Zuzug;Außenwanderung;F Ausland;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;13
+2023;Zuzug;Außenwanderung;F Ausland;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;25
+2023;Zuzug;Außenwanderung;F Ausland;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;73
+2023;Zuzug;Außenwanderung;F Ausland;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;20
+2023;Zuzug;Außenwanderung;F Ausland;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;19
+2023;Zuzug;Außenwanderung;F Ausland;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;49
+2023;Zuzug;Außenwanderung;F Ausland;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;14
+2023;Zuzug;Außenwanderung;F Ausland;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;72
+2023;Zuzug;Außenwanderung;F Ausland;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;98
+2023;Zuzug;Außenwanderung;F Ausland;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;169
+2023;Zuzug;Außenwanderung;F Ausland;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;129
+2023;Zuzug;Außenwanderung;F Ausland;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;76
+2023;Zuzug;Außenwanderung;F Ausland;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;117
+2023;Zuzug;Außenwanderung;F Ausland;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;87
+2023;Zuzug;Außenwanderung;F Ausland;61 Leuben;StB 6 Leuben;10 StB Leuben;150
+2023;Zuzug;Außenwanderung;F Ausland;62 Laubegast;StB 6 Leuben;10 StB Leuben;68
+2023;Zuzug;Außenwanderung;F Ausland;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;18
+2023;Zuzug;Außenwanderung;F Ausland;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;58
+2023;Zuzug;Außenwanderung;F Ausland;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);155
+2023;Zuzug;Außenwanderung;F Ausland;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);151
+2023;Zuzug;Außenwanderung;F Ausland;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);46
+2023;Zuzug;Außenwanderung;F Ausland;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);30
+2023;Zuzug;Außenwanderung;F Ausland;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);79
+2023;Zuzug;Außenwanderung;F Ausland;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);248
+2023;Zuzug;Außenwanderung;F Ausland;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);206
+2023;Zuzug;Außenwanderung;F Ausland;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);161
+2023;Zuzug;Außenwanderung;F Ausland;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;836
+2023;Zuzug;Außenwanderung;F Ausland;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;746
+2023;Zuzug;Außenwanderung;F Ausland;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;215
+2023;Zuzug;Außenwanderung;F Ausland;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;43
+2023;Zuzug;Außenwanderung;F Ausland;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;123
+2023;Zuzug;Außenwanderung;F Ausland;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;92
+2023;Zuzug;Außenwanderung;F Ausland;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;13
+2023;Zuzug;Außenwanderung;F Ausland;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;88
+2023;Zuzug;Außenwanderung;F Ausland;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;105
+2023;Zuzug;Außenwanderung;F Ausland;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;121
+2023;Zuzug;Außenwanderung;F Ausland;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;48
+2023;Zuzug;Außenwanderung;F Ausland;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;225
+2023;Zuzug;Außenwanderung;F Ausland;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;115
+2023;Zuzug;Außenwanderung;F Ausland;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;235
+2023;Zuzug;Außenwanderung;F Ausland;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;52
+2023;Zuzug;Außenwanderung;F Ausland;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;7
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;33
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;82
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;132
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;186
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;534
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;256
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;152
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;628
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;132
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;147
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;318
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;336
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;190
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;331
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;55
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;172
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;213
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;375
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;38
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;57
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;68
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;54
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;176
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;24
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;99
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;20
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;16
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;102
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;179
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;117
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;166
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;169
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;167
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;146
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;61 Leuben;StB 6 Leuben;10 StB Leuben;242
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;62 Laubegast;StB 6 Leuben;10 StB Leuben;173
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;126
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;105
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);113
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);196
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);50
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);42
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);199
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);83
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);79
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);70
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;249
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;293
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;105
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;57
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;49
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;173
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;117
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;157
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;181
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;202
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;62
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;267
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;87
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;241
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;117
+2023;Zuzug;Binnenwanderung;A1 Umzug innerhalb Stadtteil;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;25
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;76
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;223
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;179
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;198
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;189
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;229
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;172
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;402
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;185
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;254
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;390
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;196
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;160
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;282
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;127
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;185
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;246
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;112
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;60
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;31
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;23
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;50
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;87
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;26
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;80
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;29
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;35
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;192
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;264
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;276
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;214
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;201
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;184
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;216
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;61 Leuben;StB 6 Leuben;10 StB Leuben;105
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;62 Laubegast;StB 6 Leuben;10 StB Leuben;60
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;74
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;105
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);170
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);294
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);79
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);94
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);132
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);74
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);62
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);129
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;289
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;213
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;210
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;98
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;78
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;207
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;82
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;309
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;300
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;260
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;191
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;325
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;217
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;199
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;239
+2023;Zuzug;Binnenwanderung;A2 Umzug innerhalb Stadtbezirk;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;85
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;193
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;371
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;591
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;609
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1495
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;786
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;571
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;959
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;301
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;432
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;800
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1175
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;621
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;547
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;127
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;178
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;571
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;498
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;171
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;103
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;80
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;162
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;353
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;94
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;183
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;103
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;53
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;307
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;432
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;492
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;497
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;367
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;355
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;410
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;61 Leuben;StB 6 Leuben;10 StB Leuben;565
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;62 Laubegast;StB 6 Leuben;10 StB Leuben;504
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;220
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;336
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);224
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);464
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);318
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);183
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);507
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);273
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);540
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);250
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;668
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;535
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;342
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;197
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;116
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;370
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;165
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;377
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;627
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;539
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;207
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;386
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;147
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;281
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;213
+2023;Zuzug;Binnenwanderung;A3 Umzug innerhalb Dresden;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;40

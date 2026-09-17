@@ -1,0 +1,55 @@
+Jahr;Stadtbezirk mit zugeordneten Ortschaften;Stadtraum;Kinderanzahl im Haushalt in Klassen (4);Anzahl Einwohner;Kinderanzahl im Haushalt (sum);Anzahl Haushalte
+2022;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1 Kind;856;428;428
+2022;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2 Kinder;480;320;160
+2022;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3 u.m. Kinder;186;142;44
+2022;StB 0 Altstadt;02 Johannstadt;1 Kind;620;310;310
+2022;StB 0 Altstadt;02 Johannstadt;2 Kinder;435;290;145
+2022;StB 0 Altstadt;02 Johannstadt;3 u.m. Kinder;136;103;33
+2022;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1 Kind;1510;755;755
+2022;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2 Kinder;981;654;327
+2022;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;3 u.m. Kinder;297;227;70
+2022;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;1 Kind;542;271;271
+2022;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;2 Kinder;321;214;107
+2022;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;3 u.m. Kinder;78;59;19
+2022;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;1 Kind;1172;586;586
+2022;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;2 Kinder;642;428;214
+2022;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;3 u.m. Kinder;197;149;48
+2022;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;1 Kind;1264;632;632
+2022;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;2 Kinder;654;436;218
+2022;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;3 u.m. Kinder;265;203;62
+2022;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1 Kind;818;409;409
+2022;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2 Kinder;555;370;185
+2022;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;3 u.m. Kinder;127;97;30
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1 Kind;834;417;417
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2 Kinder;642;428;214
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3 u.m. Kinder;181;138;43
+2022;StB 5 Blasewitz;08 Blasewitz, Striesen;1 Kind;1600;800;800
+2022;StB 5 Blasewitz;08 Blasewitz, Striesen;2 Kinder;921;614;307
+2022;StB 5 Blasewitz;08 Blasewitz, Striesen;3 u.m. Kinder;193;147;46
+2022;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1 Kind;1552;776;776
+2022;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;2 Kinder;933;622;311
+2022;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;3 u.m. Kinder;196;149;47
+2022;StB 6 Leuben;10 StB Leuben;1 Kind;1476;738;738
+2022;StB 6 Leuben;10 StB Leuben;2 Kinder;849;566;283
+2022;StB 6 Leuben;10 StB Leuben;3 u.m. Kinder;300;231;69
+2022;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1 Kind;992;496;496
+2022;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2 Kinder;780;520;260
+2022;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3 u.m. Kinder;544;423;121
+2022;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1 Kind;930;465;465
+2022;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2 Kinder;534;356;178
+2022;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);3 u.m. Kinder;219;169;50
+2022;StB 8 Plauen;13 Südvorstadt, Zschertnitz;1 Kind;732;366;366
+2022;StB 8 Plauen;13 Südvorstadt, Zschertnitz;2 Kinder;558;372;186
+2022;StB 8 Plauen;13 Südvorstadt, Zschertnitz;3 u.m. Kinder;204;157;47
+2022;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;1 Kind;726;363;363
+2022;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;2 Kinder;363;242;121
+2022;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;3 u.m. Kinder;109;84;25
+2022;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1 Kind;1382;691;691
+2022;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;2 Kinder;759;506;253
+2022;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;3 u.m. Kinder;184;140;44
+2022;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;1 Kind;950;475;475
+2022;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;2 Kinder;729;486;243
+2022;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;3 u.m. Kinder;441;340;101
+2022;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;1 Kind;604;302;302
+2022;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2 Kinder;396;264;132
+2022;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;3 u.m. Kinder;110;84;26

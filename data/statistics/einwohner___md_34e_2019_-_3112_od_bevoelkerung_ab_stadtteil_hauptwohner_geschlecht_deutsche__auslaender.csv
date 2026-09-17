@@ -1,0 +1,249 @@
+Jahr;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Stadtraum;Geschlecht;Staatsangehörigkeit-1 Deutsche / Ausländer;Anzahl Einwohner
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Deutsche;728
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Ausländer;178
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Deutsche;723
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Ausländer;176
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Deutsche;2323
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Ausländer;548
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Deutsche;2520
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Ausländer;468
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Deutsche;3254
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Ausländer;1018
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Deutsche;3223
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Ausländer;765
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Deutsche;3755
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Ausländer;928
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Deutsche;4127
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Ausländer;793
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Deutsche;3985
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;männlich;Ausländer;1588
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Deutsche;3515
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;weiblich;Ausländer;950
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;männlich;Deutsche;4900
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;männlich;Ausländer;911
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;weiblich;Deutsche;5566
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;weiblich;Ausländer;932
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;männlich;Deutsche;4793
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;männlich;Ausländer;752
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;weiblich;Deutsche;6128
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;weiblich;Ausländer;729
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Deutsche;8479
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Ausländer;1127
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Deutsche;7880
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Ausländer;825
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Deutsche;4310
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Ausländer;331
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Deutsche;4134
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Ausländer;320
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Deutsche;3338
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Ausländer;711
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Deutsche;3321
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Ausländer;569
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;männlich;Deutsche;6305
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;männlich;Ausländer;504
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;weiblich;Deutsche;5651
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;weiblich;Ausländer;368
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Deutsche;1528
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;männlich;Ausländer;162
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Deutsche;1372
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;weiblich;Ausländer;73
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;männlich;Deutsche;5720
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;männlich;Ausländer;510
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;weiblich;Deutsche;5574
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;weiblich;Ausländer;470
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Deutsche;6215
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Ausländer;348
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Deutsche;6272
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Ausländer;291
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Deutsche;2637
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Ausländer;125
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Deutsche;2693
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Ausländer;118
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Deutsche;4779
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;männlich;Ausländer;101
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Deutsche;5102
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;weiblich;Ausländer;89
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;männlich;Deutsche;6100
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;männlich;Ausländer;384
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;weiblich;Deutsche;6003
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;weiblich;Ausländer;285
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Deutsche;7064
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Ausländer;290
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Deutsche;7188
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Ausländer;222
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Deutsche;3078
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Ausländer;44
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Deutsche;3106
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Ausländer;38
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Deutsche;2937
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Ausländer;39
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Deutsche;2976
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Ausländer;48
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Deutsche;2063
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;männlich;Ausländer;39
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Deutsche;2196
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;weiblich;Ausländer;37
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;2671
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;72
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;2862
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;86
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;5324
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;170
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;5836
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;181
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;1603
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;82
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;1705
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;46
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;2659
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;81
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;2793
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;79
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;1939
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;75
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;1940
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;39
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Deutsche;1727
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;männlich;Ausländer;11
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Deutsche;1658
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;weiblich;Ausländer;13
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Deutsche;4725
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Ausländer;217
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Deutsche;5169
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Ausländer;237
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Deutsche;7155
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Ausländer;314
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Deutsche;7636
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Ausländer;342
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Deutsche;5314
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Ausländer;621
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Deutsche;5875
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Ausländer;513
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Deutsche;5837
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;männlich;Ausländer;368
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Deutsche;6657
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;weiblich;Ausländer;398
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Deutsche;5140
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Ausländer;283
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Deutsche;5751
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Ausländer;269
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Deutsche;6244
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Ausländer;256
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Deutsche;6642
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Ausländer;219
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Deutsche;5865
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;männlich;Ausländer;307
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Deutsche;6744
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;weiblich;Ausländer;317
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;männlich;Deutsche;5462
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;männlich;Ausländer;349
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;weiblich;Deutsche;6100
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;weiblich;Ausländer;291
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;männlich;Deutsche;5816
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;männlich;Ausländer;159
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;weiblich;Deutsche;6178
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;weiblich;Ausländer;195
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;männlich;Deutsche;4108
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;männlich;Ausländer;39
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;weiblich;Deutsche;4312
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;weiblich;Ausländer;56
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;männlich;Deutsche;2979
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;männlich;Ausländer;93
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;weiblich;Deutsche;3099
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;weiblich;Ausländer;59
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Deutsche;2575
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Ausländer;570
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Deutsche;2719
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Ausländer;367
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Deutsche;3628
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Ausländer;675
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Deutsche;3689
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Ausländer;478
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Deutsche;2880
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Ausländer;154
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Deutsche;2981
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Ausländer;50
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Deutsche;3424
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Ausländer;106
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Deutsche;3417
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Ausländer;88
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Deutsche;6614
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Ausländer;360
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Deutsche;6801
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Ausländer;303
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Deutsche;1264
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Ausländer;598
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Deutsche;1132
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Ausländer;354
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Deutsche;3422
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);männlich;Ausländer;403
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Deutsche;3546
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);weiblich;Ausländer;261
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Deutsche;2252
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);männlich;Ausländer;308
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Deutsche;2551
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);weiblich;Ausländer;230
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Deutsche;5462
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Ausländer;2047
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Deutsche;5124
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Ausländer;1609
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Deutsche;3357
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Ausländer;1875
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Deutsche;2607
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Ausländer;1257
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Deutsche;4205
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;männlich;Ausländer;725
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Deutsche;4346
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;weiblich;Ausländer;450
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Deutsche;3655
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Ausländer;117
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Deutsche;3721
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Ausländer;123
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Deutsche;2752
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Ausländer;197
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Deutsche;2696
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Ausländer;80
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Deutsche;5588
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;männlich;Ausländer;441
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Deutsche;5490
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;weiblich;Ausländer;399
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Deutsche;3786
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Ausländer;70
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Deutsche;3901
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Ausländer;53
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Deutsche;5416
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Ausländer;296
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Deutsche;5333
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Ausländer;302
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Deutsche;4572
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Ausländer;360
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Deutsche;4256
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Ausländer;311
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Deutsche;5734
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Ausländer;404
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Deutsche;5295
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Ausländer;358
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Deutsche;4728
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;männlich;Ausländer;160
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Deutsche;4627
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;weiblich;Ausländer;132
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Deutsche;3545
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Ausländer;1138
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Deutsche;3324
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Ausländer;647
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Deutsche;2717
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Ausländer;345
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Deutsche;3051
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Ausländer;171
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Deutsche;2660
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;männlich;Ausländer;884
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Deutsche;2539
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;weiblich;Ausländer;508
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Deutsche;5488
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Ausländer;155
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Deutsche;5588
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Ausländer;127
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Deutsche;2167
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;männlich;Ausländer;34
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Deutsche;2162
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;weiblich;Ausländer;17

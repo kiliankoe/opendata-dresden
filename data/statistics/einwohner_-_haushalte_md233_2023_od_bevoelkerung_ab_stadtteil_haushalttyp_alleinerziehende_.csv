@@ -1,0 +1,63 @@
+Jahr;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Stadtraum;Anzahl Einwohner;Anzahl Haushalte
+2023;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;75;31
+2023;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;252;107
+2023;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;283;124
+2023;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;349;149
+2023;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;556;222
+2023;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;732;300
+2023;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;499;214
+2023;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1321;569
+2023;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;715;295
+2023;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;456;186
+2023;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;946;407
+2023;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;198;82
+2023;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;1077;450
+2023;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;996;423
+2023;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;433;182
+2023;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;698;294
+2023;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;986;423
+2023;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;799;335
+2023;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;241;101
+2023;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;286;111
+2023;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;183;75
+2023;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;233;94
+2023;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;617;251
+2023;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;142;61
+2023;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;281;119
+2023;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;207;81
+2023;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;156;64
+2023;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;478;205
+2023;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;874;369
+2023;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;571;250
+2023;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;651;280
+2023;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1058;444
+2023;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;844;358
+2023;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;654;284
+2023;61 Leuben;StB 6 Leuben;10 StB Leuben;1285;535
+2023;62 Laubegast;StB 6 Leuben;10 StB Leuben;685;290
+2023;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;317;134
+2023;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;422;170
+2023;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);542;213
+2023;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);819;309
+2023;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);333;139
+2023;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);273;116
+2023;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);725;306
+2023;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);381;142
+2023;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);316;128
+2023;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);541;210
+2023;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;777;301
+2023;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;242;100
+2023;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;483;202
+2023;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;314;136
+2023;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;289;122
+2023;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;583;248
+2023;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;417;173
+2023;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;728;316
+2023;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;528;224
+2023;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;670;282
+2023;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;396;171
+2023;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;802;307
+2023;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;661;263
+2023;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;661;250
+2023;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;581;247
+2023;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;132;50

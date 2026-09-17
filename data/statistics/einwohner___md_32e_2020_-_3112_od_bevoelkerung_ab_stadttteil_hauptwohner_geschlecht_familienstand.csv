@@ -1,0 +1,489 @@
+Jahr;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Familienstand;Geschlecht;Anzahl Einwohner
+2020;01 Innere Altstadt;StB 0 Altstadt;ledig;männlich;597
+2020;01 Innere Altstadt;StB 0 Altstadt;ledig;weiblich;449
+2020;01 Innere Altstadt;StB 0 Altstadt;verheiratet;männlich;304
+2020;01 Innere Altstadt;StB 0 Altstadt;verheiratet;weiblich;298
+2020;01 Innere Altstadt;StB 0 Altstadt;verwitwet;männlich;34
+2020;01 Innere Altstadt;StB 0 Altstadt;verwitwet;weiblich;143
+2020;01 Innere Altstadt;StB 0 Altstadt;geschieden;männlich;38
+2020;01 Innere Altstadt;StB 0 Altstadt;geschieden;weiblich;73
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;ledig;männlich;1831
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;ledig;weiblich;1383
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;verheiratet;männlich;764
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;verheiratet;weiblich;755
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;verwitwet;männlich;87
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;verwitwet;weiblich;451
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;geschieden;männlich;197
+2020;02 Pirnaische Vorstadt;StB 0 Altstadt;geschieden;weiblich;319
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;ledig;männlich;2751
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;ledig;weiblich;1934
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;verheiratet;männlich;1145
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;verheiratet;weiblich;1135
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;verwitwet;männlich;126
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;verwitwet;weiblich;554
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;geschieden;männlich;234
+2020;03 Seevorstadt-Ost;StB 0 Altstadt;geschieden;weiblich;357
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;ledig;männlich;2698
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;ledig;weiblich;2200
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verheiratet;männlich;1551
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verheiratet;weiblich;1522
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verwitwet;männlich;169
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;verwitwet;weiblich;778
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;geschieden;männlich;321
+2020;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;geschieden;weiblich;557
+2020;05 Friedrichstadt;StB 0 Altstadt;ledig;männlich;4177
+2020;05 Friedrichstadt;StB 0 Altstadt;ledig;weiblich;2720
+2020;05 Friedrichstadt;StB 0 Altstadt;verheiratet;männlich;997
+2020;05 Friedrichstadt;StB 0 Altstadt;verheiratet;weiblich;966
+2020;05 Friedrichstadt;StB 0 Altstadt;verwitwet;männlich;76
+2020;05 Friedrichstadt;StB 0 Altstadt;verwitwet;weiblich;360
+2020;05 Friedrichstadt;StB 0 Altstadt;geschieden;männlich;257
+2020;05 Friedrichstadt;StB 0 Altstadt;geschieden;weiblich;334
+2020;06 Johannstadt-Nord;StB 0 Altstadt;ledig;männlich;3403
+2020;06 Johannstadt-Nord;StB 0 Altstadt;ledig;weiblich;3188
+2020;06 Johannstadt-Nord;StB 0 Altstadt;verheiratet;männlich;2059
+2020;06 Johannstadt-Nord;StB 0 Altstadt;verheiratet;weiblich;2088
+2020;06 Johannstadt-Nord;StB 0 Altstadt;verwitwet;männlich;209
+2020;06 Johannstadt-Nord;StB 0 Altstadt;verwitwet;weiblich;847
+2020;06 Johannstadt-Nord;StB 0 Altstadt;geschieden;männlich;314
+2020;06 Johannstadt-Nord;StB 0 Altstadt;geschieden;weiblich;588
+2020;07 Johannstadt-Süd;StB 0 Altstadt;ledig;männlich;2513
+2020;07 Johannstadt-Süd;StB 0 Altstadt;ledig;weiblich;2387
+2020;07 Johannstadt-Süd;StB 0 Altstadt;verheiratet;männlich;2411
+2020;07 Johannstadt-Süd;StB 0 Altstadt;verheiratet;weiblich;2432
+2020;07 Johannstadt-Süd;StB 0 Altstadt;verwitwet;männlich;304
+2020;07 Johannstadt-Süd;StB 0 Altstadt;verwitwet;weiblich;1241
+2020;07 Johannstadt-Süd;StB 0 Altstadt;geschieden;männlich;357
+2020;07 Johannstadt-Süd;StB 0 Altstadt;geschieden;weiblich;811
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;ledig;männlich;7341
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;ledig;weiblich;6235
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verheiratet;männlich;1665
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verheiratet;weiblich;1636
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verwitwet;männlich;48
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;verwitwet;weiblich;219
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;geschieden;männlich;436
+2020;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;geschieden;weiblich;518
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;ledig;männlich;2795
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;ledig;weiblich;2335
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;verheiratet;männlich;1453
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;verheiratet;weiblich;1452
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;verwitwet;männlich;61
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;verwitwet;weiblich;251
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;geschieden;männlich;294
+2020;12 Radeberger Vorstadt;StB 1 Neustadt;geschieden;weiblich;382
+2020;13 Innere Neustadt;StB 1 Neustadt;ledig;männlich;2528
+2020;13 Innere Neustadt;StB 1 Neustadt;ledig;weiblich;2119
+2020;13 Innere Neustadt;StB 1 Neustadt;verheiratet;männlich;1111
+2020;13 Innere Neustadt;StB 1 Neustadt;verheiratet;weiblich;1095
+2020;13 Innere Neustadt;StB 1 Neustadt;verwitwet;männlich;73
+2020;13 Innere Neustadt;StB 1 Neustadt;verwitwet;weiblich;292
+2020;13 Innere Neustadt;StB 1 Neustadt;geschieden;männlich;215
+2020;13 Innere Neustadt;StB 1 Neustadt;geschieden;weiblich;328
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;ledig;männlich;5136
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;ledig;weiblich;4257
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;verheiratet;männlich;1362
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;verheiratet;weiblich;1370
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;verwitwet;männlich;67
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;verwitwet;weiblich;212
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;geschieden;männlich;280
+2020;14 Leipziger Vorstadt;StB 1 Neustadt;geschieden;weiblich;321
+2020;15 Albertstadt;StB 1 Neustadt;ledig;männlich;1129
+2020;15 Albertstadt;StB 1 Neustadt;ledig;weiblich;767
+2020;15 Albertstadt;StB 1 Neustadt;verheiratet;männlich;487
+2020;15 Albertstadt;StB 1 Neustadt;verheiratet;weiblich;465
+2020;15 Albertstadt;StB 1 Neustadt;verwitwet;männlich;37
+2020;15 Albertstadt;StB 1 Neustadt;verwitwet;weiblich;176
+2020;15 Albertstadt;StB 1 Neustadt;geschieden;männlich;107
+2020;15 Albertstadt;StB 1 Neustadt;geschieden;weiblich;101
+2020;21 Pieschen-Süd;StB 2 Pieschen;ledig;männlich;4373
+2020;21 Pieschen-Süd;StB 2 Pieschen;ledig;weiblich;3833
+2020;21 Pieschen-Süd;StB 2 Pieschen;verheiratet;männlich;1410
+2020;21 Pieschen-Süd;StB 2 Pieschen;verheiratet;weiblich;1403
+2020;21 Pieschen-Süd;StB 2 Pieschen;verwitwet;männlich;54
+2020;21 Pieschen-Süd;StB 2 Pieschen;verwitwet;weiblich;246
+2020;21 Pieschen-Süd;StB 2 Pieschen;geschieden;männlich;313
+2020;21 Pieschen-Süd;StB 2 Pieschen;geschieden;weiblich;454
+2020;22 Mickten;StB 2 Pieschen;ledig;männlich;3922
+2020;22 Mickten;StB 2 Pieschen;ledig;weiblich;3309
+2020;22 Mickten;StB 2 Pieschen;verheiratet;männlich;2199
+2020;22 Mickten;StB 2 Pieschen;verheiratet;weiblich;2210
+2020;22 Mickten;StB 2 Pieschen;verwitwet;männlich;113
+2020;22 Mickten;StB 2 Pieschen;verwitwet;weiblich;530
+2020;22 Mickten;StB 2 Pieschen;geschieden;männlich;480
+2020;22 Mickten;StB 2 Pieschen;geschieden;weiblich;626
+2020;23 Kaditz;StB 2 Pieschen;ledig;männlich;1498
+2020;23 Kaditz;StB 2 Pieschen;ledig;weiblich;1285
+2020;23 Kaditz;StB 2 Pieschen;verheiratet;männlich;954
+2020;23 Kaditz;StB 2 Pieschen;verheiratet;weiblich;956
+2020;23 Kaditz;StB 2 Pieschen;verwitwet;männlich;75
+2020;23 Kaditz;StB 2 Pieschen;verwitwet;weiblich;247
+2020;23 Kaditz;StB 2 Pieschen;geschieden;männlich;211
+2020;23 Kaditz;StB 2 Pieschen;geschieden;weiblich;292
+2020;24 Trachau;StB 2 Pieschen;ledig;männlich;2428
+2020;24 Trachau;StB 2 Pieschen;ledig;weiblich;2277
+2020;24 Trachau;StB 2 Pieschen;verheiratet;männlich;2000
+2020;24 Trachau;StB 2 Pieschen;verheiratet;weiblich;1989
+2020;24 Trachau;StB 2 Pieschen;verwitwet;männlich;132
+2020;24 Trachau;StB 2 Pieschen;verwitwet;weiblich;452
+2020;24 Trachau;StB 2 Pieschen;geschieden;männlich;346
+2020;24 Trachau;StB 2 Pieschen;geschieden;weiblich;498
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;ledig;männlich;4091
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;ledig;weiblich;3296
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verheiratet;männlich;1829
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verheiratet;weiblich;1821
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verwitwet;männlich;140
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;verwitwet;weiblich;557
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;geschieden;männlich;421
+2020;25 Pieschen-N/Trachenberge;StB 2 Pieschen;geschieden;weiblich;561
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;3443
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;2776
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;3099
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;3078
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;234
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;906
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;514
+2020;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;679
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;1337
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;1142
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1545
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1551
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;91
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;277
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;185
+2020;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;207
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;1186
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;975
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1556
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1551
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;71
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;292
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;145
+2020;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;171
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;ledig;männlich;866
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;ledig;weiblich;796
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;männlich;1083
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verheiratet;weiblich;1087
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;männlich;77
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;verwitwet;weiblich;206
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;geschieden;männlich;93
+2020;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;geschieden;weiblich;140
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;1190
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;1128
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1336
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1335
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;61
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;264
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;191
+2020;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;269
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;2432
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;2322
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;2562
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;2551
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;168
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;640
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;345
+2020;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;510
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;694
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;594
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;788
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;795
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;48
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;213
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;102
+2020;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;158
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;1276
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;1032
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1201
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1195
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;74
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;313
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;216
+2020;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;311
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;818
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;684
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;1041
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;1046
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;41
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;150
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;121
+2020;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;108
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;männlich;771
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;ledig;weiblich;613
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;männlich;845
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verheiratet;weiblich;852
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;männlich;38
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;verwitwet;weiblich;137
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;männlich;80
+2020;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;geschieden;weiblich;83
+2020;51 Blasewitz;StB 5 Blasewitz;ledig;männlich;2438
+2020;51 Blasewitz;StB 5 Blasewitz;ledig;weiblich;2349
+2020;51 Blasewitz;StB 5 Blasewitz;verheiratet;männlich;2077
+2020;51 Blasewitz;StB 5 Blasewitz;verheiratet;weiblich;2098
+2020;51 Blasewitz;StB 5 Blasewitz;verwitwet;männlich;133
+2020;51 Blasewitz;StB 5 Blasewitz;verwitwet;weiblich;496
+2020;51 Blasewitz;StB 5 Blasewitz;geschieden;männlich;254
+2020;51 Blasewitz;StB 5 Blasewitz;geschieden;weiblich;473
+2020;52 Striesen-Ost;StB 5 Blasewitz;ledig;männlich;4173
+2020;52 Striesen-Ost;StB 5 Blasewitz;ledig;weiblich;3997
+2020;52 Striesen-Ost;StB 5 Blasewitz;verheiratet;männlich;2730
+2020;52 Striesen-Ost;StB 5 Blasewitz;verheiratet;weiblich;2779
+2020;52 Striesen-Ost;StB 5 Blasewitz;verwitwet;männlich;112
+2020;52 Striesen-Ost;StB 5 Blasewitz;verwitwet;weiblich;482
+2020;52 Striesen-Ost;StB 5 Blasewitz;geschieden;männlich;384
+2020;52 Striesen-Ost;StB 5 Blasewitz;geschieden;weiblich;676
+2020;53 Striesen-Süd;StB 5 Blasewitz;ledig;männlich;3184
+2020;53 Striesen-Süd;StB 5 Blasewitz;ledig;weiblich;2833
+2020;53 Striesen-Süd;StB 5 Blasewitz;verheiratet;männlich;2167
+2020;53 Striesen-Süd;StB 5 Blasewitz;verheiratet;weiblich;2202
+2020;53 Striesen-Süd;StB 5 Blasewitz;verwitwet;männlich;182
+2020;53 Striesen-Süd;StB 5 Blasewitz;verwitwet;weiblich;723
+2020;53 Striesen-Süd;StB 5 Blasewitz;geschieden;männlich;362
+2020;53 Striesen-Süd;StB 5 Blasewitz;geschieden;weiblich;634
+2020;54 Striesen-West;StB 5 Blasewitz;ledig;männlich;3186
+2020;54 Striesen-West;StB 5 Blasewitz;ledig;weiblich;3157
+2020;54 Striesen-West;StB 5 Blasewitz;verheiratet;männlich;2398
+2020;54 Striesen-West;StB 5 Blasewitz;verheiratet;weiblich;2425
+2020;54 Striesen-West;StB 5 Blasewitz;verwitwet;männlich;184
+2020;54 Striesen-West;StB 5 Blasewitz;verwitwet;weiblich;775
+2020;54 Striesen-West;StB 5 Blasewitz;geschieden;männlich;359
+2020;54 Striesen-West;StB 5 Blasewitz;geschieden;weiblich;659
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;ledig;männlich;2682
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;ledig;weiblich;2537
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verheiratet;männlich;2155
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verheiratet;weiblich;2203
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verwitwet;männlich;160
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;verwitwet;weiblich;626
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;geschieden;männlich;366
+2020;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;geschieden;weiblich;625
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;ledig;männlich;3278
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;ledig;weiblich;2809
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;verheiratet;männlich;2505
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;verheiratet;weiblich;2535
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;verwitwet;männlich;152
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;verwitwet;weiblich;774
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;geschieden;männlich;507
+2020;56 Seidnitz/Dobritz;StB 5 Blasewitz;geschieden;weiblich;766
+2020;57 Gruna;StB 5 Blasewitz;ledig;männlich;2827
+2020;57 Gruna;StB 5 Blasewitz;ledig;weiblich;2721
+2020;57 Gruna;StB 5 Blasewitz;verheiratet;männlich;2687
+2020;57 Gruna;StB 5 Blasewitz;verheiratet;weiblich;2664
+2020;57 Gruna;StB 5 Blasewitz;verwitwet;männlich;219
+2020;57 Gruna;StB 5 Blasewitz;verwitwet;weiblich;896
+2020;57 Gruna;StB 5 Blasewitz;geschieden;männlich;408
+2020;57 Gruna;StB 5 Blasewitz;geschieden;weiblich;697
+2020;61 Leuben;StB 6 Leuben;ledig;männlich;3104
+2020;61 Leuben;StB 6 Leuben;ledig;weiblich;2751
+2020;61 Leuben;StB 6 Leuben;verheiratet;männlich;2085
+2020;61 Leuben;StB 6 Leuben;verheiratet;weiblich;2105
+2020;61 Leuben;StB 6 Leuben;verwitwet;männlich;217
+2020;61 Leuben;StB 6 Leuben;verwitwet;weiblich;782
+2020;61 Leuben;StB 6 Leuben;geschieden;männlich;460
+2020;61 Leuben;StB 6 Leuben;geschieden;weiblich;809
+2020;62 Laubegast;StB 6 Leuben;ledig;männlich;2674
+2020;62 Laubegast;StB 6 Leuben;ledig;weiblich;2375
+2020;62 Laubegast;StB 6 Leuben;verheiratet;männlich;2638
+2020;62 Laubegast;StB 6 Leuben;verheiratet;weiblich;2682
+2020;62 Laubegast;StB 6 Leuben;verwitwet;männlich;158
+2020;62 Laubegast;StB 6 Leuben;verwitwet;weiblich;654
+2020;62 Laubegast;StB 6 Leuben;geschieden;männlich;463
+2020;62 Laubegast;StB 6 Leuben;geschieden;weiblich;656
+2020;63 Kleinzschachwitz;StB 6 Leuben;ledig;männlich;1687
+2020;63 Kleinzschachwitz;StB 6 Leuben;ledig;weiblich;1519
+2020;63 Kleinzschachwitz;StB 6 Leuben;verheiratet;männlich;2056
+2020;63 Kleinzschachwitz;StB 6 Leuben;verheiratet;weiblich;2046
+2020;63 Kleinzschachwitz;StB 6 Leuben;verwitwet;männlich;129
+2020;63 Kleinzschachwitz;StB 6 Leuben;verwitwet;weiblich;442
+2020;63 Kleinzschachwitz;StB 6 Leuben;geschieden;männlich;257
+2020;63 Kleinzschachwitz;StB 6 Leuben;geschieden;weiblich;351
+2020;64 Großzschachwitz;StB 6 Leuben;ledig;männlich;1550
+2020;64 Großzschachwitz;StB 6 Leuben;ledig;weiblich;1278
+2020;64 Großzschachwitz;StB 6 Leuben;verheiratet;männlich;1224
+2020;64 Großzschachwitz;StB 6 Leuben;verheiratet;weiblich;1193
+2020;64 Großzschachwitz;StB 6 Leuben;verwitwet;männlich;97
+2020;64 Großzschachwitz;StB 6 Leuben;verwitwet;weiblich;386
+2020;64 Großzschachwitz;StB 6 Leuben;geschieden;männlich;212
+2020;64 Großzschachwitz;StB 6 Leuben;geschieden;weiblich;313
+2020;71 Prohlis-Nord;StB 7 Prohlis;ledig;männlich;1654
+2020;71 Prohlis-Nord;StB 7 Prohlis;ledig;weiblich;1211
+2020;71 Prohlis-Nord;StB 7 Prohlis;verheiratet;männlich;1084
+2020;71 Prohlis-Nord;StB 7 Prohlis;verheiratet;weiblich;1064
+2020;71 Prohlis-Nord;StB 7 Prohlis;verwitwet;männlich;90
+2020;71 Prohlis-Nord;StB 7 Prohlis;verwitwet;weiblich;351
+2020;71 Prohlis-Nord;StB 7 Prohlis;geschieden;männlich;275
+2020;71 Prohlis-Nord;StB 7 Prohlis;geschieden;weiblich;370
+2020;72 Prohlis-Süd;StB 7 Prohlis;ledig;männlich;2391
+2020;72 Prohlis-Süd;StB 7 Prohlis;ledig;weiblich;1665
+2020;72 Prohlis-Süd;StB 7 Prohlis;verheiratet;männlich;1328
+2020;72 Prohlis-Süd;StB 7 Prohlis;verheiratet;weiblich;1296
+2020;72 Prohlis-Süd;StB 7 Prohlis;verwitwet;männlich;168
+2020;72 Prohlis-Süd;StB 7 Prohlis;verwitwet;weiblich;617
+2020;72 Prohlis-Süd;StB 7 Prohlis;geschieden;männlich;412
+2020;72 Prohlis-Süd;StB 7 Prohlis;geschieden;weiblich;582
+2020;73 Niedersedlitz;StB 7 Prohlis;ledig;männlich;1409
+2020;73 Niedersedlitz;StB 7 Prohlis;ledig;weiblich;1109
+2020;73 Niedersedlitz;StB 7 Prohlis;verheiratet;männlich;1392
+2020;73 Niedersedlitz;StB 7 Prohlis;verheiratet;weiblich;1414
+2020;73 Niedersedlitz;StB 7 Prohlis;verwitwet;männlich;68
+2020;73 Niedersedlitz;StB 7 Prohlis;verwitwet;weiblich;251
+2020;73 Niedersedlitz;StB 7 Prohlis;geschieden;männlich;161
+2020;73 Niedersedlitz;StB 7 Prohlis;geschieden;weiblich;221
+2020;74 Lockwitz;StB 7 Prohlis;ledig;männlich;1511
+2020;74 Lockwitz;StB 7 Prohlis;ledig;weiblich;1359
+2020;74 Lockwitz;StB 7 Prohlis;verheiratet;männlich;1777
+2020;74 Lockwitz;StB 7 Prohlis;verheiratet;weiblich;1757
+2020;74 Lockwitz;StB 7 Prohlis;verwitwet;männlich;82
+2020;74 Lockwitz;StB 7 Prohlis;verwitwet;weiblich;243
+2020;74 Lockwitz;StB 7 Prohlis;geschieden;männlich;209
+2020;74 Lockwitz;StB 7 Prohlis;geschieden;weiblich;204
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;ledig;männlich;3139
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;ledig;weiblich;2620
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;verheiratet;männlich;3056
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;verheiratet;weiblich;3049
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;verwitwet;männlich;195
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;verwitwet;weiblich;718
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;geschieden;männlich;478
+2020;75 Leubnitz-Neuostra;StB 7 Prohlis;geschieden;weiblich;609
+2020;76 Strehlen;StB 7 Prohlis;ledig;männlich;3491
+2020;76 Strehlen;StB 7 Prohlis;ledig;weiblich;2737
+2020;76 Strehlen;StB 7 Prohlis;verheiratet;männlich;1663
+2020;76 Strehlen;StB 7 Prohlis;verheiratet;weiblich;1657
+2020;76 Strehlen;StB 7 Prohlis;verwitwet;männlich;101
+2020;76 Strehlen;StB 7 Prohlis;verwitwet;weiblich;429
+2020;76 Strehlen;StB 7 Prohlis;geschieden;männlich;343
+2020;76 Strehlen;StB 7 Prohlis;geschieden;weiblich;455
+2020;77 Reick;StB 7 Prohlis;ledig;männlich;1386
+2020;77 Reick;StB 7 Prohlis;ledig;weiblich;1198
+2020;77 Reick;StB 7 Prohlis;verheiratet;männlich;953
+2020;77 Reick;StB 7 Prohlis;verheiratet;weiblich;958
+2020;77 Reick;StB 7 Prohlis;verwitwet;männlich;64
+2020;77 Reick;StB 7 Prohlis;verwitwet;weiblich;349
+2020;77 Reick;StB 7 Prohlis;geschieden;männlich;186
+2020;77 Reick;StB 7 Prohlis;geschieden;weiblich;332
+2020;81 Südvorstadt-West;StB 8 Plauen;ledig;männlich;5093
+2020;81 Südvorstadt-West;StB 8 Plauen;ledig;weiblich;3713
+2020;81 Südvorstadt-West;StB 8 Plauen;verheiratet;männlich;1987
+2020;81 Südvorstadt-West;StB 8 Plauen;verheiratet;weiblich;1996
+2020;81 Südvorstadt-West;StB 8 Plauen;verwitwet;männlich;153
+2020;81 Südvorstadt-West;StB 8 Plauen;verwitwet;weiblich;597
+2020;81 Südvorstadt-West;StB 8 Plauen;geschieden;männlich;252
+2020;81 Südvorstadt-West;StB 8 Plauen;geschieden;weiblich;439
+2020;82 Südvorstadt-Ost;StB 8 Plauen;ledig;männlich;3937
+2020;82 Südvorstadt-Ost;StB 8 Plauen;ledig;weiblich;2417
+2020;82 Südvorstadt-Ost;StB 8 Plauen;verheiratet;männlich;921
+2020;82 Südvorstadt-Ost;StB 8 Plauen;verheiratet;weiblich;915
+2020;82 Südvorstadt-Ost;StB 8 Plauen;verwitwet;männlich;45
+2020;82 Südvorstadt-Ost;StB 8 Plauen;verwitwet;weiblich;216
+2020;82 Südvorstadt-Ost;StB 8 Plauen;geschieden;männlich;158
+2020;82 Südvorstadt-Ost;StB 8 Plauen;geschieden;weiblich;198
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;ledig;männlich;2523
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;ledig;weiblich;1808
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;verheiratet;männlich;1864
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;verheiratet;weiblich;1892
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;verwitwet;männlich;146
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;verwitwet;weiblich;579
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;geschieden;männlich;298
+2020;83 Räcknitz/Zschertnitz;StB 8 Plauen;geschieden;weiblich;449
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;ledig;männlich;1587
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;ledig;weiblich;1252
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;verheiratet;männlich;1797
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;verheiratet;weiblich;1803
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;verwitwet;männlich;103
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;verwitwet;weiblich;404
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;geschieden;männlich;253
+2020;84 Kleinpestitz/Mockritz;StB 8 Plauen;geschieden;weiblich;358
+2020;85 Coschütz/Gittersee;StB 8 Plauen;ledig;männlich;1477
+2020;85 Coschütz/Gittersee;StB 8 Plauen;ledig;weiblich;1092
+2020;85 Coschütz/Gittersee;StB 8 Plauen;verheiratet;männlich;1189
+2020;85 Coschütz/Gittersee;StB 8 Plauen;verheiratet;weiblich;1182
+2020;85 Coschütz/Gittersee;StB 8 Plauen;verwitwet;männlich;72
+2020;85 Coschütz/Gittersee;StB 8 Plauen;verwitwet;weiblich;256
+2020;85 Coschütz/Gittersee;StB 8 Plauen;geschieden;männlich;156
+2020;85 Coschütz/Gittersee;StB 8 Plauen;geschieden;weiblich;219
+2020;86 Plauen;StB 8 Plauen;ledig;männlich;3485
+2020;86 Plauen;StB 8 Plauen;ledig;weiblich;2732
+2020;86 Plauen;StB 8 Plauen;verheiratet;männlich;2103
+2020;86 Plauen;StB 8 Plauen;verheiratet;weiblich;2104
+2020;86 Plauen;StB 8 Plauen;verwitwet;männlich;107
+2020;86 Plauen;StB 8 Plauen;verwitwet;weiblich;490
+2020;86 Plauen;StB 8 Plauen;geschieden;männlich;304
+2020;86 Plauen;StB 8 Plauen;geschieden;weiblich;422
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;ledig;männlich;1748
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1534
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1773
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1773
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;82
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;403
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;274
+2020;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;292
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;ledig;männlich;3408
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2850
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1758
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1772
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;92
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;390
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;417
+2020;91 Cotta;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;582
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;ledig;männlich;3505
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2869
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1163
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1159
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;38
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;276
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;193
+2020;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;271
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;ledig;männlich;4294
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;3421
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1465
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1484
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;83
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;327
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;268
+2020;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;389
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2444
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1990
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;2035
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;2048
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;92
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;367
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;289
+2020;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;389
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2946
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1899
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1172
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1139
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;92
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;423
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;437
+2020;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;470
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;ledig;männlich;1730
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1354
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1030
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;987
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;95
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;475
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;269
+2020;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;423
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2169
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;1497
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1014
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;990
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;62
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;266
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;297
+2020;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;363
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;2664
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;2343
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;2462
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;2457
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;140
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;502
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;373
+2020;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;442
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;ledig;männlich;864
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;ledig;weiblich;710
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verheiratet;männlich;1190
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verheiratet;weiblich;1188
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verwitwet;männlich;55
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;verwitwet;weiblich;154
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;geschieden;männlich;117
+2020;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;geschieden;weiblich;126

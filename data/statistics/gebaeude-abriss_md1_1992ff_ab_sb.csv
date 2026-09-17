@@ -1,0 +1,1260 @@
+Jahr;Statistischer Bezirk;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Stadtbezirk/Ortschaft;Stadtraum;Rückbaugebiete;Rückbau-Art;Gebäudeanzahl;Anzahl Wohnungen
+1992;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;24
+1992;117  Äußere Neust.(Frühlingstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;4
+1992;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1992;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1992;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1992;533  Striesen-Süd(Mansfelder Str);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1992;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1992;611  Leuben(Altleuben);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;3
+1992;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+1992;756  Leubnitz(Wieckestr);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;5
+1992;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;9
+1993;034  Strehlen(Tiergartenstr);03 Seevorstadt-Ost;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;1
+1993;053  Friedrichst.(Klinikum);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+1993;111  Äußere Neust.(Schönbrunnstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;6;42
+1993;113  Äußere Neust.(Katharinenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;21
+1993;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;4;27
+1993;145  Leipziger Vs.(Mittlerer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1993;151  Hellersiedlung;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1993;215  Pieschen-Süd(Leisniger Pl);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;6
+1993;221  Trachau-Süd(Alttrachau);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;6
+1993;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;8
+1993;232  Kaditz(Peschelstr);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1993;251  Leipziger Vs.-NW(Liststr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;13
+1993;254  Pieschen-Nord(Trachenbgr. Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;8
+1993;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1993;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+1993;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1993;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1993;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1993;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+1993;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1993;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1993;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1993;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1993;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;4
+1993;517  Neugruna(Polenzstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1993;526  Striesen-Ost(Voglerstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1993;536  Striesen-Süd(Haenel-Clauß-Pl);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+1993;541  Striesen-West(Krenkelstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1993;544  Striesen-West(Löscherstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;11
+1993;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;10
+1993;551  Tolkewitz(Wehlener Str);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1993;563  Seidnitz(Dobritzer Str);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+1993;566  Seidnitz(Altseidnitz);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1993;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;6
+1993;621  Laubegast-Nord/Alttolkewitz;62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1993;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1993;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1993;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1993;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;6
+1993;751  Torna;75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1993;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1993;771  Reick(Lohrmannstr);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1993;824  Südvs.-Ost(Ackermannstr);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+1993;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+1993;851  Coschütz-Ost;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;9
+1993;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;8
+1993;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;4
+1993;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1993;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;4;18
+1993;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;21
+1993;941  Naußlitz-Nord;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+1993;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;4;5
+1993;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+1993;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;6
+1994;041  Wilsdruffer Vs.(Ostra-Allee);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+1994;047  Wilsdruffer Vs.(Jagdweg);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;3;9
+1994;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;2;13
+1994;114  Äußere Neust.(Böhmische Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+1994;115  Äußere Neust.(Görlitzer Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;8
+1994;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;8
+1994;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;5
+1994;123  Radeberger Vs.(Angelikastr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;11
+1994;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1994;134  Äußere Neust.(Hoyerswerd. Str);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+1994;145  Leipziger Vs.(Mittlerer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;3
+1994;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;2
+1994;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1994;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;11
+1994;234  Kaditz(Riegelplatz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1994;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1994;252  Pieschen-Nord(Riesaer Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;3
+1994;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+1994;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;4;4
+1994;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1994;342  Waldpark Klotzsche;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;18
+1994;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1994;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;6
+1994;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1994;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;4
+1994;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1994;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1994;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1994;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1994;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1994;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1994;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;3;11
+1994;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;5
+1994;517  Neugruna(Polenzstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1994;522  Striesen-Ost(Jacobistr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1994;523  Striesen-Ost(Pohlandstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;8
+1994;525  Striesen-Ost(Ermelstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;10
+1994;527  Striesen-Ost(Bärensteiner Str);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;3;20
+1994;542  Striesen-West(Tittmannstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;10
+1994;543  Striesen-West(Wormser Pl);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+1994;544  Striesen-West(Löscherstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1994;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;3;40
+1994;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;2;5
+1994;579  Strehlen-Nordost(Basteistr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1994;611  Leuben(Altleuben);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;4;5
+1994;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;8
+1994;619  Dobritz-Süd(Jessener Str);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1994;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;3
+1994;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;3
+1994;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1994;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1994;641  Großzschachwitz(Alte Str);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;11
+1994;645  Großzschachwitz(Schweizstr);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;13
+1994;741  Luga;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1994;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1994;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;6
+1994;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1994;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1994;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1994;774  Reick(Mügelner Str);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1994;814  Südvs.-West(Eisenstuckst-West);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+1994;819  Südvs.-West(Bayreuther-Ost);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;2;4
+1994;844  Kaitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1994;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1994;851  Coschütz-Ost;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;13
+1994;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;4
+1994;865  Plauen(Müllerbrunnenstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;8
+1994;866  Plauen(Kantstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;6
+1994;868  Plauen(Hohenplauen);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1994;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;8
+1994;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;12
+1994;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1994;922  Löbtau-Nord(Altlöbtau);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;16
+1994;933  Löbtau-Süd(Altfrankener Str);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1994;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;12
+1994;958  Gorbitz-Süd(Schreberstr);95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;000;Totalabriss;2;2
+1994;982  Kemnitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1994;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1994;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;4;21
+1995;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+1995;116  Äußere Neust.(Schönfelder Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;8
+1995;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;6
+1995;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;12
+1995;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;4
+1995;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1995;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1995;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;11
+1995;221  Trachau-Süd(Alttrachau);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1995;226  Mickten(Altmickten);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1995;231  Kaditz(Wächterstr);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;9;16
+1995;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1995;315  Klotzsche(Königswald-Süd);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;5
+1995;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;4;16
+1995;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;4
+1995;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;3
+1995;342  Waldpark Klotzsche;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;6;98
+1995;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1995;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1995;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;4
+1995;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1995;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;4
+1995;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;4
+1995;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1995;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1995;429  Neu-Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+1995;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;4
+1995;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;5
+1995;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1995;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1995;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;4
+1995;516  Neugruna(Gustav-Freytag-Str);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;3
+1995;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;4;5
+1995;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;2;4
+1995;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+1995;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;4
+1995;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;5;7
+1995;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1995;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+1995;641  Großzschachwitz(Alte Str);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;7
+1995;646  Sporbitz;64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1995;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1995;818  Südvs.-West(Bayreuther-West);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+1995;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+1995;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;3
+1995;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;5
+1995;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;5
+1995;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;5;14
+1995;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;9
+1995;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;12
+1995;923  Löbtau-Nord(Grumbacher Str);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;10
+1995;925  Löbtau-Nord(Malterstr-Nord);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;27
+1995;944  Naußlitz-Süd;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+1995;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1995;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;3
+1995;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1995;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+1995;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;4
+1996;034  Strehlen(Tiergartenstr);03 Seevorstadt-Ost;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;1
+1996;041  Wilsdruffer Vs.(Ostra-Allee);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;6
+1996;052  Friedrichst.(Schäferstr);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;1
+1996;111  Äußere Neust.(Schönbrunnstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;6
+1996;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;8;26
+1996;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;4;16
+1996;133  Innere Neust.(Wigardstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;9
+1996;146  Leipziger Vs.(Oberer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1996;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;5;21
+1996;223  Mickten(Dreyßigplatz);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;4;9
+1996;226  Mickten(Altmickten);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;5
+1996;227  Übigau;22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;11
+1996;234  Kaditz(Riegelplatz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1996;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;2
+1996;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1996;314  Klotzsche(Am Trobischberg);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+1996;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1996;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;5
+1996;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1996;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1996;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1996;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1996;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1996;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1996;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;5
+1996;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1996;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;4
+1996;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;4;6
+1996;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1996;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;5
+1996;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;4;5
+1996;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1996;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1996;516  Neugruna(Gustav-Freytag-Str);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1996;521  Striesen-Ost(Sickingenstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+1996;522  Striesen-Ost(Jacobistr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1996;526  Striesen-Ost(Voglerstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;12
+1996;527  Striesen-Ost(Bärensteiner Str);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1996;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;4;21
+1996;551  Tolkewitz(Wehlener Str);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+1996;576  Gruna(Papstdorfer Str);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;3
+1996;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+1996;626  Laubegast(Kärntner Weg);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1996;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1996;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;6
+1996;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1996;734  Niedersedlitz(Sosaer Str);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;2
+1996;756  Leubnitz(Wieckestr);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;6
+1996;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1996;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;3;14
+1996;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1996;771  Reick(Lohrmannstr);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1996;811  Südvs.-West(Feldschlößchenstr);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+1996;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1996;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;8
+1996;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+1996;865  Plauen(Müllerbrunnenstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;7
+1996;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1996;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;8
+1996;914  Cotta(Weidentalstr-Ost);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;6
+1996;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;10
+1996;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;14
+1996;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1996;935  Löbtau-Süd(Deubener Str);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+1996;943  Naußlitz-West;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;5
+1996;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1996;982  Kemnitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;8
+1996;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;5
+1996;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;10
+1997;053  Friedrichst.(Klinikum);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;13
+1997;112  Äußere Neust.(Timäusstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+1997;116  Äußere Neust.(Schönfelder Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1997;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;6
+1997;141  Leipziger Vs.(Eisenbahnstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1997;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;4;13
+1997;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1997;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;9
+1997;214  Pieschen-Süd(Altpieschen);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;3
+1997;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1997;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1997;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1997;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;6
+1997;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1997;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1997;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;4
+1997;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;9
+1997;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1997;429  Neu-Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;6
+1997;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1997;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+1997;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+1997;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1997;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1997;516  Neugruna(Gustav-Freytag-Str);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+1997;525  Striesen-Ost(Ermelstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;13
+1997;526  Striesen-Ost(Voglerstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;8
+1997;534  Johannst.-SO(Lipsiusstr);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1997;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;16
+1997;561  Seidnitz(Rennbahn);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+1997;576  Gruna(Papstdorfer Str);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;5
+1997;611  Leuben(Altleuben);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1997;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1997;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1997;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;5
+1997;731  Niedersedlitz-Südost;73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1997;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1997;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1997;756  Leubnitz(Wieckestr);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;3
+1997;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;3;15
+1997;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;3
+1997;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+1997;839  Strehlen-SW(Donndorfstr);83 Räcknitz/Zschertnitz;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+1997;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1997;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;3
+1997;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1997;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1997;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;4
+1997;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;12
+1997;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+1997;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;9
+1997;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1997;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;3
+1997;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;6
+1998;111  Äußere Neust.(Schönbrunnstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;8
+1998;123  Radeberger Vs.(Angelikastr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;3
+1998;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1998;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;6
+1998;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;4;8
+1998;231  Kaditz(Wächterstr);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;6
+1998;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;12
+1998;254  Pieschen-Nord(Trachenbgr. Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+1998;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1998;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;3;3
+1998;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1998;324  Hellerau(Markt);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1998;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1998;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1998;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1998;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1998;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1998;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;4
+1998;516  Neugruna(Gustav-Freytag-Str);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;5
+1998;526  Striesen-Ost(Voglerstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;6
+1998;561  Seidnitz(Rennbahn);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;6
+1998;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;9
+1998;626  Laubegast(Kärntner Weg);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1998;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;5
+1998;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1998;646  Sporbitz;64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;6
+1998;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;3;9
+1998;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1998;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1998;764  Strehlen(Geystr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1998;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1998;771  Reick(Lohrmannstr);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+1998;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;3
+1998;905  Oberwartha;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Oberwartha;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1998;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;7
+1998;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;3
+1998;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;4
+1998;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+1999;114  Äußere Neust.(Böhmische Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;3
+1999;116  Äußere Neust.(Schönfelder Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+1999;117  Äußere Neust.(Frühlingstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;6
+1999;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;21
+1999;141  Leipziger Vs.(Eisenbahnstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;7
+1999;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;8
+1999;145  Leipziger Vs.(Mittlerer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;8
+1999;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;10
+1999;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;5
+1999;232  Kaditz(Peschelstr);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1999;234  Kaditz(Riegelplatz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+1999;251  Leipziger Vs.-NW(Liststr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;3
+1999;257  Trachenberge;25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;4
+1999;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;3;10
+1999;312  Klotzsche(Lubminer Str);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1999;315  Klotzsche(Königswald-Süd);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;4
+1999;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1999;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+1999;362  Langebrück-Süd;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+1999;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1999;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+1999;429  Neu-Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1999;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1999;435  Söbrigen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1999;451  Weißig (Heidestr./Marienbäder);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+1999;461  Gönnsdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+1999;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+1999;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;5
+1999;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;6
+1999;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;3;6
+1999;524  Striesen-Ost(Dornblüthstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1999;525  Striesen-Ost(Ermelstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;12
+1999;538  Striesen-Süd(Glashütter Str);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+1999;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;4
+1999;561  Seidnitz(Rennbahn);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1999;579  Strehlen-Nordost(Basteistr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+1999;622  Laubegast(Burgenlandstr);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1999;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+1999;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;5
+1999;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+1999;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+1999;711  Prohlis-Nord(Dohnaer Pl);71 Prohlis-Nord;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;6;24
+1999;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;18
+1999;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+1999;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;3
+1999;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+1999;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1999;867  Plauen(Friedrich-Hegel-Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+1999;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;6
+1999;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;11
+1999;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;5
+1999;925  Löbtau-Nord(Malterstr-Nord);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+1999;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+1999;944  Naußlitz-Süd;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;5
+1999;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;7
+1999;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;4
+1999;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;3;9
+2000;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;3;28
+2000;052  Friedrichst.(Schäferstr);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;3;27
+2000;114  Äußere Neust.(Böhmische Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;4;15
+2000;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;8
+2000;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;3
+2000;134  Äußere Neust.(Hoyerswerd. Str);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;3
+2000;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;11
+2000;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2000;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;4;18
+2000;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;5
+2000;232  Kaditz(Peschelstr);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;2
+2000;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2000;342  Waldpark Klotzsche;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;4
+2000;353  Lausa (Alte Dr. Str./Schönburg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2000;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2000;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2000;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;3
+2000;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2000;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2000;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2000;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2000;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2000;454  Weißig (Hauptstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;5
+2000;476  Krieschendorf/Malschendorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2000;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2000;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2000;544  Striesen-West(Löscherstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;7
+2000;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2000;573  Gruna(Gartenheimallee);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;6;6
+2000;613  Leuben(Kleinzschachwitzer Str);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2000;615  Leuben(Altleuben);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;5
+2000;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;4
+2000;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+2000;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;11
+2000;732  Niedersedlitz(Dorfstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2000;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;12
+2000;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2000;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2000;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;4
+2000;824  Südvs.-Ost(Ackermannstr);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;4
+2000;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2000;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2000;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;4;15
+2000;862  Plauen(Würzburger Str-Ost);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;4
+2000;866  Plauen(Kantstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;9
+2000;868  Plauen(Hohenplauen);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2000;901  Cossebaude-Nord;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2000;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;3
+2000;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;4
+2000;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+2000;941  Naußlitz-Nord;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2000;943  Naußlitz-West;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2000;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;4;12
+2000;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2000;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;4
+2000;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;4
+2000;997  Unkersdorf;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;4;5
+2001;053  Friedrichst.(Klinikum);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;2;20
+2001;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;6
+2001;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2001;244  Trachau(Platanenstr);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;3;8
+2001;251  Leipziger Vs.-NW(Liststr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2001;252  Pieschen-Nord(Riesaer Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;15
+2001;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2001;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2001;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2001;352  Lausa-Fuchsberg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2001;356  Marsdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2001;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2001;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2001;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2001;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2001;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2001;527  Striesen-Ost(Bärensteiner Str);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+2001;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2001;579  Strehlen-Nordost(Basteistr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;3
+2001;621  Laubegast-Nord/Alttolkewitz;62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2001;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;3
+2001;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2001;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2001;713  Prohlis-Nord(Gubener Str);71 Prohlis-Nord;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2001;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2001;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;7
+2001;751  Torna;75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;4
+2001;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;6
+2001;866  Plauen(Kantstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2001;901  Cossebaude-Nord;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;3
+2001;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2001;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2002;041  Wilsdruffer Vs.(Ostra-Allee);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;4
+2002;053  Friedrichst.(Klinikum);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+2002;054  Friedrichst.(Güterbahnhof);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+2002;067  Johannst.-Nord(Neubertstr);06 Johannstadt-Nord;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;000;Totalabriss;1;4
+2002;112  Äußere Neust.(Timäusstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;4
+2002;114  Äußere Neust.(Böhmische Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;15
+2002;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+2002;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;6
+2002;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;2
+2002;146  Leipziger Vs.(Oberer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;18
+2002;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;3;12
+2002;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;5;12
+2002;222  Trachau-Süd(Bunsenstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;2
+2002;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;7
+2002;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2002;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2002;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2002;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2002;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2002;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2002;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2002;363  Heidehof;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2002;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2002;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;6
+2002;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2002;462  Pappritz-West;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2002;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2002;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2002;521  Striesen-Ost(Sickingenstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2002;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+2002;614  Leuben/Niedersedlitz(Sachsenw);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;10
+2002;621  Laubegast-Nord/Alttolkewitz;62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2002;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+2002;626  Laubegast(Kärntner Weg);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2002;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;4
+2002;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2002;732  Niedersedlitz(Dorfstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;5
+2002;741  Luga;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2002;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2002;754  Leubnitz(Fritz-Busch-Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;12
+2002;774  Reick(Mügelner Str);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;5
+2002;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;6
+2002;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;6
+2002;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2002;862  Plauen(Würzburger Str-Ost);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2002;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2002;904  Niederwartha;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;3
+2002;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2002;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+2002;922  Löbtau-Nord(Altlöbtau);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;4;32
+2002;934  Löbtau-Süd(Zauckeroder Str);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2002;936  Löbtau-Süd(Rabenauer Str);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;16
+2002;944  Naußlitz-Süd;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;3
+2002;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;5
+2002;977  Neu-Omsewitz(Harthaer-West);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet01: Kräutersiedlung;Totalabriss;9;108
+2002;977  Neu-Omsewitz(Harthaer-West);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet01: Kräutersiedlung;Teilabriss;23;145
+2002;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;4
+2002;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2002;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2003;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;2;20
+2003;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;3
+2003;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;3
+2003;222  Trachau-Süd(Bunsenstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;3;25
+2003;244  Trachau(Platanenstr);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2003;256  Pieschen-Nord(Duckwitzstr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;3
+2003;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;7;10
+2003;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2003;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2003;352  Lausa-Fuchsberg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2003;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2003;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2003;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;3
+2003;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2003;451  Weißig (Heidestr./Marienbäder);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2003;462  Pappritz-West;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2003;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;2
+2003;536  Striesen-Süd(Haenel-Clauß-Pl);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+2003;551  Tolkewitz(Wehlener Str);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2003;566  Seidnitz(Altseidnitz);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+2003;577  Gruna(Beilstr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;2;2
+2003;614  Leuben/Niedersedlitz(Sachsenw);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;8;72
+2003;622  Laubegast(Burgenlandstr);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;2;18
+2003;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;4
+2003;626  Laubegast(Kärntner Weg);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;6
+2003;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2003;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;4
+2003;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;4;4
+2003;732  Niedersedlitz(Dorfstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2003;741  Luga;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;2
+2003;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;3
+2003;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2003;756  Leubnitz(Wieckestr);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;5
+2003;773  Reick(Lübbenauer Str);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet05: Reicker/Prohliser Str.;Totalabriss;12;144
+2003;774  Reick(Mügelner Str);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;2;3
+2003;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2003;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2003;862  Plauen(Würzburger Str-Ost);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2003;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2003;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2003;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;7;10
+2003;904  Niederwartha;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2003;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;2;8
+2003;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;12
+2003;914  Cotta(Weidentalstr-Ost);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;12
+2003;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2003;922  Löbtau-Nord(Altlöbtau);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;25
+2003;923  Löbtau-Nord(Grumbacher Str);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2003;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;7
+2003;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;4;24
+2003;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;2
+2003;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2003;983  Briesnitz-Nord;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;6
+2003;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2003;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;5
+2003;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2004;011  Innere Altstadt-Ost;01 Innere Altstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;8
+2004;052  Friedrichst.(Schäferstr);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;15
+2004;055  Friedrichst.(Ostragehege);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;6
+2004;071  Johannst.-Süd(Marschnerstr);07 Johannstadt-Süd;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;StB 0 Altstadt/Gebiet01: Straßburger Platz;Totalabriss;4;160
+2004;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;20
+2004;123  Radeberger Vs.(Angelikastr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;6
+2004;141  Leipziger Vs.(Eisenbahnstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;13
+2004;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;2
+2004;225  Mickten(Sternstr);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;3
+2004;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2004;314  Klotzsche(Am Trobischberg);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2004;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2004;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;3
+2004;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;5;9
+2004;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2004;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2004;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2004;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;461  Gönnsdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;472  Schullwitz;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2004;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2004;517  Neugruna(Polenzstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;5
+2004;544  Striesen-West(Löscherstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2004;578  Gruna(Karcherallee);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2004;578  Gruna(Karcherallee);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;3;36
+2004;578  Gruna(Karcherallee);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;Restliche (stadtweit) geförderte Rückbauten;Teilabriss;4;26
+2004;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2004;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2004;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2004;722  Prohlis-Süd(Finsterwald.-West);72 Prohlis-Süd;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet01: Elsterwerdaer Str.;Totalabriss;4;160
+2004;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2004;759  Mockritz-Ost(Gostritzer Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2004;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;5;16
+2004;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;4;15
+2004;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;9
+2004;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2004;865  Plauen(Müllerbrunnenstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2004;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;2;7
+2004;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+2004;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;6
+2004;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;4
+2004;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2004;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;5
+2004;941  Naußlitz-Nord;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;3
+2004;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;2;8
+2004;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;000;Totalabriss;1;1
+2004;978  Neu-Omsewitz(Thymianweg);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet01: Kräutersiedlung;Totalabriss;37;444
+2004;983  Briesnitz-Nord;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+2004;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2004;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;7
+2004;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2005;025  Pirnaische Vs.(Steinstr);02 Pirnaische Vorstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt/Gebiet02: Terrassenufer;Totalabriss;1;216
+2005;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;6;60
+2005;052  Friedrichst.(Schäferstr);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;7
+2005;071  Johannst.-Süd(Marschnerstr);07 Johannstadt-Süd;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;StB 0 Altstadt/Gebiet01: Straßburger Platz;Totalabriss;2;80
+2005;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;13
+2005;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2005;214  Pieschen-Süd(Altpieschen);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;10;46
+2005;227  Übigau;22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2005;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2005;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;3;8
+2005;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2005;353  Lausa (Alte Dr. Str./Schönburg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2005;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2005;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2005;364  Schönborn;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Schönborn;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2005;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2005;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2005;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2005;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;15
+2005;435  Söbrigen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2005;461  Gönnsdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2005;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2005;533  Striesen-Süd(Mansfelder Str);53 Striesen-Süd;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;2
+2005;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2005;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2005;712  Prohlis-Nord(Am Anger);71 Prohlis-Nord;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet04: Am Anger;Totalabriss;1;208
+2005;714  Prohlis-Nord(Albert-Wolf-Pl);71 Prohlis-Nord;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet03: Trattendorfer Str.;Totalabriss;3;120
+2005;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet09: Sternhäuser;Totalabriss;6;240
+2005;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2005;767  Strehlen(Wilhelm-Lachnit-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet06: Eugen-Hofmann-Str.;Totalabriss;12;144
+2005;773  Reick(Lübbenauer Str);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet02: Vetschauer Str.;Totalabriss;6;72
+2005;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;4;11
+2005;867  Plauen(Friedrich-Hegel-Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;4
+2005;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2005;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2005;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;10
+2005;922  Löbtau-Nord(Altlöbtau);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+2005;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;8
+2005;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;12
+2005;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2005;966  Gorbitz-Ost(Leutew. Ring-Mitt);96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet02: An der Kirche;Totalabriss;10;120
+2005;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;3
+2005;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2006;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;10
+2006;052  Friedrichst.(Schäferstr);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;7
+2006;068  Johannst.-N(Uni-Klinikum);06 Johannstadt-Nord;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;000;Totalabriss;1;1
+2006;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;9;53
+2006;142  Leipziger Vs.(Rudolfstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;23
+2006;227  Übigau;22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;3
+2006;252  Pieschen-Nord(Riesaer Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;9
+2006;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2006;342  Waldpark Klotzsche;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;4
+2006;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2006;363  Heidehof;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2006;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2006;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;5
+2006;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2006;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;6
+2006;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;4
+2006;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2006;435  Söbrigen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2006;451  Weißig (Heidestr./Marienbäder);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2006;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2006;555  Seidnitz-Nord(Johnsbacher Weg);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz/Gebiet01: Johnsbacher Weg;Totalabriss;9;108
+2006;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2006;571  Gruna(Karl-Roth-Str);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2006;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2006;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;StB 6 Leuben/Gebiet01: Leuben;Totalabriss;21;220
+2006;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2006;641  Großzschachwitz(Alte Str);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;5
+2006;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2006;752  Leubnitz(Leubnitzer Höhe);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2006;772  Reick(Am Lehmhaus);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2006;844  Kaitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2006;901  Cossebaude-Nord;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2006;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+2006;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2006;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;10
+2006;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+2006;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;19
+2006;956  Gorbitz-Süd(Wilsdr. Ring-Ost);95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet03: Stadtblick;Totalabriss;28;399
+2006;957  Gorbitz-Süd(Wilsdr. Ring-West);95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet03: Stadtblick;Totalabriss;2;24
+2006;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;4
+2006;992  Ockerwitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2007;053  Friedrichst.(Klinikum);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;2;11
+2007;145  Leipziger Vs.(Mittlerer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;4
+2007;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2007;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2007;241  Trachau(Cottbuser Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2007;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2007;315  Klotzsche(Königswald-Süd);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;3
+2007;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2007;362  Langebrück-Süd;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2007;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2007;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2007;464  Cunnersdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2007;517  Neugruna(Polenzstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2007;551  Tolkewitz(Wehlener Str);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+2007;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;2;5
+2007;621  Laubegast-Nord/Alttolkewitz;62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2007;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;4
+2007;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet08: Sternenschweif;Totalabriss;29;384
+2007;752  Leubnitz(Leubnitzer Höhe);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2007;756  Leubnitz(Wieckestr);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;7
+2007;767  Strehlen(Wilhelm-Lachnit-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet07: Koitzschgraben;Totalabriss;30;426
+2007;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2007;862  Plauen(Würzburger Str-Ost);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2007;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;19
+2007;957  Gorbitz-Süd(Wilsdr. Ring-West);95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet03: Stadtblick;Teilabriss;16;52
+2007;991  Gompitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;3;4
+2007;998  Altfranken;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Altfranken;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2008;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;13
+2008;111  Äußere Neust.(Schönbrunnstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;15
+2008;115  Äußere Neust.(Görlitzer Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+2008;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;14
+2008;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2008;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2008;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2008;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2008;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;6
+2008;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2008;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2008;474  Eschdorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2008;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;2;9
+2008;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2008;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet09: Sternhäuser;Totalabriss;6;240
+2008;741  Luga;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2008;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2008;762  Strehlen(Rayskistr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;6
+2008;835  Zschertnitz(Rubensweg);83 Räcknitz/Zschertnitz;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;StB 8 Plauen/Gebiet01: Zschertnitz;Totalabriss;1;208
+2008;844  Kaitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+2008;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;3;22
+2008;865  Plauen(Müllerbrunnenstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;11
+2008;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2008;908  Rennersdorf;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Mobschatz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2008;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;5;84
+2008;913  Cotta(Weidentalstr-West);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;6
+2008;942  Wölfnitz;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;7
+2008;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet04: Am Weidigtbach;Totalabriss;12;144
+2008;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet04: Am Weidigtbach;Teilabriss;14;76
+2008;973  Neu-Omsewitz(Melisseweg);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet05: Ginstersiedlung;Totalabriss;2;24
+2008;974  Neu-Omsew.(Kresseweg);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet05: Ginstersiedlung;Totalabriss;2;24
+2008;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2008;991  Gompitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2009;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;8
+2009;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;5
+2009;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;3
+2009;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2009;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2009;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2009;461  Gönnsdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2009;478  Zaschendorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2009;516  Neugruna(Gustav-Freytag-Str);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2009;517  Neugruna(Polenzstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2009;527  Striesen-Ost(Bärensteiner Str);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;12
+2009;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+2009;562  Seidnitz(Schilfweg);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;6
+2009;618  Leuben(Rottwerndorfer Str);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;StB 6 Leuben/Gebiet02: Zamenhof;Totalabriss;1;86
+2009;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2009;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet09: Sternhäuser;Totalabriss;6;240
+2009;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;7
+2009;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;5
+2009;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;4
+2009;931  Löbtau-Süd(Schillingstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2009;941  Naußlitz-Nord;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;12
+2009;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2009;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet04: Am Weidigtbach;Totalabriss;2;24
+2009;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;StB 9 Cotta/Gebiet04: Am Weidigtbach;Teilabriss;10;65
+2010;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2010;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt/Gebiet01: Hauptstr.;Totalabriss;4;40
+2010;214  Pieschen-Süd(Altpieschen);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;4
+2010;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2010;246  Trachau(Industriestr);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;16
+2010;314  Klotzsche(Am Trobischberg);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2010;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;3
+2010;364  Schönborn;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Schönborn;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2010;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2010;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2010;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2010;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2010;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2010;433  Pillnitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;12
+2010;475  Rossendorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;5
+2010;546  Striesen-West(Altstriesen);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;1;6
+2010;555  Seidnitz-Nord(Johnsbacher Weg);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz/Gebiet01: Johnsbacher Weg;Totalabriss;6;72
+2010;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;9
+2010;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2010;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2010;714  Prohlis-Nord(Albert-Wolf-Pl);71 Prohlis-Nord;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet11: Berzdorfer Str.;Totalabriss;2;72
+2010;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2010;759  Mockritz-Ost(Gostritzer Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;3
+2010;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2010;767  Strehlen(Wilhelm-Lachnit-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet10: Koitzschgraben 2;Totalabriss;26;348
+2010;846  Gostritz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2010;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;3;5
+2010;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;6
+2010;904  Niederwartha;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;4
+2010;905  Oberwartha;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Oberwartha;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2010;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2010;982  Kemnitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;6
+2010;991  Gompitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2011;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;Restliche (stadtweit) geförderte Rückbauten;Totalabriss;2;18
+2011;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+2011;123  Radeberger Vs.(Angelikastr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2011;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2011;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2011;429  Neu-Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2011;435  Söbrigen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;462  Pappritz-West;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2011;463  Pappritz-Ost;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;471  Schönfeld;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2011;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2011;523  Striesen-Ost(Pohlandstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2011;543  Striesen-West(Wormser Pl);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+2011;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2011;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2011;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2011;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2011;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet09: Sternhäuser;Totalabriss;12;520
+2011;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2011;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;12
+2011;767  Strehlen(Wilhelm-Lachnit-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis/Gebiet10: Koitzschgraben 2;Totalabriss;22;372
+2011;815  Südvs.-West(Eisenstuckst-Mitt);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;9
+2011;907  Alt-Leuteritz/Brabschütz;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Mobschatz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2011;915  Cotta(Sachsdorfer Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;8
+2011;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;12
+2011;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2011;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2011;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2011;982  Kemnitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;3
+2011;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;5
+2012;073  Johannst.-Süd(Nicolaistr);07 Johannstadt-Süd;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;StB 0 Altstadt/Gebiet03: Nicolaistraße;Totalabriss;3;36
+2012;111  Äußere Neust.(Schönbrunnstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;3;14
+2012;112  Äußere Neust.(Timäusstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;8
+2012;114  Äußere Neust.(Böhmische Str);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;7
+2012;121  Radeberger Vs.(Jägerstr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;3
+2012;141  Leipziger Vs.(Eisenbahnstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;11
+2012;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2012;226  Mickten(Altmickten);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;5
+2012;256  Pieschen-Nord(Duckwitzstr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;6
+2012;257  Trachenberge;25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;4;15
+2012;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2012;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2012;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2012;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2012;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2012;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2012;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2012;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2012;451  Weißig (Heidestr./Marienbäder);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2012;471  Schönfeld;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2012;515  Blasewitz(Oehmestr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2012;526  Striesen-Ost(Voglerstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;4
+2012;554  Seidnitz-Nord(Löwenhainer Str);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz/Gebiet01: Johnsbacher Weg;Totalabriss;5;50
+2012;555  Seidnitz-Nord(Johnsbacher Weg);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz/Gebiet01: Johnsbacher Weg;Totalabriss;24;361
+2012;621  Laubegast-Nord/Alttolkewitz;62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;3
+2012;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;8
+2012;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2012;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2012;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2012;744  Kauscha;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2012;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;2
+2012;759  Mockritz-Ost(Gostritzer Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2012;764  Strehlen(Geystr);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2012;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2012;824  Südvs.-Ost(Ackermannstr);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2012;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2012;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;2;2
+2012;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2012;912  Cotta(Grillparzerplatz);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2012;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;2;5
+2012;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2012;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;7
+2012;995  Steinbach;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2013;055  Friedrichst.(Ostragehege);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;1
+2013;061  Johannst.-Nord(Elsasser Str);06 Johannstadt-Nord;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;StB 0 Altstadt/Gebiet04: Gerokstraße;Totalabriss;4;172
+2013;134  Äußere Neust.(Hoyerswerd. Str);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+2013;141  Leipziger Vs.(Eisenbahnstr);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;19
+2013;221  Trachau-Süd(Alttrachau);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;6
+2013;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;6
+2013;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2013;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2013;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2013;474  Eschdorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2013;478  Zaschendorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2013;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;2;6
+2013;543  Striesen-West(Wormser Pl);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2013;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;9
+2013;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2013;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2013;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+2013;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;7
+2013;868  Plauen(Hohenplauen);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2013;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2014;034  Strehlen(Tiergartenstr);03 Seevorstadt-Ost;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;3
+2014;051  Friedrichst.(Löbtauer Str);05 Friedrichstadt;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;9
+2014;134  Äußere Neust.(Hoyerswerd. Str);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2014;144  Leipziger Vs.(Unterer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;11
+2014;215  Pieschen-Süd(Leisniger Pl);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;5
+2014;254  Pieschen-Nord(Trachenbgr. Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;8
+2014;317  Klotzsche(Selliner Str);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;3;34
+2014;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2014;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2014;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2014;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2014;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2014;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2014;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2014;524  Striesen-Ost(Dornblüthstr);52 Striesen-Ost;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2014;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;15
+2014;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2014;646  Sporbitz;64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;5
+2014;851  Coschütz-Ost;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2014;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+2014;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2014;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;3
+2014;982  Kemnitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;7
+2014;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;7
+2014;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2014;991  Gompitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2014;992  Ockerwitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2015;118  Äußere Neust.(Tannenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;20
+2015;121  Radeberger Vs.(Jägerstr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;2
+2015;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2015;255  Pieschen-Nord(Rückertstr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;3
+2015;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2015;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2015;363  Heidehof;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2015;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2015;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2015;544  Striesen-West(Löscherstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2015;632  Kleinzschachwitz-Süd;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2015;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;5
+2015;645  Großzschachwitz(Schweizstr);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;13
+2015;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;2
+2015;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;4
+2015;771  Reick(Lohrmannstr);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2015;819  Südvs.-West(Bayreuther-Ost);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;5
+2015;831  Räcknitz(Alträcknitz);83 Räcknitz/Zschertnitz;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+2015;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2015;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+2015;862  Plauen(Würzburger Str-Ost);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2015;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;2;7
+2015;903  Gohlis;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2015;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;8
+2015;944  Naußlitz-Süd;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2015;983  Briesnitz-Nord;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2015;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2016;073  Johannst.-Süd(Nicolaistr);07 Johannstadt-Süd;StB 0 Altstadt;StB 0 Altstadt;02 Johannstadt;StB 0 Altstadt/Gebiet03: Nicolaistraße;Totalabriss;5;60
+2016;146  Leipziger Vs.(Oberer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2016;227  Übigau;22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2016;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;4;4
+2016;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2016;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2016;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;414  Wachwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;12
+2016;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2016;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2016;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;472  Schullwitz;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;473  Borsberg;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2016;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;2
+2016;624  Laubegast(Altlaubegast);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2016;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2016;626  Laubegast(Kärntner Weg);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;4
+2016;759  Mockritz-Ost(Gostritzer Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2016;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;2
+2016;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2016;866  Plauen(Kantstr);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2016;868  Plauen(Hohenplauen);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2016;907  Alt-Leuteritz/Brabschütz;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Mobschatz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2016;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2016;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;000;Totalabriss;2;2
+2016;983  Briesnitz-Nord;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2017;034  Strehlen(Tiergartenstr);03 Seevorstadt-Ost;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;2
+2017;145  Leipziger Vs.(Mittlerer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;5
+2017;146  Leipziger Vs.(Oberer Hecht);14 Leipziger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2017;212  Leipziger Vs.(Moritzburger St);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2017;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2017;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2017;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2017;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2017;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2017;434  Oberpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2017;474  Eschdorf;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2017;545  Striesen-West(Alemannenstr);54 Striesen-West;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2017;625  Laubegast(Gasteiner Str);62 Laubegast;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2017;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2017;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2017;818  Südvs.-West(Bayreuther-West);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2017;822  Südvs.-Ost(Uhlandstr);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;4
+2017;844  Kaitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2017;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2017;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;2
+2017;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;7
+2017;867  Plauen(Friedrich-Hegel-Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2017;921  Löbtau-Nord(Ebertplatz);92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;8
+2017;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2017;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;4
+2017;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;000;Totalabriss;1;1
+2017;986  Leutewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2018;134  Äußere Neust.(Hoyerswerd. Str);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2018;213  Pieschen-Süd(Torgauer Str);21 Pieschen-Süd;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2018;221  Trachau-Süd(Alttrachau);22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2018;255  Pieschen-Nord(Rückertstr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;4
+2018;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2018;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2018;356  Marsdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;3
+2018;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2018;422  Loschwitz-Nordost(Rißweg);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2018;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2018;435  Söbrigen;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2018;454  Weißig (Hauptstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2018;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;3;4
+2018;462  Pappritz-West;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2018;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;3
+2018;471  Schönfeld;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2018;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2018;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2018;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2018;765  Strehlen(Eugen-Bracht-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;3
+2018;772  Reick(Am Lehmhaus);77 Reick;StB 7 Prohlis;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);000;Totalabriss;1;2
+2018;831  Räcknitz(Alträcknitz);83 Räcknitz/Zschertnitz;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2018;845  Altmockritz/Altpestitz;84 Kleinpestitz/Mockritz;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2018;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2018;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2018;901  Cossebaude-Nord;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2018;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2018;932  Löbtau-Süd(Frankenbergstr);93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;3
+2018;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2018;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2019;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2019;244  Trachau(Platanenstr);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2019;352  Lausa-Fuchsberg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2019;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2019;421  Weißer Hirsch;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2019;429  Neu-Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;3
+2019;471  Schönfeld;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2019;579  Strehlen-Nordost(Basteistr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2019;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2019;645  Großzschachwitz(Schweizstr);64 Großzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;4
+2019;742  Lockwitz;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2019;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2019;944  Naußlitz-Süd;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2019;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2019;992  Ockerwitz;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2019;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2020;043  Wilsdruffer Vs.(Maternistr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;41
+2020;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2020;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2020;227  Übigau;22 Mickten;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;4
+2020;256  Pieschen-Nord(Duckwitzstr);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;2
+2020;314  Klotzsche(Am Trobischberg);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2020;324  Hellerau(Markt);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2020;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2020;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2020;363  Heidehof;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2020;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2020;426  Bühlau(Ullersdorfer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2020;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2020;431  Niederpoyritz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2020;471  Schönfeld;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2020;561  Seidnitz(Rennbahn);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;2
+2020;579  Strehlen-Nordost(Basteistr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2020;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2020;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2020;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2020;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;3;3
+2020;733  Niedersedlitz(Windmühlenstr);73 Niedersedlitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2020;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2020;864  Plauen(Nöthnitzer Str);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;5
+2020;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2020;981  Stetzsch;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;2
+2021;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;2;5
+2021;244  Trachau(Platanenstr);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2021;254  Pieschen-Nord(Trachenbgr. Str);25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;1;1
+2021;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2021;314  Klotzsche(Am Trobischberg);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2021;317  Klotzsche(Selliner Str);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2021;321  Wilschdorf;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2021;322  Rähnitz;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2021;323  Hellerau(Festspielhaus);32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2021;352  Lausa-Fuchsberg;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2021;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;2
+2021;362  Langebrück-Süd;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;2;4
+2021;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;455  Weißig (Bergstr.);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;462  Pappritz-West;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;465  Eichbusch/Helfenberg/Rockau;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;473  Borsberg;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2021;511  Blasewitz(Händelallee);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2021;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;3
+2021;514  Blasewitz(Kretschmerstr);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;1
+2021;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2021;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2021;633  Meußlitz;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;2
+2021;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;3
+2021;743  Nickern;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2021;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2021;814  Südvs.-West(Eisenstuckst-West);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2021;852  Coschütz-West;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2021;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2021;861  Plauen(Würzburger Str-West);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;4
+2021;868  Plauen(Hohenplauen);86 Plauen;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2021;909  Merbitz/Podemus;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Mobschatz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2021;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;3;3
+2021;985  Alt-Omsewitz;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;2;4
+2021;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2022;042  Wilsdruffer Vs.(Ermischstr);04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;000;Totalabriss;1;3
+2022;122  Radeberger Vs.(Forststr);12 Radeberger Vorstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2022;351  Weixdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2022;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2022;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2022;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2022;427  Alt-Bühlau/Quohren;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2022;451  Weißig (Heidestr./Marienbäder);45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2022;512  Blasewitz(Schillerpl);51 Blasewitz;StB 5 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;000;Totalabriss;1;5
+2022;577  Gruna(Beilstr);57 Gruna;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;9
+2022;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2022;755  Leubnitz(Altleubnitz);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2022;759  Mockritz-Ost(Gostritzer Str);75 Leubnitz-Neuostra;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2022;823  Südvs.-Ost(Lukasplatz);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2022;824  Südvs.-Ost(Ackermannstr);82 Südvorstadt-Ost;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;3
+2022;853  Gittersee;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;1
+2022;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2022;993  Pennrich;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+2023;131  Innere Neust.(Königstr);13 Innere Neustadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;2;4
+2023;152  Albertstadt-West;15 Albertstadt;StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;1
+2023;248  Trachau(Neuländer Str);24 Trachau;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;2
+2023;257  Trachenberge;25 Pieschen-N/Trachenberge;StB 2 Pieschen;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;000;Totalabriss;2;2
+2023;311  Klotzsche(Altklotzsche);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;5
+2023;316  Klotzsche(Königswald-Nord);31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;StB 3 Klotzsche;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2023;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2023;356  Marsdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;2
+2023;361  Langebrück-Nord;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2023;363  Heidehof;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;OS Langebrück;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;3
+2023;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2023;413  Oberloschwitz;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2023;423  Loschwitz-NO(Am Weißen Adler);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2023;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2023;428  Rochwitz;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2023;461  Gönnsdorf;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2023;555  Seidnitz-Nord(Johnsbacher Weg);55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;1
+2023;612  Leuben(Stephensonstr);61 Leuben;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;2;2
+2023;811  Südvs.-West(Feldschlößchenstr);81 Südvorstadt-West;StB 8 Plauen;StB 8 Plauen;13 Südvorstadt, Zschertnitz;000;Totalabriss;1;1
+2023;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2023;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;2
+2023;945  Dölzschen;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2023;946  Niedergorbitz/Roßthal;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;4
+2023;971  Gorbitz-Nord(Omsew. Ring-SO);97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;16 Gorbitz;000;Totalabriss;2;47
+2024;113  Äußere Neust.(Katharinenstr);11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;000;Totalabriss;1;4
+2024;233  Kaditz(Altkaditz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2024;234  Kaditz(Riegelplatz);23 Kaditz;StB 2 Pieschen;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;000;Totalabriss;1;1
+2024;354  Alt-Lausa/Friedersdorf;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2024;355  Gomlitz;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;OS Weixdorf;06 StB Klotzsche und nördliche OS;000;Totalabriss;1;1
+2024;411  Loschwitz(Schevenstr);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2024;412  Loschwitz(Körnerplatz);41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2024;424  Bühlau(Neubühlauer Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2024;425  Bühlau(Neukircher Str);42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;2
+2024;432  Hosterwitz;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;StB 4 Loschwitz;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;1;1
+2024;463  Pappritz-Ost;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;000;Totalabriss;2;2
+2024;564  Dobritz(Altdobritz/Basedowstr);56 Seidnitz/Dobritz;StB 5 Blasewitz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;000;Totalabriss;1;8
+2024;631  Kleinzschachwitz-Nord;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2024;634  Zschieren;63 Kleinzschachwitz;StB 6 Leuben;StB 6 Leuben;10 StB Leuben;000;Totalabriss;1;1
+2024;741  Luga;74 Lockwitz;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;2;4
+2024;761  Strehlen(August-Bebel-Str);76 Strehlen;StB 7 Prohlis;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);000;Totalabriss;1;1
+2024;851  Coschütz-Ost;85 Coschütz/Gittersee;StB 8 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;000;Totalabriss;1;3
+2024;902  Cossebaude-Süd;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;OS Cossebaude;17 Briesnitz und westliche OS;000;Totalabriss;2;2
+2024;911  Cotta(Cossebauder Str);91 Cotta;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2024;942  Wölfnitz;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;15 Cotta, Löbtau, Naußlitz, Dölzschen;000;Totalabriss;1;1
+2024;984  Briesnitz-Süd;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;StB 9 Cotta;17 Briesnitz und westliche OS;000;Totalabriss;1;1
+2024;995  Steinbach;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;OS Gompitz;17 Briesnitz und westliche OS;000;Totalabriss;1;1

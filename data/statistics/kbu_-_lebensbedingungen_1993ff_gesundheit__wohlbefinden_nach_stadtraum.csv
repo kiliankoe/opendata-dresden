@@ -1,0 +1,469 @@
+Jahr;Stadtraum;Befindlichkeitsart;"Anteil Benotung ""gut""";"Anteil Benotung ""teils/teils""";"Anteil Benotung ""schlecht"""
+1993;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;41,4;53,7;5
+1993;01 StB Altstadt ohne Johannstadt;Wohlbefinden;38,2;56,4;5,4
+1993;02 Johannstadt;Gesundheitszustand;44,6;46,9;8,5
+1993;02 Johannstadt;Wohlbefinden;45,3;49,1;5,6
+1993;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;61,2;35;3,8
+1993;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;42,9;52,3;4,8
+1993;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;47,5;46,6;6
+1993;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;41,4;52;6,7
+1993;05 Mickten, Kaditz, Trachau;Gesundheitszustand;43,8;51,3;5
+1993;05 Mickten, Kaditz, Trachau;Wohlbefinden;43;51,2;5,8
+1993;06 StB Klotzsche und nördliche OS;Gesundheitszustand;55,4;43,3;1,4
+1993;06 StB Klotzsche und nördliche OS;Wohlbefinden;51,7;47,6;0,7
+1993;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;50,6;47,7;1,7
+1993;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;50,9;44,3;4,8
+1993;08 Blasewitz, Striesen;Gesundheitszustand;53,9;41;5,1
+1993;08 Blasewitz, Striesen;Wohlbefinden;42,6;51,1;6,3
+1993;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;49,7;44,7;5,5
+1993;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;51,7;44,7;3,6
+1993;10 StB Leuben;Gesundheitszustand;46,3;50,7;3
+1993;10 StB Leuben;Wohlbefinden;47,1;49,5;3,4
+1993;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;52,2;41,1;6,7
+1993;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;42;51,2;6,8
+1993;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;47,1;47;5,9
+1993;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;42,9;51,9;5,2
+1993;13 Südvorstadt, Zschertnitz;Gesundheitszustand;47,1;49,7;3,3
+1993;13 Südvorstadt, Zschertnitz;Wohlbefinden;45,6;50,9;3,5
+1993;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;51,7;44,6;3,7
+1993;14 Mockritz, Coschütz, Plauen;Wohlbefinden;48,1;49,5;2,4
+1993;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;50,8;44,6;4,6
+1993;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;46;50,2;3,8
+1993;16 Gorbitz;Gesundheitszustand;50,1;44,8;5,1
+1993;16 Gorbitz;Wohlbefinden;48,4;48,1;3,5
+1993;17 Briesnitz und westliche OS;Gesundheitszustand;39,7;53,5;6,8
+1993;17 Briesnitz und westliche OS;Wohlbefinden;36,3;56,9;6,8
+1993;18 Dresden gesamt;Gesundheitszustand;49,2;45,9;4,9
+1993;18 Dresden gesamt;Wohlbefinden;45,1;50,2;4,7
+1995;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;48;42,8;9,2
+1995;01 StB Altstadt ohne Johannstadt;Wohlbefinden;43,4;50,1;6,4
+1995;02 Johannstadt;Gesundheitszustand;47,9;47;5,1
+1995;02 Johannstadt;Wohlbefinden;48,8;46,1;5
+1995;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;60,7;34,6;4,7
+1995;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;47;49,2;3,7
+1995;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;49,3;46;4,7
+1995;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;45,9;52,2;1,9
+1995;05 Mickten, Kaditz, Trachau;Gesundheitszustand;48;47,8;4,2
+1995;05 Mickten, Kaditz, Trachau;Wohlbefinden;48,3;49,5;2,1
+1995;06 StB Klotzsche und nördliche OS;Gesundheitszustand;55;40,3;4,8
+1995;06 StB Klotzsche und nördliche OS;Wohlbefinden;47,7;49,5;2,7
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;51,6;40,2;8,1
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;53,4;42,9;3,7
+1995;08 Blasewitz, Striesen;Gesundheitszustand;55,2;37;7,8
+1995;08 Blasewitz, Striesen;Wohlbefinden;47,8;47,8;4,4
+1995;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;51;43,9;5,1
+1995;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;47,2;47,8;4,9
+1995;10 StB Leuben;Gesundheitszustand;54,6;41,9;3,6
+1995;10 StB Leuben;Wohlbefinden;47,5;47,9;4,7
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;60,4;35;4,6
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;52,2;44,6;3,2
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;58,6;38,5;2,9
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;53,8;42,4;3,8
+1995;13 Südvorstadt, Zschertnitz;Gesundheitszustand;58,1;36,8;5,1
+1995;13 Südvorstadt, Zschertnitz;Wohlbefinden;55,3;40,9;3,8
+1995;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;64,5;33,8;1,6
+1995;14 Mockritz, Coschütz, Plauen;Wohlbefinden;58;39;3,1
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;50,5;42,5;7
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;47,2;47,9;4,8
+1995;16 Gorbitz;Gesundheitszustand;54,8;39,6;5,6
+1995;16 Gorbitz;Wohlbefinden;52;44,6;3,4
+1995;17 Briesnitz und westliche OS;Gesundheitszustand;50,7;43,2;6,1
+1995;17 Briesnitz und westliche OS;Wohlbefinden;39,5;56;4,5
+1995;18 Dresden gesamt;Gesundheitszustand;54,2;40,5;5,3
+1995;18 Dresden gesamt;Wohlbefinden;49,4;46,7;4
+1996;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;49,4;42,7;7,9
+1996;01 StB Altstadt ohne Johannstadt;Wohlbefinden;48,3;47,4;4,3
+1996;02 Johannstadt;Gesundheitszustand;55;40,4;4,7
+1996;02 Johannstadt;Wohlbefinden;52;44,9;3,1
+1996;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;62;34;4
+1996;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;47,8;45,2;7
+1996;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;58,9;33,8;7,3
+1996;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;51,6;41,9;6,5
+1996;05 Mickten, Kaditz, Trachau;Gesundheitszustand;58,3;36,5;5,2
+1996;05 Mickten, Kaditz, Trachau;Wohlbefinden;54,1;43,2;2,7
+1996;06 StB Klotzsche und nördliche OS;Gesundheitszustand;62,8;33,2;4
+1996;06 StB Klotzsche und nördliche OS;Wohlbefinden;61,2;36;2,9
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;57,9;36,3;5,9
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;58,1;35,4;6,5
+1996;08 Blasewitz, Striesen;Gesundheitszustand;60,1;37,8;2,1
+1996;08 Blasewitz, Striesen;Wohlbefinden;53,4;45,1;1,5
+1996;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;51;43,9;5,1
+1996;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;47,1;47,2;5,8
+1996;10 StB Leuben;Gesundheitszustand;62,9;34;3,1
+1996;10 StB Leuben;Wohlbefinden;54,3;45,3;0,4
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;51,7;42,8;5,5
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;45,1;47,7;7,2
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;56,5;38,7;4,8
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;57,6;38,2;4,2
+1996;13 Südvorstadt, Zschertnitz;Gesundheitszustand;56,3;41,9;1,8
+1996;13 Südvorstadt, Zschertnitz;Wohlbefinden;47,9;46,7;5,4
+1996;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;65,6;32,9;1,5
+1996;14 Mockritz, Coschütz, Plauen;Wohlbefinden;57,9;40,6;1,5
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;57,5;36,8;5,8
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;49,6;43,7;6,7
+1996;16 Gorbitz;Gesundheitszustand;64,2;32;3,8
+1996;16 Gorbitz;Wohlbefinden;53,1;42,6;4,3
+1996;17 Briesnitz und westliche OS;Gesundheitszustand;67,9;30,8;1,3
+1996;17 Briesnitz und westliche OS;Wohlbefinden;57,8;40,2;2
+1996;18 Dresden gesamt;Gesundheitszustand;57,9;37,6;4,4
+1996;18 Dresden gesamt;Wohlbefinden;51,9;43,8;4,3
+2002;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;42,3;47,4;10,3
+2002;01 StB Altstadt ohne Johannstadt;Wohlbefinden;48,4;45,1;6,4
+2002;02 Johannstadt;Gesundheitszustand;44,2;45,1;10,7
+2002;02 Johannstadt;Wohlbefinden;46,4;47,1;6,6
+2002;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;67,9;30,3;1,8
+2002;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;60,1;36,2;3,6
+2002;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;64;31,5;4,5
+2002;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;62,8;33,5;3,8
+2002;05 Mickten, Kaditz, Trachau;Gesundheitszustand;62,7;29,1;8,2
+2002;05 Mickten, Kaditz, Trachau;Wohlbefinden;60,2;36;3,8
+2002;06 StB Klotzsche und nördliche OS;Gesundheitszustand;59,6;38,6;1,8
+2002;06 StB Klotzsche und nördliche OS;Wohlbefinden;61,2;36;2,7
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;62,8;31,5;5,7
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;65,2;32,6;2,2
+2002;08 Blasewitz, Striesen;Gesundheitszustand;57,6;37,6;4,8
+2002;08 Blasewitz, Striesen;Wohlbefinden;58,7;37,8;3,5
+2002;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;46,7;42,5;10,8
+2002;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;47;46,6;6,4
+2002;10 StB Leuben;Gesundheitszustand;46,6;46,3;7,1
+2002;10 StB Leuben;Wohlbefinden;49,9;46,7;3,3
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;41,2;48,2;10,6
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;42,5;45,5;12,1
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;51;43,8;5,2
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;57,4;40,8;1,8
+2002;13 Südvorstadt, Zschertnitz;Gesundheitszustand;43,4;47,8;8,8
+2002;13 Südvorstadt, Zschertnitz;Wohlbefinden;50,7;46,4;2,9
+2002;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;56,8;38,4;4,8
+2002;14 Mockritz, Coschütz, Plauen;Wohlbefinden;58,1;37,9;4
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;58;35,4;6,6
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;57,2;39,6;3,1
+2002;16 Gorbitz;Gesundheitszustand;51;39,7;9,3
+2002;16 Gorbitz;Wohlbefinden;45,9;47,4;6,7
+2002;17 Briesnitz und westliche OS;Gesundheitszustand;65,1;29,8;5,1
+2002;17 Briesnitz und westliche OS;Wohlbefinden;60,8;33,9;5,3
+2002;18 Dresden gesamt;Gesundheitszustand;54;39,2;6,8
+2002;18 Dresden gesamt;Wohlbefinden;55;40,6;4,4
+2007;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;52,6;41,9;5,5
+2007;01 StB Altstadt ohne Johannstadt;Wohlbefinden;50,2;45,5;4,3
+2007;02 Johannstadt;Gesundheitszustand;45,5;47,8;6,7
+2007;02 Johannstadt;Wohlbefinden;46,2;49,8;4
+2007;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;71,2;24,8;4
+2007;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;60,8;36,6;2,7
+2007;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;61,6;30,3;8,1
+2007;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;53,3;40,6;6,1
+2007;05 Mickten, Kaditz, Trachau;Gesundheitszustand;53,5;39;7,5
+2007;05 Mickten, Kaditz, Trachau;Wohlbefinden;50,6;45,3;4
+2007;06 StB Klotzsche und nördliche OS;Gesundheitszustand;55,6;39,5;4,8
+2007;06 StB Klotzsche und nördliche OS;Wohlbefinden;59,7;37,5;2,8
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;57,1;39,4;3,5
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;58,5;37,6;3,9
+2007;08 Blasewitz, Striesen;Gesundheitszustand;61,6;32,9;5,5
+2007;08 Blasewitz, Striesen;Wohlbefinden;59,2;38,4;2,4
+2007;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;48,1;45,7;6,1
+2007;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;53,4;42,9;3,7
+2007;10 StB Leuben;Gesundheitszustand;50;46,2;3,9
+2007;10 StB Leuben;Wohlbefinden;54,3;42,8;3
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;41,8;44,7;13,6
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;46,4;45,5;8,1
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;62;31,8;6,2
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;57,7;40;2,3
+2007;13 Südvorstadt, Zschertnitz;Gesundheitszustand;58;36,9;5,1
+2007;13 Südvorstadt, Zschertnitz;Wohlbefinden;54,1;42,8;3,1
+2007;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;63,3;32,5;4,2
+2007;14 Mockritz, Coschütz, Plauen;Wohlbefinden;61,4;36,7;1,9
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;67,3;25,5;7,3
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;63,8;32,6;3,6
+2007;16 Gorbitz;Gesundheitszustand;51,8;42,9;5,3
+2007;16 Gorbitz;Wohlbefinden;50,1;48,2;1,7
+2007;17 Briesnitz und westliche OS;Gesundheitszustand;54;41,8;4,2
+2007;17 Briesnitz und westliche OS;Wohlbefinden;58,1;38,9;2,9
+2007;18 Dresden gesamt;Gesundheitszustand;57;37,2;5,9
+2007;18 Dresden gesamt;Wohlbefinden;55,7;40,7;3,5
+2010;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;56,3;37,1;6,5
+2010;01 StB Altstadt ohne Johannstadt;Wohlbefinden;56,5;39,9;3,6
+2010;02 Johannstadt;Gesundheitszustand;55;36,2;8,8
+2010;02 Johannstadt;Wohlbefinden;56,6;39,3;4
+2010;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;67,8;29,9;2,3
+2010;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;62,8;33,4;3,9
+2010;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;64,2;31,7;4,1
+2010;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;58,9;37,1;4
+2010;05 Mickten, Kaditz, Trachau;Gesundheitszustand;59,5;35,1;5,4
+2010;05 Mickten, Kaditz, Trachau;Wohlbefinden;56,3;40,2;3,4
+2010;06 StB Klotzsche und nördliche OS;Gesundheitszustand;61,2;37;1,8
+2010;06 StB Klotzsche und nördliche OS;Wohlbefinden;62,7;36;1,4
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;60,7;38,3;1
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;68,2;30,2;1,6
+2010;08 Blasewitz, Striesen;Gesundheitszustand;63;29,8;7,2
+2010;08 Blasewitz, Striesen;Wohlbefinden;62,2;32,9;4,9
+2010;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;47,5;47,1;5,4
+2010;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;55,3;41,5;3,2
+2010;10 StB Leuben;Gesundheitszustand;52,9;39;8,1
+2010;10 StB Leuben;Wohlbefinden;61,2;32,3;6,5
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;32,1;59,4;8,6
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;34;56,3;9,7
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;54,7;37,5;7,8
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;64,9;27;8,1
+2010;13 Südvorstadt, Zschertnitz;Gesundheitszustand;62,2;35,9;1,8
+2010;13 Südvorstadt, Zschertnitz;Wohlbefinden;60,5;36,8;2,7
+2010;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;69,4;26,9;3,7
+2010;14 Mockritz, Coschütz, Plauen;Wohlbefinden;78,1;21,9;0
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;66,4;27,7;5,9
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;68,4;28,9;2,7
+2010;16 Gorbitz;Gesundheitszustand;44,2;43,1;12,7
+2010;16 Gorbitz;Wohlbefinden;41,1;50;8,9
+2010;17 Briesnitz und westliche OS;Gesundheitszustand;63,1;31,2;5,7
+2010;17 Briesnitz und westliche OS;Wohlbefinden;66;31;3
+2010;18 Dresden gesamt;Gesundheitszustand;58,5;36;5,5
+2010;18 Dresden gesamt;Wohlbefinden;60,3;35,5;4,2
+2012;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;54,2;42;3,7
+2012;01 StB Altstadt ohne Johannstadt;Wohlbefinden;48;52;0
+2012;02 Johannstadt;Gesundheitszustand;41,6;47,7;10,8
+2012;02 Johannstadt;Wohlbefinden;44,9;47,8;7,3
+2012;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;67,4;29,2;3,4
+2012;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;60,6;34,9;4,5
+2012;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;63,1;32,6;4,3
+2012;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;61;37,7;1,3
+2012;05 Mickten, Kaditz, Trachau;Gesundheitszustand;55,1;40,5;4,4
+2012;05 Mickten, Kaditz, Trachau;Wohlbefinden;54,6;40,3;5,1
+2012;06 StB Klotzsche und nördliche OS;Gesundheitszustand;49,9;41;9,2
+2012;06 StB Klotzsche und nördliche OS;Wohlbefinden;50,2;46,8;3
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;48,6;43,7;7,6
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;53,6;40,3;6,1
+2012;08 Blasewitz, Striesen;Gesundheitszustand;55,4;37,8;6,8
+2012;08 Blasewitz, Striesen;Wohlbefinden;53,9;40,3;5,8
+2012;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;44,7;49,4;5,9
+2012;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;48;49;3
+2012;10 StB Leuben;Gesundheitszustand;49,9;40,6;9,5
+2012;10 StB Leuben;Wohlbefinden;52;44,1;3,9
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;40,5;50,2;9,3
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;41,6;51,5;6,9
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;49,4;45,3;5,3
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;49,4;47,6;3
+2012;13 Südvorstadt, Zschertnitz;Gesundheitszustand;50,7;42,6;6,6
+2012;13 Südvorstadt, Zschertnitz;Wohlbefinden;52,8;43,8;3,4
+2012;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;49;47,4;3,5
+2012;14 Mockritz, Coschütz, Plauen;Wohlbefinden;61;37,3;1,7
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;62,4;32,2;5,4
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;50,2;43,9;5,8
+2012;16 Gorbitz;Gesundheitszustand;42,8;46,6;10,6
+2012;16 Gorbitz;Wohlbefinden;39,3;57,3;3,5
+2012;17 Briesnitz und westliche OS;Gesundheitszustand;53;39,7;7,4
+2012;17 Briesnitz und westliche OS;Wohlbefinden;54,3;42,3;3,4
+2012;18 Dresden gesamt;Gesundheitszustand;52,6;40,9;6,5
+2012;18 Dresden gesamt;Wohlbefinden;52;44,1;4
+2014;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;47,2;44,6;8,2
+2014;01 StB Altstadt ohne Johannstadt;Wohlbefinden;53,7;44,7;1,6
+2014;02 Johannstadt;Gesundheitszustand;47;39,9;13,1
+2014;02 Johannstadt;Wohlbefinden;54,2;42,2;3,6
+2014;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;72,5;22,4;5,1
+2014;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;66,9;29,3;3,9
+2014;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;63,8;32,1;4,1
+2014;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;58,7;40,1;1,2
+2014;05 Mickten, Kaditz, Trachau;Gesundheitszustand;51,5;41,7;6,8
+2014;05 Mickten, Kaditz, Trachau;Wohlbefinden;53,1;42,2;4,7
+2014;06 StB Klotzsche und nördliche OS;Gesundheitszustand;58,4;33,3;8,3
+2014;06 StB Klotzsche und nördliche OS;Wohlbefinden;63,9;32,3;3,8
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;58,4;37,1;4,5
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;69,5;27,1;3,4
+2014;08 Blasewitz, Striesen;Gesundheitszustand;64,3;30,1;5,6
+2014;08 Blasewitz, Striesen;Wohlbefinden;59,3;39,6;1,1
+2014;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;52,1;43,3;4,6
+2014;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;49,5;47,5;3
+2014;10 StB Leuben;Gesundheitszustand;44,5;47,9;7,6
+2014;10 StB Leuben;Wohlbefinden;58,3;39;2,7
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;30,3;56,4;13,3
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;39,8;51,8;8,4
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;48,3;45,2;6,5
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;55,2;41,1;3,7
+2014;13 Südvorstadt, Zschertnitz;Gesundheitszustand;53;41;6
+2014;13 Südvorstadt, Zschertnitz;Wohlbefinden;45,7;52,9;1,4
+2014;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;61,7;34,8;3,5
+2014;14 Mockritz, Coschütz, Plauen;Wohlbefinden;66,2;31,2;2,5
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;63,6;35;1,4
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;53,5;44,9;1,7
+2014;16 Gorbitz;Gesundheitszustand;39,4;50,7;9,9
+2014;16 Gorbitz;Wohlbefinden;43,2;52;4,8
+2014;17 Briesnitz und westliche OS;Gesundheitszustand;57,7;37,8;4,5
+2014;17 Briesnitz und westliche OS;Wohlbefinden;57,6;41;1,4
+2014;18 Dresden gesamt;Gesundheitszustand;55;38,7;6,3
+2014;18 Dresden gesamt;Wohlbefinden;56,3;40,8;2,9
+2016;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;56,8;37,1;6,2
+2016;01 StB Altstadt ohne Johannstadt;Wohlbefinden;53,3;39,9;6,7
+2016;02 Johannstadt;Gesundheitszustand;65,3;23,7;11
+2016;02 Johannstadt;Wohlbefinden;62,5;33,2;4,2
+2016;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;75,9;21,7;2,4
+2016;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;72,4;24,7;2,9
+2016;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;77,7;20,6;1,7
+2016;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;75,8;22,1;2,1
+2016;05 Mickten, Kaditz, Trachau;Gesundheitszustand;63,4;24,7;11,8
+2016;05 Mickten, Kaditz, Trachau;Wohlbefinden;59,8;33,9;6,3
+2016;06 StB Klotzsche und nördliche OS;Gesundheitszustand;74;24,1;1,9
+2016;06 StB Klotzsche und nördliche OS;Wohlbefinden;74;25,3;0,7
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;71,6;26,2;2,2
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;70,8;27,5;1,7
+2016;08 Blasewitz, Striesen;Gesundheitszustand;73,3;24,5;2,2
+2016;08 Blasewitz, Striesen;Wohlbefinden;71,2;27,9;0,9
+2016;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;60,2;34,2;5,6
+2016;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;63,1;35;1,9
+2016;10 StB Leuben;Gesundheitszustand;60,5;31,8;7,7
+2016;10 StB Leuben;Wohlbefinden;61,7;36,4;2
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;43;55,2;1,8
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;49,9;48,3;1,8
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;64,1;31,6;4,3
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;65,6;33,9;0,5
+2016;13 Südvorstadt, Zschertnitz;Gesundheitszustand;64,8;33,2;2,1
+2016;13 Südvorstadt, Zschertnitz;Wohlbefinden;63,8;35,4;0,8
+2016;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;66,8;27,3;5,9
+2016;14 Mockritz, Coschütz, Plauen;Wohlbefinden;70;28,6;1,4
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;80,1;18;1,9
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;72,2;24,3;3,5
+2016;16 Gorbitz;Gesundheitszustand;45,9;47,6;6,4
+2016;16 Gorbitz;Wohlbefinden;47,8;46,4;5,8
+2016;17 Briesnitz und westliche OS;Gesundheitszustand;69,1;26,5;4,4
+2016;17 Briesnitz und westliche OS;Wohlbefinden;70,2;29;0,9
+2016;18 Dresden gesamt;Gesundheitszustand;67,1;28,6;4,3
+2016;18 Dresden gesamt;Wohlbefinden;66,2;31,4;2,4
+2018;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;55,2;38,8;6,1
+2018;01 StB Altstadt ohne Johannstadt;Wohlbefinden;54,6;40;5,5
+2018;02 Johannstadt;Gesundheitszustand;55;42;3
+2018;02 Johannstadt;Wohlbefinden;51;42,9;6,1
+2018;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;81;16,9;2,2
+2018;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;78,1;21,3;0,7
+2018;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;77,5;18,9;3,6
+2018;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;70,9;27,6;1,5
+2018;05 Mickten, Kaditz, Trachau;Gesundheitszustand;59,4;34;6,5
+2018;05 Mickten, Kaditz, Trachau;Wohlbefinden;70,5;29,5;0
+2018;06 StB Klotzsche und nördliche OS;Gesundheitszustand;69,2;25,4;5,4
+2018;06 StB Klotzsche und nördliche OS;Wohlbefinden;70,6;25,4;4
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;74,6;24;1,4
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;80,7;19,3;0
+2018;08 Blasewitz, Striesen;Gesundheitszustand;65,4;30,6;4
+2018;08 Blasewitz, Striesen;Wohlbefinden;69,9;28,6;1,5
+2018;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;55;33,9;11,1
+2018;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;59,6;37,2;3,2
+2018;10 StB Leuben;Gesundheitszustand;58,8;34,2;7
+2018;10 StB Leuben;Wohlbefinden;61,1;37,6;1,2
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;49,9;42,4;7,7
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;51;42,7;6,2
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;68,6;28,3;3,1
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;68,9;29,5;1,6
+2018;13 Südvorstadt, Zschertnitz;Gesundheitszustand;61;34,7;4,3
+2018;13 Südvorstadt, Zschertnitz;Wohlbefinden;61,4;35,8;2,8
+2018;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;65,5;30,4;4,1
+2018;14 Mockritz, Coschütz, Plauen;Wohlbefinden;74,8;23,4;1,9
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;69,3;27,9;2,8
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;69,5;26,9;3,6
+2018;16 Gorbitz;Gesundheitszustand;57,6;35,3;7,1
+2018;16 Gorbitz;Wohlbefinden;53,4;43,9;2,8
+2018;17 Briesnitz und westliche OS;Gesundheitszustand;69,3;24,8;5,8
+2018;17 Briesnitz und westliche OS;Wohlbefinden;74,5;23;2,5
+2018;18 Dresden gesamt;Gesundheitszustand;65,1;30;4,9
+2018;18 Dresden gesamt;Wohlbefinden;66,7;30,8;2,5
+2020;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;67;27;6
+2020;01 StB Altstadt ohne Johannstadt;Wohlbefinden;64;32;4
+2020;02 Johannstadt;Gesundheitszustand;68;31;1
+2020;02 Johannstadt;Wohlbefinden;65;33;1
+2020;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;75;23;3
+2020;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;71;29;0
+2020;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;73;25;2
+2020;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;69;30;1
+2020;05 Mickten, Kaditz, Trachau;Gesundheitszustand;63;32;5
+2020;05 Mickten, Kaditz, Trachau;Wohlbefinden;62;35;3
+2020;06 StB Klotzsche und nördliche OS;Gesundheitszustand;72;26;2
+2020;06 StB Klotzsche und nördliche OS;Wohlbefinden;73;27;0
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;69;27;4
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;74;22;4
+2020;08 Blasewitz, Striesen;Gesundheitszustand;75;21;4
+2020;08 Blasewitz, Striesen;Wohlbefinden;71;26;2
+2020;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;67;28;5
+2020;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;69;29;2
+2020;10 StB Leuben;Gesundheitszustand;60;30;10
+2020;10 StB Leuben;Wohlbefinden;64;30;5
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;41;50;9
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;52;44;4
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;71;27;2
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;71;27;1
+2020;13 Südvorstadt, Zschertnitz;Gesundheitszustand;71;27;2
+2020;13 Südvorstadt, Zschertnitz;Wohlbefinden;64;33;3
+2020;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;70;28;2
+2020;14 Mockritz, Coschütz, Plauen;Wohlbefinden;72;28;0
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;72;24;4
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;68;30;2
+2020;16 Gorbitz;Gesundheitszustand;60;27;13
+2020;16 Gorbitz;Wohlbefinden;58;39;2
+2020;17 Briesnitz und westliche OS;Gesundheitszustand;74;23;3
+2020;17 Briesnitz und westliche OS;Wohlbefinden;78;20;1
+2020;18 Dresden gesamt;Gesundheitszustand;68;27;4
+2020;18 Dresden gesamt;Wohlbefinden;68;30;2
+2022;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;56,7;36;7,4
+2022;01 StB Altstadt ohne Johannstadt;Wohlbefinden;52,8;41,6;5,6
+2022;02 Johannstadt;Gesundheitszustand;53,8;39,9;6,3
+2022;02 Johannstadt;Wohlbefinden;59,8;35,4;4,8
+2022;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;69,9;24,3;5,8
+2022;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;67,3;28,9;3,8
+2022;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;71,2;26;2,9
+2022;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;63,8;34,9;1,3
+2022;05 Mickten, Kaditz, Trachau;Gesundheitszustand;58,2;33,4;8,4
+2022;05 Mickten, Kaditz, Trachau;Wohlbefinden;58,6;36,7;4,6
+2022;06 StB Klotzsche und nördliche OS;Gesundheitszustand;65,1;30,4;4,6
+2022;06 StB Klotzsche und nördliche OS;Wohlbefinden;65,9;31,3;2,8
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;66,1;32,1;1,8
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;67,2;30,4;2,4
+2022;08 Blasewitz, Striesen;Gesundheitszustand;67,6;27,5;4,8
+2022;08 Blasewitz, Striesen;Wohlbefinden;62,1;35,3;2,7
+2022;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;43,9;49,2;6,9
+2022;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;50,9;46,9;2,3
+2022;10 StB Leuben;Gesundheitszustand;59,7;36,9;3,4
+2022;10 StB Leuben;Wohlbefinden;62;34,1;3,9
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;56,6;33;10,4
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;60,6;30,7;8,7
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;54,4;38,7;6,9
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;60,4;37,5;2,2
+2022;13 Südvorstadt, Zschertnitz;Gesundheitszustand;54,2;38,8;7
+2022;13 Südvorstadt, Zschertnitz;Wohlbefinden;54,6;43,4;2
+2022;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;69,3;29,7;1
+2022;14 Mockritz, Coschütz, Plauen;Wohlbefinden;61,7;38,3;0
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;72,1;24,1;3,8
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;71,5;26;2,5
+2022;16 Gorbitz;Gesundheitszustand;49,6;47,2;3,3
+2022;16 Gorbitz;Wohlbefinden;49;48,1;2,8
+2022;17 Briesnitz und westliche OS;Gesundheitszustand;55,8;39,1;5,1
+2022;17 Briesnitz und westliche OS;Wohlbefinden;52,9;42,6;4,5
+2022;18 Dresden gesamt;Gesundheitszustand;61;33,7;5,3
+2022;18 Dresden gesamt;Wohlbefinden;60,8;36;3,3
+2024;01 StB Altstadt ohne Johannstadt;Gesundheitszustand;63,3;26,7;10,1
+2024;01 StB Altstadt ohne Johannstadt;Wohlbefinden;56;41,5;2,5
+2024;02 Johannstadt;Gesundheitszustand;49,4;39,6;10,9
+2024;02 Johannstadt;Wohlbefinden;50,4;44,7;4,8
+2024;03 StB Neustadt ohne Leipziger Vorstadt;Gesundheitszustand;73,1;23,9;3
+2024;03 StB Neustadt ohne Leipziger Vorstadt;Wohlbefinden;71,2;25,6;3,2
+2024;04 Leipziger Vorstadt, Pieschen;Gesundheitszustand;61,7;33,3;5,1
+2024;04 Leipziger Vorstadt, Pieschen;Wohlbefinden;63,2;32,6;4,2
+2024;05 Mickten, Kaditz, Trachau;Gesundheitszustand;40,5;53,3;6,1
+2024;05 Mickten, Kaditz, Trachau;Wohlbefinden;54;42,7;3,3
+2024;06 StB Klotzsche und nördliche OS;Gesundheitszustand;65,5;27,4;7,1
+2024;06 StB Klotzsche und nördliche OS;Wohlbefinden;75,8;23,6;0,6
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;Gesundheitszustand;61,5;31,8;6,6
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;Wohlbefinden;64;33,4;2,6
+2024;08 Blasewitz, Striesen;Gesundheitszustand;66,6;28,1;5,3
+2024;08 Blasewitz, Striesen;Wohlbefinden;58,6;38,3;3,1
+2024;09 Tolkewitz, Seidnitz, Gruna;Gesundheitszustand;61,5;32,7;5,8
+2024;09 Tolkewitz, Seidnitz, Gruna;Wohlbefinden;56,4;40;3,5
+2024;10 StB Leuben;Gesundheitszustand;56,8;37,3;5,9
+2024;10 StB Leuben;Wohlbefinden;58,6;36,9;4,5
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Gesundheitszustand;48,6;36,6;14,8
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Wohlbefinden;46,5;44,4;9,2
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Gesundheitszustand;54,7;36,7;8,6
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Wohlbefinden;53,9;42;4
+2024;13 Südvorstadt, Zschertnitz;Gesundheitszustand;59,7;36,8;3,5
+2024;13 Südvorstadt, Zschertnitz;Wohlbefinden;63,4;31,7;4,9
+2024;14 Mockritz, Coschütz, Plauen;Gesundheitszustand;56;38,4;5,6
+2024;14 Mockritz, Coschütz, Plauen;Wohlbefinden;63;33,5;3,5
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;Gesundheitszustand;59,5;33,2;7,3
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;Wohlbefinden;63;33,4;3,7
+2024;16 Gorbitz;Gesundheitszustand;44,9;50,2;4,9
+2024;16 Gorbitz;Wohlbefinden;45,4;51,8;2,8
+2024;17 Briesnitz und westliche OS;Gesundheitszustand;63,5;34,9;1,6
+2024;17 Briesnitz und westliche OS;Wohlbefinden;71,2;28,8;0
+2024;18 Dresden gesamt;Gesundheitszustand;59,1;34,3;6,5
+2024;18 Dresden gesamt;Wohlbefinden;59,9;36,5;3,6

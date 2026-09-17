@@ -1,0 +1,751 @@
+Jahr;Quartal;Monat;Hauptgruppen (WZ 08);Auftragseingang insgesamt (in 1000 EUR);Auftragseingang Ausland (in 1000 EUR);Auftragseingang Eurozone (in 1000 EUR);Umsatz insgesamt aus Auftragseingang (in 1000 EUR);Umsatz Ausland aus Auftragseingang (in 1000 EUR);Umsatz Eurozone aus Auftragseingang (in 1000 EUR)
+2014;1. Quartal;01;A+EN Vorleistungsgüter und Energie;176648;116678;93582;170068;115334;94084
+2014;1. Quartal;01;B Investitionsgüter;204076;68695;6558;85945;43089;8091
+2014;1. Quartal;01;GG Gebrauchsgüter;2134;-;-;2386;-;-
+2014;1. Quartal;01;VG Verbrauchsgüter;49831;-;-;17637;-;-
+2014;1. Quartal;01;Verarbeitendes Gewerbe gesamt;432689;205812;119913;276036;170368;113023
+2014;1. Quartal;02;A+EN Vorleistungsgüter und Energie;325224;272300;11738;268607;216249;194589
+2014;1. Quartal;02;B Investitionsgüter;125106;83622;5775;124762;80687;7267
+2014;1. Quartal;02;GG Gebrauchsgüter;2622;-;-;2586;-;-
+2014;1. Quartal;02;VG Verbrauchsgüter;16911;-;-;19099;-;-
+2014;1. Quartal;02;Verarbeitendes Gewerbe gesamt;469863;367934;28845;415054;310327;213682
+2014;1. Quartal;03;A+EN Vorleistungsgüter und Energie;314153;263042;235285;306334;-;-
+2014;1. Quartal;03;B Investitionsgüter;135395;98492;49223;135385;85135;8449
+2014;1. Quartal;03;GG Gebrauchsgüter;1854;-;-;2642;-;-
+2014;1. Quartal;03;VG Verbrauchsgüter;17925;-;-;19927;-;-
+2014;1. Quartal;03;Verarbeitendes Gewerbe gesamt;469327;374573;296482;464288;355305;257039
+2014;2. Quartal;04;A+EN Vorleistungsgüter und Energie;205921;151146;131183;209661;163285;145644
+2014;2. Quartal;04;B Investitionsgüter;120344;66901;20191;106096;64162;12305
+2014;2. Quartal;04;GG Gebrauchsgüter;-;-;-;2312;-;-
+2014;2. Quartal;04;VG Verbrauchsgüter;-;-;-;20192;-;-
+2014;2. Quartal;04;Verarbeitendes Gewerbe gesamt;353223;231003;163691;338261;240701;170117
+2014;2. Quartal;05;A+EN Vorleistungsgüter und Energie;217637;165553;137928;211366;157879;141539
+2014;2. Quartal;05;B Investitionsgüter;123897;84936;5674;124885;83629;10563
+2014;2. Quartal;05;GG Gebrauchsgüter;1509;-;-;2278;-;-
+2014;2. Quartal;05;VG Verbrauchsgüter;17439;-;-;19100;-;-
+2014;2. Quartal;05;Verarbeitendes Gewerbe gesamt;360481;264017;156577;357628;255064;164234
+2014;2. Quartal;06;A+EN Vorleistungsgüter und Energie;231100;168936;144224;211789;153272;131037
+2014;2. Quartal;06;B Investitionsgüter;115670;81288;5997;160218;66524;6402
+2014;2. Quartal;06;GG Gebrauchsgüter;1277;-;-;2232;-;-
+2014;2. Quartal;06;VG Verbrauchsgüter;19524;-;-;17161;-;-
+2014;2. Quartal;06;Verarbeitendes Gewerbe gesamt;367571;262337;161636;391401;231737;148436
+2014;3. Quartal;07;A+EN Vorleistungsgüter und Energie;225408;164804;145203;231033;168849;152414
+2014;3. Quartal;07;B Investitionsgüter;89702;51382;9751;88016;41530;8470
+2014;3. Quartal;07;GG Gebrauchsgüter;1535;-;-;2538;-;-
+2014;3. Quartal;07;VG Verbrauchsgüter;14212;-;-;19423;-;-
+2014;3. Quartal;07;Verarbeitendes Gewerbe gesamt;330858;226793;165034;341010;223337;172754
+2014;3. Quartal;08;A+EN Vorleistungsgüter und Energie;207032;154731;141261;284044;-;-
+2014;3. Quartal;08;B Investitionsgüter;91555;47160;4658;67409;31885;7064
+2014;3. Quartal;08;GG Gebrauchsgüter;560;-;-;1768;-;-
+2014;3. Quartal;08;VG Verbrauchsgüter;19089;-;-;18719;-;-
+2014;3. Quartal;08;Verarbeitendes Gewerbe gesamt;318235;214863;158139;371941;275432;233404
+2014;3. Quartal;09;A+EN Vorleistungsgüter und Energie;227662;175960;151434;281340;218999;195528
+2014;3. Quartal;09;B Investitionsgüter;-;-;-;-;-;-
+2014;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2014;3. Quartal;09;VG Verbrauchsgüter;19063;-;-;20334;-;-
+2014;3. Quartal;09;Verarbeitendes Gewerbe gesamt;399057;273730;173854;907583;774125;214547
+2014;4. Quartal;10;A+EN Vorleistungsgüter und Energie;257892;200575;179903;290635;233984;204346
+2014;4. Quartal;10;B Investitionsgüter;90684;51351;7368;81909;39157;9182
+2014;4. Quartal;10;GG Gebrauchsgüter;658;-;-;2347;-;-
+2014;4. Quartal;10;VG Verbrauchsgüter;21692;-;-;20075;-;-
+2014;4. Quartal;10;Verarbeitendes Gewerbe gesamt;370927;264879;198078;394966;286626;224454
+2014;4. Quartal;11;A+EN Vorleistungsgüter und Energie;266109;211333;177960;175965;124133;104291
+2014;4. Quartal;11;B Investitionsgüter;102973;53920;13230;107659;58952;9195
+2014;4. Quartal;11;GG Gebrauchsgüter;-;-;-;2828;-;-
+2014;4. Quartal;11;VG Verbrauchsgüter;-;-;-;21902;-;-
+2014;4. Quartal;11;Verarbeitendes Gewerbe gesamt;390204;276839;201789;308354;196764;125656
+2014;4. Quartal;12;A+EN Vorleistungsgüter und Energie;191703;137322;118620;155499;104137;75284
+2014;4. Quartal;12;B Investitionsgüter;124562;73042;6564;147847;86859;9847
+2014;4. Quartal;12;GG Gebrauchsgüter;-;-;-;2248;-;-
+2014;4. Quartal;12;VG Verbrauchsgüter;-;-;-;20589;-;-
+2014;4. Quartal;12;Verarbeitendes Gewerbe gesamt;337446;224635;137287;326184;206188;98865
+2015;1. Quartal;01;A+EN Vorleistungsgüter und Energie;227666;162098;141210;214129;159116;133502
+2015;1. Quartal;01;B Investitionsgüter;110027;60855;14388;94511;44278;10357
+2015;1. Quartal;01;GG Gebrauchsgüter;-;-;-;2378;-;-
+2015;1. Quartal;01;VG Verbrauchsgüter;-;-;-;21348;-;-
+2015;1. Quartal;01;Verarbeitendes Gewerbe gesamt;358006;234882;166869;332367;216942;156427
+2015;1. Quartal;02;A+EN Vorleistungsgüter und Energie;210981;157016;141838;357816;-;-
+2015;1. Quartal;02;B Investitionsgüter;94311;48548;10658;124414;77687;15954
+2015;1. Quartal;02;GG Gebrauchsgüter;-;-;-;2136;-;-
+2015;1. Quartal;02;VG Verbrauchsgüter;-;-;-;23933;-;-
+2015;1. Quartal;02;Verarbeitendes Gewerbe gesamt;331432;221313;166255;508298;401376;320310
+2015;1. Quartal;03;A+EN Vorleistungsgüter und Energie;235410;182237;145827;522008;-;-
+2015;1. Quartal;03;B Investitionsgüter;118523;55558;10961;118839;60450;9374
+2015;1. Quartal;03;GG Gebrauchsgüter;-;-;-;2526;-;-
+2015;1. Quartal;03;VG Verbrauchsgüter;-;-;-;21361;-;-
+2015;1. Quartal;03;Verarbeitendes Gewerbe gesamt;373591;248493;166562;664734;538368;462032
+2015;2. Quartal;04;A+EN Vorleistungsgüter und Energie;231727;109564;91063;218050;110207;86853
+2015;2. Quartal;04;B Investitionsgüter;159194;93956;9272;112961;61416;5404
+2015;2. Quartal;04;GG Gebrauchsgüter;-;-;-;2673;-;-
+2015;2. Quartal;04;VG Verbrauchsgüter;-;-;-;22320;-;-
+2015;2. Quartal;04;Verarbeitendes Gewerbe gesamt;421438;217373;113490;356004;185507;104850
+2015;2. Quartal;05;A+EN Vorleistungsgüter und Energie;292662;-;-;255110;-;-
+2015;2. Quartal;05;B Investitionsgüter;96789;58713;9010;91639;43741;8008
+2015;2. Quartal;05;GG Gebrauchsgüter;-;-;-;1561;-;-
+2015;2. Quartal;05;VG Verbrauchsgüter;-;-;-;23818;-;-
+2015;2. Quartal;05;Verarbeitendes Gewerbe gesamt;414040;243859;174625;372128;190081;132943
+2015;2. Quartal;06;A+EN Vorleistungsgüter und Energie;269204;-;-;368868;-;-
+2015;2. Quartal;06;B Investitionsgüter;106857;64434;12427;113764;58251;11374
+2015;2. Quartal;06;GG Gebrauchsgüter;-;-;-;2405;-;-
+2015;2. Quartal;06;VG Verbrauchsgüter;-;-;-;20778;12207;11383
+2015;2. Quartal;06;Verarbeitendes Gewerbe gesamt;400737;256585;170475;505815;354023;279166
+2015;3. Quartal;07;A+EN Vorleistungsgüter und Energie;296090;-;-;217735;-;-
+2015;3. Quartal;07;B Investitionsgüter;129233;56888;13935;99425;45271;8546
+2015;3. Quartal;07;GG Gebrauchsgüter;1249;-;-;2734;-;-
+2015;3. Quartal;07;VG Verbrauchsgüter;19189;11342;11104;22901;-;-
+2015;3. Quartal;07;Verarbeitendes Gewerbe gesamt;445761;266275;206928;342795;180726;119587
+2015;3. Quartal;08;A+EN Vorleistungsgüter und Energie;293441;-;-;219976;-;-
+2015;3. Quartal;08;B Investitionsgüter;102475;56205;3953;106843;64102;10026
+2015;3. Quartal;08;GG Gebrauchsgüter;671;-;-;2238;-;-
+2015;3. Quartal;08;VG Verbrauchsgüter;21040;-;-;24100;-;-
+2015;3. Quartal;08;Verarbeitendes Gewerbe gesamt;417627;264954;188757;353156;196531;117101
+2015;4. Quartal;09;A+EN Vorleistungsgüter und Energie;290250;-;-;364859;-;-
+2015;4. Quartal;09;B Investitionsgüter;110451;57939;8796;113959;66445;12004
+2015;4. Quartal;09;GG Gebrauchsgüter;-;-;-;3243;-;-
+2015;4. Quartal;09;VG Verbrauchsgüter;-;-;-;24268;14546;13956
+2015;4. Quartal;09;Verarbeitendes Gewerbe gesamt;427016;264308;195385;506328;345436;256116
+2015;4. Quartal;10;A+EN Vorleistungsgüter und Energie;235135;-;-;189256;-;-
+2015;4. Quartal;10;B Investitionsgüter;133441;81186;10301;91471;41548;8869
+2015;4. Quartal;10;GG Gebrauchsgüter;-;-;-;1972;-;-
+2015;4. Quartal;10;VG Verbrauchsgüter;-;-;-;26633;-;-
+2015;4. Quartal;10;Verarbeitendes Gewerbe gesamt;392671;239404;149292;309332;149276;96250
+2015;4. Quartal;11;A+EN Vorleistungsgüter und Energie;236305;147605;122469;268155;-;-
+2015;4. Quartal;11;B Investitionsgüter;123047;81808;21005;111263;64365;13803
+2015;4. Quartal;11;GG Gebrauchsgüter;-;-;-;2360;-;-
+2015;4. Quartal;11;VG Verbrauchsgüter;-;-;-;23047;-;-
+2015;4. Quartal;11;Verarbeitendes Gewerbe gesamt;387865;243560;156203;404825;255674;182804
+2015;4. Quartal;12;A+EN Vorleistungsgüter und Energie;244119;-;-;463008;-;-
+2015;4. Quartal;12;B Investitionsgüter;171259;75549;9070;115447;61015;10422
+2015;4. Quartal;12;GG Gebrauchsgüter;1095;270;75;2399;-;-
+2015;4. Quartal;12;VG Verbrauchsgüter;22821;-;-;23796;-;-
+2015;4. Quartal;12;Verarbeitendes Gewerbe gesamt;439295;234089;146121;604650;440428;358438
+2016;1. Quartal;01;A+EN Vorleistungsgüter und Energie;243623;143829;118993;171463;72981;52449
+2016;1. Quartal;01;B Investitionsgüter;138745;91693;20354;76639;37056;8937
+2016;1. Quartal;01;GG Gebrauchsgüter;1676;-;-;2404;-;-
+2016;1. Quartal;01;VG Verbrauchsgüter;27918;-;-;28978;-;-
+2016;1. Quartal;01;Verarbeitendes Gewerbe gesamt;411962;254669;157246;279484;128804;78637
+2016;1. Quartal;02;A+EN Vorleistungsgüter und Energie;178583;94587;72830;235469;-;-
+2016;1. Quartal;02;B Investitionsgüter;100155;58576;12015;86510;47811;10683
+2016;1. Quartal;02;GG Gebrauchsgüter;2072;-;-;2477;-;-
+2016;1. Quartal;02;VG Verbrauchsgüter;26926;-;-;26941;-;-
+2016;1. Quartal;02;Verarbeitendes Gewerbe gesamt;307736;169845;100842;351396;221180;165687
+2016;1. Quartal;03;A+EN Vorleistungsgüter und Energie;197036;98176;78137;248444;-;-
+2016;1. Quartal;03;B Investitionsgüter;142646;80955;13882;106327;59487;10065
+2016;1. Quartal;03;GG Gebrauchsgüter;1207;-;-;3347;-;-
+2016;1. Quartal;03;VG Verbrauchsgüter;28676;-;-;29567;-;-
+2016;1. Quartal;03;Verarbeitendes Gewerbe gesamt;369566;196596;108888;387685;233716;162491
+2016;2. Quartal;04;A+EN Vorleistungsgüter und Energie;284487;184291;162907;197012;106745;87665
+2016;2. Quartal;04;B Investitionsgüter;94817;50543;12207;88765;49402;11343
+2016;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2016;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2016;2. Quartal;04;Verarbeitendes Gewerbe gesamt;412645;252015;191678;317078;175258;116691
+2016;2. Quartal;05;A+EN Vorleistungsgüter und Energie;249685;-;-;226863;-;-
+2016;2. Quartal;05;B Investitionsgüter;161498;111473;11017;90125;51774;9512
+2016;2. Quartal;05;GG Gebrauchsgüter;1111;-;-;1339;-;-
+2016;2. Quartal;05;VG Verbrauchsgüter;26578;-;-;27727;-;-
+2016;2. Quartal;05;Verarbeitendes Gewerbe gesamt;438873;285852;165430;346055;204131;132709
+2016;2. Quartal;06;A+EN Vorleistungsgüter und Energie;245104;-;-;257489;-;-
+2016;2. Quartal;06;B Investitionsgüter;86913;45677;7917;113726;66754;14809
+2016;2. Quartal;06;GG Gebrauchsgüter;-;-;-;2959;-;-
+2016;2. Quartal;06;VG Verbrauchsgüter;-;-;-;29211;-;-
+2016;2. Quartal;06;Verarbeitendes Gewerbe gesamt;362466;222157;161009;403385;259136;176535
+2016;3. Quartal;07;A+EN Vorleistungsgüter und Energie;275279;-;-;192550;-;-
+2016;3. Quartal;07;B Investitionsgüter;114496;24941;5680;74976;39058;8054
+2016;3. Quartal;07;GG Gebrauchsgüter;1963;-;-;2270;-;-
+2016;3. Quartal;07;VG Verbrauchsgüter;27753;-;-;27606;-;-
+2016;3. Quartal;07;Verarbeitendes Gewerbe gesamt;419492;228683;186849;297402;163171;110378
+2016;3. Quartal;08;A+EN Vorleistungsgüter und Energie;274952;-;-;246976;-;-
+2016;3. Quartal;08;B Investitionsgüter;92864;60816;8365;79403;38217;9708
+2016;3. Quartal;08;GG Gebrauchsgüter;-;-;-;2908;-;-
+2016;3. Quartal;08;VG Verbrauchsgüter;-;-;-;27993;-;-
+2016;3. Quartal;08;Verarbeitendes Gewerbe gesamt;397506;258125;188850;357280;210569;163624
+2016;4. Quartal;09;A+EN Vorleistungsgüter und Energie;275905;178843;153020;278138;-;-
+2016;4. Quartal;09;B Investitionsgüter;113277;81203;22399;120768;77951;6504
+2016;4. Quartal;09;GG Gebrauchsgüter;-;-;-;2862;-;-
+2016;4. Quartal;09;VG Verbrauchsgüter;-;-;-;30248;-;-
+2016;4. Quartal;09;Verarbeitendes Gewerbe gesamt;419395;280134;194867;432016;282184;190500
+2016;4. Quartal;10;A+EN Vorleistungsgüter und Energie;264094;-;-;214342;-;-
+2016;4. Quartal;10;B Investitionsgüter;90358;43085;11242;90891;40146;9308
+2016;4. Quartal;10;GG Gebrauchsgüter;2270;-;-;1926;-;-
+2016;4. Quartal;10;VG Verbrauchsgüter;35871;-;-;35626;-;-
+2016;4. Quartal;10;Verarbeitendes Gewerbe gesamt;392592;231301;180734;342785;190574;137547
+2016;4. Quartal;11;A+EN Vorleistungsgüter und Energie;257968;-;-;285577;-;-
+2016;4. Quartal;11;B Investitionsgüter;132740;83244;12154;115346;58174;18693
+2016;4. Quartal;11;GG Gebrauchsgüter;-;-;-;2218;-;-
+2016;4. Quartal;11;VG Verbrauchsgüter;-;-;-;37287;-;-
+2016;4. Quartal;11;Verarbeitendes Gewerbe gesamt;434193;280101;187024;440429;281533;216273
+2016;4. Quartal;12;A+EN Vorleistungsgüter und Energie;270455;-;-;243307;-;-
+2016;4. Quartal;12;B Investitionsgüter;93263;43243;12210;131435;77846;16932
+2016;4. Quartal;12;GG Gebrauchsgüter;-;-;-;1624;-;-
+2016;4. Quartal;12;VG Verbrauchsgüter;-;-;-;41375;-;-
+2016;4. Quartal;12;Verarbeitendes Gewerbe gesamt;405948;256887;203260;417741;262778;179311
+2017;1. Quartal;01;A+EN Vorleistungsgüter und Energie;247819;156421;131567;239900;151408;130097
+2017;1. Quartal;01;B Investitionsgüter;149325;109453;9388;75770;34263;8156
+2017;1. Quartal;01;GG Gebrauchsgüter;-;-;-;2628;-;-
+2017;1. Quartal;01;VG Verbrauchsgüter;-;-;-;28021;-;-
+2017;1. Quartal;01;Verarbeitendes Gewerbe gesamt;425117;284663;158525;346319;204766;155608
+2017;1. Quartal;02;A+EN Vorleistungsgüter und Energie;246591;-;-;227554;-;-
+2017;1. Quartal;02;B Investitionsgüter;92371;53122;27236;82340;33676;11607
+2017;1. Quartal;02;GG Gebrauchsgüter;-;-;-;2237;-;-
+2017;1. Quartal;02;VG Verbrauchsgüter;-;-;-;30154;-;-
+2017;1. Quartal;02;Verarbeitendes Gewerbe gesamt;368715;221592;178581;342285;188987;147039
+2017;1. Quartal;03;A+EN Vorleistungsgüter und Energie;276994;166293;136829;281033;175350;147211
+2017;1. Quartal;03;B Investitionsgüter;119166;40412;11929;102811;44079;13088
+2017;1. Quartal;03;GG Gebrauchsgüter;-;-;-;2336;-;-
+2017;1. Quartal;03;VG Verbrauchsgüter;-;-;-;31376;-;-
+2017;1. Quartal;03;Verarbeitendes Gewerbe gesamt;431694;227034;168308;417555;239900;178505
+2017;2. Quartal;04;A+EN Vorleistungsgüter und Energie;247672;-;-;225814;-;-
+2017;2. Quartal;04;B Investitionsgüter;175152;120304;10282;99398;50774;12884
+2017;2. Quartal;04;GG Gebrauchsgüter;1295;-;-;1442;-;-
+2017;2. Quartal;04;VG Verbrauchsgüter;27551;-;-;27689;-;-
+2017;2. Quartal;04;Verarbeitendes Gewerbe gesamt;451671;290926;160082;354343;201607;141172
+2017;2. Quartal;05;A+EN Vorleistungsgüter und Energie;261386;-;-;226564;-;-
+2017;2. Quartal;05;B Investitionsgüter;145155;82319;9431;123014;71407;19854
+2017;2. Quartal;05;GG Gebrauchsgüter;1604;-;-;1453;-;-
+2017;2. Quartal;05;VG Verbrauchsgüter;30921;-;-;31729;-;-
+2017;2. Quartal;05;Verarbeitendes Gewerbe gesamt;439066;266905;173792;382759;219675;142426
+2017;2. Quartal;06;A+EN Vorleistungsgüter und Energie;275910;165807;138777;188539;91640;66005
+2017;2. Quartal;06;B Investitionsgüter;178427;120175;67819;125640;69843;17103
+2017;2. Quartal;06;GG Gebrauchsgüter;1251;-;-;2465;-;-
+2017;2. Quartal;06;VG Verbrauchsgüter;28279;-;-;29658;-;-
+2017;2. Quartal;06;Verarbeitendes Gewerbe gesamt;483866;306036;225722;346302;183257;102263
+2017;3. Quartal;07;A+EN Vorleistungsgüter und Energie;299417;-;-;224246;-;-
+2017;3. Quartal;07;B Investitionsgüter;110487;66192;16619;119606;49355;15987
+2017;3. Quartal;07;GG Gebrauchsgüter;1612;-;-;-;-;-
+2017;3. Quartal;07;VG Verbrauchsgüter;25185;-;-;-;-;-
+2017;3. Quartal;07;Verarbeitendes Gewerbe gesamt;436700;281029;204409;375805;202024;146406
+2017;3. Quartal;08;A+EN Vorleistungsgüter und Energie;291936;-;-;249710;-;-
+2017;3. Quartal;08;B Investitionsgüter;137265;70334;13479;124773;60306;15744
+2017;3. Quartal;08;GG Gebrauchsgüter;458;-;-;-;-;-
+2017;3. Quartal;08;VG Verbrauchsgüter;30922;-;-;-;-;-
+2017;3. Quartal;08;Verarbeitendes Gewerbe gesamt;460580;281778;199480;407599;237451;164854
+2017;4. Quartal;09;A+EN Vorleistungsgüter und Energie;279238;-;-;242237;-;-
+2017;4. Quartal;09;B Investitionsgüter;225755;171216;70755;141656;78107;16839
+2017;4. Quartal;09;GG Gebrauchsgüter;-;-;-;3061;-;-
+2017;4. Quartal;09;VG Verbrauchsgüter;-;-;-;34205;-;-
+2017;4. Quartal;09;Verarbeitendes Gewerbe gesamt;533971;386043;255535;421160;252939;147624
+2017;4. Quartal;10;A+EN Vorleistungsgüter und Energie;256867;171569;139630;188639;108547;84020
+2017;4. Quartal;10;B Investitionsgüter;125467;59567;18783;111812;57562;13614
+2017;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2017;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2017;4. Quartal;10;Verarbeitendes Gewerbe gesamt;424106;262428;185396;338860;193271;123190
+2017;4. Quartal;11;A+EN Vorleistungsgüter und Energie;261604;161667;131967;230595;135527;108553
+2017;4. Quartal;11;B Investitionsgüter;127645;86613;20595;168653;99483;23994
+2017;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2017;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2017;4. Quartal;11;Verarbeitendes Gewerbe gesamt;433270;281694;184290;442195;265697;161488
+2017;4. Quartal;12;A+EN Vorleistungsgüter und Energie;249771;-;-;463210;-;-
+2017;4. Quartal;12;B Investitionsgüter;156394;69783;23437;211024;144925;21761
+2017;4. Quartal;12;GG Gebrauchsgüter;-;-;-;1827;-;-
+2017;4. Quartal;12;VG Verbrauchsgüter;-;-;-;25513;-;-
+2017;4. Quartal;12;Verarbeitendes Gewerbe gesamt;432001;229878;159555;701575;523556;368549
+2018;1. Quartal;01;A+EN Vorleistungsgüter und Energie;258848;159112;128449;147119;53204;32630
+2018;1. Quartal;01;B Investitionsgüter;135518;72936;19579;121363;54376;19061
+2018;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;01;Verarbeitendes Gewerbe gesamt;424222;252014;166431;301726;129789;71646
+2018;1. Quartal;02;A+EN Vorleistungsgüter und Energie;255487;158859;127966;208850;120957;95898
+2018;1. Quartal;02;B Investitionsgüter;116880;55252;14614;133816;74749;16647
+2018;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;02;Verarbeitendes Gewerbe gesamt;402611;235108;161628;374430;217416;132468
+2018;1. Quartal;03;A+EN Vorleistungsgüter und Energie;264453;160521;129138;322659;-;-
+2018;1. Quartal;03;B Investitionsgüter;148342;82774;20221;156373;98940;15950
+2018;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;1. Quartal;03;Verarbeitendes Gewerbe gesamt;447070;264811;169295;512575;346261;232686
+2018;2. Quartal;04;A+EN Vorleistungsgüter und Energie;265157;167008;137469;196422;95975;65059
+2018;2. Quartal;04;B Investitionsgüter;113774;60551;26717;154490;96260;23707
+2018;2. Quartal;04;GG Gebrauchsgüter;1133;-;-;-;-;-
+2018;2. Quartal;04;VG Verbrauchsgüter;23927;-;-;-;-;-
+2018;2. Quartal;04;Verarbeitendes Gewerbe gesamt;403991;244772;180671;378199;210586;105588
+2018;2. Quartal;05;A+EN Vorleistungsgüter und Energie;264767;170807;138395;256662;165465;135613
+2018;2. Quartal;05;B Investitionsgüter;134331;77466;25944;131646;78693;23195
+2018;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;2. Quartal;05;Verarbeitendes Gewerbe gesamt;426924;267976;182378;419374;266118;178098
+2018;2. Quartal;06;A+EN Vorleistungsgüter und Energie;275630;171556;137548;270071;172934;136019
+2018;2. Quartal;06;B Investitionsgüter;190382;138859;16113;216920;158365;31621
+2018;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;2. Quartal;06;Verarbeitendes Gewerbe gesamt;495156;331485;172952;519334;353613;188117
+2018;3. Quartal;07;A+EN Vorleistungsgüter und Energie;241917;-;-;204031;-;-
+2018;3. Quartal;07;B Investitionsgüter;117947;60855;14927;114985;66601;12476
+2018;3. Quartal;07;GG Gebrauchsgüter;2902;-;-;-;-;-
+2018;3. Quartal;07;VG Verbrauchsgüter;27671;-;-;-;-;-
+2018;3. Quartal;07;Verarbeitendes Gewerbe gesamt;390438;219504;149480;350882;196185;113664
+2018;3. Quartal;08;A+EN Vorleistungsgüter und Energie;228055;-;-;259609;-;-
+2018;3. Quartal;08;B Investitionsgüter;139575;77455;18680;194129;109601;29057
+2018;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;3. Quartal;08;Verarbeitendes Gewerbe gesamt;399924;234537;151032;485069;296809;184566
+2018;4. Quartal;09;A+EN Vorleistungsgüter und Energie;236887;156765;122514;311038;220953;183469
+2018;4. Quartal;09;B Investitionsgüter;120833;58789;18555;180070;93988;28319
+2018;4. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;09;Verarbeitendes Gewerbe gesamt;387816;236243;158642;521341;334897;229723
+2018;4. Quartal;10;A+EN Vorleistungsgüter und Energie;241232;154010;124672;175230;85820;56462
+2018;4. Quartal;10;B Investitionsgüter;143951;80109;19232;172805;98951;37946
+2018;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;10;Verarbeitendes Gewerbe gesamt;423413;262661;171063;390141;213595;120831
+2018;4. Quartal;11;A+EN Vorleistungsgüter und Energie;257541;168706;126900;233723;146402;115755
+2018;4. Quartal;11;B Investitionsgüter;149713;78796;27343;179741;112133;33416
+2018;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;11;Verarbeitendes Gewerbe gesamt;446123;275563;180343;454399;285680;174029
+2018;4. Quartal;12;A+EN Vorleistungsgüter und Energie;235670;159131;121776;258127;180178;138939
+2018;4. Quartal;12;B Investitionsgüter;195670;129116;49309;174359;85963;28955
+2018;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2018;4. Quartal;12;Verarbeitendes Gewerbe gesamt;461240;309066;190920;463643;288136;188114
+2019;1. Quartal;01;A+EN Vorleistungsgüter und Energie;246451;140434;97668;214722;113512;81389
+2019;1. Quartal;01;B Investitionsgüter;180513;131695;38197;162945;113642;28356
+2019;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;01;Verarbeitendes Gewerbe gesamt;461453;294221;155505;411963;250486;130848
+2019;1. Quartal;02;A+EN Vorleistungsgüter und Energie;210036;136657;100640;204411;128500;93756
+2019;1. Quartal;02;B Investitionsgüter;144437;89160;28731;147959;91594;20327
+2019;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;02;Verarbeitendes Gewerbe gesamt;385930;246746;147838;383013;241224;132362
+2019;1. Quartal;03;A+EN Vorleistungsgüter und Energie;232497;138170;99083;342695;-;-
+2019;1. Quartal;03;B Investitionsgüter;169804;98479;19895;143585;82848;23466
+2019;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;1. Quartal;03;Verarbeitendes Gewerbe gesamt;437400;257017;137468;519089;355863;253029
+2019;2. Quartal;04;A+EN Vorleistungsgüter und Energie;217347;134794;96326;256561;180196;150288
+2019;2. Quartal;04;B Investitionsgüter;195887;101021;30719;154522;97565;25541
+2019;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;04;Verarbeitendes Gewerbe gesamt;442520;254740;144561;442341;297528;192738
+2019;2. Quartal;05;A+EN Vorleistungsgüter und Energie;215797;129879;94423;265364;175308;138325
+2019;2. Quartal;05;B Investitionsgüter;155081;99038;19489;190643;122208;31903
+2019;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;05;Verarbeitendes Gewerbe gesamt;403475;248830;131157;489177;318788;189334
+2019;2. Quartal;06;A+EN Vorleistungsgüter und Energie;189589;122928;91950;196733;131123;92348
+2019;2. Quartal;06;B Investitionsgüter;122084;69675;17743;156680;95522;21302
+2019;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;2. Quartal;06;Verarbeitendes Gewerbe gesamt;342771;214897;127165;384860;246963;131675
+2019;3. Quartal;07;A+EN Vorleistungsgüter und Energie;220460;138572;101577;192160;110815;76786
+2019;3. Quartal;07;B Investitionsgüter;190445;101268;32808;147959;72875;28081
+2019;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;07;Verarbeitendes Gewerbe gesamt;442091;259604;152127;372929;204941;124279
+2019;3. Quartal;08;A+EN Vorleistungsgüter und Energie;211455;121795;88720;219083;132045;91519
+2019;3. Quartal;08;B Investitionsgüter;274329;138155;34154;159347;95023;26275
+2019;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;08;Verarbeitendes Gewerbe gesamt;516566;278979;140066;412008;248315;136579
+2019;3. Quartal;09;A+EN Vorleistungsgüter und Energie;185357;124331;91248;197468;136848;102504
+2019;3. Quartal;09;B Investitionsgüter;206175;139838;25249;236001;151348;28897
+2019;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;3. Quartal;09;Verarbeitendes Gewerbe gesamt;421010;283426;133435;467880;309685;149822
+2019;4. Quartal;10;A+EN Vorleistungsgüter und Energie;190530;118699;93978;264074;199666;167344
+2019;4. Quartal;10;B Investitionsgüter;149222;88694;35115;168519;106905;31119
+2019;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;10;Verarbeitendes Gewerbe gesamt;374329;231203;151402;473418;332250;220403
+2019;4. Quartal;11;A+EN Vorleistungsgüter und Energie;206557;129797;98255;224550;153760;120774
+2019;4. Quartal;11;B Investitionsgüter;153041;92800;23097;187526;103268;26043
+2019;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;11;Verarbeitendes Gewerbe gesamt;400631;249933;146087;455268;287133;172738
+2019;4. Quartal;12;A+EN Vorleistungsgüter und Energie;196319;132296;100452;199426;140401;103748
+2019;4. Quartal;12;B Investitionsgüter;150508;96242;21363;194648;121136;17927
+2019;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2019;4. Quartal;12;Verarbeitendes Gewerbe gesamt;390729;260981;152446;441428;296342;154324
+2020;1. Quartal;01;A+EN Vorleistungsgüter und Energie;182584;113454;72847;185549;117532;81773
+2020;1. Quartal;01;B Investitionsgüter;193055;91683;22645;150356;57648;14594
+2020;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;01;Verarbeitendes Gewerbe gesamt;410420;227807;115824;371879;198395;117115
+2020;1. Quartal;02;A+EN Vorleistungsgüter und Energie;221851;142824;70713;162406;91821;53875
+2020;1. Quartal;02;B Investitionsgüter;183394;73663;18133;144592;59964;15489
+2020;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;02;Verarbeitendes Gewerbe gesamt;435541;236345;107053;340231;173348;88275
+2020;1. Quartal;03;A+EN Vorleistungsgüter und Energie;199877;136000;79452;222555;151054;115484
+2020;1. Quartal;03;B Investitionsgüter;128250;48472;17823;146154;63397;27177
+2020;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;1. Quartal;03;Verarbeitendes Gewerbe gesamt;379578;222962;130294;416907;247956;171183
+2020;2. Quartal;04;A+EN Vorleistungsgüter und Energie;178960;113649;69780;210230;145245;105445
+2020;2. Quartal;04;B Investitionsgüter;127519;46602;7522;89274;37713;6490
+2020;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;04;Verarbeitendes Gewerbe gesamt;343442;186426;97656;333681;206315;131554
+2020;2. Quartal;05;A+EN Vorleistungsgüter und Energie;167611;109908;70393;150916;86856;47362
+2020;2. Quartal;05;B Investitionsgüter;124630;38934;9170;131936;49811;10706
+2020;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;05;Verarbeitendes Gewerbe gesamt;324602;170396;99733;313681;157035;75778
+2020;2. Quartal;06;A+EN Vorleistungsgüter und Energie;169609;115702;74938;181810;118917;83862
+2020;2. Quartal;06;B Investitionsgüter;121262;53957;22656;137574;50010;23520
+2020;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;2. Quartal;06;Verarbeitendes Gewerbe gesamt;324131;192530;118343;355701;192539;126932
+2020;3. Quartal;07;A+EN Vorleistungsgüter und Energie;192610;139147;106098;151857;90665;54974
+2020;3. Quartal;07;B Investitionsgüter;105385;57687;21950;140100;66677;17133
+2020;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;07;Verarbeitendes Gewerbe gesamt;330227;217872;147067;326066;180224;91625
+2020;3. Quartal;08;A+EN Vorleistungsgüter und Energie;201641;133757;87335;200083;133313;92930
+2020;3. Quartal;08;B Investitionsgüter;159915;59596;7814;109345;51794;10319
+2020;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;08;Verarbeitendes Gewerbe gesamt;393369;211813;111864;344389;208484;123411
+2020;3. Quartal;09;A+EN Vorleistungsgüter und Energie;172617;130298;90726;166066;120393;77610
+2020;3. Quartal;09;B Investitionsgüter;131785;51440;16711;182078;71765;16210
+2020;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;3. Quartal;09;Verarbeitendes Gewerbe gesamt;341517;201389;125553;383702;215559;113523
+2020;4. Quartal;10;A+EN Vorleistungsgüter und Energie;178360;116673;81874;165583;108411;71084
+2020;4. Quartal;10;B Investitionsgüter;176872;61719;27878;147652;55032;25728
+2020;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;10;Verarbeitendes Gewerbe gesamt;390039;200172;129747;348555;184489;115772
+2020;4. Quartal;11;A+EN Vorleistungsgüter und Energie;184426;130771;87646;172601;116661;76060
+2020;4. Quartal;11;B Investitionsgüter;175131;94706;45768;193263;71478;25820
+2020;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;11;Verarbeitendes Gewerbe gesamt;393536;247700;153392;400981;209334;120687
+2020;4. Quartal;12;A+EN Vorleistungsgüter und Energie;226372;133935;85774;270416;187473;143077
+2020;4. Quartal;12;B Investitionsgüter;184974;144327;44705;245952;131419;60985
+2020;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2020;4. Quartal;12;Verarbeitendes Gewerbe gesamt;452945;309274;160195;558980;351313;233197
+2021;1. Quartal;01;A+EN Vorleistungsgüter und Energie;212036;142578;15003;184801;117926;15449
+2021;1. Quartal;01;B Investitionsgüter;116946;60770;28065;88583;60669;9937
+2021;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;01;Verarbeitendes Gewerbe gesamt;359517;223784;62200;306776;200814;44851
+2021;1. Quartal;02;A+EN Vorleistungsgüter und Energie;223587;156188;12179;177903;119433;11999
+2021;1. Quartal;02;B Investitionsgüter;185017;81517;20162;95590;49959;11290
+2021;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;02;Verarbeitendes Gewerbe gesamt;440264;260566;52007;304786;191492;42992
+2021;1. Quartal;03;A+EN Vorleistungsgüter und Energie;258653;181892;21600;216882;143442;17352
+2021;1. Quartal;03;B Investitionsgüter;169585;101830;41203;238748;186714;14664
+2021;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;1. Quartal;03;Verarbeitendes Gewerbe gesamt;463862;306963;82994;493865;355613;52681
+2021;2. Quartal;04;A+EN Vorleistungsgüter und Energie;219490;136860;13441;177429;-;-
+2021;2. Quartal;04;B Investitionsgüter;197419;129866;83104;100286;57172;13727
+2021;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;04;Verarbeitendes Gewerbe gesamt;447976;288277;114970;308701;192943;49125
+2021;2. Quartal;05;A+EN Vorleistungsgüter und Energie;237413;153452;28519;244239;170143;20066
+2021;2. Quartal;05;B Investitionsgüter;157272;88834;38023;87982;42409;18985
+2021;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;05;Verarbeitendes Gewerbe gesamt;440840;278810;100343;379631;248628;72603
+2021;2. Quartal;06;A+EN Vorleistungsgüter und Energie;233893;141681;23314;244372;163418;21449
+2021;2. Quartal;06;B Investitionsgüter;361375;288236;101689;106968;52810;16543
+2021;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;2. Quartal;06;Verarbeitendes Gewerbe gesamt;642517;467590;160604;400918;255285;73132
+2021;3. Quartal;07;A+EN Vorleistungsgüter und Energie;222843;134106;15366;210193;139020;20151
+2021;3. Quartal;07;B Investitionsgüter;195868;111268;48840;140453;79395;17059
+2021;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;07;Verarbeitendes Gewerbe gesamt;463146;280419;97508;395768;254130;70581
+2021;3. Quartal;08;A+EN Vorleistungsgüter und Energie;235515;132244;15471;227839;-;-
+2021;3. Quartal;08;B Investitionsgüter;144129;81470;22640;99207;53251;15790
+2021;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;08;Verarbeitendes Gewerbe gesamt;428082;251123;72574;373906;229944;62392
+2021;3. Quartal;09;A+EN Vorleistungsgüter und Energie;281215;169763;26258;255809;147410;31849
+2021;3. Quartal;09;B Investitionsgüter;273847;198255;51109;142388;80467;17661
+2021;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;3. Quartal;09;Verarbeitendes Gewerbe gesamt;603971;407090;112429;453931;269772;86607
+2021;4. Quartal;10;A+EN Vorleistungsgüter und Energie;239451;151793;31641;226514;150219;24026
+2021;4. Quartal;10;B Investitionsgüter;150309;87052;26570;115795;61798;18139
+2021;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;10;Verarbeitendes Gewerbe gesamt;436636;275980;93512;389394;246208;74218
+2021;4. Quartal;11;A+EN Vorleistungsgüter und Energie;262468;153868;21674;250801;157352;18845
+2021;4. Quartal;11;B Investitionsgüter;287881;194287;143950;143778;71137;12277
+2021;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;11;Verarbeitendes Gewerbe gesamt;600070;385852;199352;446160;266683;67919
+2021;4. Quartal;12;A+EN Vorleistungsgüter und Energie;257047;154278;19164;294540;182320;21851
+2021;4. Quartal;12;B Investitionsgüter;428394;-;-;163871;-;-
+2021;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2021;4. Quartal;12;Verarbeitendes Gewerbe gesamt;723464;519844;232471;495245;305147;59808
+2022;1. Quartal;01;A+EN Vorleistungsgüter und Energie;287018;169076;27660;270906;177907;18829
+2022;1. Quartal;01;B Investitionsgüter;313161;244830;155236;109655;68101;38660
+2022;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;01;Verarbeitendes Gewerbe gesamt;629291;437249;201701;409069;267780;76510
+2022;1. Quartal;02;A+EN Vorleistungsgüter und Energie;282149;180445;36954;268018;164740;16853
+2022;1. Quartal;02;B Investitionsgüter;143037;82705;31180;104611;47559;13576
+2022;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;02;Verarbeitendes Gewerbe gesamt;456148;287455;86526;404357;236545;50808
+2022;1. Quartal;03;A+EN Vorleistungsgüter und Energie;293665;174116;41892;291846;180300;27705
+2022;1. Quartal;03;B Investitionsgüter;305819;216955;162251;128044;51406;15687
+2022;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;1. Quartal;03;Verarbeitendes Gewerbe gesamt;631257;415718;223700;456218;258801;67240
+2022;2. Quartal;04;A+EN Vorleistungsgüter und Energie;294628;170068;31543;278256;169541;16320
+2022;2. Quartal;04;B Investitionsgüter;283572;178641;24681;139046;81487;47469
+2022;2. Quartal;04;GG Gebrauchsgüter;4462;-;-;-;-;-
+2022;2. Quartal;04;VG Verbrauchsgüter;21806;-;-;-;-;-
+2022;2. Quartal;04;Verarbeitendes Gewerbe gesamt;604467;368568;73415;444305;271547;80642
+2022;2. Quartal;05;A+EN Vorleistungsgüter und Energie;275272;152146;15864;298830;197874;17032
+2022;2. Quartal;05;B Investitionsgüter;246362;148696;69100;127719;68532;36640
+2022;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;2. Quartal;05;Verarbeitendes Gewerbe gesamt;552746;325080;105120;459618;291331;76272
+2022;2. Quartal;06;A+EN Vorleistungsgüter und Energie;340143;200218;42842;324816;196193;27284
+2022;2. Quartal;06;B Investitionsgüter;260637;185171;23981;155747;85610;25966
+2022;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;2. Quartal;06;Verarbeitendes Gewerbe gesamt;633403;411325;89517;510877;305211;74491
+2022;3. Quartal;07;A+EN Vorleistungsgüter und Energie;358240;216512;41583;331191;216235;24511
+2022;3. Quartal;07;B Investitionsgüter;177040;106541;19205;126870;70076;25471
+2022;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;07;Verarbeitendes Gewerbe gesamt;562733;345028;79499;487838;309425;69586
+2022;3. Quartal;08;A+EN Vorleistungsgüter und Energie;294462;170975;23775;364557;232221;28779
+2022;3. Quartal;08;B Investitionsgüter;201052;100600;63026;163180;102502;55827
+2022;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;08;Verarbeitendes Gewerbe gesamt;528724;295105;106469;559903;359757;105785
+2022;3. Quartal;09;A+EN Vorleistungsgüter und Energie;316501;195787;43479;442535;307511;37899
+2022;3. Quartal;09;B Investitionsgüter;169013;83200;18563;190626;115460;22619
+2022;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;3. Quartal;09;Verarbeitendes Gewerbe gesamt;516463;302787;83406;669483;450453;83281
+2022;4. Quartal;10;A+EN Vorleistungsgüter und Energie;288083;160737;27606;286152;174707;17624
+2022;4. Quartal;10;B Investitionsgüter;158527;77603;20313;115629;58806;18723
+2022;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;10;Verarbeitendes Gewerbe gesamt;484079;262174;65688;439301;259043;59445
+2022;4. Quartal;11;A+EN Vorleistungsgüter und Energie;347414;197436;56820;345894;215839;24480
+2022;4. Quartal;11;B Investitionsgüter;149238;82043;47109;164447;80673;26298
+2022;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;11;Verarbeitendes Gewerbe gesamt;526601;301511;122564;546663;322007;72262
+2022;4. Quartal;12;A+EN Vorleistungsgüter und Energie;381848;208347;43123;288562;161686;32213
+2022;4. Quartal;12;B Investitionsgüter;388180;221213;43868;301735;202367;41751
+2022;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2022;4. Quartal;12;Verarbeitendes Gewerbe gesamt;814203;467453;121604;632820;399014;103968
+2023;1. Quartal;01;A+EN Vorleistungsgüter und Energie;327599;171589;28228;321416;196674;27185
+2023;1. Quartal;01;B Investitionsgüter;280184;106704;37627;126959;73503;23927
+2023;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;01;Verarbeitendes Gewerbe gesamt;640752;302157;86512;482233;297202;73556
+2023;1. Quartal;02;A+EN Vorleistungsgüter und Energie;297985;161555;31713;269519;144172;26885
+2023;1. Quartal;02;B Investitionsgüter;128155;70528;38371;138998;88936;39336
+2023;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;02;Verarbeitendes Gewerbe gesamt;456386;255471;90639;441991;259337;88160
+2023;1. Quartal;03;A+EN Vorleistungsgüter und Energie;369675;211777;43999;347203;203290;33434
+2023;1. Quartal;03;B Investitionsgüter;310027;176703;61300;177882;106074;39870
+2023;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;1. Quartal;03;Verarbeitendes Gewerbe gesamt;719820;420512;133251;565216;340234;99816
+2023;2. Quartal;04;A+EN Vorleistungsgüter und Energie;311748;156774;22808;318133;194799;15254
+2023;2. Quartal;04;B Investitionsgüter;151868;79262;19709;148132;90171;46702
+2023;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;2. Quartal;04;Verarbeitendes Gewerbe gesamt;491638;257312;62475;499824;310945;84769
+2023;2. Quartal;05;A+EN Vorleistungsgüter und Energie;291493;174586;31522;294682;173014;20857
+2023;2. Quartal;05;B Investitionsgüter;447265;376875;89952;145087;71319;22809
+2023;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;2. Quartal;05;Verarbeitendes Gewerbe gesamt;774073;580389;144313;475486;271106;66251
+2023;2. Quartal;06;A+EN Vorleistungsgüter und Energie;355501;190466;26916;380518;237706;37014
+2023;2. Quartal;06;B Investitionsgüter;-;-;-;184067;-;-
+2023;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;2. Quartal;06;VG Verbrauchsgüter;28842;22300;21344;-;-;-
+2023;2. Quartal;06;Verarbeitendes Gewerbe gesamt;1131974;896313;101722;600007;380216;94720
+2023;3. Quartal;07;A+EN Vorleistungsgüter und Energie;324467;170078;14353;324368;190549;15526
+2023;3. Quartal;07;B Investitionsgüter;153367;95395;36543;118455;73679;27852
+2023;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;07;Verarbeitendes Gewerbe gesamt;509077;288540;71532;475840;288650;65436
+2023;3. Quartal;08;A+EN Vorleistungsgüter und Energie;363626;179151;21365;359703;205461;23536
+2023;3. Quartal;08;B Investitionsgüter;190368;109015;58653;169682;87907;55504
+2023;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;08;Verarbeitendes Gewerbe gesamt;595720;314925;103669;569200;324628;105100
+2023;3. Quartal;09;A+EN Vorleistungsgüter und Energie;366949;205684;25408;375088;228476;32107
+2023;3. Quartal;09;B Investitionsgüter;268813;214880;33211;171062;87753;29064
+2023;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;3. Quartal;09;Verarbeitendes Gewerbe gesamt;668293;446220;81966;584746;345133;85873
+2023;4. Quartal;10;A+EN Vorleistungsgüter und Energie;331933;175881;14959;345202;-;-
+2023;4. Quartal;10;B Investitionsgüter;157340;77384;24244;183013;128878;58855
+2023;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;10;Verarbeitendes Gewerbe gesamt;521682;277979;61721;567981;367799;97136
+2023;4. Quartal;11;A+EN Vorleistungsgüter und Energie;348545;182436;30077;344340;183996;28257
+2023;4. Quartal;11;B Investitionsgüter;154049;91317;50234;170161;91015;28457
+2023;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;11;Verarbeitendes Gewerbe gesamt;534641;297266;102031;552112;301598;80134
+2023;4. Quartal;12;A+EN Vorleistungsgüter und Energie;376523;-;-;388839;-;-
+2023;4. Quartal;12;B Investitionsgüter;220326;158863;104513;500516;382215;50386
+2023;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2023;4. Quartal;12;Verarbeitendes Gewerbe gesamt;631167;376702;159121;927214;609210;115290
+2024;1. Quartal;01;A+EN Vorleistungsgüter und Energie;357815;164776;29222;329814;182369;31843
+2024;1. Quartal;01;B Investitionsgüter;183970;99652;29632;159688;102741;63550
+2024;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;01;Verarbeitendes Gewerbe gesamt;574132;288761;79976;527619;313900;119245
+2024;1. Quartal;02;A+EN Vorleistungsgüter und Energie;366314;195451;20300;299151;172462;26715
+2024;1. Quartal;02;B Investitionsgüter;160033;100046;38241;133166;85042;36747
+2024;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;02;Verarbeitendes Gewerbe gesamt;559877;320387;80141;465892;282559;85865
+2024;1. Quartal;03;A+EN Vorleistungsgüter und Energie;415903;197432;27166;333642;189270;34041
+2024;1. Quartal;03;B Investitionsgüter;145853;67450;24596;174006;103243;44278
+2024;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;1. Quartal;03;Verarbeitendes Gewerbe gesamt;603350;289453;73255;544529;320282;101796
+2024;2. Quartal;04;A+EN Vorleistungsgüter und Energie;363466;186276;15370;334546;191173;17436
+2024;2. Quartal;04;B Investitionsgüter;159129;79962;33697;184729;123508;35616
+2024;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;04;Verarbeitendes Gewerbe gesamt;554620;291634;70077;554174;341188;75616
+2024;2. Quartal;05;A+EN Vorleistungsgüter und Energie;384169;191195;16233;306799;174659;19274
+2024;2. Quartal;05;B Investitionsgüter;162011;74939;14665;214995;150995;61218
+2024;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;05;Verarbeitendes Gewerbe gesamt;577136;290302;52535;555834;350786;102722
+2024;2. Quartal;06;A+EN Vorleistungsgüter und Energie;365429;184297;50234;408770;238280;57902
+2024;2. Quartal;06;B Investitionsgüter;155323;91947;52356;220809;147792;48277
+2024;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;2. Quartal;06;Verarbeitendes Gewerbe gesamt;552833;302424;124457;662882;411140;128451
+2024;3. Quartal;07;A+EN Vorleistungsgüter und Energie;304967;-;-;225611;-;-
+2024;3. Quartal;07;B Investitionsgüter;326294;224428;132726;207190;145452;69234
+2024;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;07;Verarbeitendes Gewerbe gesamt;666663;422110;163894;467399;322889;101100
+2024;3. Quartal;08;A+EN Vorleistungsgüter und Energie;358655;-;-;311801;-;-
+2024;3. Quartal;08;B Investitionsgüter;319371;87915;30715;194026;129045;50932
+2024;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;08;Verarbeitendes Gewerbe gesamt;706820;290828;61716;539389;325620;84022
+2024;3. Quartal;09;A+EN Vorleistungsgüter und Energie;370583;227493;39305;313629;177113;43273
+2024;3. Quartal;09;B Investitionsgüter;224742;75559;30471;272478;200636;46207
+2024;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;3. Quartal;09;Verarbeitendes Gewerbe gesamt;627065;326973;91558;625016;406631;114331
+2024;4. Quartal;10;A+EN Vorleistungsgüter und Energie;292678;192173;12721;296317;196426;11913
+2024;4. Quartal;10;B Investitionsgüter;164703;100417;32956;179354;115271;42537
+2024;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;10;Verarbeitendes Gewerbe gesamt;496212;322422;67920;513206;337159;75931
+2024;4. Quartal;11;A+EN Vorleistungsgüter und Energie;326380;163326;11639;289152;161900;10631
+2024;4. Quartal;11;B Investitionsgüter;215079;141429;22008;220803;152005;59501
+2024;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;11;Verarbeitendes Gewerbe gesamt;565892;321602;48086;540334;334961;87924
+2024;4. Quartal;12;A+EN Vorleistungsgüter und Energie;428989;240930;50456;512943;-;-
+2024;4. Quartal;12;B Investitionsgüter;170588;102274;23855;188563;126064;32631
+2024;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2024;4. Quartal;12;Verarbeitendes Gewerbe gesamt;621220;357431;86935;724644;478507;93677
+2025;1. Quartal;01;A+EN Vorleistungsgüter und Energie;326150;181489;13326;259353;160575;13987
+2025;1. Quartal;01;B Investitionsgüter;173197;101127;25906;165256;87326;35629
+2025;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;01;Verarbeitendes Gewerbe gesamt;532153;307739;59637;459662;274673;71667
+2025;1. Quartal;02;A+EN Vorleistungsgüter und Energie;313338;182108;10642;340096;-;-
+2025;1. Quartal;02;B Investitionsgüter;160508;83688;37196;172444;106135;46835
+2025;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;02;Verarbeitendes Gewerbe gesamt;505565;289782;68852;544513;340593;83334
+2025;1. Quartal;03;A+EN Vorleistungsgüter und Energie;383910;205463;44553;423925;263087;53008
+2025;1. Quartal;03;B Investitionsgüter;167760;84463;23276;257309;141773;33262
+2025;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;1. Quartal;03;Verarbeitendes Gewerbe gesamt;582883;312665;87791;720571;432983;108048
+2025;2. Quartal;04;A+EN Vorleistungsgüter und Energie;326897;189262;17869;251717;139951;16596
+2025;2. Quartal;04;B Investitionsgüter;165210;108622;47460;195517;123889;46355
+2025;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;04;Verarbeitendes Gewerbe gesamt;525831;324798;86711;483863;291595;87676
+2025;2. Quartal;05;A+EN Vorleistungsgüter und Energie;312977;-;-;301367;-;-
+2025;2. Quartal;05;B Investitionsgüter;160584;92678;26715;181577;107632;27408
+2025;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;05;Verarbeitendes Gewerbe gesamt;510736;273532;60714;516567;297955;63247
+2025;2. Quartal;06;A+EN Vorleistungsgüter und Energie;316398;177956;14250;394158;243953;18036
+2025;2. Quartal;06;B Investitionsgüter;321908;275004;45199;221333;156624;54409
+2025;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;2. Quartal;06;Verarbeitendes Gewerbe gesamt;673189;479769;81024;646762;423924;93510
+2025;3. Quartal;07;A+EN Vorleistungsgüter und Energie;340594;170899;13680;295203;186806;17582
+2025;3. Quartal;07;B Investitionsgüter;163199;94241;19928;179642;109998;22869
+2025;3. Quartal;07;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;07;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;07;Verarbeitendes Gewerbe gesamt;534385;288158;54281;511940;323241;62253
+2025;3. Quartal;08;A+EN Vorleistungsgüter und Energie;352303;169531;10054;359501;189591;12129
+2025;3. Quartal;08;B Investitionsgüter;175046;96086;20616;170074;102282;24092
+2025;3. Quartal;08;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;08;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;08;Verarbeitendes Gewerbe gesamt;554575;285613;49070;563539;316366;57194
+2025;3. Quartal;09;A+EN Vorleistungsgüter und Energie;391236;184593;17951;384943;196961;21382
+2025;3. Quartal;09;B Investitionsgüter;181009;104950;39897;224952;151286;35174
+2025;3. Quartal;09;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;09;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;3. Quartal;09;Verarbeitendes Gewerbe gesamt;601866;312127;78993;649205;375611;80466
+2025;4. Quartal;10;A+EN Vorleistungsgüter und Energie;348897;-;-;300801;-;-
+2025;4. Quartal;10;B Investitionsgüter;137311;68096;23346;176105;116967;19293
+2025;4. Quartal;10;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;10;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;10;Verarbeitendes Gewerbe gesamt;515038;271214;69946;508911;315025;67040
+2025;4. Quartal;11;A+EN Vorleistungsgüter und Energie;335075;206596;17348;321652;170200;12283
+2025;4. Quartal;11;B Investitionsgüter;171575;95910;34543;170656;105621;38058
+2025;4. Quartal;11;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;11;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;11;Verarbeitendes Gewerbe gesamt;537608;321484;68153;524985;298697;68563
+2025;4. Quartal;12;A+EN Vorleistungsgüter und Energie;411726;236873;32376;457973;-;-
+2025;4. Quartal;12;B Investitionsgüter;239074;173800;119108;207346;117154;26613
+2025;4. Quartal;12;GG Gebrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;12;VG Verbrauchsgüter;-;-;-;-;-;-
+2025;4. Quartal;12;Verarbeitendes Gewerbe gesamt;684394;437736;175743;701112;428631;78894
+2026;1. Quartal;01;A+EN Vorleistungsgüter und Energie;336905;189623;14720;287728;162070;14917
+2026;1. Quartal;01;B Investitionsgüter;196570;148219;27546;159235;84925;18739
+2026;1. Quartal;01;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;01;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;01;Verarbeitendes Gewerbe gesamt;568149;366027;62067;483536;273499;54730
+2026;1. Quartal;02;A+EN Vorleistungsgüter und Energie;302176;181919;13949;289692;160292;14513
+2026;1. Quartal;02;B Investitionsgüter;102847;50553;18365;141754;80312;49481
+2026;1. Quartal;02;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;02;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;02;Verarbeitendes Gewerbe gesamt;443682;260182;51560;466674;266578;85331
+2026;1. Quartal;03;A+EN Vorleistungsgüter und Energie;382253;227895;19955;356359;191863;19806
+2026;1. Quartal;03;B Investitionsgüter;152712;94957;30043;115823;50610;24408
+2026;1. Quartal;03;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;03;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;1. Quartal;03;Verarbeitendes Gewerbe gesamt;561922;343799;68723;505683;265604;62764
+2026;2. Quartal;04;A+EN Vorleistungsgüter und Energie;347403;207582;23026;296501;174124;13502
+2026;2. Quartal;04;B Investitionsgüter;159761;104946;22373;183321;114021;41138
+2026;2. Quartal;04;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;04;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;04;Verarbeitendes Gewerbe gesamt;542145;334150;64274;518723;316253;76118
+2026;2. Quartal;05;A+EN Vorleistungsgüter und Energie;351365;204682;25521;340365;193383;14416
+2026;2. Quartal;05;B Investitionsgüter;212725;157464;36991;166619;100105;41889
+2026;2. Quartal;05;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;05;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;05;Verarbeitendes Gewerbe gesamt;592786;384196;82044;541416;317140;75603
+2026;2. Quartal;06;A+EN Vorleistungsgüter und Energie;460958;248628;49338;447782;255370;48844
+2026;2. Quartal;06;B Investitionsgüter;275194;119647;75958;161037;84184;36475
+2026;2. Quartal;06;GG Gebrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;06;VG Verbrauchsgüter;-;-;-;-;-;-
+2026;2. Quartal;06;Verarbeitendes Gewerbe gesamt;774445;394471;146305;643294;366472;107061

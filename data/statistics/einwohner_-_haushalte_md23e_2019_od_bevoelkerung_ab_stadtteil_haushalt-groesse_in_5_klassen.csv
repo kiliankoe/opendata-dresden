@@ -1,0 +1,311 @@
+Jahr;Stadtteil zus.;Stadtbezirk mit zugeordneten Ortschaften;Stadtraum;Haushalt-Größe-5;Anzahl Einwohner;Anzahl Haushalte
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1-Pers-Haush.;831;831
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2-Pers-Haush.;596;298
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3-Pers-Haush.;177;59
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4-Pers-Haush.;112;28
+2019;01 Innere Altstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5-u.m.-Pers-Hh.;41;8
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1-Pers-Haush.;2702;2702
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2-Pers-Haush.;1780;890
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3-Pers-Haush.;561;187
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4-Pers-Haush.;456;114
+2019;02 Pirnaische Vorstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5-u.m.-Pers-Hh.;181;33
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1-Pers-Haush.;2695;2695
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2-Pers-Haush.;2590;1295
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3-Pers-Haush.;798;266
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4-Pers-Haush.;588;147
+2019;03 Seevorstadt-Ost;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5-u.m.-Pers-Hh.;353;63
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1-Pers-Haush.;3576;3576
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2-Pers-Haush.;3278;1639
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3-Pers-Haush.;1122;374
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4-Pers-Haush.;808;202
+2019;04 Wilsdruffer Vs./Seevs.-West;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5-u.m.-Pers-Hh.;299;57
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;1-Pers-Haush.;3297;3297
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;2-Pers-Haush.;2154;1077
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;3-Pers-Haush.;1113;371
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;4-Pers-Haush.;1052;263
+2019;05 Friedrichstadt;StB 0 Altstadt;01 StB Altstadt ohne Johannstadt;5-u.m.-Pers-Hh.;617;113
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;1-Pers-Haush.;3391;3391
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;2-Pers-Haush.;3544;1772
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;3-Pers-Haush.;1833;611
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;4-Pers-Haush.;1928;482
+2019;06 Johannstadt-Nord;StB 0 Altstadt;02 Johannstadt;5-u.m.-Pers-Hh.;1015;188
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;1-Pers-Haush.;4251;4251
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;2-Pers-Haush.;4628;2314
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;3-Pers-Haush.;1353;451
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;4-Pers-Haush.;1012;253
+2019;07 Johannstadt-Süd;StB 0 Altstadt;02 Johannstadt;5-u.m.-Pers-Hh.;350;67
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1-Pers-Haush.;7271;7271
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2-Pers-Haush.;3986;1993
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;3-Pers-Haush.;2700;900
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4-Pers-Haush.;2984;746
+2019;11 Äußere Neustadt (Antonstadt);StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;5-u.m.-Pers-Hh.;1128;217
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1-Pers-Haush.;2353;2353
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2-Pers-Haush.;2316;1158
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;3-Pers-Haush.;1680;560
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4-Pers-Haush.;1940;485
+2019;12 Radeberger Vorstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;5-u.m.-Pers-Hh.;818;154
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1-Pers-Haush.;2678;2678
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2-Pers-Haush.;2034;1017
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;3-Pers-Haush.;1227;409
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4-Pers-Haush.;1132;283
+2019;13 Innere Neustadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;5-u.m.-Pers-Hh.;484;94
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;1-Pers-Haush.;4595;4595
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;2-Pers-Haush.;3100;1550
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;3-Pers-Haush.;2037;679
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;4-Pers-Haush.;2060;515
+2019;14 Leipziger Vorstadt;StB 1 Neustadt;04 Leipziger Vorstadt, Pieschen;5-u.m.-Pers-Hh.;720;138
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;1-Pers-Haush.;694;694
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;2-Pers-Haush.;656;328
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;3-Pers-Haush.;477;159
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;4-Pers-Haush.;592;148
+2019;15 Albertstadt;StB 1 Neustadt;03 StB Neustadt ohne Leipziger Vorstadt;5-u.m.-Pers-Hh.;258;50
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;1-Pers-Haush.;4208;4208
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;2-Pers-Haush.;2862;1431
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;3-Pers-Haush.;2280;760
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;4-Pers-Haush.;1936;484
+2019;21 Pieschen-Süd;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;5-u.m.-Pers-Hh.;974;183
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;1-Pers-Haush.;3960;3960
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;2-Pers-Haush.;4116;2058
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;3-Pers-Haush.;2487;829
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;4-Pers-Haush.;1960;490
+2019;22 Mickten;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;5-u.m.-Pers-Hh.;623;120
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;1-Pers-Haush.;1625;1625
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;2-Pers-Haush.;1742;871
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;3-Pers-Haush.;951;317
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;4-Pers-Haush.;888;222
+2019;23 Kaditz;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;5-u.m.-Pers-Hh.;385;74
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;1-Pers-Haush.;2462;2462
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;2-Pers-Haush.;3216;1608
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;3-Pers-Haush.;1866;622
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;4-Pers-Haush.;1924;481
+2019;24 Trachau;StB 2 Pieschen;05 Mickten, Kaditz, Trachau;5-u.m.-Pers-Hh.;658;126
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;1-Pers-Haush.;4010;4010
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;2-Pers-Haush.;3494;1747
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;3-Pers-Haush.;2145;715
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;4-Pers-Haush.;2112;528
+2019;25 Pieschen-N/Trachenberge;StB 2 Pieschen;04 Leipziger Vorstadt, Pieschen;5-u.m.-Pers-Hh.;701;136
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1-Pers-Haush.;3462;3462
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2-Pers-Haush.;4694;2347
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;3-Pers-Haush.;2526;842
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4-Pers-Haush.;2720;680
+2019;31 Klotzsche;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;5-u.m.-Pers-Hh.;1116;213
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1-Pers-Haush.;971;971
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2-Pers-Haush.;2054;1027
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;3-Pers-Haush.;1356;452
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4-Pers-Haush.;1388;347
+2019;32 Hellerau/Wilschdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;5-u.m.-Pers-Hh.;546;105
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1-Pers-Haush.;734;734
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2-Pers-Haush.;2050;1025
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;3-Pers-Haush.;1224;408
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4-Pers-Haush.;1416;354
+2019;35 Weixdorf;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;5-u.m.-Pers-Hh.;610;115
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;1-Pers-Haush.;520;520
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;2-Pers-Haush.;1306;653
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;3-Pers-Haush.;963;321
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;4-Pers-Haush.;1008;252
+2019;36 Langebrück/Schönborn;StB 3 Klotzsche/nördliche Ortschaften;06 StB Klotzsche und nördliche OS;5-u.m.-Pers-Hh.;501;95
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;1023;1023
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;1862;931
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;1182;394
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;1108;277
+2019;41 Loschwitz/Wachwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;583;111
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;1990;1990
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;3548;1774
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;2175;725
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;2492;623
+2019;42 Bühlau/Weißer Hirsch;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;1157;222
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;582;582
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;1136;568
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;645;215
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;660;165
+2019;43 Hosterwitz/Pillnitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;289;56
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;1351;1351
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;1864;932
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;990;330
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;1004;251
+2019;45 Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;388;75
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;464;464
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;1390;695
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;735;245
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;1000;250
+2019;46 Gönnsdorf/Pappritz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;356;68
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;1-Pers-Haush.;374;374
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;2-Pers-Haush.;1068;534
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;3-Pers-Haush.;798;266
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;4-Pers-Haush.;760;190
+2019;47 Schönfeld/Schullwitz;StB 4 Loschwitz/OS Schönfeld-Weißig;07 StB Loschwitz und OS Schönfeld-Weißig;5-u.m.-Pers-Hh.;424;81
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;1-Pers-Haush.;2373;2373
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;2-Pers-Haush.;3106;1553
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;3-Pers-Haush.;1770;590
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;4-Pers-Haush.;2120;530
+2019;51 Blasewitz;StB 5 Blasewitz;08 Blasewitz, Striesen;5-u.m.-Pers-Hh.;816;156
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;1-Pers-Haush.;3629;3629
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;2-Pers-Haush.;3856;1928
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;3-Pers-Haush.;3141;1047
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;4-Pers-Haush.;3396;849
+2019;52 Striesen-Ost;StB 5 Blasewitz;08 Blasewitz, Striesen;5-u.m.-Pers-Hh.;1353;260
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;1-Pers-Haush.;3639;3639
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;2-Pers-Haush.;4030;2015
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;3-Pers-Haush.;2001;667
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;4-Pers-Haush.;1844;461
+2019;53 Striesen-Süd;StB 5 Blasewitz;08 Blasewitz, Striesen;5-u.m.-Pers-Hh.;618;117
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;1-Pers-Haush.;3947;3947
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;2-Pers-Haush.;4258;2129
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;3-Pers-Haush.;2067;689
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;4-Pers-Haush.;2036;509
+2019;54 Striesen-West;StB 5 Blasewitz;08 Blasewitz, Striesen;5-u.m.-Pers-Hh.;704;135
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1-Pers-Haush.;2971;2971
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;2-Pers-Haush.;4278;2139
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;3-Pers-Haush.;1956;652
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;4-Pers-Haush.;1704;426
+2019;55 Tolkewitz/Seidnitz-Nord;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;5-u.m.-Pers-Hh.;560;106
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1-Pers-Haush.;4266;4266
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;2-Pers-Haush.;4878;2439
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;3-Pers-Haush.;2073;691
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;4-Pers-Haush.;1688;422
+2019;56 Seidnitz/Dobritz;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;5-u.m.-Pers-Hh.;515;98
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;1-Pers-Haush.;3631;3631
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;2-Pers-Haush.;4792;2396
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;3-Pers-Haush.;1992;664
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;4-Pers-Haush.;1916;479
+2019;57 Gruna;StB 5 Blasewitz;09 Tolkewitz, Seidnitz, Gruna;5-u.m.-Pers-Hh.;762;147
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;1-Pers-Haush.;3688;3688
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;2-Pers-Haush.;4318;2159
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;3-Pers-Haush.;1788;596
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;4-Pers-Haush.;1416;354
+2019;61 Leuben;StB 6 Leuben;10 StB Leuben;5-u.m.-Pers-Hh.;704;127
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;1-Pers-Haush.;3235;3235
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;2-Pers-Haush.;4404;2202
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;3-Pers-Haush.;2163;721
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;4-Pers-Haush.;1856;464
+2019;62 Laubegast;StB 6 Leuben;10 StB Leuben;5-u.m.-Pers-Hh.;657;128
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;1-Pers-Haush.;1458;1458
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;2-Pers-Haush.;3120;1560
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;3-Pers-Haush.;1620;540
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;4-Pers-Haush.;1616;404
+2019;63 Kleinzschachwitz;StB 6 Leuben;10 StB Leuben;5-u.m.-Pers-Hh.;732;141
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;1-Pers-Haush.;1637;1637
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;2-Pers-Haush.;2082;1041
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;3-Pers-Haush.;1020;340
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;4-Pers-Haush.;892;223
+2019;64 Großzschachwitz;StB 6 Leuben;10 StB Leuben;5-u.m.-Pers-Hh.;362;68
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1-Pers-Haush.;1937;1937
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2218;1109
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3-Pers-Haush.;819;273
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);4-Pers-Haush.;832;208
+2019;71 Prohlis-Nord;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;457;85
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1-Pers-Haush.;2868;2868
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2548;1274
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3-Pers-Haush.;1107;369
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);4-Pers-Haush.;928;232
+2019;72 Prohlis-Süd;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;638;115
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1-Pers-Haush.;1069;1069
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2184;1092
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);3-Pers-Haush.;1242;414
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4-Pers-Haush.;1096;274
+2019;73 Niedersedlitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;320;61
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1-Pers-Haush.;878;878
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2426;1213
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);3-Pers-Haush.;1458;486
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4-Pers-Haush.;1640;410
+2019;74 Lockwitz;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;562;109
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1-Pers-Haush.;3472;3472
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2-Pers-Haush.;5186;2593
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);3-Pers-Haush.;2289;763
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4-Pers-Haush.;2204;551
+2019;75 Leubnitz-Neuostra;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;938;178
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1-Pers-Haush.;1402;1402
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2-Pers-Haush.;686;343
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3-Pers-Haush.;393;131
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);4-Pers-Haush.;376;94
+2019;76 Strehlen;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;394;72
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1-Pers-Haush.;1793;1793
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2130;1065
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);3-Pers-Haush.;1143;381
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);4-Pers-Haush.;1136;284
+2019;76 Strehlen;StB 7 Prohlis;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;548;107
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);1-Pers-Haush.;1525;1525
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2-Pers-Haush.;2040;1020
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);3-Pers-Haush.;774;258
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);4-Pers-Haush.;592;148
+2019;77 Reick;StB 7 Prohlis;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);5-u.m.-Pers-Hh.;430;82
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;1-Pers-Haush.;3918;3918
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;2-Pers-Haush.;3850;1925
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;3-Pers-Haush.;1869;623
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;4-Pers-Haush.;1768;442
+2019;81 Südvorstadt-West;StB 8 Plauen;13 Südvorstadt, Zschertnitz;5-u.m.-Pers-Hh.;1325;240
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;1-Pers-Haush.;1946;1946
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;2-Pers-Haush.;1886;943
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;3-Pers-Haush.;840;280
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;4-Pers-Haush.;796;199
+2019;82 Südvorstadt-Ost;StB 8 Plauen;13 Südvorstadt, Zschertnitz;5-u.m.-Pers-Hh.;792;145
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;1-Pers-Haush.;2968;2968
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;2-Pers-Haush.;3700;1850
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;3-Pers-Haush.;1314;438
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;4-Pers-Haush.;1176;294
+2019;83 Räcknitz/Zschertnitz;StB 8 Plauen;13 Südvorstadt, Zschertnitz;5-u.m.-Pers-Hh.;474;89
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;1-Pers-Haush.;1831;1831
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;2-Pers-Haush.;3064;1532
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;3-Pers-Haush.;1209;403
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;4-Pers-Haush.;1100;275
+2019;84 Kleinpestitz/Mockritz;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;5-u.m.-Pers-Hh.;455;86
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;1-Pers-Haush.;1358;1358
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;2-Pers-Haush.;1834;917
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;3-Pers-Haush.;1032;344
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;4-Pers-Haush.;1004;251
+2019;85 Coschütz/Gittersee;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;5-u.m.-Pers-Hh.;405;78
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;1-Pers-Haush.;3015;3015
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;2-Pers-Haush.;3386;1693
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;3-Pers-Haush.;2160;720
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;4-Pers-Haush.;2252;563
+2019;86 Plauen;StB 8 Plauen;14 Mockritz, Coschütz, Plauen;5-u.m.-Pers-Hh.;930;177
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;1-Pers-Haush.;1316;1316
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2-Pers-Haush.;2534;1267
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;3-Pers-Haush.;1743;581
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;4-Pers-Haush.;1520;380
+2019;90 Cossebaude/Mobschatz/Oberw.;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;5-u.m.-Pers-Hh.;615;119
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1-Pers-Haush.;3568;3568
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;2-Pers-Haush.;3572;1786
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;3-Pers-Haush.;1923;641
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;4-Pers-Haush.;1612;403
+2019;91 Cotta;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;5-u.m.-Pers-Hh.;703;135
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1-Pers-Haush.;3445;3445
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;2-Pers-Haush.;2818;1409
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;3-Pers-Haush.;1431;477
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;4-Pers-Haush.;1276;319
+2019;92 Löbtau-Nord;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;5-u.m.-Pers-Hh.;448;85
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1-Pers-Haush.;4289;4289
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;2-Pers-Haush.;3100;1550
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;3-Pers-Haush.;1884;628
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;4-Pers-Haush.;1740;435
+2019;93 Löbtau-Süd;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;5-u.m.-Pers-Hh.;659;126
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;1-Pers-Haush.;2123;2123
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;2-Pers-Haush.;3208;1604
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;3-Pers-Haush.;1803;601
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;4-Pers-Haush.;1672;418
+2019;94 Naußlitz;StB 9 Cotta/westliche Ortschaften;15 Cotta, Löbtau, Naußlitz, Dölzschen;5-u.m.-Pers-Hh.;753;145
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;1-Pers-Haush.;3083;3083
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;2-Pers-Haush.;2342;1171
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;3-Pers-Haush.;1119;373
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;4-Pers-Haush.;1016;254
+2019;95 Gorbitz-Süd;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;5-u.m.-Pers-Hh.;932;168
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;1-Pers-Haush.;1905;1905
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;2-Pers-Haush.;2064;1032
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;3-Pers-Haush.;894;298
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;4-Pers-Haush.;752;188
+2019;96 Gorbitz-Ost;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;5-u.m.-Pers-Hh.;455;85
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;1-Pers-Haush.;2361;2361
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;2-Pers-Haush.;2086;1043
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;3-Pers-Haush.;888;296
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;4-Pers-Haush.;688;172
+2019;97 Gorbitz-Nord/Neu-Omsewitz;StB 9 Cotta/westliche Ortschaften;16 Gorbitz;5-u.m.-Pers-Hh.;600;107
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;1-Pers-Haush.;2450;2450
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2-Pers-Haush.;3618;1809
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;3-Pers-Haush.;2262;754
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;4-Pers-Haush.;2280;570
+2019;98 Briesnitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;5-u.m.-Pers-Hh.;761;147
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;1-Pers-Haush.;538;538
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;2-Pers-Haush.;1636;818
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;3-Pers-Haush.;948;316
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;4-Pers-Haush.;988;247
+2019;99 Altfranken/Gompitz;StB 9 Cotta/westliche Ortschaften;17 Briesnitz und westliche OS;5-u.m.-Pers-Hh.;295;57

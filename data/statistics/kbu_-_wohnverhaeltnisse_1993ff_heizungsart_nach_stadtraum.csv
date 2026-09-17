@@ -1,0 +1,811 @@
+Jahr;Stadtraum;Heizungsart;Anteil in %
+1993;01 StB Altstadt ohne Johannstadt;Fernheizung;78,9
+1993;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;0,3
+1993;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;20,7
+1993;02 Johannstadt;Fernheizung;68,7
+1993;02 Johannstadt;Zentralheizung oder Etagenheizung;2,3
+1993;02 Johannstadt;Einzelraumheizung;29
+1993;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;24,1
+1993;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;9,5
+1993;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;66,5
+1993;04 Leipziger Vorstadt, Pieschen;Fernheizung;1,2
+1993;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;15,9
+1993;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;83
+1993;05 Mickten, Kaditz, Trachau;Fernheizung;16,3
+1993;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;15,2
+1993;05 Mickten, Kaditz, Trachau;Einzelraumheizung;68,6
+1993;06 StB Klotzsche und nördliche OS;Fernheizung;18,4
+1993;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;39,6
+1993;06 StB Klotzsche und nördliche OS;Einzelraumheizung;42
+1993;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;1
+1993;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;45,4
+1993;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;53,5
+1993;08 Blasewitz, Striesen;Fernheizung;16,6
+1993;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;11,8
+1993;08 Blasewitz, Striesen;Einzelraumheizung;71,6
+1993;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;47,9
+1993;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;7,4
+1993;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;44,7
+1993;10 StB Leuben;Fernheizung;40
+1993;10 StB Leuben;Zentralheizung oder Etagenheizung;15,5
+1993;10 StB Leuben;Einzelraumheizung;44,5
+1993;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;86,3
+1993;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;4,6
+1993;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;9,1
+1993;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;19,6
+1993;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;34
+1993;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;46,4
+1993;13 Südvorstadt, Zschertnitz;Fernheizung;56,7
+1993;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;12,5
+1993;13 Südvorstadt, Zschertnitz;Einzelraumheizung;30,8
+1993;14 Mockritz, Coschütz, Plauen;Fernheizung;28,1
+1993;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;24
+1993;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;47,9
+1993;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;1,6
+1993;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;14,9
+1993;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;83,5
+1993;16 Gorbitz;Fernheizung;97,4
+1993;16 Gorbitz;Zentralheizung oder Etagenheizung;1,6
+1993;16 Gorbitz;Einzelraumheizung;1
+1993;17 Briesnitz und westliche OS;Fernheizung;1,5
+1993;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;39
+1993;17 Briesnitz und westliche OS;Einzelraumheizung;59,6
+1993;18 Dresden gesamt;Fernheizung;40,6
+1993;18 Dresden gesamt;Zentralheizung oder Etagenheizung;13,7
+1993;18 Dresden gesamt;Einzelraumheizung;45,6
+1995;01 StB Altstadt ohne Johannstadt;Fernheizung;80,5
+1995;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;7,7
+1995;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;11,8
+1995;02 Johannstadt;Fernheizung;72,9
+1995;02 Johannstadt;Zentralheizung oder Etagenheizung;4,3
+1995;02 Johannstadt;Einzelraumheizung;22,8
+1995;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;32,8
+1995;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;18,2
+1995;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;49,1
+1995;04 Leipziger Vorstadt, Pieschen;Fernheizung;3,5
+1995;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;9,7
+1995;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;86,8
+1995;05 Mickten, Kaditz, Trachau;Fernheizung;22,1
+1995;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;24,2
+1995;05 Mickten, Kaditz, Trachau;Einzelraumheizung;53,7
+1995;06 StB Klotzsche und nördliche OS;Fernheizung;28,5
+1995;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;35,1
+1995;06 StB Klotzsche und nördliche OS;Einzelraumheizung;36,4
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;2,4
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;66,2
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;31,5
+1995;08 Blasewitz, Striesen;Fernheizung;22,5
+1995;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;21,4
+1995;08 Blasewitz, Striesen;Einzelraumheizung;56,1
+1995;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;52,1
+1995;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;10,1
+1995;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;37,7
+1995;10 StB Leuben;Fernheizung;41,5
+1995;10 StB Leuben;Zentralheizung oder Etagenheizung;24,9
+1995;10 StB Leuben;Einzelraumheizung;33,6
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;82,6
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;9,8
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;7,7
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;22,5
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;47,8
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;29,7
+1995;13 Südvorstadt, Zschertnitz;Fernheizung;64,9
+1995;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;13
+1995;13 Südvorstadt, Zschertnitz;Einzelraumheizung;22,1
+1995;14 Mockritz, Coschütz, Plauen;Fernheizung;25
+1995;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;41,9
+1995;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;33,1
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;7,1
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;25,8
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;67,1
+1995;16 Gorbitz;Fernheizung;96,3
+1995;16 Gorbitz;Zentralheizung oder Etagenheizung;3,3
+1995;16 Gorbitz;Einzelraumheizung;0,4
+1995;17 Briesnitz und westliche OS;Fernheizung;4,1
+1995;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;50,6
+1995;17 Briesnitz und westliche OS;Einzelraumheizung;45,4
+1995;18 Dresden gesamt;Fernheizung;43,2
+1995;18 Dresden gesamt;Zentralheizung oder Etagenheizung;20,4
+1995;18 Dresden gesamt;Einzelraumheizung;36,3
+1996;01 StB Altstadt ohne Johannstadt;Fernheizung;93,4
+1996;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;2,3
+1996;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;4,4
+1996;02 Johannstadt;Fernheizung;83,7
+1996;02 Johannstadt;Zentralheizung oder Etagenheizung;5,9
+1996;02 Johannstadt;Einzelraumheizung;10,3
+1996;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;40,5
+1996;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;20,2
+1996;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;39,2
+1996;04 Leipziger Vorstadt, Pieschen;Fernheizung;8,1
+1996;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;35,2
+1996;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;56,7
+1996;05 Mickten, Kaditz, Trachau;Fernheizung;21
+1996;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;39,3
+1996;05 Mickten, Kaditz, Trachau;Einzelraumheizung;39,7
+1996;06 StB Klotzsche und nördliche OS;Fernheizung;37,9
+1996;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;50,5
+1996;06 StB Klotzsche und nördliche OS;Einzelraumheizung;11,6
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;2,8
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;63,6
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;33,7
+1996;08 Blasewitz, Striesen;Fernheizung;39,4
+1996;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;26,5
+1996;08 Blasewitz, Striesen;Einzelraumheizung;34,1
+1996;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;59,4
+1996;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;15,8
+1996;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;24,8
+1996;10 StB Leuben;Fernheizung;42,6
+1996;10 StB Leuben;Zentralheizung oder Etagenheizung;34,5
+1996;10 StB Leuben;Einzelraumheizung;23
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;84,3
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;11,3
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;4,4
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;16,3
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;64,3
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;19,4
+1996;13 Südvorstadt, Zschertnitz;Fernheizung;61,3
+1996;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;22,8
+1996;13 Südvorstadt, Zschertnitz;Einzelraumheizung;15,9
+1996;14 Mockritz, Coschütz, Plauen;Fernheizung;33,7
+1996;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;49,2
+1996;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;17,2
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;10,4
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;46,1
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;43,4
+1996;16 Gorbitz;Fernheizung;93,8
+1996;16 Gorbitz;Zentralheizung oder Etagenheizung;6,2
+1996;16 Gorbitz;Einzelraumheizung;0
+1996;17 Briesnitz und westliche OS;Fernheizung;9,2
+1996;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;55,5
+1996;17 Briesnitz und westliche OS;Einzelraumheizung;35,3
+1996;18 Dresden gesamt;Fernheizung;48,1
+1996;18 Dresden gesamt;Zentralheizung oder Etagenheizung;28,8
+1996;18 Dresden gesamt;Einzelraumheizung;23,1
+1998;01 StB Altstadt ohne Johannstadt;Fernheizung;90,1
+1998;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;7,8
+1998;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;2,1
+1998;02 Johannstadt;Fernheizung;92,9
+1998;02 Johannstadt;Zentralheizung oder Etagenheizung;3,5
+1998;02 Johannstadt;Einzelraumheizung;3,5
+1998;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;59
+1998;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;31,9
+1998;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;9,2
+1998;04 Leipziger Vorstadt, Pieschen;Fernheizung;13,4
+1998;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;53,7
+1998;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;32,9
+1998;05 Mickten, Kaditz, Trachau;Fernheizung;32,9
+1998;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;51,9
+1998;05 Mickten, Kaditz, Trachau;Einzelraumheizung;15,2
+1998;06 StB Klotzsche und nördliche OS;Fernheizung;41,7
+1998;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;49,2
+1998;06 StB Klotzsche und nördliche OS;Einzelraumheizung;9
+1998;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;5
+1998;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;83,2
+1998;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;11,8
+1998;08 Blasewitz, Striesen;Fernheizung;55,8
+1998;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;35,6
+1998;08 Blasewitz, Striesen;Einzelraumheizung;8,6
+1998;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;70,3
+1998;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;18,8
+1998;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;10,9
+1998;10 StB Leuben;Fernheizung;45,6
+1998;10 StB Leuben;Zentralheizung oder Etagenheizung;42,3
+1998;10 StB Leuben;Einzelraumheizung;12,1
+1998;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;81
+1998;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;17
+1998;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;2
+1998;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;34,6
+1998;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;56
+1998;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;9,4
+1998;13 Südvorstadt, Zschertnitz;Fernheizung;68,4
+1998;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;20,2
+1998;13 Südvorstadt, Zschertnitz;Einzelraumheizung;11,4
+1998;14 Mockritz, Coschütz, Plauen;Fernheizung;35,2
+1998;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;51
+1998;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;13,8
+1998;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;19,7
+1998;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;61
+1998;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;19,2
+1998;16 Gorbitz;Fernheizung;97,3
+1998;16 Gorbitz;Zentralheizung oder Etagenheizung;2,3
+1998;16 Gorbitz;Einzelraumheizung;0,5
+1998;17 Briesnitz und westliche OS;Fernheizung;9,8
+1998;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;80,3
+1998;17 Briesnitz und westliche OS;Einzelraumheizung;9,9
+1998;18 Dresden gesamt;Fernheizung;54,1
+1998;18 Dresden gesamt;Zentralheizung oder Etagenheizung;35,4
+1998;18 Dresden gesamt;Einzelraumheizung;10,6
+2002;01 StB Altstadt ohne Johannstadt;Fernheizung;87,3
+2002;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;12,7
+2002;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2002;02 Johannstadt;Fernheizung;78,8
+2002;02 Johannstadt;Zentralheizung oder Etagenheizung;19,1
+2002;02 Johannstadt;Einzelraumheizung;2,1
+2002;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;45,7
+2002;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;52,3
+2002;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;2
+2002;04 Leipziger Vorstadt, Pieschen;Fernheizung;17,4
+2002;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;77,8
+2002;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;4,8
+2002;05 Mickten, Kaditz, Trachau;Fernheizung;36,2
+2002;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;59,4
+2002;05 Mickten, Kaditz, Trachau;Einzelraumheizung;4,5
+2002;06 StB Klotzsche und nördliche OS;Fernheizung;26,8
+2002;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;70,1
+2002;06 StB Klotzsche und nördliche OS;Einzelraumheizung;3,1
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;6,9
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;87,4
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;5,6
+2002;08 Blasewitz, Striesen;Fernheizung;53,2
+2002;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;44,9
+2002;08 Blasewitz, Striesen;Einzelraumheizung;1,9
+2002;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;76,3
+2002;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;22,5
+2002;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;1,3
+2002;10 StB Leuben;Fernheizung;45,5
+2002;10 StB Leuben;Zentralheizung oder Etagenheizung;51,3
+2002;10 StB Leuben;Einzelraumheizung;3,2
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;80,6
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;19,3
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0,1
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;38,2
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;56,7
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;5,2
+2002;13 Südvorstadt, Zschertnitz;Fernheizung;76,3
+2002;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;23,1
+2002;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0,6
+2002;14 Mockritz, Coschütz, Plauen;Fernheizung;37,6
+2002;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;56,5
+2002;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;5,9
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;16,7
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;76,7
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;6,6
+2002;16 Gorbitz;Fernheizung;75,8
+2002;16 Gorbitz;Zentralheizung oder Etagenheizung;24,2
+2002;16 Gorbitz;Einzelraumheizung;0
+2002;17 Briesnitz und westliche OS;Fernheizung;5,3
+2002;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;85,1
+2002;17 Briesnitz und westliche OS;Einzelraumheizung;9,6
+2002;18 Dresden gesamt;Fernheizung;48,6
+2002;18 Dresden gesamt;Zentralheizung oder Etagenheizung;48,3
+2002;18 Dresden gesamt;Einzelraumheizung;3,1
+2005;01 StB Altstadt ohne Johannstadt;Fernheizung;88,5
+2005;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;10,8
+2005;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0,7
+2005;02 Johannstadt;Fernheizung;85,8
+2005;02 Johannstadt;Zentralheizung oder Etagenheizung;13,1
+2005;02 Johannstadt;Einzelraumheizung;1,1
+2005;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;48,7
+2005;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;46,9
+2005;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;4,4
+2005;04 Leipziger Vorstadt, Pieschen;Fernheizung;18,7
+2005;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;73,4
+2005;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;7,9
+2005;05 Mickten, Kaditz, Trachau;Fernheizung;30,3
+2005;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;68,3
+2005;05 Mickten, Kaditz, Trachau;Einzelraumheizung;1,3
+2005;06 StB Klotzsche und nördliche OS;Fernheizung;24,4
+2005;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;71,8
+2005;06 StB Klotzsche und nördliche OS;Einzelraumheizung;3,8
+2005;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;8,2
+2005;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;85,9
+2005;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;5,9
+2005;08 Blasewitz, Striesen;Fernheizung;54,7
+2005;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;45,2
+2005;08 Blasewitz, Striesen;Einzelraumheizung;0,1
+2005;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;72,1
+2005;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;27,5
+2005;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0,5
+2005;10 StB Leuben;Fernheizung;45,6
+2005;10 StB Leuben;Zentralheizung oder Etagenheizung;54
+2005;10 StB Leuben;Einzelraumheizung;0,4
+2005;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;62,2
+2005;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;35,2
+2005;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;2,5
+2005;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;30,9
+2005;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;67,3
+2005;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;1,8
+2005;13 Südvorstadt, Zschertnitz;Fernheizung;62,2
+2005;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;37,2
+2005;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0,7
+2005;14 Mockritz, Coschütz, Plauen;Fernheizung;35,5
+2005;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;64,2
+2005;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0,2
+2005;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;20,4
+2005;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;77,2
+2005;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;2,3
+2005;16 Gorbitz;Fernheizung;90,1
+2005;16 Gorbitz;Zentralheizung oder Etagenheizung;9,9
+2005;16 Gorbitz;Einzelraumheizung;0
+2005;17 Briesnitz und westliche OS;Fernheizung;9,3
+2005;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;86,3
+2005;17 Briesnitz und westliche OS;Einzelraumheizung;4,4
+2005;18 Dresden gesamt;Fernheizung;47,8
+2005;18 Dresden gesamt;Zentralheizung oder Etagenheizung;50,2
+2005;18 Dresden gesamt;Einzelraumheizung;2
+2007;01 StB Altstadt ohne Johannstadt;Fernheizung;79,4
+2007;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;20
+2007;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0,5
+2007;02 Johannstadt;Fernheizung;78,7
+2007;02 Johannstadt;Zentralheizung oder Etagenheizung;19,5
+2007;02 Johannstadt;Einzelraumheizung;1,8
+2007;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;53,6
+2007;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;41,8
+2007;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;4,6
+2007;04 Leipziger Vorstadt, Pieschen;Fernheizung;22,1
+2007;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;69,2
+2007;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;8,7
+2007;05 Mickten, Kaditz, Trachau;Fernheizung;27,9
+2007;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;70,4
+2007;05 Mickten, Kaditz, Trachau;Einzelraumheizung;1,6
+2007;06 StB Klotzsche und nördliche OS;Fernheizung;24,2
+2007;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;73
+2007;06 StB Klotzsche und nördliche OS;Einzelraumheizung;2,8
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;8,9
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;86,3
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;4,8
+2007;08 Blasewitz, Striesen;Fernheizung;49,2
+2007;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;49,5
+2007;08 Blasewitz, Striesen;Einzelraumheizung;1,3
+2007;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;63,5
+2007;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;35,5
+2007;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;1,1
+2007;10 StB Leuben;Fernheizung;48,5
+2007;10 StB Leuben;Zentralheizung oder Etagenheizung;49,8
+2007;10 StB Leuben;Einzelraumheizung;1,8
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;75
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;25
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;25,4
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;72,1
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;2,5
+2007;13 Südvorstadt, Zschertnitz;Fernheizung;62,5
+2007;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;34,4
+2007;13 Südvorstadt, Zschertnitz;Einzelraumheizung;3,1
+2007;14 Mockritz, Coschütz, Plauen;Fernheizung;31,2
+2007;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;67,8
+2007;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0,9
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;29,3
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;65,3
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;5,4
+2007;16 Gorbitz;Fernheizung;81
+2007;16 Gorbitz;Zentralheizung oder Etagenheizung;19
+2007;16 Gorbitz;Einzelraumheizung;0
+2007;17 Briesnitz und westliche OS;Fernheizung;9,9
+2007;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;87,9
+2007;17 Briesnitz und westliche OS;Einzelraumheizung;2,2
+2007;18 Dresden gesamt;Fernheizung;45,5
+2007;18 Dresden gesamt;Zentralheizung oder Etagenheizung;51,8
+2007;18 Dresden gesamt;Einzelraumheizung;2,7
+2010;01 StB Altstadt ohne Johannstadt;Fernheizung;66,2
+2010;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;33,8
+2010;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2010;02 Johannstadt;Fernheizung;76
+2010;02 Johannstadt;Zentralheizung oder Etagenheizung;24
+2010;02 Johannstadt;Einzelraumheizung;0
+2010;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;53,3
+2010;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;43,3
+2010;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;3,4
+2010;04 Leipziger Vorstadt, Pieschen;Fernheizung;23,4
+2010;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;74,5
+2010;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;2,1
+2010;05 Mickten, Kaditz, Trachau;Fernheizung;32,8
+2010;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;66,6
+2010;05 Mickten, Kaditz, Trachau;Einzelraumheizung;0,6
+2010;06 StB Klotzsche und nördliche OS;Fernheizung;27,9
+2010;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;71
+2010;06 StB Klotzsche und nördliche OS;Einzelraumheizung;1,1
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;10,8
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;88,3
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;0,8
+2010;08 Blasewitz, Striesen;Fernheizung;48,4
+2010;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;50,2
+2010;08 Blasewitz, Striesen;Einzelraumheizung;1,4
+2010;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;67,8
+2010;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;31,9
+2010;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0,3
+2010;10 StB Leuben;Fernheizung;39,7
+2010;10 StB Leuben;Zentralheizung oder Etagenheizung;59
+2010;10 StB Leuben;Einzelraumheizung;1,3
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;86,7
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;13,3
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;28
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;70,3
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;1,7
+2010;13 Südvorstadt, Zschertnitz;Fernheizung;71,8
+2010;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;28,2
+2010;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0
+2010;14 Mockritz, Coschütz, Plauen;Fernheizung;34,7
+2010;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;65,3
+2010;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;19,5
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;78,7
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;1,8
+2010;16 Gorbitz;Fernheizung;93,2
+2010;16 Gorbitz;Zentralheizung oder Etagenheizung;6,8
+2010;16 Gorbitz;Einzelraumheizung;0
+2010;17 Briesnitz und westliche OS;Fernheizung;11,4
+2010;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;87,8
+2010;17 Briesnitz und westliche OS;Einzelraumheizung;0,9
+2010;18 Dresden gesamt;Fernheizung;45,6
+2010;18 Dresden gesamt;Zentralheizung oder Etagenheizung;53,3
+2010;18 Dresden gesamt;Einzelraumheizung;1,1
+2012;01 StB Altstadt ohne Johannstadt;Fernheizung;79,4
+2012;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;20,6
+2012;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2012;02 Johannstadt;Fernheizung;85
+2012;02 Johannstadt;Zentralheizung oder Etagenheizung;15
+2012;02 Johannstadt;Einzelraumheizung;0
+2012;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;71,6
+2012;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;27,2
+2012;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;1,2
+2012;04 Leipziger Vorstadt, Pieschen;Fernheizung;42,4
+2012;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;56,2
+2012;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;1,4
+2012;05 Mickten, Kaditz, Trachau;Fernheizung;48,7
+2012;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;51,3
+2012;05 Mickten, Kaditz, Trachau;Einzelraumheizung;0
+2012;06 StB Klotzsche und nördliche OS;Fernheizung;32,6
+2012;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;64
+2012;06 StB Klotzsche und nördliche OS;Einzelraumheizung;3,3
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;13
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;79,5
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;7,5
+2012;08 Blasewitz, Striesen;Fernheizung;59,2
+2012;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;39,3
+2012;08 Blasewitz, Striesen;Einzelraumheizung;1,5
+2012;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;79,1
+2012;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;20,9
+2012;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0
+2012;10 StB Leuben;Fernheizung;54,3
+2012;10 StB Leuben;Zentralheizung oder Etagenheizung;43,2
+2012;10 StB Leuben;Einzelraumheizung;2,5
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;93
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;7
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;48
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;50,9
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;1,1
+2012;13 Südvorstadt, Zschertnitz;Fernheizung;84
+2012;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;15,7
+2012;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0,3
+2012;14 Mockritz, Coschütz, Plauen;Fernheizung;43,8
+2012;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;53,5
+2012;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;2,7
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;39,3
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;59,1
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;1,5
+2012;16 Gorbitz;Fernheizung;90,7
+2012;16 Gorbitz;Zentralheizung oder Etagenheizung;9,3
+2012;16 Gorbitz;Einzelraumheizung;0
+2012;17 Briesnitz und westliche OS;Fernheizung;19,1
+2012;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;80,3
+2012;17 Briesnitz und westliche OS;Einzelraumheizung;0,7
+2012;18 Dresden gesamt;Fernheizung;58,9
+2012;18 Dresden gesamt;Zentralheizung oder Etagenheizung;39,7
+2012;18 Dresden gesamt;Einzelraumheizung;1,4
+2014;01 StB Altstadt ohne Johannstadt;Fernheizung;70,5
+2014;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;29,5
+2014;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2014;02 Johannstadt;Fernheizung;75
+2014;02 Johannstadt;Zentralheizung oder Etagenheizung;25
+2014;02 Johannstadt;Einzelraumheizung;0
+2014;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;41,1
+2014;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;55,3
+2014;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;3,5
+2014;04 Leipziger Vorstadt, Pieschen;Fernheizung;22,8
+2014;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;68,2
+2014;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;9,1
+2014;05 Mickten, Kaditz, Trachau;Fernheizung;39
+2014;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;54,3
+2014;05 Mickten, Kaditz, Trachau;Einzelraumheizung;6,7
+2014;06 StB Klotzsche und nördliche OS;Fernheizung;16,8
+2014;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;80,9
+2014;06 StB Klotzsche und nördliche OS;Einzelraumheizung;2,2
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;7
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;89,3
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;3,7
+2014;08 Blasewitz, Striesen;Fernheizung;54,8
+2014;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;44,7
+2014;08 Blasewitz, Striesen;Einzelraumheizung;0,5
+2014;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;65,3
+2014;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;31,1
+2014;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;3,5
+2014;10 StB Leuben;Fernheizung;46,6
+2014;10 StB Leuben;Zentralheizung oder Etagenheizung;52
+2014;10 StB Leuben;Einzelraumheizung;1,4
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;74,8
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;25,2
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;31,8
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;65,1
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;3,1
+2014;13 Südvorstadt, Zschertnitz;Fernheizung;65,7
+2014;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;33,5
+2014;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0,7
+2014;14 Mockritz, Coschütz, Plauen;Fernheizung;25,3
+2014;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;73,4
+2014;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;1,3
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;23,2
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;72,3
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;4,5
+2014;16 Gorbitz;Fernheizung;80,2
+2014;16 Gorbitz;Zentralheizung oder Etagenheizung;19,8
+2014;16 Gorbitz;Einzelraumheizung;0
+2014;17 Briesnitz und westliche OS;Fernheizung;10,1
+2014;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;87,6
+2014;17 Briesnitz und westliche OS;Einzelraumheizung;2,3
+2014;18 Dresden gesamt;Fernheizung;44,7
+2014;18 Dresden gesamt;Zentralheizung oder Etagenheizung;52,6
+2014;18 Dresden gesamt;Einzelraumheizung;2,7
+2016;01 StB Altstadt ohne Johannstadt;Fernheizung;66,9
+2016;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;32,3
+2016;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0,8
+2016;02 Johannstadt;Fernheizung;77
+2016;02 Johannstadt;Zentralheizung oder Etagenheizung;23
+2016;02 Johannstadt;Einzelraumheizung;0
+2016;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;52
+2016;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;44,5
+2016;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;3,5
+2016;04 Leipziger Vorstadt, Pieschen;Fernheizung;24,5
+2016;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;73,6
+2016;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;2
+2016;05 Mickten, Kaditz, Trachau;Fernheizung;32,5
+2016;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;66,4
+2016;05 Mickten, Kaditz, Trachau;Einzelraumheizung;1,1
+2016;06 StB Klotzsche und nördliche OS;Fernheizung;28
+2016;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;71,5
+2016;06 StB Klotzsche und nördliche OS;Einzelraumheizung;0,5
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;8,8
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;88,2
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;2,9
+2016;08 Blasewitz, Striesen;Fernheizung;50,5
+2016;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;49,2
+2016;08 Blasewitz, Striesen;Einzelraumheizung;0,3
+2016;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;61,3
+2016;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;38,5
+2016;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0,2
+2016;10 StB Leuben;Fernheizung;45,9
+2016;10 StB Leuben;Zentralheizung oder Etagenheizung;53,4
+2016;10 StB Leuben;Einzelraumheizung;0,6
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;79,3
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;20
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0,7
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;31,6
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;65,8
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;2,6
+2016;13 Südvorstadt, Zschertnitz;Fernheizung;65,4
+2016;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;34,3
+2016;13 Südvorstadt, Zschertnitz;Einzelraumheizung;0,3
+2016;14 Mockritz, Coschütz, Plauen;Fernheizung;35,3
+2016;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;64,3
+2016;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0,4
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;31,7
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;68,2
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;0,1
+2016;16 Gorbitz;Fernheizung;78,3
+2016;16 Gorbitz;Zentralheizung oder Etagenheizung;21,7
+2016;16 Gorbitz;Einzelraumheizung;0
+2016;17 Briesnitz und westliche OS;Fernheizung;11,7
+2016;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;85,4
+2016;17 Briesnitz und westliche OS;Einzelraumheizung;2,9
+2016;18 Dresden gesamt;Fernheizung;45
+2016;18 Dresden gesamt;Zentralheizung oder Etagenheizung;53,8
+2016;18 Dresden gesamt;Einzelraumheizung;1,1
+2018;01 StB Altstadt ohne Johannstadt;Fernheizung;68,2
+2018;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;31,8
+2018;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2018;02 Johannstadt;Fernheizung;72,5
+2018;02 Johannstadt;Zentralheizung oder Etagenheizung;25,8
+2018;02 Johannstadt;Einzelraumheizung;1,7
+2018;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;43,6
+2018;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;53,7
+2018;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;2,7
+2018;04 Leipziger Vorstadt, Pieschen;Fernheizung;24,5
+2018;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;73,4
+2018;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;2,1
+2018;05 Mickten, Kaditz, Trachau;Fernheizung;38,5
+2018;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;61,1
+2018;05 Mickten, Kaditz, Trachau;Einzelraumheizung;0,3
+2018;06 StB Klotzsche und nördliche OS;Fernheizung;26,3
+2018;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;73,1
+2018;06 StB Klotzsche und nördliche OS;Einzelraumheizung;0,7
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;11,9
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;86
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;2,1
+2018;08 Blasewitz, Striesen;Fernheizung;49,3
+2018;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;50,7
+2018;08 Blasewitz, Striesen;Einzelraumheizung;0
+2018;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;67,2
+2018;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;32,2
+2018;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0,6
+2018;10 StB Leuben;Fernheizung;48,9
+2018;10 StB Leuben;Zentralheizung oder Etagenheizung;50,6
+2018;10 StB Leuben;Einzelraumheizung;0,6
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;73,3
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;26,7
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;29,6
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;69,7
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;0,7
+2018;13 Südvorstadt, Zschertnitz;Fernheizung;63,3
+2018;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;34,6
+2018;13 Südvorstadt, Zschertnitz;Einzelraumheizung;2,1
+2018;14 Mockritz, Coschütz, Plauen;Fernheizung;31,1
+2018;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;66,8
+2018;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;2,1
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;35,9
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;62,3
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;1,8
+2018;16 Gorbitz;Fernheizung;73,9
+2018;16 Gorbitz;Zentralheizung oder Etagenheizung;26,1
+2018;16 Gorbitz;Einzelraumheizung;0
+2018;17 Briesnitz und westliche OS;Fernheizung;7,6
+2018;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;90,8
+2018;17 Briesnitz und westliche OS;Einzelraumheizung;1,6
+2018;18 Dresden gesamt;Fernheizung;45,4
+2018;18 Dresden gesamt;Zentralheizung oder Etagenheizung;53,5
+2018;18 Dresden gesamt;Einzelraumheizung;1,1
+2020;01 StB Altstadt ohne Johannstadt;Fernheizung;68,9
+2020;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;29,7
+2020;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;1,4
+2020;02 Johannstadt;Fernheizung;72,5
+2020;02 Johannstadt;Zentralheizung oder Etagenheizung;27,5
+2020;02 Johannstadt;Einzelraumheizung;0
+2020;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;44,5
+2020;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;52
+2020;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;3,6
+2020;04 Leipziger Vorstadt, Pieschen;Fernheizung;29,7
+2020;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;67,9
+2020;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;2,4
+2020;05 Mickten, Kaditz, Trachau;Fernheizung;33,6
+2020;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;66,4
+2020;05 Mickten, Kaditz, Trachau;Einzelraumheizung;0
+2020;06 StB Klotzsche und nördliche OS;Fernheizung;22,1
+2020;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;75,4
+2020;06 StB Klotzsche und nördliche OS;Einzelraumheizung;2,5
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;13,2
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;84,7
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;2,1
+2020;08 Blasewitz, Striesen;Fernheizung;52,7
+2020;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;45,8
+2020;08 Blasewitz, Striesen;Einzelraumheizung;1,5
+2020;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;64,1
+2020;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;35,4
+2020;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;0,4
+2020;10 StB Leuben;Fernheizung;47,1
+2020;10 StB Leuben;Zentralheizung oder Etagenheizung;51,6
+2020;10 StB Leuben;Einzelraumheizung;1,3
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;86
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;13,6
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0,5
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;31,4
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;66,8
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;1,7
+2020;13 Südvorstadt, Zschertnitz;Fernheizung;59
+2020;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;39,1
+2020;13 Südvorstadt, Zschertnitz;Einzelraumheizung;2
+2020;14 Mockritz, Coschütz, Plauen;Fernheizung;35,1
+2020;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;64,4
+2020;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0,5
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;26,5
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;72,7
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;0,9
+2020;16 Gorbitz;Fernheizung;80
+2020;16 Gorbitz;Zentralheizung oder Etagenheizung;20
+2020;16 Gorbitz;Einzelraumheizung;0
+2020;17 Briesnitz und westliche OS;Fernheizung;14,8
+2020;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;84,8
+2020;17 Briesnitz und westliche OS;Einzelraumheizung;0,4
+2020;18 Dresden gesamt;Fernheizung;46,1
+2020;18 Dresden gesamt;Zentralheizung oder Etagenheizung;52,5
+2020;18 Dresden gesamt;Einzelraumheizung;1,4
+2022;01 StB Altstadt ohne Johannstadt;Fernheizung;67,5
+2022;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;32,5
+2022;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;0
+2022;02 Johannstadt;Fernheizung;84,9
+2022;02 Johannstadt;Zentralheizung oder Etagenheizung;12
+2022;02 Johannstadt;Einzelraumheizung;3
+2022;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;49,8
+2022;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;49
+2022;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;1,3
+2022;04 Leipziger Vorstadt, Pieschen;Fernheizung;36,3
+2022;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;61,9
+2022;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;1,7
+2022;05 Mickten, Kaditz, Trachau;Fernheizung;44,8
+2022;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;55
+2022;05 Mickten, Kaditz, Trachau;Einzelraumheizung;0,2
+2022;06 StB Klotzsche und nördliche OS;Fernheizung;25,9
+2022;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;72,5
+2022;06 StB Klotzsche und nördliche OS;Einzelraumheizung;1,6
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;13,4
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;84,6
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;1,9
+2022;08 Blasewitz, Striesen;Fernheizung;52,1
+2022;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;46,9
+2022;08 Blasewitz, Striesen;Einzelraumheizung;1
+2022;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;67,7
+2022;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;31,3
+2022;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;1
+2022;10 StB Leuben;Fernheizung;53,4
+2022;10 StB Leuben;Zentralheizung oder Etagenheizung;46
+2022;10 StB Leuben;Einzelraumheizung;0,6
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;73,1
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;26
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;0,9
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;28,9
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;68,7
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;2,3
+2022;13 Südvorstadt, Zschertnitz;Fernheizung;65
+2022;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;32,7
+2022;13 Südvorstadt, Zschertnitz;Einzelraumheizung;2,3
+2022;14 Mockritz, Coschütz, Plauen;Fernheizung;31,2
+2022;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;66,7
+2022;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;2,1
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;31,2
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;65,4
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;3,3
+2022;16 Gorbitz;Fernheizung;75,4
+2022;16 Gorbitz;Zentralheizung oder Etagenheizung;24,6
+2022;16 Gorbitz;Einzelraumheizung;0
+2022;17 Briesnitz und westliche OS;Fernheizung;18,4
+2022;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;80,3
+2022;17 Briesnitz und westliche OS;Einzelraumheizung;1,3
+2022;18 Dresden gesamt;Fernheizung;48,7
+2022;18 Dresden gesamt;Zentralheizung oder Etagenheizung;49,9
+2022;18 Dresden gesamt;Einzelraumheizung;1,4
+2024;01 StB Altstadt ohne Johannstadt;Fernheizung;71,6
+2024;01 StB Altstadt ohne Johannstadt;Zentralheizung oder Etagenheizung;27,3
+2024;01 StB Altstadt ohne Johannstadt;Einzelraumheizung;1,2
+2024;02 Johannstadt;Fernheizung;75,4
+2024;02 Johannstadt;Zentralheizung oder Etagenheizung;23,5
+2024;02 Johannstadt;Einzelraumheizung;1,1
+2024;03 StB Neustadt ohne Leipziger Vorstadt;Fernheizung;59,2
+2024;03 StB Neustadt ohne Leipziger Vorstadt;Zentralheizung oder Etagenheizung;37,4
+2024;03 StB Neustadt ohne Leipziger Vorstadt;Einzelraumheizung;3,4
+2024;04 Leipziger Vorstadt, Pieschen;Fernheizung;37,1
+2024;04 Leipziger Vorstadt, Pieschen;Zentralheizung oder Etagenheizung;60,6
+2024;04 Leipziger Vorstadt, Pieschen;Einzelraumheizung;2,4
+2024;05 Mickten, Kaditz, Trachau;Fernheizung;40,6
+2024;05 Mickten, Kaditz, Trachau;Zentralheizung oder Etagenheizung;57,8
+2024;05 Mickten, Kaditz, Trachau;Einzelraumheizung;1,6
+2024;06 StB Klotzsche und nördliche OS;Fernheizung;27,4
+2024;06 StB Klotzsche und nördliche OS;Zentralheizung oder Etagenheizung;71,7
+2024;06 StB Klotzsche und nördliche OS;Einzelraumheizung;0,9
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;Fernheizung;11,1
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;Zentralheizung oder Etagenheizung;86,3
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;Einzelraumheizung;2,7
+2024;08 Blasewitz, Striesen;Fernheizung;56,7
+2024;08 Blasewitz, Striesen;Zentralheizung oder Etagenheizung;42,4
+2024;08 Blasewitz, Striesen;Einzelraumheizung;1
+2024;09 Tolkewitz, Seidnitz, Gruna;Fernheizung;69,8
+2024;09 Tolkewitz, Seidnitz, Gruna;Zentralheizung oder Etagenheizung;29
+2024;09 Tolkewitz, Seidnitz, Gruna;Einzelraumheizung;1,1
+2024;10 StB Leuben;Fernheizung;49,1
+2024;10 StB Leuben;Zentralheizung oder Etagenheizung;50,2
+2024;10 StB Leuben;Einzelraumheizung;0,6
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Fernheizung;77,4
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;18,4
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);Einzelraumheizung;4,2
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Fernheizung;31,6
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Zentralheizung oder Etagenheizung;65
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);Einzelraumheizung;3,5
+2024;13 Südvorstadt, Zschertnitz;Fernheizung;61,9
+2024;13 Südvorstadt, Zschertnitz;Zentralheizung oder Etagenheizung;35,7
+2024;13 Südvorstadt, Zschertnitz;Einzelraumheizung;2,4
+2024;14 Mockritz, Coschütz, Plauen;Fernheizung;32,8
+2024;14 Mockritz, Coschütz, Plauen;Zentralheizung oder Etagenheizung;66,7
+2024;14 Mockritz, Coschütz, Plauen;Einzelraumheizung;0,5
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;Fernheizung;33,2
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;Zentralheizung oder Etagenheizung;65,6
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;Einzelraumheizung;1,2
+2024;16 Gorbitz;Fernheizung;86,9
+2024;16 Gorbitz;Zentralheizung oder Etagenheizung;13,1
+2024;16 Gorbitz;Einzelraumheizung;0
+2024;17 Briesnitz und westliche OS;Fernheizung;26,3
+2024;17 Briesnitz und westliche OS;Zentralheizung oder Etagenheizung;71,6
+2024;17 Briesnitz und westliche OS;Einzelraumheizung;2,1
+2024;18 Dresden gesamt;Fernheizung;50,2
+2024;18 Dresden gesamt;Zentralheizung oder Etagenheizung;48,1
+2024;18 Dresden gesamt;Einzelraumheizung;1,7

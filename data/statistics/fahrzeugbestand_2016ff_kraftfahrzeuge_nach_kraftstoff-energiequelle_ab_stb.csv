@@ -1,0 +1,661 @@
+Jahr;Stadtbezirk mit zugeordneten Ortschaften;Kraftstoff_Energiequelle;Anzahl
+2016;StB 0 Altstadt;Benzin;13555
+2016;StB 0 Altstadt;Diesel;9312
+2016;StB 0 Altstadt;Elektro;112
+2016;StB 0 Altstadt;Hybrid;97
+2016;StB 0 Altstadt;Plug-In-Hybrid;36
+2016;StB 0 Altstadt;sonstige;212
+2016;StB 1 Neustadt;Benzin;9699
+2016;StB 1 Neustadt;Diesel;7984
+2016;StB 1 Neustadt;Elektro;12
+2016;StB 1 Neustadt;Hybrid;78
+2016;StB 1 Neustadt;Plug-In-Hybrid;19
+2016;StB 1 Neustadt;sonstige;237
+2016;StB 2 Pieschen;Benzin;14759
+2016;StB 2 Pieschen;Diesel;8509
+2016;StB 2 Pieschen;Elektro;25
+2016;StB 2 Pieschen;Hybrid;140
+2016;StB 2 Pieschen;Plug-In-Hybrid;8
+2016;StB 2 Pieschen;sonstige;309
+2016;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10800
+2016;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7178
+2016;StB 3 Klotzsche/nördliche Ortschaften;Elektro;25
+2016;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;69
+2016;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;4
+2016;StB 3 Klotzsche/nördliche Ortschaften;sonstige;220
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11592
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6671
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;15
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;99
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;5
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;190
+2016;StB 5 Blasewitz;Benzin;26135
+2016;StB 5 Blasewitz;Diesel;10310
+2016;StB 5 Blasewitz;Elektro;13
+2016;StB 5 Blasewitz;Hybrid;225
+2016;StB 5 Blasewitz;Plug-In-Hybrid;10
+2016;StB 5 Blasewitz;sonstige;254
+2016;StB 6 Leuben;Benzin;13265
+2016;StB 6 Leuben;Diesel;5223
+2016;StB 6 Leuben;Elektro;4
+2016;StB 6 Leuben;Hybrid;97
+2016;StB 6 Leuben;Plug-In-Hybrid;3
+2016;StB 6 Leuben;sonstige;116
+2016;StB 7 Prohlis;Benzin;17506
+2016;StB 7 Prohlis;Diesel;7682
+2016;StB 7 Prohlis;Elektro;14
+2016;StB 7 Prohlis;Hybrid;192
+2016;StB 7 Prohlis;Plug-In-Hybrid;8
+2016;StB 7 Prohlis;sonstige;192
+2016;StB 8 Plauen;Benzin;14543
+2016;StB 8 Plauen;Diesel;7593
+2016;StB 8 Plauen;Elektro;20
+2016;StB 8 Plauen;Hybrid;186
+2016;StB 8 Plauen;Plug-In-Hybrid;16
+2016;StB 8 Plauen;sonstige;186
+2016;StB 9 Cotta/westliche Ortschaften;Benzin;25071
+2016;StB 9 Cotta/westliche Ortschaften;Diesel;11116
+2016;StB 9 Cotta/westliche Ortschaften;Elektro;11
+2016;StB 9 Cotta/westliche Ortschaften;Hybrid;163
+2016;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;15
+2016;StB 9 Cotta/westliche Ortschaften;sonstige;444
+2016;unbekannt;Benzin;37
+2016;unbekannt;Diesel;45
+2016;unbekannt;Elektro;0
+2016;unbekannt;Hybrid;0
+2016;unbekannt;Plug-In-Hybrid;0
+2016;unbekannt;sonstige;0
+2017;StB 0 Altstadt;Benzin;13580
+2017;StB 0 Altstadt;Diesel;9463
+2017;StB 0 Altstadt;Elektro;168
+2017;StB 0 Altstadt;Hybrid;129
+2017;StB 0 Altstadt;Plug-In-Hybrid;62
+2017;StB 0 Altstadt;sonstige;207
+2017;StB 1 Neustadt;Benzin;9745
+2017;StB 1 Neustadt;Diesel;8117
+2017;StB 1 Neustadt;Elektro;17
+2017;StB 1 Neustadt;Hybrid;100
+2017;StB 1 Neustadt;Plug-In-Hybrid;31
+2017;StB 1 Neustadt;sonstige;225
+2017;StB 2 Pieschen;Benzin;14733
+2017;StB 2 Pieschen;Diesel;8849
+2017;StB 2 Pieschen;Elektro;26
+2017;StB 2 Pieschen;Hybrid;180
+2017;StB 2 Pieschen;Plug-In-Hybrid;11
+2017;StB 2 Pieschen;sonstige;287
+2017;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10924
+2017;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7408
+2017;StB 3 Klotzsche/nördliche Ortschaften;Elektro;28
+2017;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;88
+2017;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;12
+2017;StB 3 Klotzsche/nördliche Ortschaften;sonstige;215
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11619
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6746
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;23
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;123
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;16
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;174
+2017;StB 5 Blasewitz;Benzin;26310
+2017;StB 5 Blasewitz;Diesel;10480
+2017;StB 5 Blasewitz;Elektro;22
+2017;StB 5 Blasewitz;Hybrid;271
+2017;StB 5 Blasewitz;Plug-In-Hybrid;13
+2017;StB 5 Blasewitz;sonstige;239
+2017;StB 6 Leuben;Benzin;13241
+2017;StB 6 Leuben;Diesel;5291
+2017;StB 6 Leuben;Elektro;4
+2017;StB 6 Leuben;Hybrid;123
+2017;StB 6 Leuben;Plug-In-Hybrid;9
+2017;StB 6 Leuben;sonstige;118
+2017;StB 7 Prohlis;Benzin;17592
+2017;StB 7 Prohlis;Diesel;7902
+2017;StB 7 Prohlis;Elektro;21
+2017;StB 7 Prohlis;Hybrid;254
+2017;StB 7 Prohlis;Plug-In-Hybrid;20
+2017;StB 7 Prohlis;sonstige;174
+2017;StB 8 Plauen;Benzin;14559
+2017;StB 8 Plauen;Diesel;7644
+2017;StB 8 Plauen;Elektro;24
+2017;StB 8 Plauen;Hybrid;262
+2017;StB 8 Plauen;Plug-In-Hybrid;27
+2017;StB 8 Plauen;sonstige;169
+2017;StB 9 Cotta/westliche Ortschaften;Benzin;25355
+2017;StB 9 Cotta/westliche Ortschaften;Diesel;11237
+2017;StB 9 Cotta/westliche Ortschaften;Elektro;14
+2017;StB 9 Cotta/westliche Ortschaften;Hybrid;201
+2017;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;29
+2017;StB 9 Cotta/westliche Ortschaften;sonstige;414
+2017;unbekannt;Benzin;39
+2017;unbekannt;Diesel;73
+2017;unbekannt;Elektro;3
+2017;unbekannt;Hybrid;0
+2017;unbekannt;Plug-In-Hybrid;0
+2017;unbekannt;sonstige;1
+2018;StB 0 Altstadt;Benzin;13620
+2018;StB 0 Altstadt;Diesel;9406
+2018;StB 0 Altstadt;Elektro;178
+2018;StB 0 Altstadt;Hybrid;209
+2018;StB 0 Altstadt;Plug-In-Hybrid;65
+2018;StB 0 Altstadt;sonstige;196
+2018;StB 1 Neustadt;Benzin;9877
+2018;StB 1 Neustadt;Diesel;8268
+2018;StB 1 Neustadt;Elektro;26
+2018;StB 1 Neustadt;Hybrid;143
+2018;StB 1 Neustadt;Plug-In-Hybrid;30
+2018;StB 1 Neustadt;sonstige;224
+2018;StB 2 Pieschen;Benzin;14837
+2018;StB 2 Pieschen;Diesel;9019
+2018;StB 2 Pieschen;Elektro;37
+2018;StB 2 Pieschen;Hybrid;214
+2018;StB 2 Pieschen;Plug-In-Hybrid;18
+2018;StB 2 Pieschen;sonstige;276
+2018;StB 3 Klotzsche/nördliche Ortschaften;Benzin;11015
+2018;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7512
+2018;StB 3 Klotzsche/nördliche Ortschaften;Elektro;31
+2018;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;116
+2018;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;16
+2018;StB 3 Klotzsche/nördliche Ortschaften;sonstige;199
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11813
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6784
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;38
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;161
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;26
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;171
+2018;StB 5 Blasewitz;Benzin;26539
+2018;StB 5 Blasewitz;Diesel;10496
+2018;StB 5 Blasewitz;Elektro;32
+2018;StB 5 Blasewitz;Hybrid;354
+2018;StB 5 Blasewitz;Plug-In-Hybrid;27
+2018;StB 5 Blasewitz;sonstige;237
+2018;StB 6 Leuben;Benzin;13247
+2018;StB 6 Leuben;Diesel;5278
+2018;StB 6 Leuben;Elektro;6
+2018;StB 6 Leuben;Hybrid;157
+2018;StB 6 Leuben;Plug-In-Hybrid;10
+2018;StB 6 Leuben;sonstige;129
+2018;StB 7 Prohlis;Benzin;17419
+2018;StB 7 Prohlis;Diesel;7801
+2018;StB 7 Prohlis;Elektro;27
+2018;StB 7 Prohlis;Hybrid;309
+2018;StB 7 Prohlis;Plug-In-Hybrid;28
+2018;StB 7 Prohlis;sonstige;172
+2018;StB 8 Plauen;Benzin;14605
+2018;StB 8 Plauen;Diesel;7644
+2018;StB 8 Plauen;Elektro;74
+2018;StB 8 Plauen;Hybrid;403
+2018;StB 8 Plauen;Plug-In-Hybrid;35
+2018;StB 8 Plauen;sonstige;167
+2018;StB 9 Cotta/westliche Ortschaften;Benzin;25568
+2018;StB 9 Cotta/westliche Ortschaften;Diesel;11340
+2018;StB 9 Cotta/westliche Ortschaften;Elektro;36
+2018;StB 9 Cotta/westliche Ortschaften;Hybrid;273
+2018;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;25
+2018;StB 9 Cotta/westliche Ortschaften;sonstige;394
+2018;unbekannt;Benzin;32
+2018;unbekannt;Diesel;59
+2018;unbekannt;Elektro;1
+2018;unbekannt;Hybrid;0
+2018;unbekannt;Plug-In-Hybrid;1
+2018;unbekannt;sonstige;1
+2019;StB 0 Altstadt;Benzin;13834
+2019;StB 0 Altstadt;Diesel;9396
+2019;StB 0 Altstadt;Elektro;236
+2019;StB 0 Altstadt;Hybrid;326
+2019;StB 0 Altstadt;Plug-In-Hybrid;79
+2019;StB 0 Altstadt;sonstige;178
+2019;StB 1 Neustadt;Benzin;9891
+2019;StB 1 Neustadt;Diesel;8458
+2019;StB 1 Neustadt;Elektro;48
+2019;StB 1 Neustadt;Hybrid;224
+2019;StB 1 Neustadt;Plug-In-Hybrid;56
+2019;StB 1 Neustadt;sonstige;223
+2019;StB 2 Pieschen;Benzin;14824
+2019;StB 2 Pieschen;Diesel;9201
+2019;StB 2 Pieschen;Elektro;51
+2019;StB 2 Pieschen;Hybrid;266
+2019;StB 2 Pieschen;Plug-In-Hybrid;26
+2019;StB 2 Pieschen;sonstige;280
+2019;StB 3 Klotzsche/nördliche Ortschaften;Benzin;11056
+2019;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7610
+2019;StB 3 Klotzsche/nördliche Ortschaften;Elektro;41
+2019;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;195
+2019;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;33
+2019;StB 3 Klotzsche/nördliche Ortschaften;sonstige;197
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11823
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6851
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;65
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;215
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;34
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;164
+2019;StB 5 Blasewitz;Benzin;26596
+2019;StB 5 Blasewitz;Diesel;10465
+2019;StB 5 Blasewitz;Elektro;43
+2019;StB 5 Blasewitz;Hybrid;516
+2019;StB 5 Blasewitz;Plug-In-Hybrid;45
+2019;StB 5 Blasewitz;sonstige;220
+2019;StB 6 Leuben;Benzin;13376
+2019;StB 6 Leuben;Diesel;5461
+2019;StB 6 Leuben;Elektro;13
+2019;StB 6 Leuben;Hybrid;239
+2019;StB 6 Leuben;Plug-In-Hybrid;17
+2019;StB 6 Leuben;sonstige;119
+2019;StB 7 Prohlis;Benzin;17501
+2019;StB 7 Prohlis;Diesel;7859
+2019;StB 7 Prohlis;Elektro;40
+2019;StB 7 Prohlis;Hybrid;417
+2019;StB 7 Prohlis;Plug-In-Hybrid;48
+2019;StB 7 Prohlis;sonstige;178
+2019;StB 8 Plauen;Benzin;14823
+2019;StB 8 Plauen;Diesel;7747
+2019;StB 8 Plauen;Elektro;93
+2019;StB 8 Plauen;Hybrid;476
+2019;StB 8 Plauen;Plug-In-Hybrid;47
+2019;StB 8 Plauen;sonstige;165
+2019;StB 9 Cotta/westliche Ortschaften;Benzin;25542
+2019;StB 9 Cotta/westliche Ortschaften;Diesel;11558
+2019;StB 9 Cotta/westliche Ortschaften;Elektro;80
+2019;StB 9 Cotta/westliche Ortschaften;Hybrid;377
+2019;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;35
+2019;StB 9 Cotta/westliche Ortschaften;sonstige;358
+2019;unbekannt;Benzin;60
+2019;unbekannt;Diesel;59
+2019;unbekannt;Elektro;1
+2019;unbekannt;Hybrid;0
+2019;unbekannt;Plug-In-Hybrid;1
+2019;unbekannt;sonstige;1
+2020;StB 0 Altstadt;Benzin;13934
+2020;StB 0 Altstadt;Diesel;9335
+2020;StB 0 Altstadt;Elektro;309
+2020;StB 0 Altstadt;Hybrid;496
+2020;StB 0 Altstadt;Plug-In-Hybrid;182
+2020;StB 0 Altstadt;sonstige;162
+2020;StB 1 Neustadt;Benzin;9961
+2020;StB 1 Neustadt;Diesel;8617
+2020;StB 1 Neustadt;Elektro;95
+2020;StB 1 Neustadt;Hybrid;365
+2020;StB 1 Neustadt;Plug-In-Hybrid;128
+2020;StB 1 Neustadt;sonstige;218
+2020;StB 2 Pieschen;Benzin;14811
+2020;StB 2 Pieschen;Diesel;9353
+2020;StB 2 Pieschen;Elektro;124
+2020;StB 2 Pieschen;Hybrid;402
+2020;StB 2 Pieschen;Plug-In-Hybrid;82
+2020;StB 2 Pieschen;sonstige;286
+2020;StB 3 Klotzsche/nördliche Ortschaften;Benzin;11078
+2020;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7652
+2020;StB 3 Klotzsche/nördliche Ortschaften;Elektro;80
+2020;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;324
+2020;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;126
+2020;StB 3 Klotzsche/nördliche Ortschaften;sonstige;173
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11868
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6966
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;94
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;312
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;84
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;153
+2020;StB 5 Blasewitz;Benzin;26643
+2020;StB 5 Blasewitz;Diesel;10437
+2020;StB 5 Blasewitz;Elektro;107
+2020;StB 5 Blasewitz;Hybrid;726
+2020;StB 5 Blasewitz;Plug-In-Hybrid;142
+2020;StB 5 Blasewitz;sonstige;213
+2020;StB 6 Leuben;Benzin;13263
+2020;StB 6 Leuben;Diesel;5596
+2020;StB 6 Leuben;Elektro;40
+2020;StB 6 Leuben;Hybrid;320
+2020;StB 6 Leuben;Plug-In-Hybrid;58
+2020;StB 6 Leuben;sonstige;113
+2020;StB 7 Prohlis;Benzin;17445
+2020;StB 7 Prohlis;Diesel;8077
+2020;StB 7 Prohlis;Elektro;116
+2020;StB 7 Prohlis;Hybrid;572
+2020;StB 7 Prohlis;Plug-In-Hybrid;238
+2020;StB 7 Prohlis;sonstige;167
+2020;StB 8 Plauen;Benzin;14569
+2020;StB 8 Plauen;Diesel;7869
+2020;StB 8 Plauen;Elektro;182
+2020;StB 8 Plauen;Hybrid;676
+2020;StB 8 Plauen;Plug-In-Hybrid;122
+2020;StB 8 Plauen;sonstige;147
+2020;StB 9 Cotta/westliche Ortschaften;Benzin;25518
+2020;StB 9 Cotta/westliche Ortschaften;Diesel;11850
+2020;StB 9 Cotta/westliche Ortschaften;Elektro;145
+2020;StB 9 Cotta/westliche Ortschaften;Hybrid;607
+2020;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;108
+2020;StB 9 Cotta/westliche Ortschaften;sonstige;331
+2020;unbekannt;Benzin;61
+2020;unbekannt;Diesel;66
+2020;unbekannt;Elektro;1
+2020;unbekannt;Hybrid;5
+2020;unbekannt;Plug-In-Hybrid;0
+2020;unbekannt;sonstige;1
+2021;StB 0 Altstadt;Benzin;13640
+2021;StB 0 Altstadt;Diesel;9294
+2021;StB 0 Altstadt;Elektro;439
+2021;StB 0 Altstadt;Hybrid;704
+2021;StB 0 Altstadt;Plug-In-Hybrid;356
+2021;StB 0 Altstadt;sonstige;155
+2021;StB 1 Neustadt;Benzin;9726
+2021;StB 1 Neustadt;Diesel;8731
+2021;StB 1 Neustadt;Elektro;156
+2021;StB 1 Neustadt;Hybrid;466
+2021;StB 1 Neustadt;Plug-In-Hybrid;251
+2021;StB 1 Neustadt;sonstige;216
+2021;StB 2 Pieschen;Benzin;14717
+2021;StB 2 Pieschen;Diesel;9417
+2021;StB 2 Pieschen;Elektro;222
+2021;StB 2 Pieschen;Hybrid;566
+2021;StB 2 Pieschen;Plug-In-Hybrid;189
+2021;StB 2 Pieschen;sonstige;265
+2021;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10877
+2021;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7729
+2021;StB 3 Klotzsche/nördliche Ortschaften;Elektro;182
+2021;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;440
+2021;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;248
+2021;StB 3 Klotzsche/nördliche Ortschaften;sonstige;177
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11710
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6944
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;217
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;449
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;155
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;151
+2021;StB 5 Blasewitz;Benzin;26169
+2021;StB 5 Blasewitz;Diesel;10400
+2021;StB 5 Blasewitz;Elektro;219
+2021;StB 5 Blasewitz;Hybrid;1028
+2021;StB 5 Blasewitz;Plug-In-Hybrid;334
+2021;StB 5 Blasewitz;sonstige;212
+2021;StB 6 Leuben;Benzin;12997
+2021;StB 6 Leuben;Diesel;5526
+2021;StB 6 Leuben;Elektro;102
+2021;StB 6 Leuben;Hybrid;435
+2021;StB 6 Leuben;Plug-In-Hybrid;113
+2021;StB 6 Leuben;sonstige;113
+2021;StB 7 Prohlis;Benzin;17087
+2021;StB 7 Prohlis;Diesel;8003
+2021;StB 7 Prohlis;Elektro;259
+2021;StB 7 Prohlis;Hybrid;789
+2021;StB 7 Prohlis;Plug-In-Hybrid;308
+2021;StB 7 Prohlis;sonstige;167
+2021;StB 8 Plauen;Benzin;14238
+2021;StB 8 Plauen;Diesel;7776
+2021;StB 8 Plauen;Elektro;175
+2021;StB 8 Plauen;Hybrid;983
+2021;StB 8 Plauen;Plug-In-Hybrid;237
+2021;StB 8 Plauen;sonstige;149
+2021;StB 9 Cotta/westliche Ortschaften;Benzin;25092
+2021;StB 9 Cotta/westliche Ortschaften;Diesel;11890
+2021;StB 9 Cotta/westliche Ortschaften;Elektro;259
+2021;StB 9 Cotta/westliche Ortschaften;Hybrid;905
+2021;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;278
+2021;StB 9 Cotta/westliche Ortschaften;sonstige;303
+2021;unbekannt;Benzin;78
+2021;unbekannt;Diesel;79
+2021;unbekannt;Elektro;1
+2021;unbekannt;Hybrid;7
+2021;unbekannt;Plug-In-Hybrid;0
+2021;unbekannt;sonstige;2
+2022;StB 0 Altstadt;Benzin;13410
+2022;StB 0 Altstadt;Diesel;9155
+2022;StB 0 Altstadt;Elektro;571
+2022;StB 0 Altstadt;Hybrid;975
+2022;StB 0 Altstadt;Plug-In-Hybrid;516
+2022;StB 0 Altstadt;sonstige;152
+2022;StB 1 Neustadt;Benzin;9429
+2022;StB 1 Neustadt;Diesel;8905
+2022;StB 1 Neustadt;Elektro;251
+2022;StB 1 Neustadt;Hybrid;555
+2022;StB 1 Neustadt;Plug-In-Hybrid;352
+2022;StB 1 Neustadt;sonstige;219
+2022;StB 2 Pieschen;Benzin;14451
+2022;StB 2 Pieschen;Diesel;9140
+2022;StB 2 Pieschen;Elektro;334
+2022;StB 2 Pieschen;Hybrid;852
+2022;StB 2 Pieschen;Plug-In-Hybrid;252
+2022;StB 2 Pieschen;sonstige;257
+2022;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10696
+2022;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7612
+2022;StB 3 Klotzsche/nördliche Ortschaften;Elektro;303
+2022;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;586
+2022;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;379
+2022;StB 3 Klotzsche/nördliche Ortschaften;sonstige;178
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11453
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6856
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;293
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;567
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;214
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;146
+2022;StB 5 Blasewitz;Benzin;25569
+2022;StB 5 Blasewitz;Diesel;10158
+2022;StB 5 Blasewitz;Elektro;364
+2022;StB 5 Blasewitz;Hybrid;1292
+2022;StB 5 Blasewitz;Plug-In-Hybrid;496
+2022;StB 5 Blasewitz;sonstige;213
+2022;StB 6 Leuben;Benzin;12565
+2022;StB 6 Leuben;Diesel;5496
+2022;StB 6 Leuben;Elektro;145
+2022;StB 6 Leuben;Hybrid;573
+2022;StB 6 Leuben;Plug-In-Hybrid;178
+2022;StB 6 Leuben;sonstige;104
+2022;StB 7 Prohlis;Benzin;16721
+2022;StB 7 Prohlis;Diesel;7971
+2022;StB 7 Prohlis;Elektro;315
+2022;StB 7 Prohlis;Hybrid;1024
+2022;StB 7 Prohlis;Plug-In-Hybrid;442
+2022;StB 7 Prohlis;sonstige;169
+2022;StB 8 Plauen;Benzin;13854
+2022;StB 8 Plauen;Diesel;7452
+2022;StB 8 Plauen;Elektro;264
+2022;StB 8 Plauen;Hybrid;997
+2022;StB 8 Plauen;Plug-In-Hybrid;339
+2022;StB 8 Plauen;sonstige;165
+2022;StB 9 Cotta/westliche Ortschaften;Benzin;24449
+2022;StB 9 Cotta/westliche Ortschaften;Diesel;11621
+2022;StB 9 Cotta/westliche Ortschaften;Elektro;367
+2022;StB 9 Cotta/westliche Ortschaften;Hybrid;1326
+2022;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;420
+2022;StB 9 Cotta/westliche Ortschaften;sonstige;294
+2022;unbekannt;Benzin;95
+2022;unbekannt;Diesel;83
+2022;unbekannt;Elektro;1
+2022;unbekannt;Hybrid;9
+2022;unbekannt;Plug-In-Hybrid;1
+2022;unbekannt;sonstige;2
+2023;StB 0 Altstadt;Benzin;13190
+2023;StB 0 Altstadt;Diesel;8932
+2023;StB 0 Altstadt;Elektro;767
+2023;StB 0 Altstadt;Hybrid;1304
+2023;StB 0 Altstadt;Plug-In-Hybrid;541
+2023;StB 0 Altstadt;sonstige;138
+2023;StB 1 Neustadt;Benzin;9289
+2023;StB 1 Neustadt;Diesel;9030
+2023;StB 1 Neustadt;Elektro;379
+2023;StB 1 Neustadt;Hybrid;702
+2023;StB 1 Neustadt;Plug-In-Hybrid;374
+2023;StB 1 Neustadt;sonstige;207
+2023;StB 2 Pieschen;Benzin;14214
+2023;StB 2 Pieschen;Diesel;8971
+2023;StB 2 Pieschen;Elektro;425
+2023;StB 2 Pieschen;Hybrid;997
+2023;StB 2 Pieschen;Plug-In-Hybrid;401
+2023;StB 2 Pieschen;sonstige;236
+2023;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10575
+2023;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7608
+2023;StB 3 Klotzsche/nördliche Ortschaften;Elektro;434
+2023;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;813
+2023;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;411
+2023;StB 3 Klotzsche/nördliche Ortschaften;sonstige;183
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11230
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6775
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;437
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;725
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;237
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;144
+2023;StB 5 Blasewitz;Benzin;24867
+2023;StB 5 Blasewitz;Diesel;9936
+2023;StB 5 Blasewitz;Elektro;511
+2023;StB 5 Blasewitz;Hybrid;1689
+2023;StB 5 Blasewitz;Plug-In-Hybrid;542
+2023;StB 5 Blasewitz;sonstige;202
+2023;StB 6 Leuben;Benzin;12375
+2023;StB 6 Leuben;Diesel;5381
+2023;StB 6 Leuben;Elektro;214
+2023;StB 6 Leuben;Hybrid;752
+2023;StB 6 Leuben;Plug-In-Hybrid;209
+2023;StB 6 Leuben;sonstige;108
+2023;StB 7 Prohlis;Benzin;16409
+2023;StB 7 Prohlis;Diesel;7800
+2023;StB 7 Prohlis;Elektro;504
+2023;StB 7 Prohlis;Hybrid;1280
+2023;StB 7 Prohlis;Plug-In-Hybrid;425
+2023;StB 7 Prohlis;sonstige;162
+2023;StB 8 Plauen;Benzin;13468
+2023;StB 8 Plauen;Diesel;7324
+2023;StB 8 Plauen;Elektro;417
+2023;StB 8 Plauen;Hybrid;1166
+2023;StB 8 Plauen;Plug-In-Hybrid;368
+2023;StB 8 Plauen;sonstige;161
+2023;StB 9 Cotta/westliche Ortschaften;Benzin;23926
+2023;StB 9 Cotta/westliche Ortschaften;Diesel;11447
+2023;StB 9 Cotta/westliche Ortschaften;Elektro;547
+2023;StB 9 Cotta/westliche Ortschaften;Hybrid;1659
+2023;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;462
+2023;StB 9 Cotta/westliche Ortschaften;sonstige;280
+2023;unbekannt;Benzin;141
+2023;unbekannt;Diesel;102
+2023;unbekannt;Elektro;2
+2023;unbekannt;Hybrid;14
+2023;unbekannt;Plug-In-Hybrid;1
+2023;unbekannt;sonstige;2
+2024;StB 0 Altstadt;Benzin;12502
+2024;StB 0 Altstadt;Diesel;8121
+2024;StB 0 Altstadt;Elektro;743
+2024;StB 0 Altstadt;Hybrid;1650
+2024;StB 0 Altstadt;Plug-In-Hybrid;567
+2024;StB 0 Altstadt;sonstige;124
+2024;StB 1 Neustadt;Benzin;9316
+2024;StB 1 Neustadt;Diesel;9316
+2024;StB 1 Neustadt;Elektro;512
+2024;StB 1 Neustadt;Hybrid;905
+2024;StB 1 Neustadt;Plug-In-Hybrid;376
+2024;StB 1 Neustadt;sonstige;192
+2024;StB 2 Pieschen;Benzin;14026
+2024;StB 2 Pieschen;Diesel;8796
+2024;StB 2 Pieschen;Elektro;523
+2024;StB 2 Pieschen;Hybrid;1278
+2024;StB 2 Pieschen;Plug-In-Hybrid;419
+2024;StB 2 Pieschen;sonstige;233
+2024;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10333
+2024;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7452
+2024;StB 3 Klotzsche/nördliche Ortschaften;Elektro;508
+2024;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;1046
+2024;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;414
+2024;StB 3 Klotzsche/nördliche Ortschaften;sonstige;178
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;11066
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6675
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;498
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;947
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;271
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;153
+2024;StB 5 Blasewitz;Benzin;24362
+2024;StB 5 Blasewitz;Diesel;9765
+2024;StB 5 Blasewitz;Elektro;603
+2024;StB 5 Blasewitz;Hybrid;2126
+2024;StB 5 Blasewitz;Plug-In-Hybrid;517
+2024;StB 5 Blasewitz;sonstige;199
+2024;StB 6 Leuben;Benzin;12047
+2024;StB 6 Leuben;Diesel;5289
+2024;StB 6 Leuben;Elektro;253
+2024;StB 6 Leuben;Hybrid;972
+2024;StB 6 Leuben;Plug-In-Hybrid;216
+2024;StB 6 Leuben;sonstige;105
+2024;StB 7 Prohlis;Benzin;16059
+2024;StB 7 Prohlis;Diesel;7679
+2024;StB 7 Prohlis;Elektro;559
+2024;StB 7 Prohlis;Hybrid;1498
+2024;StB 7 Prohlis;Plug-In-Hybrid;395
+2024;StB 7 Prohlis;sonstige;148
+2024;StB 8 Plauen;Benzin;13397
+2024;StB 8 Plauen;Diesel;7894
+2024;StB 8 Plauen;Elektro;720
+2024;StB 8 Plauen;Hybrid;1390
+2024;StB 8 Plauen;Plug-In-Hybrid;432
+2024;StB 8 Plauen;sonstige;160
+2024;StB 9 Cotta/westliche Ortschaften;Benzin;23669
+2024;StB 9 Cotta/westliche Ortschaften;Diesel;11150
+2024;StB 9 Cotta/westliche Ortschaften;Elektro;660
+2024;StB 9 Cotta/westliche Ortschaften;Hybrid;2125
+2024;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;494
+2024;StB 9 Cotta/westliche Ortschaften;sonstige;273
+2024;unbekannt;Benzin;179
+2024;unbekannt;Diesel;121
+2024;unbekannt;Elektro;10
+2024;unbekannt;Hybrid;28
+2024;unbekannt;Plug-In-Hybrid;3
+2024;unbekannt;sonstige;2
+2025;StB 0 Altstadt;Benzin;12297
+2025;StB 0 Altstadt;Diesel;8121
+2025;StB 0 Altstadt;Elektro;877
+2025;StB 0 Altstadt;Hybrid;1996
+2025;StB 0 Altstadt;Plug-In-Hybrid;636
+2025;StB 0 Altstadt;sonstige;127
+2025;StB 1 Neustadt;Benzin;9200
+2025;StB 1 Neustadt;Diesel;9399
+2025;StB 1 Neustadt;Elektro;644
+2025;StB 1 Neustadt;Hybrid;1058
+2025;StB 1 Neustadt;Plug-In-Hybrid;431
+2025;StB 1 Neustadt;sonstige;178
+2025;StB 2 Pieschen;Benzin;13656
+2025;StB 2 Pieschen;Diesel;8717
+2025;StB 2 Pieschen;Elektro;650
+2025;StB 2 Pieschen;Hybrid;1489
+2025;StB 2 Pieschen;Plug-In-Hybrid;411
+2025;StB 2 Pieschen;sonstige;212
+2025;StB 3 Klotzsche/nördliche Ortschaften;Benzin;10103
+2025;StB 3 Klotzsche/nördliche Ortschaften;Diesel;7282
+2025;StB 3 Klotzsche/nördliche Ortschaften;Elektro;653
+2025;StB 3 Klotzsche/nördliche Ortschaften;Hybrid;1239
+2025;StB 3 Klotzsche/nördliche Ortschaften;Plug-In-Hybrid;487
+2025;StB 3 Klotzsche/nördliche Ortschaften;sonstige;161
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Benzin;10817
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Diesel;6503
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Elektro;641
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Hybrid;1163
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Plug-In-Hybrid;319
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;sonstige;134
+2025;StB 5 Blasewitz;Benzin;23609
+2025;StB 5 Blasewitz;Diesel;9536
+2025;StB 5 Blasewitz;Elektro;763
+2025;StB 5 Blasewitz;Hybrid;2651
+2025;StB 5 Blasewitz;Plug-In-Hybrid;591
+2025;StB 5 Blasewitz;sonstige;195
+2025;StB 6 Leuben;Benzin;11764
+2025;StB 6 Leuben;Diesel;5256
+2025;StB 6 Leuben;Elektro;333
+2025;StB 6 Leuben;Hybrid;1200
+2025;StB 6 Leuben;Plug-In-Hybrid;272
+2025;StB 6 Leuben;sonstige;114
+2025;StB 7 Prohlis;Benzin;15710
+2025;StB 7 Prohlis;Diesel;7514
+2025;StB 7 Prohlis;Elektro;626
+2025;StB 7 Prohlis;Hybrid;1898
+2025;StB 7 Prohlis;Plug-In-Hybrid;432
+2025;StB 7 Prohlis;sonstige;139
+2025;StB 8 Plauen;Benzin;12971
+2025;StB 8 Plauen;Diesel;7764
+2025;StB 8 Plauen;Elektro;887
+2025;StB 8 Plauen;Hybrid;1682
+2025;StB 8 Plauen;Plug-In-Hybrid;542
+2025;StB 8 Plauen;sonstige;161
+2025;StB 9 Cotta/westliche Ortschaften;Benzin;23264
+2025;StB 9 Cotta/westliche Ortschaften;Diesel;10882
+2025;StB 9 Cotta/westliche Ortschaften;Elektro;902
+2025;StB 9 Cotta/westliche Ortschaften;Hybrid;2540
+2025;StB 9 Cotta/westliche Ortschaften;Plug-In-Hybrid;583
+2025;StB 9 Cotta/westliche Ortschaften;sonstige;262
+2025;unbekannt;Benzin;189
+2025;unbekannt;Diesel;122
+2025;unbekannt;Elektro;12
+2025;unbekannt;Hybrid;41
+2025;unbekannt;Plug-In-Hybrid;3
+2025;unbekannt;sonstige;2

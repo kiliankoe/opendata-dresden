@@ -1,0 +1,217 @@
+Jahr;Stadtraum;Note für Wohnung;Note für Wohngegend;Note für Stadt
+1995;01 StB Altstadt ohne Johannstadt;2,3;2,3;1,9
+1995;02 Johannstadt;2,4;2,1;1,8
+1995;03 StB Neustadt ohne Leipziger Vorstadt;2,7;2,4;2,1
+1995;04 Leipziger Vorstadt, Pieschen;2,8;2,6;2
+1995;05 Mickten, Kaditz, Trachau;2,4;2,1;1,9
+1995;06 StB Klotzsche und nördliche OS;2,2;1,9;2
+1995;07 StB Loschwitz und OS Schönfeld-Weißig;2,2;1,5;1,9
+1995;08 Blasewitz, Striesen;2,5;1,8;1,9
+1995;09 Tolkewitz, Seidnitz, Gruna;2,4;2;1,9
+1995;10 StB Leuben;2,3;2;2
+1995;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,5;2,9;2,1
+1995;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2,2;1,9;2
+1995;13 Südvorstadt, Zschertnitz;2,4;2,1;1,9
+1995;14 Mockritz, Coschütz, Plauen;2,3;1,9;1,9
+1995;15 Cotta, Löbtau, Naußlitz, Dölzschen;2,6;2,2;2
+1995;16 Gorbitz;2,4;2,8;2
+1995;17 Briesnitz und westliche OS;2,1;1,9;2
+1995;18 Dresden gesamt;2,4;2,2;2
+1996;01 StB Altstadt ohne Johannstadt;2,2;2,4;2,1
+1996;02 Johannstadt;2,3;2,2;2
+1996;03 StB Neustadt ohne Leipziger Vorstadt;2,6;2,3;2,1
+1996;04 Leipziger Vorstadt, Pieschen;2,6;2,5;2,2
+1996;05 Mickten, Kaditz, Trachau;2,3;2,2;2,1
+1996;06 StB Klotzsche und nördliche OS;2;2;2,3
+1996;07 StB Loschwitz und OS Schönfeld-Weißig;2;1,8;2,3
+1996;08 Blasewitz, Striesen;2,3;1,9;2
+1996;09 Tolkewitz, Seidnitz, Gruna;2,5;2,2;2,1
+1996;10 StB Leuben;2,3;1,9;2,1
+1996;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,5;2,9;2,1
+1996;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);2,2;2;2,2
+1996;13 Südvorstadt, Zschertnitz;2,3;2,1;2,1
+1996;14 Mockritz, Coschütz, Plauen;2,1;1,9;2,3
+1996;15 Cotta, Löbtau, Naußlitz, Dölzschen;2,3;2,3;2,2
+1996;16 Gorbitz;2,4;2,7;2,1
+1996;17 Briesnitz und westliche OS;2,3;1,8;1,9
+1996;18 Dresden gesamt;2,3;2,2;2,1
+2002;01 StB Altstadt ohne Johannstadt;2,2;2,3;2,2
+2002;02 Johannstadt;2,1;2,2;2
+2002;03 StB Neustadt ohne Leipziger Vorstadt;2;2;2,1
+2002;04 Leipziger Vorstadt, Pieschen;1,9;2,5;2,2
+2002;05 Mickten, Kaditz, Trachau;1,9;2,1;2,1
+2002;06 StB Klotzsche und nördliche OS;1,8;1,9;2,4
+2002;07 StB Loschwitz und OS Schönfeld-Weißig;1,6;1,6;2,3
+2002;08 Blasewitz, Striesen;1,9;1,7;2,1
+2002;09 Tolkewitz, Seidnitz, Gruna;1,9;1,9;2,1
+2002;10 StB Leuben;2;1,8;2,2
+2002;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,3;2,7;2,1
+2002;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;2;2,1
+2002;13 Südvorstadt, Zschertnitz;2;2;2,1
+2002;14 Mockritz, Coschütz, Plauen;1,9;1,8;2,2
+2002;15 Cotta, Löbtau, Naußlitz, Dölzschen;2,1;2,2;2,2
+2002;16 Gorbitz;2,2;2,4;2,1
+2002;17 Briesnitz und westliche OS;1,7;1,8;2,3
+2002;18 Dresden gesamt;1,9;2;2,2
+2007;01 StB Altstadt ohne Johannstadt;2,1;2,2;1,9
+2007;02 Johannstadt;2;2;2
+2007;03 StB Neustadt ohne Leipziger Vorstadt;2,1;1,9;2
+2007;04 Leipziger Vorstadt, Pieschen;2,1;2,2;1,9
+2007;05 Mickten, Kaditz, Trachau;1,9;1,9;1,9
+2007;06 StB Klotzsche und nördliche OS;1,8;1,7;2,2
+2007;07 StB Loschwitz und OS Schönfeld-Weißig;1,7;1,6;2,2
+2007;08 Blasewitz, Striesen;1,9;1,7;1,9
+2007;09 Tolkewitz, Seidnitz, Gruna;2,1;1,9;2
+2007;10 StB Leuben;1,9;1,7;2
+2007;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,1;2,4;2
+2007;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;1,9;2
+2007;13 Südvorstadt, Zschertnitz;2;1,9;1,8
+2007;14 Mockritz, Coschütz, Plauen;1,8;1,6;1,9
+2007;15 Cotta, Löbtau, Naußlitz, Dölzschen;2;2,1;2
+2007;16 Gorbitz;2,2;2,4;1,9
+2007;17 Briesnitz und westliche OS;1,7;1,7;2
+2007;18 Dresden gesamt;2;1,9;2
+2010;01 StB Altstadt ohne Johannstadt;2;2,2;1,9
+2010;02 Johannstadt;1,9;1,9;1,8
+2010;03 StB Neustadt ohne Leipziger Vorstadt;1,9;1,8;1,9
+2010;04 Leipziger Vorstadt, Pieschen;2;2,4;2
+2010;05 Mickten, Kaditz, Trachau;1,9;1,9;2
+2010;06 StB Klotzsche und nördliche OS;1,7;1,7;2
+2010;07 StB Loschwitz und OS Schönfeld-Weißig;1,7;1,5;2,1
+2010;08 Blasewitz, Striesen;2;1,6;1,9
+2010;09 Tolkewitz, Seidnitz, Gruna;2;1,8;2
+2010;10 StB Leuben;1,9;1,7;1,9
+2010;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2;2,5;2
+2010;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;1,7;1,9
+2010;13 Südvorstadt, Zschertnitz;1,9;1,9;1,8
+2010;14 Mockritz, Coschütz, Plauen;1,9;1,4;1,9
+2010;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,9;2,1;1,9
+2010;16 Gorbitz;2,2;2,4;1,9
+2010;17 Briesnitz und westliche OS;1,7;1,8;2,1
+2010;18 Dresden gesamt;1,9;1,9;1,9
+2012;01 StB Altstadt ohne Johannstadt;2;2,1;1,7
+2012;02 Johannstadt;1,9;1,9;1,5
+2012;03 StB Neustadt ohne Leipziger Vorstadt;1,8;1,8;1,8
+2012;04 Leipziger Vorstadt, Pieschen;1,9;2,1;1,7
+2012;05 Mickten, Kaditz, Trachau;2;2,1;1,8
+2012;06 StB Klotzsche und nördliche OS;1,7;1,8;1,7
+2012;07 StB Loschwitz und OS Schönfeld-Weißig;1,7;1,5;1,8
+2012;08 Blasewitz, Striesen;1,9;1,6;1,8
+2012;09 Tolkewitz, Seidnitz, Gruna;2;1,9;1,7
+2012;10 StB Leuben;1,9;1,9;1,7
+2012;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,1;2,7;1,9
+2012;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;1,8;1,6
+2012;13 Südvorstadt, Zschertnitz;2;2;1,7
+2012;14 Mockritz, Coschütz, Plauen;2;1,7;1,7
+2012;15 Cotta, Löbtau, Naußlitz, Dölzschen;2;2,1;1,8
+2012;16 Gorbitz;2;2,4;1,8
+2012;17 Briesnitz und westliche OS;1,7;1,6;1,8
+2012;18 Dresden gesamt;1,9;1,9;1,7
+2014;01 StB Altstadt ohne Johannstadt;2;2,1;1,8
+2014;02 Johannstadt;1,9;2;1,7
+2014;03 StB Neustadt ohne Leipziger Vorstadt;1,9;1,7;1,9
+2014;04 Leipziger Vorstadt, Pieschen;2;2,1;1,9
+2014;05 Mickten, Kaditz, Trachau;1,8;2;1,9
+2014;06 StB Klotzsche und nördliche OS;1,7;1,6;1,9
+2014;07 StB Loschwitz und OS Schönfeld-Weißig;1,8;1,5;1,8
+2014;08 Blasewitz, Striesen;1,8;1,6;1,8
+2014;09 Tolkewitz, Seidnitz, Gruna;1,9;1,9;1,9
+2014;10 StB Leuben;1,9;1,9;1,9
+2014;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,2;2,6;1,8
+2014;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;1,9;1,9
+2014;13 Südvorstadt, Zschertnitz;2,1;1,8;1,7
+2014;14 Mockritz, Coschütz, Plauen;1,8;1,7;1,8
+2014;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,9;2;1,8
+2014;16 Gorbitz;2,1;2,4;1,9
+2014;17 Briesnitz und westliche OS;1,6;1,7;1,8
+2014;18 Dresden gesamt;1,9;1,9;1,8
+2016;01 StB Altstadt ohne Johannstadt;2,1;2,1;1,9
+2016;02 Johannstadt;2;1,8;1,8
+2016;03 StB Neustadt ohne Leipziger Vorstadt;2;1,7;2,2
+2016;04 Leipziger Vorstadt, Pieschen;2;2,1;2
+2016;05 Mickten, Kaditz, Trachau;2,1;2;2,1
+2016;06 StB Klotzsche und nördliche OS;1,7;1,7;2,1
+2016;07 StB Loschwitz und OS Schönfeld-Weißig;1,7;1,5;1,9
+2016;08 Blasewitz, Striesen;1,9;1,5;1,8
+2016;09 Tolkewitz, Seidnitz, Gruna;1,8;1,8;1,9
+2016;10 StB Leuben;1,8;1,7;1,9
+2016;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,1;2,5;2
+2016;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,8;1,8;1,9
+2016;13 Südvorstadt, Zschertnitz;2;1,8;1,8
+2016;14 Mockritz, Coschütz, Plauen;1,8;1,6;1,9
+2016;15 Cotta, Löbtau, Naußlitz, Dölzschen;2;2;1,8
+2016;16 Gorbitz;2,4;2,7;2
+2016;17 Briesnitz und westliche OS;1,7;1,7;2
+2016;18 Dresden gesamt;1,9;1,9;1,9
+2018;01 StB Altstadt ohne Johannstadt;1,9;2,1;1,9
+2018;02 Johannstadt;1,8;2;2
+2018;03 StB Neustadt ohne Leipziger Vorstadt;1,9;1,8;2,1
+2018;04 Leipziger Vorstadt, Pieschen;2,1;2,1;2,1
+2018;05 Mickten, Kaditz, Trachau;1,8;1,9;2
+2018;06 StB Klotzsche und nördliche OS;1,7;1,6;2,1
+2018;07 StB Loschwitz und OS Schönfeld-Weißig;1,7;1,5;1,8
+2018;08 Blasewitz, Striesen;2;1,7;1,9
+2018;09 Tolkewitz, Seidnitz, Gruna;1,9;1,9;1,9
+2018;10 StB Leuben;1,9;1,9;2
+2018;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,2;2,7;2,2
+2018;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,7;1,8;1,9
+2018;13 Südvorstadt, Zschertnitz;2,2;2;1,9
+2018;14 Mockritz, Coschütz, Plauen;1,8;1,7;1,9
+2018;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,9;2,1;2
+2018;16 Gorbitz;2;2,6;1,8
+2018;17 Briesnitz und westliche OS;1,6;1,6;2
+2018;18 Dresden gesamt;1,9;1,9;2
+2020;01 StB Altstadt ohne Johannstadt;2;2,1;1,9
+2020;02 Johannstadt;2;1,9;1,9
+2020;03 StB Neustadt ohne Leipziger Vorstadt;1,7;1,7;2
+2020;04 Leipziger Vorstadt, Pieschen;1,9;1,8;1,9
+2020;05 Mickten, Kaditz, Trachau;1,9;1,9;1,9
+2020;06 StB Klotzsche und nördliche OS;1,6;1,5;1,9
+2020;07 StB Loschwitz und OS Schönfeld-Weißig;1,6;1,5;2
+2020;08 Blasewitz, Striesen;1,8;1,5;1,8
+2020;09 Tolkewitz, Seidnitz, Gruna;2;2;1,9
+2020;10 StB Leuben;1,8;1,7;1,9
+2020;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2;2,7;2
+2020;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,7;1,7;1,8
+2020;13 Südvorstadt, Zschertnitz;2;1,8;1,9
+2020;14 Mockritz, Coschütz, Plauen;1,7;1,5;1,9
+2020;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,9;1,8;1,8
+2020;16 Gorbitz;2,1;2,8;2
+2020;17 Briesnitz und westliche OS;1,5;1,6;1,8
+2020;18 Dresden gesamt;1,8;1,8;1,9
+2022;01 StB Altstadt ohne Johannstadt;1,9;2,1;2
+2022;02 Johannstadt;1,8;2;1,9
+2022;03 StB Neustadt ohne Leipziger Vorstadt;1,8;1,6;2,1
+2022;04 Leipziger Vorstadt, Pieschen;2;2;2,1
+2022;05 Mickten, Kaditz, Trachau;1,7;1,9;2,1
+2022;06 StB Klotzsche und nördliche OS;1,6;1,7;1,9
+2022;07 StB Loschwitz und OS Schönfeld-Weißig;1,6;1,5;2
+2022;08 Blasewitz, Striesen;1,7;1,5;1,9
+2022;09 Tolkewitz, Seidnitz, Gruna;1,8;1,9;2
+2022;10 StB Leuben;1,9;1,8;2,2
+2022;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,3;2,8;2,2
+2022;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,7;1,8;2
+2022;13 Südvorstadt, Zschertnitz;1,9;1,8;1,9
+2022;14 Mockritz, Coschütz, Plauen;1,6;1,5;2
+2022;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,9;1,8;2
+2022;16 Gorbitz;1,9;2,7;2
+2022;17 Briesnitz und westliche OS;1,7;1,6;2,1
+2022;18 Dresden gesamt;1,8;1,8;2
+2024;01 StB Altstadt ohne Johannstadt;1,9;1,9;1,9
+2024;02 Johannstadt;1,9;2,1;2
+2024;03 StB Neustadt ohne Leipziger Vorstadt;1,8;1,7;2,1
+2024;04 Leipziger Vorstadt, Pieschen;1,9;1,9;2,1
+2024;05 Mickten, Kaditz, Trachau;1,8;1,9;2
+2024;06 StB Klotzsche und nördliche OS;1,7;1,7;2,3
+2024;07 StB Loschwitz und OS Schönfeld-Weißig;1,5;1,5;2,1
+2024;08 Blasewitz, Striesen;1,7;1,5;1,9
+2024;09 Tolkewitz, Seidnitz, Gruna;1,9;1,9;2
+2024;10 StB Leuben;1,7;1,8;2
+2024;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);2,1;2,6;1,9
+2024;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);1,7;1,7;2,1
+2024;13 Südvorstadt, Zschertnitz;2;2;2
+2024;14 Mockritz, Coschütz, Plauen;1,6;1,5;1,9
+2024;15 Cotta, Löbtau, Naußlitz, Dölzschen;1,8;1,8;2,1
+2024;16 Gorbitz;1,8;2,5;1,9
+2024;17 Briesnitz und westliche OS;1,5;1,7;1,9
+2024;18 Dresden gesamt;1,8;1,8;2

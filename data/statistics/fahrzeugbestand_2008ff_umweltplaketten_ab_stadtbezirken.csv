@@ -1,0 +1,2377 @@
+Jahr;Stadtbezirk mit zugeordneten Ortschaften;Fahrzeugart;Kraftstoffart;Schadstoffgruppe für Kraftfahrzeuge (Umwelt-Plakette) nach Feinstaubverordnung;Anzahl
+2008;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";176
+2008;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13751
+2008;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";106
+2008;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;207
+2008;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;985
+2008;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;2304
+2008;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";34
+2008;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;101
+2008;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";439
+2008;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;357
+2008;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;822
+2008;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;682
+2008;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";201
+2008;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9277
+2008;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";197
+2008;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;326
+2008;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1180
+2008;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;2263
+2008;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";46
+2008;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;79
+2008;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";379
+2008;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;190
+2008;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;468
+2008;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;511
+2008;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";230
+2008;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14431
+2008;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";128
+2008;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;313
+2008;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1194
+2008;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;1888
+2008;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";55
+2008;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;103
+2008;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";460
+2008;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;278
+2008;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;647
+2008;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;551
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";218
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11311
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";110
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;249
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1086
+2008;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;1838
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;61
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";368
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;188
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;426
+2008;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;337
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";244
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11697
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";126
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;289
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1129
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;1682
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;65
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";416
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;155
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;312
+2008;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;222
+2008;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";385
+2008;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25686
+2008;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";182
+2008;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;411
+2008;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1765
+2008;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;3067
+2008;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2008;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;167
+2008;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";286
+2008;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;199
+2008;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;371
+2008;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;336
+2008;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";182
+2008;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13309
+2008;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2008;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;209
+2008;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;924
+2008;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;1211
+2008;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2008;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;68
+2008;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";249
+2008;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;122
+2008;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;313
+2008;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;208
+2008;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";231
+2008;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17956
+2008;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";97
+2008;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;329
+2008;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1199
+2008;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;2047
+2008;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2008;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;97
+2008;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";397
+2008;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;206
+2008;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;471
+2008;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;405
+2008;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";270
+2008;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15101
+2008;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";97
+2008;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;260
+2008;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1197
+2008;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;2481
+2008;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2008;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;134
+2008;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";302
+2008;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;221
+2008;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;541
+2008;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;565
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";385
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;24847
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";165
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;486
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1896
+2008;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;2670
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";80
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;119
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";485
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;332
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;562
+2008;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;416
+2008;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";20
+2008;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;274
+2008;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2008;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;18
+2008;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;21
+2008;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;57
+2008;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";4
+2008;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;3
+2008;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";54
+2008;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;31
+2008;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;29
+2008;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;24
+2009;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";154
+2009;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13847
+2009;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";89
+2009;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;175
+2009;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;898
+2009;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;2668
+2009;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";34
+2009;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;120
+2009;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";390
+2009;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;325
+2009;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;735
+2009;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;846
+2009;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2009;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9491
+2009;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";192
+2009;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;281
+2009;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1091
+2009;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;2647
+2009;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2009;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;84
+2009;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";356
+2009;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;176
+2009;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;406
+2009;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;639
+2009;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";204
+2009;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14601
+2009;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";120
+2009;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;280
+2009;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1166
+2009;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;2300
+2009;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2009;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;101
+2009;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";381
+2009;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;257
+2009;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;595
+2009;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;710
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";202
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11262
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";98
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;215
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1012
+2009;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;2228
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;64
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";339
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;174
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;393
+2009;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;411
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";234
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11842
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";103
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;261
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1081
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;2056
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;68
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";398
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;142
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;308
+2009;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;259
+2009;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";343
+2009;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25947
+2009;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";150
+2009;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;346
+2009;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1688
+2009;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;3632
+2009;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";35
+2009;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;160
+2009;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";240
+2009;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;174
+2009;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;366
+2009;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;421
+2009;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";162
+2009;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13296
+2009;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2009;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;192
+2009;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;882
+2009;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;1486
+2009;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";25
+2009;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;63
+2009;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";222
+2009;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;112
+2009;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;280
+2009;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;278
+2009;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";222
+2009;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17927
+2009;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";89
+2009;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;279
+2009;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1155
+2009;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;2505
+2009;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2009;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;104
+2009;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";359
+2009;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;185
+2009;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;450
+2009;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;520
+2009;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";242
+2009;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15201
+2009;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";86
+2009;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;222
+2009;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1126
+2009;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;2887
+2009;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2009;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;128
+2009;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";271
+2009;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;184
+2009;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;446
+2009;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;788
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";349
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25159
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";139
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;421
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1834
+2009;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;3293
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";76
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;113
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";454
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;312
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;523
+2009;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;598
+2009;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";17
+2009;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;244
+2009;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2009;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;14
+2009;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;22
+2009;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;64
+2009;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2009;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;2
+2009;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2009;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;28
+2009;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;28
+2009;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;28
+2010;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";147
+2010;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13962
+2010;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";76
+2010;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;164
+2010;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;792
+2010;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;3031
+2010;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2010;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;131
+2010;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";325
+2010;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;290
+2010;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;612
+2010;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;967
+2010;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";194
+2010;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9788
+2010;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";186
+2010;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;237
+2010;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1001
+2010;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;3021
+2010;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2010;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;83
+2010;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";332
+2010;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;162
+2010;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;367
+2010;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;789
+2010;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2010;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14824
+2010;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";108
+2010;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;243
+2010;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1114
+2010;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;2775
+2010;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2010;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;112
+2010;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";344
+2010;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;217
+2010;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;545
+2010;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;892
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11326
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";78
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;184
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;935
+2010;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;2612
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;61
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";309
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;163
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;425
+2010;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;571
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";231
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11871
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";89
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;238
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1005
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;2467
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;62
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";367
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;136
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;289
+2010;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;326
+2010;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";327
+2010;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25980
+2010;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";128
+2010;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;309
+2010;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1542
+2010;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;4142
+2010;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2010;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;157
+2010;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2010;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;159
+2010;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;322
+2010;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;539
+2010;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";165
+2010;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13462
+2010;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";46
+2010;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;176
+2010;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;823
+2010;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;1791
+2010;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";21
+2010;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;65
+2010;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";207
+2010;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;107
+2010;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;296
+2010;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;367
+2010;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";215
+2010;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18194
+2010;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";78
+2010;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;237
+2010;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1086
+2010;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;2962
+2010;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";33
+2010;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;103
+2010;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";311
+2010;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;171
+2010;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;431
+2010;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;657
+2010;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";239
+2010;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15225
+2010;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";74
+2010;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;203
+2010;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1024
+2010;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;3232
+2010;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2010;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;112
+2010;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";215
+2010;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;158
+2010;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;423
+2010;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;886
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";335
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25293
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";133
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;373
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1702
+2010;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;3934
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";64
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;114
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";405
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;280
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;525
+2010;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;796
+2010;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";15
+2010;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;217
+2010;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";2
+2010;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;11
+2010;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;8
+2010;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;47
+2010;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2010;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2010;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";35
+2010;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;22
+2010;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;24
+2010;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;17
+2011;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";136
+2011;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13976
+2011;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2011;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;140
+2011;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;691
+2011;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;3556
+2011;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2011;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;130
+2011;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";305
+2011;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;243
+2011;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;508
+2011;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1200
+2011;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";194
+2011;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9882
+2011;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";134
+2011;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;195
+2011;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;906
+2011;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;3465
+2011;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2011;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2011;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";268
+2011;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;124
+2011;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;298
+2011;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;888
+2011;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";195
+2011;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14902
+2011;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";162
+2011;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;244
+2011;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1025
+2011;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;3418
+2011;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";49
+2011;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;115
+2011;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";349
+2011;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;203
+2011;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;558
+2011;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1026
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";193
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11284
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;138
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;840
+2011;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;3076
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;51
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";292
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;128
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;391
+2011;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;756
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";237
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11807
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";84
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;213
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;922
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;2862
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;59
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";332
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;120
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;262
+2011;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;424
+2011;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";326
+2011;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26075
+2011;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";112
+2011;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;253
+2011;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1420
+2011;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;4730
+2011;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2011;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;155
+2011;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";181
+2011;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;139
+2011;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;303
+2011;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;632
+2011;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";156
+2011;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13512
+2011;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2011;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;155
+2011;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;764
+2011;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;2084
+2011;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";21
+2011;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;77
+2011;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";195
+2011;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;120
+2011;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;272
+2011;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;455
+2011;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";205
+2011;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18143
+2011;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";69
+2011;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;204
+2011;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;994
+2011;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;3439
+2011;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2011;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;89
+2011;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";248
+2011;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;168
+2011;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;391
+2011;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;826
+2011;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";245
+2011;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15209
+2011;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2011;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;166
+2011;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;925
+2011;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;3625
+2011;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2011;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;90
+2011;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";203
+2011;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;108
+2011;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;353
+2011;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1023
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";337
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25295
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";110
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;333
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1607
+2011;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4514
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";60
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;121
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";366
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;253
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;491
+2011;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;933
+2011;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";14
+2011;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;159
+2011;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2011;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;9
+2011;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;9
+2011;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;47
+2011;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2011;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;6
+2011;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";23
+2011;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;18
+2011;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;24
+2011;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;16
+2012;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";147
+2012;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13805
+2012;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";54
+2012;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;119
+2012;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;632
+2012;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4097
+2012;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";26
+2012;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;132
+2012;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";264
+2012;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;209
+2012;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;453
+2012;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1303
+2012;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";199
+2012;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9846
+2012;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";144
+2012;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;172
+2012;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;846
+2012;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;3886
+2012;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2012;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2012;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";241
+2012;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;114
+2012;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;268
+2012;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;994
+2012;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";186
+2012;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15149
+2012;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";170
+2012;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;200
+2012;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;939
+2012;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;3957
+2012;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2012;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;120
+2012;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";325
+2012;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;183
+2012;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;506
+2012;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1174
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";194
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11078
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";56
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;122
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;756
+2012;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;3428
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;46
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";263
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;116
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;336
+2012;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;902
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";240
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11705
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";70
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;198
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;844
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;3279
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";34
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;61
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";306
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;117
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;240
+2012;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;488
+2012;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";344
+2012;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25917
+2012;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";102
+2012;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;221
+2012;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1241
+2012;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;5424
+2012;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";33
+2012;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;148
+2012;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";163
+2012;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;124
+2012;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;286
+2012;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;724
+2012;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";162
+2012;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13387
+2012;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";56
+2012;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;152
+2012;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;692
+2012;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;2388
+2012;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2012;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;65
+2012;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";171
+2012;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;107
+2012;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;256
+2012;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;526
+2012;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";202
+2012;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17997
+2012;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";65
+2012;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;181
+2012;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;931
+2012;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;3863
+2012;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2012;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;83
+2012;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";214
+2012;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;137
+2012;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;356
+2012;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;955
+2012;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";237
+2012;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15069
+2012;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";52
+2012;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;155
+2012;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;850
+2012;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4042
+2012;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";33
+2012;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;90
+2012;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";177
+2012;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;97
+2012;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;308
+2012;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1160
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";329
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25187
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";108
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;269
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1501
+2012;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5227
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";52
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;122
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";348
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;225
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;459
+2012;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1070
+2012;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";13
+2012;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;115
+2012;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2012;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;5
+2012;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;5
+2012;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;35
+2012;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2012;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;5
+2012;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";22
+2012;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;9
+2012;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;19
+2012;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;26
+2013;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";151
+2013;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13619
+2013;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2013;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;103
+2013;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;628
+2013;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4445
+2013;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2013;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;127
+2013;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";230
+2013;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;160
+2013;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;399
+2013;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1375
+2013;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";194
+2013;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9892
+2013;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";158
+2013;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;161
+2013;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;765
+2013;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4224
+2013;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2013;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;84
+2013;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";242
+2013;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;97
+2013;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;247
+2013;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1093
+2013;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2013;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15119
+2013;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";168
+2013;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;195
+2013;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;875
+2013;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4378
+2013;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2013;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;123
+2013;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";281
+2013;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;170
+2013;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;444
+2013;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1289
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";199
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;10922
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";49
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;100
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;672
+2013;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;3808
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;53
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";254
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;100
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;285
+2013;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1030
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";260
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11642
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;158
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;752
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;3708
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;57
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";288
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;90
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;235
+2013;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;582
+2013;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";330
+2013;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26105
+2013;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";78
+2013;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;200
+2013;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1112
+2013;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;6115
+2013;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2013;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;137
+2013;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";155
+2013;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;115
+2013;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;250
+2013;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;814
+2013;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";174
+2013;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13394
+2013;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";56
+2013;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;132
+2013;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;615
+2013;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;2701
+2013;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2013;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;64
+2013;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";159
+2013;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;98
+2013;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;242
+2013;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;596
+2013;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2013;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17898
+2013;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";70
+2013;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;155
+2013;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;843
+2013;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;4188
+2013;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2013;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;75
+2013;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";192
+2013;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;130
+2013;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;315
+2013;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1081
+2013;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";237
+2013;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14943
+2013;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";59
+2013;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;121
+2013;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;757
+2013;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4387
+2013;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";41
+2013;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;83
+2013;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";157
+2013;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;86
+2013;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;251
+2013;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1262
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";341
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25168
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";107
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;229
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1361
+2013;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5886
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;126
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";320
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;198
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;405
+2013;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1213
+2013;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";12
+2013;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;88
+2013;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2013;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;2
+2013;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;6
+2013;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;29
+2013;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2013;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;5
+2013;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";15
+2013;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;3
+2013;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;10
+2013;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;15
+2014;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";149
+2014;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13541
+2014;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2014;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;86
+2014;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;577
+2014;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4813
+2014;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2014;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;125
+2014;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";203
+2014;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;133
+2014;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;343
+2014;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1527
+2014;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";214
+2014;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9853
+2014;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";166
+2014;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;174
+2014;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;702
+2014;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4616
+2014;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2014;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;85
+2014;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";232
+2014;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;103
+2014;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;245
+2014;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1174
+2014;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";198
+2014;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14973
+2014;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";160
+2014;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;159
+2014;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;799
+2014;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4644
+2014;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2014;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;117
+2014;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";279
+2014;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;145
+2014;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;400
+2014;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1436
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";208
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;10788
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;96
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;602
+2014;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4130
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;51
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";243
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;89
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;240
+2014;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1139
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";275
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11553
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";71
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;147
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;695
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4026
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;57
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";282
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;83
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;216
+2014;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;646
+2014;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";349
+2014;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25906
+2014;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2014;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;164
+2014;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;975
+2014;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;6830
+2014;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2014;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;133
+2014;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";143
+2014;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;84
+2014;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;218
+2014;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;930
+2014;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";171
+2014;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13313
+2014;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2014;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;118
+2014;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;560
+2014;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;2912
+2014;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";25
+2014;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;53
+2014;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";152
+2014;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;95
+2014;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;217
+2014;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;695
+2014;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";211
+2014;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17588
+2014;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2014;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;140
+2014;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;748
+2014;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;4384
+2014;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";41
+2014;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;66
+2014;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";174
+2014;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;111
+2014;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;287
+2014;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1174
+2014;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";249
+2014;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14837
+2014;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";68
+2014;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;121
+2014;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;698
+2014;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4756
+2014;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2014;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;88
+2014;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";143
+2014;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;71
+2014;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;219
+2014;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1411
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";339
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25116
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";102
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;198
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1236
+2014;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;6441
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";58
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;124
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";307
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;173
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;382
+2014;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1320
+2014;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";7
+2014;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;51
+2014;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2014;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;1
+2014;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1
+2014;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;24
+2014;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2014;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;0
+2014;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";10
+2014;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;3
+2014;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;8
+2014;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;8
+2015;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";167
+2015;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13651
+2015;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2015;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;77
+2015;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;502
+2015;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5361
+2015;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";34
+2015;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;129
+2015;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";195
+2015;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;119
+2015;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;306
+2015;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2046
+2015;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";228
+2015;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9754
+2015;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";169
+2015;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;161
+2015;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;652
+2015;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;4929
+2015;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2015;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;86
+2015;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";215
+2015;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;95
+2015;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;225
+2015;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1235
+2015;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";208
+2015;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14820
+2015;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";156
+2015;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;151
+2015;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;715
+2015;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;4987
+2015;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2015;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;124
+2015;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";242
+2015;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;114
+2015;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;351
+2015;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1567
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";202
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;10816
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";41
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;78
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;534
+2015;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4503
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;47
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";219
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;84
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;215
+2015;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1296
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";286
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11494
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";69
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;136
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;642
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4334
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;53
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";272
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;76
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;206
+2015;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;735
+2015;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";349
+2015;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;25886
+2015;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";82
+2015;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;146
+2015;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;864
+2015;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;7444
+2015;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2015;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;130
+2015;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";142
+2015;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;73
+2015;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;199
+2015;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;969
+2015;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";191
+2015;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13224
+2015;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";55
+2015;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;103
+2015;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;481
+2015;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3143
+2015;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";29
+2015;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;59
+2015;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";146
+2015;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;90
+2015;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;197
+2015;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;780
+2015;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";228
+2015;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17617
+2015;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";66
+2015;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;120
+2015;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;687
+2015;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;4746
+2015;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2015;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;72
+2015;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";166
+2015;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;89
+2015;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;268
+2015;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1244
+2015;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";244
+2015;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14653
+2015;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";71
+2015;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;108
+2015;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;601
+2015;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5023
+2015;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2015;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2015;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";124
+2015;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;66
+2015;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;191
+2015;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1178
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";359
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25175
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";96
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;182
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1112
+2015;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;7086
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";71
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;118
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";292
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;160
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;352
+2015;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1445
+2015;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";7
+2015;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;37
+2015;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2015;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;1
+2015;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1
+2015;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;22
+2015;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2015;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2015;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";9
+2015;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;1
+2015;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;5
+2015;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;10
+2016;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";129
+2016;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13689
+2016;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2016;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;71
+2016;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;436
+2016;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5968
+2016;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";19
+2016;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;175
+2016;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";169
+2016;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;90
+2016;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;255
+2016;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2287
+2016;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";206
+2016;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9719
+2016;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";162
+2016;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;156
+2016;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;593
+2016;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5227
+2016;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2016;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;92
+2016;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";203
+2016;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;93
+2016;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;204
+2016;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1346
+2016;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";214
+2016;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14856
+2016;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";146
+2016;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;127
+2016;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;639
+2016;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5261
+2016;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2016;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;141
+2016;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";226
+2016;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;109
+2016;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;282
+2016;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1719
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;10836
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;73
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;452
+2016;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4727
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;59
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";215
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;75
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;185
+2016;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1404
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";289
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11521
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;125
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;566
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4622
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;53
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";266
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;74
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;182
+2016;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;775
+2016;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";322
+2016;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26145
+2016;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";80
+2016;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;134
+2016;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;762
+2016;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;7878
+2016;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";34
+2016;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;136
+2016;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";123
+2016;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;65
+2016;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;191
+2016;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1077
+2016;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";190
+2016;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13205
+2016;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2016;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;100
+2016;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;407
+2016;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3405
+2016;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2016;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;62
+2016;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";137
+2016;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;82
+2016;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;185
+2016;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;860
+2016;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";217
+2016;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17584
+2016;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2016;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;101
+2016;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;599
+2016;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5060
+2016;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";45
+2016;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;66
+2016;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";156
+2016;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;76
+2016;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;258
+2016;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1369
+2016;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";222
+2016;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14604
+2016;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";60
+2016;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;93
+2016;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;518
+2016;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5322
+2016;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2016;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;93
+2016;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";114
+2016;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;58
+2016;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;167
+2016;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1261
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";337
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25168
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";92
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;157
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;938
+2016;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;7620
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";79
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;120
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";277
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;139
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;320
+2016;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1573
+2016;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2016;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;35
+2016;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2016;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;2
+2016;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1
+2016;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;18
+2016;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2016;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2016;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";8
+2016;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;2
+2016;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;2
+2016;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;12
+2017;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";160
+2017;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13770
+2017;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2017;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;54
+2017;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;382
+2017;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;6097
+2017;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2017;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;178
+2017;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";159
+2017;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;77
+2017;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;220
+2017;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2442
+2017;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";216
+2017;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9782
+2017;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";166
+2017;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;155
+2017;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;565
+2017;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5396
+2017;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";27
+2017;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;93
+2017;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";194
+2017;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;84
+2017;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;168
+2017;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1389
+2017;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";207
+2017;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14870
+2017;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";117
+2017;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;118
+2017;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;565
+2017;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5559
+2017;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2017;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;129
+2017;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";226
+2017;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;107
+2017;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;256
+2017;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1901
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";223
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;10947
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";45
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;75
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;370
+2017;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4976
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;60
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";203
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;72
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;163
+2017;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1504
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";312
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11549
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";64
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;110
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;487
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4772
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;47
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";257
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;68
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;160
+2017;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;828
+2017;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";332
+2017;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26342
+2017;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2017;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;125
+2017;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;645
+2017;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8146
+2017;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2017;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;142
+2017;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";118
+2017;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;61
+2017;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;166
+2017;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1138
+2017;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";183
+2017;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13214
+2017;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";52
+2017;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;86
+2017;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;348
+2017;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3518
+2017;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2017;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;66
+2017;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";116
+2017;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;74
+2017;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;161
+2017;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;936
+2017;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";240
+2017;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17700
+2017;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2017;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;87
+2017;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;502
+2017;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5362
+2017;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2017;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;77
+2017;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";154
+2017;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;71
+2017;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;232
+2017;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1433
+2017;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";234
+2017;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14673
+2017;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";58
+2017;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;75
+2017;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;421
+2017;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5480
+2017;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2017;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;95
+2017;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";98
+2017;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;52
+2017;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;142
+2017;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1318
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";374
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25441
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";84
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;136
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;751
+2017;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;7936
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";82
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;116
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";268
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;120
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;296
+2017;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1646
+2017;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2017;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;37
+2017;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2017;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;1
+2017;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2017;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;24
+2017;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2017;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;2
+2017;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";6
+2017;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;1
+2017;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;1
+2017;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;40
+2018;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";162
+2018;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;13870
+2018;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2018;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;48
+2018;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;326
+2018;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;6081
+2018;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2018;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;196
+2018;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";141
+2018;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;62
+2018;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;190
+2018;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2530
+2018;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";221
+2018;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;9961
+2018;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";170
+2018;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;145
+2018;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;488
+2018;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5491
+2018;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2018;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;88
+2018;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";189
+2018;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;86
+2018;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;158
+2018;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1541
+2018;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";218
+2018;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14991
+2018;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";114
+2018;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;108
+2018;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;454
+2018;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5728
+2018;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2018;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;137
+2018;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";213
+2018;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;90
+2018;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;240
+2018;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2072
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";237
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11030
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;64
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;303
+2018;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5090
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";48
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;62
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;56
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;145
+2018;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1616
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";330
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11778
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";58
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;96
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;396
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4902
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";53
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;48
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";257
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;52
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;145
+2018;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;878
+2018;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";339
+2018;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26674
+2018;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";80
+2018;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;116
+2018;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;529
+2018;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8245
+2018;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2018;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;134
+2018;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";100
+2018;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;55
+2018;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;149
+2018;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1222
+2018;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";208
+2018;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13229
+2018;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";52
+2018;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;73
+2018;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;299
+2018;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3587
+2018;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2018;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;75
+2018;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";105
+2018;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;60
+2018;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;144
+2018;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;958
+2018;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";247
+2018;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17577
+2018;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2018;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;85
+2018;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;405
+2018;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5342
+2018;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2018;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;88
+2018;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";133
+2018;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;66
+2018;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;213
+2018;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1494
+2018;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";246
+2018;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;14904
+2018;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";57
+2018;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;65
+2018;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;355
+2018;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5513
+2018;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2018;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;97
+2018;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";93
+2018;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;46
+2018;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;140
+2018;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1375
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";396
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25685
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";89
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;126
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;613
+2018;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8105
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";93
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;122
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";262
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;96
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;247
+2018;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1802
+2018;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2018;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;33
+2018;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2018;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2018;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2018;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;11
+2018;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2018;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2018;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";6
+2018;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2018;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2018;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;42
+2019;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";165
+2019;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;14236
+2019;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";23
+2019;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;49
+2019;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;275
+2019;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;6136
+2019;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2019;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;201
+2019;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";136
+2019;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;44
+2019;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;133
+2019;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2600
+2019;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";232
+2019;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10093
+2019;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";164
+2019;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;148
+2019;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;422
+2019;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5571
+2019;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";30
+2019;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2019;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";186
+2019;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;77
+2019;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;135
+2019;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1755
+2019;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";226
+2019;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15035
+2019;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";118
+2019;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;103
+2019;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;402
+2019;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5889
+2019;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";32
+2019;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;154
+2019;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";181
+2019;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;78
+2019;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;219
+2019;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2211
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";256
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11145
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;56
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;266
+2019;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5163
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";52
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;69
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;52
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;119
+2019;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1711
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";344
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;11851
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";64
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;87
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;327
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4971
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";59
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;47
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";259
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;47
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;123
+2019;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;973
+2019;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";354
+2019;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;26872
+2019;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";77
+2019;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;109
+2019;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;427
+2019;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8287
+2019;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2019;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;154
+2019;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";93
+2019;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;46
+2019;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;112
+2019;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1314
+2019;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";212
+2019;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13429
+2019;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";55
+2019;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;62
+2019;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;255
+2019;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3700
+2019;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2019;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;81
+2019;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";110
+2019;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;55
+2019;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;127
+2019;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1097
+2019;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";257
+2019;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;17782
+2019;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";60
+2019;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;69
+2019;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;348
+2019;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5447
+2019;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";48
+2019;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;97
+2019;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";127
+2019;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;60
+2019;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;188
+2019;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1560
+2019;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";247
+2019;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15218
+2019;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2019;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;61
+2019;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;296
+2019;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5593
+2019;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";36
+2019;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;103
+2019;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";90
+2019;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;34
+2019;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;122
+2019;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1490
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";402
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;25738
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";83
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;116
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;505
+2019;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8356
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";99
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;153
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";256
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;100
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;224
+2019;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1918
+2019;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2019;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;61
+2019;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2019;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2019;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2019;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;16
+2019;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2019;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2019;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";5
+2019;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2019;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2019;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;38
+2020;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";143
+2020;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;14693
+2020;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";28
+2020;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;50
+2020;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;237
+2020;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;6120
+2020;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2020;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;209
+2020;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";137
+2020;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;37
+2020;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;123
+2020;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2603
+2020;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";233
+2020;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10411
+2020;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";177
+2020;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;146
+2020;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;380
+2020;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5656
+2020;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";31
+2020;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;92
+2020;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";188
+2020;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;69
+2020;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;126
+2020;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1875
+2020;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";228
+2020;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15271
+2020;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";113
+2020;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;100
+2020;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;375
+2020;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;6059
+2020;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";35
+2020;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;171
+2020;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";173
+2020;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;81
+2020;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;195
+2020;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2257
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";261
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11385
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;51
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;238
+2020;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5201
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";57
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;78
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;48
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;111
+2020;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1756
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";365
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12029
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";70
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;87
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;293
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;5052
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";65
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;52
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";254
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;41
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;114
+2020;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1055
+2020;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";370
+2020;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27255
+2020;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";78
+2020;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;100
+2020;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;359
+2020;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8284
+2020;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";42
+2020;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;164
+2020;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";98
+2020;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;51
+2020;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;92
+2020;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1375
+2020;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";224
+2020;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13438
+2020;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";58
+2020;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;67
+2020;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;228
+2020;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3806
+2020;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";43
+2020;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;89
+2020;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";107
+2020;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;52
+2020;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;112
+2020;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1166
+2020;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";274
+2020;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18120
+2020;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";62
+2020;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;71
+2020;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;305
+2020;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5525
+2020;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2020;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;97
+2020;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";118
+2020;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;55
+2020;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;141
+2020;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1800
+2020;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";251
+2020;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15299
+2020;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";62
+2020;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;57
+2020;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;258
+2020;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5743
+2020;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2020;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;106
+2020;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2020;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;24
+2020;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;108
+2020;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1536
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";422
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26039
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";89
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;115
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;443
+2020;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8592
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";104
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;144
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";243
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;96
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;210
+2020;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2062
+2020;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2020;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;66
+2020;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2020;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2020;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2020;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;19
+2020;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2020;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2020;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";4
+2020;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2020;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2020;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;43
+2021;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";153
+2021;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;14880
+2021;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";33
+2021;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;53
+2021;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;219
+2021;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;6001
+2021;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2021;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;210
+2021;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";142
+2021;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;39
+2021;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;115
+2021;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2692
+2021;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";240
+2021;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10446
+2021;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";179
+2021;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;137
+2021;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;356
+2021;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5578
+2021;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2021;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;89
+2021;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";169
+2021;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;67
+2021;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;129
+2021;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2116
+2021;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";257
+2021;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15468
+2021;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";120
+2021;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;95
+2021;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;339
+2021;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;6101
+2021;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2021;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;184
+2021;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";170
+2021;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;81
+2021;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;188
+2021;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2323
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";286
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11488
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";53
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;46
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;206
+2021;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5180
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";73
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;77
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";199
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;47
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;108
+2021;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1890
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";409
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12152
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";76
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;81
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;256
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;5069
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;54
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";254
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;39
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;100
+2021;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1069
+2021;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";402
+2021;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27345
+2021;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";84
+2021;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;94
+2021;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;322
+2021;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8194
+2021;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2021;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;165
+2021;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";96
+2021;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;43
+2021;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;93
+2021;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1474
+2021;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";250
+2021;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13377
+2021;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2021;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;57
+2021;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;205
+2021;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3807
+2021;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";46
+2021;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2021;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";96
+2021;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;48
+2021;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;97
+2021;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1153
+2021;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";299
+2021;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18150
+2021;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2021;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;71
+2021;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;271
+2021;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5483
+2021;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";56
+2021;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;105
+2021;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";113
+2021;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;47
+2021;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;143
+2021;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1808
+2021;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";263
+2021;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15373
+2021;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";67
+2021;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;53
+2021;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;234
+2021;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5592
+2021;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";46
+2021;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;100
+2021;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";85
+2021;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;24
+2021;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;90
+2021;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1631
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";450
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26125
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";102
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;101
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;421
+2021;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8615
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";112
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;150
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";250
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;88
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;194
+2021;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2119
+2021;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2021;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;86
+2021;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2021;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2021;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2021;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;28
+2021;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2021;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2021;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";4
+2021;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2021;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2021;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;46
+2022;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";165
+2022;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;15204
+2022;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";40
+2022;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;57
+2022;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;190
+2022;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5824
+2022;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2022;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;216
+2022;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";144
+2022;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;36
+2022;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;103
+2022;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2761
+2022;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";245
+2022;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10419
+2022;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";187
+2022;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;135
+2022;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;323
+2022;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5528
+2022;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2022;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;98
+2022;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";166
+2022;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;64
+2022;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;116
+2022;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2386
+2022;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";271
+2022;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15591
+2022;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";114
+2022;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;94
+2022;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;317
+2022;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5859
+2022;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";74
+2022;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;210
+2022;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";154
+2022;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;79
+2022;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;156
+2022;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2367
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";296
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11689
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;48
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;197
+2022;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;5002
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";74
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;83
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";196
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;40
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;102
+2022;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1977
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";431
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12114
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";77
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;68
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;232
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4976
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";71
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;57
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";264
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;37
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;95
+2022;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1107
+2022;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";439
+2022;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27266
+2022;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";90
+2022;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;87
+2022;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;315
+2022;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;8006
+2022;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";55
+2022;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;174
+2022;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";97
+2022;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;34
+2022;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;97
+2022;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1432
+2022;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";268
+2022;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13153
+2022;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";66
+2022;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;58
+2022;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;174
+2022;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3769
+2022;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";51
+2022;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;93
+2022;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";93
+2022;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;44
+2022;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;86
+2022;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1206
+2022;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";323
+2022;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18170
+2022;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";62
+2022;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;68
+2022;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;251
+2022;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5428
+2022;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2022;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;115
+2022;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";111
+2022;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;43
+2022;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;137
+2022;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1871
+2022;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";294
+2022;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15173
+2022;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";61
+2022;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;51
+2022;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;213
+2022;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5379
+2022;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";48
+2022;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;104
+2022;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";82
+2022;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;24
+2022;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;80
+2022;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1562
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";489
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26091
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";103
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;103
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;383
+2022;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8371
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";119
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;157
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";243
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;86
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;180
+2022;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2152
+2022;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2022;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;105
+2022;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2022;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;1
+2022;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2022;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;26
+2022;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2022;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2022;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";4
+2022;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2022;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2022;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;51
+2023;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";169
+2023;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;15489
+2023;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";46
+2023;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;49
+2023;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;182
+2023;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5491
+2023;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";25
+2023;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;257
+2023;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";135
+2023;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;28
+2023;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;99
+2023;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2902
+2023;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";252
+2023;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10547
+2023;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";185
+2023;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;129
+2023;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;291
+2023;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5452
+2023;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";41
+2023;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;111
+2023;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";151
+2023;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;63
+2023;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;111
+2023;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2648
+2023;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";284
+2023;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15691
+2023;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";119
+2023;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;90
+2023;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;283
+2023;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5708
+2023;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2023;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;248
+2023;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";158
+2023;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;73
+2023;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;141
+2023;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2399
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";312
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;11947
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";53
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;48
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;170
+2023;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4981
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";70
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;87
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";197
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;41
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;90
+2023;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2028
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";447
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12189
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;68
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;205
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4907
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";74
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;63
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";267
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;39
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;87
+2023;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1121
+2023;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";447
+2023;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27120
+2023;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";87
+2023;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;82
+2023;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;272
+2023;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;7829
+2023;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";54
+2023;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;190
+2023;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";97
+2023;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;35
+2023;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;89
+2023;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1445
+2023;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";277
+2023;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13241
+2023;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";65
+2023;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;60
+2023;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;151
+2023;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3685
+2023;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";48
+2023;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;92
+2023;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";94
+2023;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;40
+2023;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;78
+2023;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1208
+2023;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";352
+2023;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18220
+2023;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";60
+2023;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;64
+2023;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;206
+2023;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5340
+2023;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";72
+2023;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;136
+2023;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";102
+2023;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;41
+2023;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;127
+2023;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1860
+2023;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";309
+2023;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15121
+2023;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";65
+2023;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;43
+2023;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;193
+2023;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5235
+2023;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";47
+2023;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;103
+2023;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2023;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;26
+2023;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;77
+2023;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1604
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";508
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26084
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";106
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;92
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;351
+2023;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;8212
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";109
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;173
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";242
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;78
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;165
+2023;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2201
+2023;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2023;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;159
+2023;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2023;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2023;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1
+2023;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;46
+2023;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2023;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;1
+2023;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";4
+2023;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2023;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2023;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;50
+2024;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";183
+2024;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;15198
+2024;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";44
+2024;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;49
+2024;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;155
+2024;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5102
+2024;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";37
+2024;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;168
+2024;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";134
+2024;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;26
+2024;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;81
+2024;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2530
+2024;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";264
+2024;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;10864
+2024;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";170
+2024;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;134
+2024;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;271
+2024;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5424
+2024;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";45
+2024;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;128
+2024;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";148
+2024;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;60
+2024;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;100
+2024;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;3009
+2024;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";299
+2024;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15875
+2024;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";125
+2024;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;78
+2024;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;234
+2024;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5659
+2024;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";74
+2024;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;231
+2024;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";137
+2024;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;56
+2024;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;144
+2024;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2363
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";323
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;12001
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";58
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;47
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;151
+2024;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4889
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";80
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;75
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";200
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;33
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;83
+2024;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1991
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";467
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12332
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";85
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;63
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;193
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4826
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";72
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;64
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";270
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;34
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;77
+2024;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1127
+2024;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";468
+2024;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27106
+2024;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";82
+2024;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;75
+2024;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;251
+2024;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;7651
+2024;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2024;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;183
+2024;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";97
+2024;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;25
+2024;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;90
+2024;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1494
+2024;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";285
+2024;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13157
+2024;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";69
+2024;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;59
+2024;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;137
+2024;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3623
+2024;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";53
+2024;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;98
+2024;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";85
+2024;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;41
+2024;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;71
+2024;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1204
+2024;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";366
+2024;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18073
+2024;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";64
+2024;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;56
+2024;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;186
+2024;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5278
+2024;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";80
+2024;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;140
+2024;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";102
+2024;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;33
+2024;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;114
+2024;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1846
+2024;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";325
+2024;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15525
+2024;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";68
+2024;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;44
+2024;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;157
+2024;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5274
+2024;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";62
+2024;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;187
+2024;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";88
+2024;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;31
+2024;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;74
+2024;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2158
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";522
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26396
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";106
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;87
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;311
+2024;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;7986
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";118
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;185
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";236
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;70
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;143
+2024;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2211
+2024;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2024;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;221
+2024;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2024;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2024;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;0
+2024;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;64
+2024;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2024;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;0
+2024;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";3
+2024;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;0
+2024;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2024;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;53
+2025;StB 0 Altstadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";176
+2025;StB 0 Altstadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;15531
+2025;StB 0 Altstadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";39
+2025;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;45
+2025;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;133
+2025;StB 0 Altstadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5092
+2025;StB 0 Altstadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2025;StB 0 Altstadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;188
+2025;StB 0 Altstadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";141
+2025;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;24
+2025;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;71
+2025;StB 0 Altstadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2576
+2025;StB 1 Neustadt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";262
+2025;StB 1 Neustadt;PKW;Benzin;Schadstoffgruppe 4 - Grün;11073
+2025;StB 1 Neustadt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";167
+2025;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 2 - Rot;134
+2025;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;250
+2025;StB 1 Neustadt;PKW;Diesel;Schadstoffgruppe 4 - Grün;5358
+2025;StB 1 Neustadt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";38
+2025;StB 1 Neustadt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;138
+2025;StB 1 Neustadt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";138
+2025;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;60
+2025;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;94
+2025;StB 1 Neustadt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;3198
+2025;StB 2 Pieschen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";303
+2025;StB 2 Pieschen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15798
+2025;StB 2 Pieschen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";122
+2025;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 2 - Rot;77
+2025;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;203
+2025;StB 2 Pieschen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5632
+2025;StB 2 Pieschen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";72
+2025;StB 2 Pieschen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;245
+2025;StB 2 Pieschen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";130
+2025;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;54
+2025;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;129
+2025;StB 2 Pieschen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2370
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";339
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;12127
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";54
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;50
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;143
+2025;StB 3 Klotzsche/nördliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;4713
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";87
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;90
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";201
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;31
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;75
+2025;StB 3 Klotzsche/nördliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2015
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";476
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Benzin;Schadstoffgruppe 4 - Grün;12462
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";86
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 2 - Rot;57
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 3 - Gelb;176
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;PKW;Diesel;Schadstoffgruppe 4 - Grün;4699
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";69
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;67
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";271
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;35
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;78
+2025;StB 4 Loschwitz/OS Schönfeld-Weißig;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1101
+2025;StB 5 Blasewitz;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";482
+2025;StB 5 Blasewitz;PKW;Benzin;Schadstoffgruppe 4 - Grün;27077
+2025;StB 5 Blasewitz;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";84
+2025;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 2 - Rot;69
+2025;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 3 - Gelb;219
+2025;StB 5 Blasewitz;PKW;Diesel;Schadstoffgruppe 4 - Grün;7436
+2025;StB 5 Blasewitz;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";50
+2025;StB 5 Blasewitz;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;200
+2025;StB 5 Blasewitz;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";85
+2025;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;27
+2025;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;81
+2025;StB 5 Blasewitz;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1535
+2025;StB 6 Leuben;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";287
+2025;StB 6 Leuben;PKW;Benzin;Schadstoffgruppe 4 - Grün;13223
+2025;StB 6 Leuben;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";70
+2025;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 2 - Rot;50
+2025;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 3 - Gelb;139
+2025;StB 6 Leuben;PKW;Diesel;Schadstoffgruppe 4 - Grün;3592
+2025;StB 6 Leuben;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";59
+2025;StB 6 Leuben;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;114
+2025;StB 6 Leuben;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";76
+2025;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;37
+2025;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;62
+2025;StB 6 Leuben;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1230
+2025;StB 7 Prohlis;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";358
+2025;StB 7 Prohlis;PKW;Benzin;Schadstoffgruppe 4 - Grün;18226
+2025;StB 7 Prohlis;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";63
+2025;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 2 - Rot;55
+2025;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 3 - Gelb;154
+2025;StB 7 Prohlis;PKW;Diesel;Schadstoffgruppe 4 - Grün;5166
+2025;StB 7 Prohlis;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";81
+2025;StB 7 Prohlis;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;140
+2025;StB 7 Prohlis;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";101
+2025;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;30
+2025;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;105
+2025;StB 7 Prohlis;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;1840
+2025;StB 8 Plauen;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";329
+2025;StB 8 Plauen;PKW;Benzin;Schadstoffgruppe 4 - Grün;15653
+2025;StB 8 Plauen;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";64
+2025;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 2 - Rot;42
+2025;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 3 - Gelb;140
+2025;StB 8 Plauen;PKW;Diesel;Schadstoffgruppe 4 - Grün;5162
+2025;StB 8 Plauen;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";62
+2025;StB 8 Plauen;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;199
+2025;StB 8 Plauen;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";84
+2025;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;27
+2025;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;69
+2025;StB 8 Plauen;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2176
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";530
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Benzin;Schadstoffgruppe 4 - Grün;26652
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";111
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 2 - Rot;76
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 3 - Gelb;277
+2025;StB 9 Cotta/westliche Ortschaften;PKW;Diesel;Schadstoffgruppe 4 - Grün;7769
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";122
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;247
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";237
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;66
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;132
+2025;StB 9 Cotta/westliche Ortschaften;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;2214
+2025;unbekannt;PKW;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2025;unbekannt;PKW;Benzin;Schadstoffgruppe 4 - Grün;243
+2025;unbekannt;PKW;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";1
+2025;unbekannt;PKW;Diesel;Schadstoffgruppe 2 - Rot;0
+2025;unbekannt;PKW;Diesel;Schadstoffgruppe 3 - Gelb;1
+2025;unbekannt;PKW;Diesel;Schadstoffgruppe 4 - Grün;60
+2025;unbekannt;Nutzfahrzeug;Benzin;"Schadstoffgruppe 1 - ohne Plakette  ";0
+2025;unbekannt;Nutzfahrzeug;Benzin;Schadstoffgruppe 4 - Grün;3
+2025;unbekannt;Nutzfahrzeug;Diesel;"Schadstoffgruppe 1 - ohne Plakette  ";2
+2025;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 2 - Rot;1
+2025;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 3 - Gelb;0
+2025;unbekannt;Nutzfahrzeug;Diesel;Schadstoffgruppe 4 - Grün;57

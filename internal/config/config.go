@@ -9,7 +9,7 @@ import (
 
 // Version is also parsed by flake.nix and bumped by `make release`, keep the
 // declaration on one line.
-const Version = "0.2.1"
+const Version = "0.3.0"
 
 // DefaultPortalURL is the web app of Dresden's OpenData portal, whose search
 // backend lists every dataset together with its published resources.

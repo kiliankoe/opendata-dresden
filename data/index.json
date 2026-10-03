@@ -3967,7 +3967,7 @@
     {
       "id": "12AF3111-B61A-442A-AF4B-04AC1E0FDD1D",
       "title": "Radverkehr - Dauerzählstellen - alle Zählwerte (veröffentlicht)",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -6801,7 +6801,7 @@
     {
       "id": "23888346-9601-4BC8-8DD3-2DDA80F082F7",
       "title": "Allgemeines",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -7741,7 +7741,8 @@
     {
       "id": "2934B458-6147-4E46-962C-821B011CF696",
       "title": "Wetterdaten (täglich) - Station Dresden-Klotzsche",
-      "updated": "17.08.2026",
+      "updated": "02.10.2026",
+      "changed": "03.10.2026",
       "source": "Deutscher Wetterdienst",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -8607,7 +8608,7 @@
     {
       "id": "2CA82454-EE40-40A0-BC56-5D94654EB040",
       "title": "Grundwasserisohypsen - aktuell",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -9230,7 +9231,7 @@
     {
       "id": "2FA96A57-4E74-46E7-83A9-8CD28FF88B90",
       "title": "Flurbereinigungsverfahren",
-      "updated": "16.09.2026",
+      "updated": "18.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -11790,7 +11791,8 @@
     {
       "id": "3C2C8B50-640D-48A7-B8CB-05EABB4CD34F",
       "title": "Tourismus nach Beherbergungsstätten (vorläufige Monatswerte)",
-      "updated": "06.08.2026",
+      "updated": "02.10.2026",
+      "changed": "03.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -12995,7 +12997,7 @@
     {
       "id": "4264C9C4-0A22-4BCC-8F25-712E9EBF2FD4",
       "title": "Bauvorhaben",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -15682,7 +15684,7 @@
     {
       "id": "509E0F7B-4F73-4386-8159-5FE94DAA79E4",
       "title": "Grundwasserflurabstände - aktuell",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -21842,7 +21844,7 @@
     {
       "id": "6D4BA778-1F48-49A3-A99F-9310170E36EE",
       "title": "Öffentliche Verkehrswege - gesamt",
-      "updated": "23.09.2026",
+      "updated": "30.09.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -27230,7 +27232,7 @@
     {
       "id": "889D3712-8F39-4DCF-83BA-5B631C7CD4BD",
       "title": "Behörden - Stadt",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -27647,7 +27649,7 @@
     {
       "id": "8A6FB9D7-A14C-4DD7-9829-1C11EFF3D300",
       "title": "Infoportal Barrierefreiheit - Bank \u0026 Post",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -27820,7 +27822,7 @@
     {
       "id": "8B5B50B7-A6E7-46EB-9DEB-634A041F596E",
       "title": "Stadtbäume",
-      "updated": "28.09.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -29614,7 +29616,7 @@
     {
       "id": "96129E05-31FD-41C1-8C1A-0AD1C851ACE1",
       "title": "aktuelle Verkehrseinschränkungen",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -31370,7 +31372,7 @@
     {
       "id": "9DB0C020-3767-4B5E-8510-DEFAB0684D9E",
       "title": "Infoportal Barrierefreiheit - Bildung: Kinderbetreuung, Schulen, Berufsschulen",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -32816,7 +32818,7 @@
     {
       "id": "A5D701F2-0A58-43C8-A2CF-5C7A70C3FAAD",
       "title": "Radverkehr - Dauerzählstellen - aktuelle Zählwerte (veröffentlicht)",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -36146,7 +36148,7 @@
     {
       "id": "B7D98C12-6EE8-4985-AA13-4420854FAAAA",
       "title": "Infoportal Barrierefreiheit - Öffentliche WC-Anlagen",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -37630,7 +37632,7 @@
     {
       "id": "BDBE8497-7DC7-4E2F-A7CC-15E0B329CB89",
       "title": "zukünftige Verkehrseinschränkungen",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -42129,7 +42131,7 @@
     {
       "id": "D5E2F3E1-B035-494D-A399-B1C130796217",
       "title": "Infoportal Barrierefreiheit",
-      "updated": "30.09.2026",
+      "updated": "01.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -43231,7 +43233,7 @@
     {
       "id": "DB79A50D-91FD-4819-B8CA-EF5531AE7E94",
       "title": "Bebauungspläne",
-      "updated": "15.07.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -46234,7 +46236,8 @@
     {
       "id": "EB8B9497-F310-4D17-812C-FBD6F0CD36F6",
       "title": "Tourismus nach Gästeherkunft (vorläufige Monatswerte)",
-      "updated": "06.08.2026",
+      "updated": "02.10.2026",
+      "changed": "03.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -48983,7 +48986,7 @@
     {
       "id": "F9B81333-A87B-4ABD-9888-CE4A8D5B7D30",
       "title": "INSEK 2035+ Schlüsselprojekte 2025",
-      "updated": "29.09.2026",
+      "updated": "30.09.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [

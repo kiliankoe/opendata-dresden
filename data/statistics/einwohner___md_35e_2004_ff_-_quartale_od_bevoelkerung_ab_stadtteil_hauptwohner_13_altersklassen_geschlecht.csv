@@ -42119,3 +42119,471 @@ Jahresquartal;Stadtraum;Stadtbezirk mit zugeordneten Ortschaften;AltK_13IRB-2-5-
 20262;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;weiblich;1016
 20262;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;männlich;379
 20262;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;weiblich;542
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;00 - 02 Jahre;männlich;499
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;00 - 02 Jahre;weiblich;516
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;03 - 05 Jahre;männlich;530
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;03 - 05 Jahre;weiblich;439
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;06 - 09 Jahre;männlich;614
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;06 - 09 Jahre;weiblich;586
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;10 - 14 Jahre;männlich;723
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;10 - 14 Jahre;weiblich;623
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;15 - 17 Jahre;männlich;383
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;15 - 17 Jahre;weiblich;353
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;18 - 24 Jahre;männlich;2508
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;18 - 24 Jahre;weiblich;2490
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;25 - 29 Jahre;männlich;3064
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;25 - 29 Jahre;weiblich;2535
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;30 - 44 Jahre;männlich;6376
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;30 - 44 Jahre;weiblich;4574
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;45 - 59 Jahre;männlich;2607
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;45 - 59 Jahre;weiblich;2130
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;60 - 64 Jahre;männlich;787
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;60 - 64 Jahre;weiblich;784
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;65 - 74 Jahre;männlich;1274
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;65 - 74 Jahre;weiblich;1492
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;75 - 84 Jahre;männlich;788
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;75 - 84 Jahre;weiblich;1346
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;85 Jahre u.älter;männlich;829
+20263;01 StB Altstadt ohne Johannstadt;StB 0 Altstadt;85 Jahre u.älter;weiblich;1967
+20263;02 Johannstadt;StB 0 Altstadt;00 - 02 Jahre;männlich;326
+20263;02 Johannstadt;StB 0 Altstadt;00 - 02 Jahre;weiblich;310
+20263;02 Johannstadt;StB 0 Altstadt;03 - 05 Jahre;männlich;327
+20263;02 Johannstadt;StB 0 Altstadt;03 - 05 Jahre;weiblich;314
+20263;02 Johannstadt;StB 0 Altstadt;06 - 09 Jahre;männlich;438
+20263;02 Johannstadt;StB 0 Altstadt;06 - 09 Jahre;weiblich;442
+20263;02 Johannstadt;StB 0 Altstadt;10 - 14 Jahre;männlich;528
+20263;02 Johannstadt;StB 0 Altstadt;10 - 14 Jahre;weiblich;483
+20263;02 Johannstadt;StB 0 Altstadt;15 - 17 Jahre;männlich;287
+20263;02 Johannstadt;StB 0 Altstadt;15 - 17 Jahre;weiblich;303
+20263;02 Johannstadt;StB 0 Altstadt;18 - 24 Jahre;männlich;1049
+20263;02 Johannstadt;StB 0 Altstadt;18 - 24 Jahre;weiblich;1282
+20263;02 Johannstadt;StB 0 Altstadt;25 - 29 Jahre;männlich;1122
+20263;02 Johannstadt;StB 0 Altstadt;25 - 29 Jahre;weiblich;1104
+20263;02 Johannstadt;StB 0 Altstadt;30 - 44 Jahre;männlich;2869
+20263;02 Johannstadt;StB 0 Altstadt;30 - 44 Jahre;weiblich;2534
+20263;02 Johannstadt;StB 0 Altstadt;45 - 59 Jahre;männlich;1719
+20263;02 Johannstadt;StB 0 Altstadt;45 - 59 Jahre;weiblich;1735
+20263;02 Johannstadt;StB 0 Altstadt;60 - 64 Jahre;männlich;553
+20263;02 Johannstadt;StB 0 Altstadt;60 - 64 Jahre;weiblich;693
+20263;02 Johannstadt;StB 0 Altstadt;65 - 74 Jahre;männlich;1038
+20263;02 Johannstadt;StB 0 Altstadt;65 - 74 Jahre;weiblich;1383
+20263;02 Johannstadt;StB 0 Altstadt;75 - 84 Jahre;männlich;1010
+20263;02 Johannstadt;StB 0 Altstadt;75 - 84 Jahre;weiblich;1820
+20263;02 Johannstadt;StB 0 Altstadt;85 Jahre u.älter;männlich;860
+20263;02 Johannstadt;StB 0 Altstadt;85 Jahre u.älter;weiblich;1538
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;00 - 02 Jahre;männlich;490
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;00 - 02 Jahre;weiblich;473
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;03 - 05 Jahre;männlich;604
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;03 - 05 Jahre;weiblich;552
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;06 - 09 Jahre;männlich;864
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;06 - 09 Jahre;weiblich;869
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;10 - 14 Jahre;männlich;1051
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;10 - 14 Jahre;weiblich;996
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;15 - 17 Jahre;männlich;598
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;15 - 17 Jahre;weiblich;597
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;18 - 24 Jahre;männlich;1645
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;18 - 24 Jahre;weiblich;1725
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;25 - 29 Jahre;männlich;1920
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;25 - 29 Jahre;weiblich;1857
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;30 - 44 Jahre;männlich;6341
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;30 - 44 Jahre;weiblich;5328
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;45 - 59 Jahre;männlich;4227
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;45 - 59 Jahre;weiblich;3468
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;60 - 64 Jahre;männlich;903
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;60 - 64 Jahre;weiblich;793
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;65 - 74 Jahre;männlich;1038
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;65 - 74 Jahre;weiblich;1104
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;75 - 84 Jahre;männlich;596
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;75 - 84 Jahre;weiblich;887
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;85 Jahre u.älter;männlich;358
+20263;03 StB Neustadt ohne Leipziger Vorstadt;StB 1 Neustadt;85 Jahre u.älter;weiblich;647
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;00 - 02 Jahre;männlich;185
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;00 - 02 Jahre;weiblich;157
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;03 - 05 Jahre;männlich;194
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;03 - 05 Jahre;weiblich;210
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;06 - 09 Jahre;männlich;281
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;06 - 09 Jahre;weiblich;281
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;10 - 14 Jahre;männlich;337
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;10 - 14 Jahre;weiblich;362
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;15 - 17 Jahre;männlich;208
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;15 - 17 Jahre;weiblich;179
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;18 - 24 Jahre;männlich;697
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;18 - 24 Jahre;weiblich;740
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;25 - 29 Jahre;männlich;780
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;25 - 29 Jahre;weiblich;864
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;30 - 44 Jahre;männlich;2342
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;30 - 44 Jahre;weiblich;2054
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;45 - 59 Jahre;männlich;1375
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;45 - 59 Jahre;weiblich;1078
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;60 - 64 Jahre;männlich;250
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;60 - 64 Jahre;weiblich;200
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;65 - 74 Jahre;männlich;288
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;65 - 74 Jahre;weiblich;288
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;75 - 84 Jahre;männlich;147
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;75 - 84 Jahre;weiblich;191
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;85 Jahre u.älter;männlich;55
+20263;04 Leipziger Vorstadt, Pieschen;StB 1 Neustadt;85 Jahre u.älter;weiblich;87
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;00 - 02 Jahre;männlich;281
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;00 - 02 Jahre;weiblich;276
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;03 - 05 Jahre;männlich;324
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;03 - 05 Jahre;weiblich;346
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;06 - 09 Jahre;männlich;507
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;06 - 09 Jahre;weiblich;505
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;10 - 14 Jahre;männlich;723
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;10 - 14 Jahre;weiblich;624
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;15 - 17 Jahre;männlich;410
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;15 - 17 Jahre;weiblich;387
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;18 - 24 Jahre;männlich;920
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;18 - 24 Jahre;weiblich;1042
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;25 - 29 Jahre;männlich;1044
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;25 - 29 Jahre;weiblich;1097
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;30 - 44 Jahre;männlich;3777
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;30 - 44 Jahre;weiblich;3308
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;45 - 59 Jahre;männlich;2465
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;45 - 59 Jahre;weiblich;2137
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;60 - 64 Jahre;männlich;648
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;60 - 64 Jahre;weiblich;567
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;65 - 74 Jahre;männlich;785
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;65 - 74 Jahre;weiblich;855
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;75 - 84 Jahre;männlich;380
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;75 - 84 Jahre;weiblich;627
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;85 Jahre u.älter;männlich;181
+20263;04 Leipziger Vorstadt, Pieschen;StB 2 Pieschen;85 Jahre u.älter;weiblich;414
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;00 - 02 Jahre;männlich;304
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;00 - 02 Jahre;weiblich;277
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;03 - 05 Jahre;männlich;369
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;03 - 05 Jahre;weiblich;347
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;06 - 09 Jahre;männlich;580
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;06 - 09 Jahre;weiblich;563
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;10 - 14 Jahre;männlich;770
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;10 - 14 Jahre;weiblich;747
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;15 - 17 Jahre;männlich;444
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;15 - 17 Jahre;weiblich;410
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;18 - 24 Jahre;männlich;1050
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;18 - 24 Jahre;weiblich;1055
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;25 - 29 Jahre;männlich;860
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;25 - 29 Jahre;weiblich;900
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;30 - 44 Jahre;männlich;3404
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;30 - 44 Jahre;weiblich;3280
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;45 - 59 Jahre;männlich;3128
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;45 - 59 Jahre;weiblich;2840
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;60 - 64 Jahre;männlich;953
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;60 - 64 Jahre;weiblich;983
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;65 - 74 Jahre;männlich;1295
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;65 - 74 Jahre;weiblich;1546
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;75 - 84 Jahre;männlich;810
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;75 - 84 Jahre;weiblich;1158
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;85 Jahre u.älter;männlich;436
+20263;05 Mickten, Kaditz, Trachau;StB 2 Pieschen;85 Jahre u.älter;weiblich;634
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;00 - 02 Jahre;männlich;243
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;00 - 02 Jahre;weiblich;233
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;03 - 05 Jahre;männlich;366
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;03 - 05 Jahre;weiblich;333
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;06 - 09 Jahre;männlich;626
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;06 - 09 Jahre;weiblich;636
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;10 - 14 Jahre;männlich;938
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;10 - 14 Jahre;weiblich;902
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;15 - 17 Jahre;männlich;561
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;15 - 17 Jahre;weiblich;562
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;18 - 24 Jahre;männlich;1065
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;18 - 24 Jahre;weiblich;805
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;25 - 29 Jahre;männlich;517
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;25 - 29 Jahre;weiblich;414
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;30 - 44 Jahre;männlich;2421
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;30 - 44 Jahre;weiblich;2413
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;45 - 59 Jahre;männlich;3544
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;45 - 59 Jahre;weiblich;3268
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;60 - 64 Jahre;männlich;1304
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;60 - 64 Jahre;weiblich;1291
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;65 - 74 Jahre;männlich;1994
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;65 - 74 Jahre;weiblich;2111
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;75 - 84 Jahre;männlich;1227
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;75 - 84 Jahre;weiblich;1669
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;85 Jahre u.älter;männlich;683
+20263;06 StB Klotzsche und nördliche OS;StB 3 Klotzsche/nördliche Ortschaften;85 Jahre u.älter;weiblich;1056
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;00 - 02 Jahre;männlich;250
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;00 - 02 Jahre;weiblich;238
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;03 - 05 Jahre;männlich;345
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;03 - 05 Jahre;weiblich;356
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;06 - 09 Jahre;männlich;670
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;06 - 09 Jahre;weiblich;656
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;10 - 14 Jahre;männlich;1049
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;10 - 14 Jahre;weiblich;935
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;15 - 17 Jahre;männlich;603
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;15 - 17 Jahre;weiblich;613
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;18 - 24 Jahre;männlich;1052
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;18 - 24 Jahre;weiblich;976
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;25 - 29 Jahre;männlich;479
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;25 - 29 Jahre;weiblich;436
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;30 - 44 Jahre;männlich;2281
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;30 - 44 Jahre;weiblich;2490
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;45 - 59 Jahre;männlich;3806
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;45 - 59 Jahre;weiblich;3837
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;60 - 64 Jahre;männlich;1412
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;60 - 64 Jahre;weiblich;1375
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;65 - 74 Jahre;männlich;2001
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;65 - 74 Jahre;weiblich;2235
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;75 - 84 Jahre;männlich;1319
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;75 - 84 Jahre;weiblich;1742
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;85 Jahre u.älter;männlich;740
+20263;07 StB Loschwitz und OS Schönfeld-Weißig;StB 4 Loschwitz/OS Schönfeld-Weißig;85 Jahre u.älter;weiblich;1044
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;00 - 02 Jahre;männlich;581
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;00 - 02 Jahre;weiblich;515
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;03 - 05 Jahre;männlich;681
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;03 - 05 Jahre;weiblich;595
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;06 - 09 Jahre;männlich;1040
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;06 - 09 Jahre;weiblich;993
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;10 - 14 Jahre;männlich;1335
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;10 - 14 Jahre;weiblich;1332
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;15 - 17 Jahre;männlich;761
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;15 - 17 Jahre;weiblich;799
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;18 - 24 Jahre;männlich;1775
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;18 - 24 Jahre;weiblich;2150
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;25 - 29 Jahre;männlich;1648
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;25 - 29 Jahre;weiblich;1776
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;30 - 44 Jahre;männlich;5483
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;30 - 44 Jahre;weiblich;5365
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;45 - 59 Jahre;männlich;4901
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;45 - 59 Jahre;weiblich;5072
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;60 - 64 Jahre;männlich;1566
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;60 - 64 Jahre;weiblich;1664
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;65 - 74 Jahre;männlich;2017
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;65 - 74 Jahre;weiblich;2524
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;75 - 84 Jahre;männlich;1369
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;75 - 84 Jahre;weiblich;2074
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;85 Jahre u.älter;männlich;1073
+20263;08 Blasewitz, Striesen;StB 5 Blasewitz;85 Jahre u.älter;weiblich;1777
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;00 - 02 Jahre;männlich;308
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;00 - 02 Jahre;weiblich;278
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;03 - 05 Jahre;männlich;371
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;03 - 05 Jahre;weiblich;360
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;06 - 09 Jahre;männlich;622
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;06 - 09 Jahre;weiblich;606
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;10 - 14 Jahre;männlich;863
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;10 - 14 Jahre;weiblich;865
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;15 - 17 Jahre;männlich;527
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;15 - 17 Jahre;weiblich;528
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;18 - 24 Jahre;männlich;1464
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;18 - 24 Jahre;weiblich;1437
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;25 - 29 Jahre;männlich;1146
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;25 - 29 Jahre;weiblich;1109
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;30 - 44 Jahre;männlich;3614
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;30 - 44 Jahre;weiblich;3463
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;45 - 59 Jahre;männlich;3327
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;45 - 59 Jahre;weiblich;3422
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;60 - 64 Jahre;männlich;1209
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;60 - 64 Jahre;weiblich;1414
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;65 - 74 Jahre;männlich;1717
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;65 - 74 Jahre;weiblich;2282
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;75 - 84 Jahre;männlich;1524
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;75 - 84 Jahre;weiblich;2267
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;85 Jahre u.älter;männlich;927
+20263;09 Tolkewitz, Seidnitz, Gruna;StB 5 Blasewitz;85 Jahre u.älter;weiblich;1438
+20263;10 StB Leuben;StB 6 Leuben;00 - 02 Jahre;männlich;299
+20263;10 StB Leuben;StB 6 Leuben;00 - 02 Jahre;weiblich;307
+20263;10 StB Leuben;StB 6 Leuben;03 - 05 Jahre;männlich;435
+20263;10 StB Leuben;StB 6 Leuben;03 - 05 Jahre;weiblich;366
+20263;10 StB Leuben;StB 6 Leuben;06 - 09 Jahre;männlich;692
+20263;10 StB Leuben;StB 6 Leuben;06 - 09 Jahre;weiblich;681
+20263;10 StB Leuben;StB 6 Leuben;10 - 14 Jahre;männlich;1060
+20263;10 StB Leuben;StB 6 Leuben;10 - 14 Jahre;weiblich;912
+20263;10 StB Leuben;StB 6 Leuben;15 - 17 Jahre;männlich;569
+20263;10 StB Leuben;StB 6 Leuben;15 - 17 Jahre;weiblich;574
+20263;10 StB Leuben;StB 6 Leuben;18 - 24 Jahre;männlich;1376
+20263;10 StB Leuben;StB 6 Leuben;18 - 24 Jahre;weiblich;1334
+20263;10 StB Leuben;StB 6 Leuben;25 - 29 Jahre;männlich;873
+20263;10 StB Leuben;StB 6 Leuben;25 - 29 Jahre;weiblich;841
+20263;10 StB Leuben;StB 6 Leuben;30 - 44 Jahre;männlich;3187
+20263;10 StB Leuben;StB 6 Leuben;30 - 44 Jahre;weiblich;3168
+20263;10 StB Leuben;StB 6 Leuben;45 - 59 Jahre;männlich;4011
+20263;10 StB Leuben;StB 6 Leuben;45 - 59 Jahre;weiblich;3924
+20263;10 StB Leuben;StB 6 Leuben;60 - 64 Jahre;männlich;1462
+20263;10 StB Leuben;StB 6 Leuben;60 - 64 Jahre;weiblich;1484
+20263;10 StB Leuben;StB 6 Leuben;65 - 74 Jahre;männlich;2137
+20263;10 StB Leuben;StB 6 Leuben;65 - 74 Jahre;weiblich;2601
+20263;10 StB Leuben;StB 6 Leuben;75 - 84 Jahre;männlich;1698
+20263;10 StB Leuben;StB 6 Leuben;75 - 84 Jahre;weiblich;2480
+20263;10 StB Leuben;StB 6 Leuben;85 Jahre u.älter;männlich;991
+20263;10 StB Leuben;StB 6 Leuben;85 Jahre u.älter;weiblich;1439
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;00 - 02 Jahre;männlich;278
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;00 - 02 Jahre;weiblich;256
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;03 - 05 Jahre;männlich;327
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;03 - 05 Jahre;weiblich;343
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;06 - 09 Jahre;männlich;525
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;06 - 09 Jahre;weiblich;463
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;10 - 14 Jahre;männlich;756
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;10 - 14 Jahre;weiblich;661
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;15 - 17 Jahre;männlich;413
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;15 - 17 Jahre;weiblich;405
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;18 - 24 Jahre;männlich;1194
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;18 - 24 Jahre;weiblich;979
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;25 - 29 Jahre;männlich;834
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;25 - 29 Jahre;weiblich;639
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;30 - 44 Jahre;männlich;2516
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;30 - 44 Jahre;weiblich;2246
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;45 - 59 Jahre;männlich;2144
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;45 - 59 Jahre;weiblich;1894
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;60 - 64 Jahre;männlich;718
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;60 - 64 Jahre;weiblich;671
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;65 - 74 Jahre;männlich;1227
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;65 - 74 Jahre;weiblich;1654
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;75 - 84 Jahre;männlich;1007
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;75 - 84 Jahre;weiblich;1441
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;85 Jahre u.älter;männlich;447
+20263;11 Prohlis, Reick (mit Sternhäuser, Am Koitschgraben);StB 7 Prohlis;85 Jahre u.älter;weiblich;803
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;00 - 02 Jahre;männlich;306
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;00 - 02 Jahre;weiblich;281
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;03 - 05 Jahre;männlich;390
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;03 - 05 Jahre;weiblich;410
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;06 - 09 Jahre;männlich;630
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;06 - 09 Jahre;weiblich;645
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;10 - 14 Jahre;männlich;932
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;10 - 14 Jahre;weiblich;921
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;15 - 17 Jahre;männlich;535
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;15 - 17 Jahre;weiblich;557
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;18 - 24 Jahre;männlich;1445
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;18 - 24 Jahre;weiblich;1327
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;25 - 29 Jahre;männlich;1016
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;25 - 29 Jahre;weiblich;917
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;30 - 44 Jahre;männlich;3160
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;30 - 44 Jahre;weiblich;2981
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;45 - 59 Jahre;männlich;3456
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;45 - 59 Jahre;weiblich;3403
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;60 - 64 Jahre;männlich;1291
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;60 - 64 Jahre;weiblich;1329
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;65 - 74 Jahre;männlich;1920
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;65 - 74 Jahre;weiblich;2176
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;75 - 84 Jahre;männlich;1294
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;75 - 84 Jahre;weiblich;1743
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;85 Jahre u.älter;männlich;702
+20263;12 Niedersedlitz, Leubnitz, Strehlen (ohne Sternhäuser, Am Koitschgraben);StB 7 Prohlis;85 Jahre u.älter;weiblich;922
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;00 - 02 Jahre;männlich;289
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;00 - 02 Jahre;weiblich;309
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;03 - 05 Jahre;männlich;366
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;03 - 05 Jahre;weiblich;314
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;06 - 09 Jahre;männlich;559
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;06 - 09 Jahre;weiblich;490
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;10 - 14 Jahre;männlich;698
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;10 - 14 Jahre;weiblich;665
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;15 - 17 Jahre;männlich;429
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;15 - 17 Jahre;weiblich;390
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;18 - 24 Jahre;männlich;3159
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;18 - 24 Jahre;weiblich;2503
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;25 - 29 Jahre;männlich;2332
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;25 - 29 Jahre;weiblich;1624
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;30 - 44 Jahre;männlich;3551
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;30 - 44 Jahre;weiblich;2816
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;45 - 59 Jahre;männlich;2064
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;45 - 59 Jahre;weiblich;1910
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;60 - 64 Jahre;männlich;637
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;60 - 64 Jahre;weiblich;651
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;65 - 74 Jahre;männlich;1093
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;65 - 74 Jahre;weiblich;1334
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;75 - 84 Jahre;männlich;952
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;75 - 84 Jahre;weiblich;1436
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;85 Jahre u.älter;männlich;555
+20263;13 Südvorstadt, Zschertnitz;StB 8 Plauen;85 Jahre u.älter;weiblich;884
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;00 - 02 Jahre;männlich;205
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;00 - 02 Jahre;weiblich;185
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;03 - 05 Jahre;männlich;263
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;03 - 05 Jahre;weiblich;250
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;06 - 09 Jahre;männlich;463
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;06 - 09 Jahre;weiblich;423
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;10 - 14 Jahre;männlich;612
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;10 - 14 Jahre;weiblich;583
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;15 - 17 Jahre;männlich;374
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;15 - 17 Jahre;weiblich;348
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;18 - 24 Jahre;männlich;1055
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;18 - 24 Jahre;weiblich;944
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;25 - 29 Jahre;männlich;836
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;25 - 29 Jahre;weiblich;695
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;30 - 44 Jahre;männlich;2465
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;30 - 44 Jahre;weiblich;2160
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;45 - 59 Jahre;männlich;2362
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;45 - 59 Jahre;weiblich;2193
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;60 - 64 Jahre;männlich;811
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;60 - 64 Jahre;weiblich;864
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;65 - 74 Jahre;männlich;1300
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;65 - 74 Jahre;weiblich;1512
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;75 - 84 Jahre;männlich;895
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;75 - 84 Jahre;weiblich;1144
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;85 Jahre u.älter;männlich;486
+20263;14 Mockritz, Coschütz, Plauen;StB 8 Plauen;85 Jahre u.älter;weiblich;711
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;männlich;478
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;weiblich;442
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;männlich;586
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;weiblich;525
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;männlich;857
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;weiblich;748
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;männlich;1077
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;weiblich;941
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;männlich;564
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;weiblich;505
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;männlich;2087
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;weiblich;2359
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;männlich;2485
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;weiblich;2219
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;männlich;5856
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;weiblich;4951
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;männlich;3677
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;weiblich;3238
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;männlich;1154
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;weiblich;1184
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;männlich;1635
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;weiblich;1960
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;männlich;889
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;weiblich;1155
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;männlich;373
+20263;15 Cotta, Löbtau, Naußlitz, Dölzschen;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;weiblich;615
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;männlich;277
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;weiblich;233
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;männlich;312
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;weiblich;302
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;männlich;486
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;weiblich;432
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;männlich;624
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;weiblich;594
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;männlich;433
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;weiblich;360
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;männlich;1258
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;weiblich;814
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;männlich;975
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;weiblich;571
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;männlich;2653
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;weiblich;1929
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;männlich;1713
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;weiblich;1458
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;männlich;586
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;weiblich;575
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;männlich;1357
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;weiblich;1662
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;männlich;724
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;weiblich;956
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;männlich;269
+20263;16 Gorbitz;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;weiblich;558
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;männlich;223
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;00 - 02 Jahre;weiblich;190
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;männlich;278
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;03 - 05 Jahre;weiblich;216
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;männlich;457
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;06 - 09 Jahre;weiblich;506
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;männlich;711
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;10 - 14 Jahre;weiblich;716
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;männlich;388
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;15 - 17 Jahre;weiblich;418
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;männlich;734
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;18 - 24 Jahre;weiblich;662
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;männlich;408
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;25 - 29 Jahre;weiblich;377
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;männlich;1915
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;30 - 44 Jahre;weiblich;2041
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;männlich;2642
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;45 - 59 Jahre;weiblich;2452
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;männlich;955
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;60 - 64 Jahre;weiblich;961
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;männlich;1563
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;65 - 74 Jahre;weiblich;1683
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;männlich;886
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;75 - 84 Jahre;weiblich;1004
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;männlich;382
+20263;17 Briesnitz und westliche OS;StB 9 Cotta/westliche Ortschaften;85 Jahre u.älter;weiblich;551

@@ -1129,7 +1129,7 @@
     {
       "id": "064A3A4B-48BE-4125-8761-DC8D72749104",
       "title": "Stadtbezirke/Ortschaften",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -1139,7 +1139,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L139",
       "resources": [
@@ -1778,7 +1778,7 @@
     {
       "id": "09418385-6903-45CB-8866-4979D3671799",
       "title": "Kinder \u0026 Jugend",
-      "updated": "09.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -3969,7 +3969,7 @@
     {
       "id": "12AF3111-B61A-442A-AF4B-04AC1E0FDD1D",
       "title": "Radverkehr - Dauerzählstellen - alle Zählwerte (veröffentlicht)",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -4170,7 +4170,7 @@
     {
       "id": "148898F4-4344-467C-8208-01CBB648E1E1",
       "title": "Wertstoffcontainerstandplätze",
-      "updated": "29.09.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -6804,7 +6804,7 @@
     {
       "id": "23888346-9601-4BC8-8DD3-2DDA80F082F7",
       "title": "Allgemeines",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -7347,7 +7347,7 @@
     {
       "id": "26D695BF-C987-422B-AAB1-94E759C1D193",
       "title": "Entsorgung \u0026 Abfall",
-      "updated": "05.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -7744,8 +7744,8 @@
     {
       "id": "2934B458-6147-4E46-962C-821B011CF696",
       "title": "Wetterdaten (täglich) - Station Dresden-Klotzsche",
-      "updated": "02.10.2026",
-      "changed": "03.10.2026",
+      "updated": "13.10.2026",
+      "changed": "14.10.2026",
       "source": "Deutscher Wetterdienst",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -7755,17 +7755,6 @@
         "Dresden"
       ],
       "years": [
-        "1934",
-        "1935",
-        "1936",
-        "1937",
-        "1938",
-        "1939",
-        "1940",
-        "1941",
-        "1942",
-        "1943",
-        "1944",
         "1945",
         "1946",
         "1947",
@@ -8143,7 +8132,7 @@
     {
       "id": "2A1A5449-7DAB-4B92-8E8F-D7219860AF14",
       "title": "Adressen",
-      "updated": "30.09.2026",
+      "updated": "08.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -8612,7 +8601,7 @@
     {
       "id": "2CA82454-EE40-40A0-BC56-5D94654EB040",
       "title": "Grundwasserisohypsen - aktuell",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -9842,7 +9831,7 @@
     {
       "id": "340C215E-3E58-4133-8C6B-FDBBBB6E481D",
       "title": "Gemarkungen",
-      "updated": "29.09.2026",
+      "updated": "06.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -13001,7 +12990,7 @@
     {
       "id": "4264C9C4-0A22-4BCC-8F25-712E9EBF2FD4",
       "title": "Bauvorhaben",
-      "updated": "08.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -13996,7 +13985,7 @@
     {
       "id": "493101D0-3C79-4E9C-99CD-8B2BAC194FEC",
       "title": "Stadtteile",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -14006,7 +13995,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L137",
       "resources": [
@@ -15635,7 +15624,7 @@
     {
       "id": "509E0F7B-4F73-4386-8159-5FE94DAA79E4",
       "title": "Grundwasserflurabstände - aktuell",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -15927,7 +15916,8 @@
     {
       "id": "52BD6CC0-14A0-40A6-8BC8-3A9AB7F59912",
       "title": "Kindertageseinrichtungen — betreute Kinder nach Hort/Kita",
-      "updated": "18.06.2026",
+      "updated": "13.10.2026",
+      "changed": "14.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -15939,7 +15929,8 @@
       "years": [
         "2023",
         "2024",
-        "2025"
+        "2025",
+        "2026"
       ],
       "resources": [
         {
@@ -19380,7 +19371,7 @@
     {
       "id": "61B6242E-E628-4AD1-BC14-3B35B5E2BC5A",
       "title": "Kindertagesbetreuung",
-      "updated": "09.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Kindertagesbetreuung",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -19814,7 +19805,8 @@
     {
       "id": "63FB07FA-BDAC-4C12-8FB9-DFC8745E2595",
       "title": "Kindertageseinrichtungen nach Trägerart — betreute Kinder und genehmigte Plätze sowie tätiges Personal",
-      "updated": "19.06.2026",
+      "updated": "13.10.2026",
+      "changed": "14.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -19826,7 +19818,8 @@
       "years": [
         "2023",
         "2024",
-        "2025"
+        "2025",
+        "2026"
       ],
       "resources": [
         {
@@ -20130,7 +20123,7 @@
     {
       "id": "65E8470E-3325-4ADF-906C-153E406614BE",
       "title": "Eigentum Landeshauptstadt Dresden (Flurstücke)",
-      "updated": "30.09.2026",
+      "updated": "07.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -26449,7 +26442,7 @@
     {
       "id": "84FF7E7D-81D8-4FCD-A1C5-EE522D174793",
       "title": "Mobilitätspunkte - in Betrieb",
-      "updated": "14.09.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -27228,7 +27221,7 @@
     {
       "id": "889D3712-8F39-4DCF-83BA-5B631C7CD4BD",
       "title": "Behörden - Stadt",
-      "updated": "10.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -27324,7 +27317,7 @@
     {
       "id": "88F5C2BB-25A3-4054-9E64-84ED920AB11D",
       "title": "Planungsrechtliche Auskunft",
-      "updated": "28.09.2026",
+      "updated": "09.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -29612,7 +29605,7 @@
     {
       "id": "96129E05-31FD-41C1-8C1A-0AD1C851ACE1",
       "title": "aktuelle Verkehrseinschränkungen",
-      "updated": "08.10.2026",
+      "updated": "12.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -31462,7 +31455,7 @@
     {
       "id": "9DB0C020-3767-4B5E-8510-DEFAB0684D9E",
       "title": "Infoportal Barrierefreiheit - Bildung: Kinderbetreuung, Schulen, Berufsschulen",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -31742,7 +31735,7 @@
     {
       "id": "9E4A3EF7-C658-403F-BBC0-61571C2B9066",
       "title": "Stadtbezirke mit zugeordneten Ortschaften",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -31752,7 +31745,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L1821",
       "resources": [
@@ -32909,7 +32902,7 @@
     {
       "id": "A5D701F2-0A58-43C8-A2CF-5C7A70C3FAAD",
       "title": "Radverkehr - Dauerzählstellen - aktuelle Zählwerte (veröffentlicht)",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -35877,7 +35870,7 @@
     {
       "id": "B5F2028C-40D9-41DF-8B06-B307A3167D0A",
       "title": "Mobile Sammlungen",
-      "updated": "14.09.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -37724,7 +37717,7 @@
     {
       "id": "BDBE8497-7DC7-4E2F-A7CC-15E0B329CB89",
       "title": "zukünftige Verkehrseinschränkungen",
-      "updated": "09.10.2026",
+      "updated": "12.10.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -38272,7 +38265,7 @@
     {
       "id": "C15190D0-FB3A-45D8-8855-5531655C8345",
       "title": "Neue Gehwege",
-      "updated": "11.12.2025",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -38282,7 +38275,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L1568",
       "resources": [
@@ -39675,7 +39668,7 @@
     {
       "id": "C8FBB455-DA8B-4623-B9E9-2DF949743869",
       "title": "Mobilitätspunkte",
-      "updated": "14.09.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -39685,7 +39678,6 @@
         "Dresden"
       ],
       "years": [
-        "2025",
         "2026"
       ],
       "resources": [
@@ -40250,7 +40242,7 @@
     {
       "id": "CBCB9D52-376E-4B95-8894-32D466147D29",
       "title": "Stolpersteine",
-      "updated": "01.10.2026",
+      "updated": "06.10.2026",
       "source": "Stolpersteine für Dresden e. V.",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -41067,7 +41059,7 @@
     {
       "id": "CFBA18D1-D437-420B-9A68-7A9377FECD6A",
       "title": "Bruttoblöcke",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -41077,7 +41069,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L479",
       "resources": [
@@ -41878,7 +41870,7 @@
     {
       "id": "D3D0DD03-25CE-4B7F-B192-B70B159860B7",
       "title": "Mobilitätspunkte - Fläche (Konzept)",
-      "updated": "03.09.2025",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -41888,7 +41880,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L835",
       "resources": [
@@ -42223,7 +42215,7 @@
     {
       "id": "D5E2F3E1-B035-494D-A399-B1C130796217",
       "title": "Infoportal Barrierefreiheit",
-      "updated": "11.10.2026",
+      "updated": "13.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -43019,7 +43011,7 @@
     {
       "id": "D9DE01A4-39A8-4CC7-8524-A74108BEEF5D",
       "title": "Statistische Bezirke",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -43029,7 +43021,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L138",
       "resources": [
@@ -44805,7 +44797,7 @@
     {
       "id": "E281D115-BEDB-4016-9CF0-0E00868AB3FA",
       "title": "Friedhöfe",
-      "updated": "23.06.2026",
+      "updated": "08.10.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -45668,7 +45660,7 @@
     {
       "id": "E86A163A-640E-4F9C-811A-F426A69D62D2",
       "title": "Kindertagesstätten",
-      "updated": "09.10.2026",
+      "updated": "12.10.2026",
       "source": "Amt für Kindertagesbetreuung",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -45952,7 +45944,7 @@
     {
       "id": "E971AE1F-5F09-4883-B8E1-75AE631218F3",
       "title": "Bearbeitungsgebiete",
-      "updated": "28.09.2026",
+      "updated": "09.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -45997,7 +45989,7 @@
     {
       "id": "E97FDD2A-2F9B-449E-A066-2C40815BB121",
       "title": "Mobilitätspunkte - Konzept, Planung",
-      "updated": "03.09.2025",
+      "updated": "12.10.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -46007,7 +45999,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L833",
       "resources": [
@@ -48208,7 +48200,7 @@
     {
       "id": "F53704F6-916F-48EB-AFA4-CB223E7E47B8",
       "title": "Katasterübersichtskarte (KUEK5) - Stadtgrenze",
-      "updated": "10.09.2026",
+      "updated": "06.10.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -48422,7 +48414,7 @@
     {
       "id": "F5ED05E2-8DC4-42DB-B279-98FF225486F1",
       "title": "Nettoblöcke",
-      "updated": "19.12.2025",
+      "updated": "30.09.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -48432,7 +48424,7 @@
         "Dresden"
       ],
       "years": [
-        "2025"
+        "2026"
       ],
       "layerId": "L480",
       "resources": [

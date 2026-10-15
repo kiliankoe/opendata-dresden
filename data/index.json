@@ -3720,7 +3720,8 @@
     {
       "id": "1149218D-DF05-4C44-8133-ABEB3A6DF4DA",
       "title": "Arbeitslose - Quartalszahlen (seit 2018)",
-      "updated": "15.07.2026",
+      "updated": "14.10.2026",
+      "changed": "15.10.2026",
       "source": "Statistik der Bundesagentur für Arbeit",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -15916,7 +15917,7 @@
     {
       "id": "52BD6CC0-14A0-40A6-8BC8-3A9AB7F59912",
       "title": "Kindertageseinrichtungen — betreute Kinder nach Hort/Kita",
-      "updated": "13.10.2026",
+      "updated": "14.10.2026",
       "changed": "14.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
@@ -19805,7 +19806,7 @@
     {
       "id": "63FB07FA-BDAC-4C12-8FB9-DFC8745E2595",
       "title": "Kindertageseinrichtungen nach Trägerart — betreute Kinder und genehmigte Plätze sowie tätiges Personal",
-      "updated": "13.10.2026",
+      "updated": "14.10.2026",
       "changed": "14.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
@@ -23966,7 +23967,8 @@
     {
       "id": "78282C5B-5F92-4F25-A8CC-9F67CE70E7B7",
       "title": "Sozialversicherungspflichtig Beschäftigte - Quartalszahlen (seit 3. Quartal 2017)",
-      "updated": "15.07.2026",
+      "updated": "14.10.2026",
+      "changed": "15.10.2026",
       "source": "Statistik der Bundesagentur für Arbeit",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -23984,7 +23986,8 @@
         "2022",
         "2023",
         "2024",
-        "2025"
+        "2025",
+        "2026"
       ],
       "resources": [
         {
@@ -28954,7 +28957,8 @@
     {
       "id": "93044F1C-D592-495C-BDB6-694B6876E5AD",
       "title": "SGB II-Empfänger und Bedarfsgemeinschaften - Quartalszahlen (seit 2018)",
-      "updated": "15.07.2026",
+      "updated": "14.10.2026",
+      "changed": "15.10.2026",
       "source": "Statistik der Bundesagentur für Arbeit",
       "license": "dl-de/by-2-0",
       "topics": [

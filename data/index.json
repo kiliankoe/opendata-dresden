@@ -5463,7 +5463,8 @@
     {
       "id": "1B4F6153-A1F6-43DC-BB03-C74424FC0FE7",
       "title": "Straßenverkehrsunfälle - Sach- und Personenschaden",
-      "updated": "07.07.2026",
+      "updated": "21.10.2026",
+      "changed": "23.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -16536,7 +16537,8 @@
     {
       "id": "55D3725F-A14D-44FE-8A36-1B855CA9CE46",
       "title": "Insolvenzverfahren - Unternehmensinsolvenzverfahren nach Rechtsform und Wirtschaftszweig",
-      "updated": "30.06.2026",
+      "updated": "21.10.2026",
+      "changed": "23.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -36327,7 +36329,8 @@
     {
       "id": "B8496CA9-1CA0-4A71-B2BE-BEFB530DEC6C",
       "title": "Insolvenzverfahren - Insgesamt",
-      "updated": "30.06.2026",
+      "updated": "21.10.2026",
+      "changed": "23.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -42614,7 +42617,8 @@
     {
       "id": "D83DA31D-9208-4697-8D71-6BC4239450C4",
       "title": "Straßenverkehrsunfälle - Verunglückte",
-      "updated": "07.07.2026",
+      "updated": "21.10.2026",
+      "changed": "23.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -44605,7 +44609,8 @@
     {
       "id": "E1B866FC-4320-4DD5-B4D7-56EEAF4D4710",
       "title": "Insolvenzverfahren - Übrige Schuldner nach Verfahren und Schuldnerart",
-      "updated": "30.06.2026",
+      "updated": "21.10.2026",
+      "changed": "23.10.2026",
       "source": "Statistisches Landesamt Sachsen",
       "license": "dl-de/by-2-0",
       "topics": [

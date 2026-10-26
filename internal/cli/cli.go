@@ -8,9 +8,13 @@ import (
 	"flag"
 	"fmt"
 	"io"
+	"net/http"
+	"os"
+	"path/filepath"
 	"strings"
 	"text/tabwriter"
 
+	"github.com/kiliankoe/opendata-dresden/internal/archive"
 	"github.com/kiliankoe/opendata-dresden/internal/config"
 	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
@@ -23,13 +27,15 @@ const usage = `Usage:
   od3 fetch [flags] <id> <format> download a dataset resource
   od3 history [flags] <id>        show how a statistics table changed over time
   od3 index [flags]               snapshot all datasets with their descriptions
+  od3 archive --dir DIR           store every version of every dataset's data in DIR
   od3 version                     print the version
 
 Flags of search:  --limit N (default 30), --offset N, --output text|json
 Flags of info:    --output text|json
 Flags of fetch:   --limit N, --bbox minLon,minLat,maxLon,maxLat (geodata layers only)
 Flags of history: --limit N (default 10), --diff shows the changed rows, --output text|json
-Flags of index:   --file PATH (default data/index.json), --data DIR mirrors the tables`
+Flags of index:   --file PATH (default data/index.json), --data DIR mirrors the tables
+Flags of archive: --dir DIR (required), see the README for its layout`
 
 // Run executes one command and writes its result to stdout
 func Run(ctx context.Context, cfg *config.Config, args []string, stdout io.Writer) error {
@@ -150,6 +156,38 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		_, err = fmt.Fprintln(stdout, summary)
 		return err
 
+	case "archive":
+		dir := flags.String("dir", "", "")
+		if err := flags.Parse(args); err != nil {
+			return err
+		}
+		if *dir == "" {
+			return errors.New("usage: archive --dir DIR")
+		}
+		file := filepath.Join(*dir, "index.json")
+		previous, err := index.Read(file)
+		if err != nil {
+			return err
+		}
+		idx, _, err := index.Build(ctx, portal.NewClient(cfg), previous)
+		if err != nil {
+			return err
+		}
+		if err := os.MkdirAll(*dir, 0o755); err != nil {
+			return err
+		}
+		// Written first, so that a retry after a failed run describes nothing twice
+		if err := idx.Write(file); err != nil {
+			return err
+		}
+		summary, err := archive.Run(ctx, archiveClient(cfg), idx, *dir)
+		if err != nil {
+			return err
+		}
+		_, err = fmt.Fprintf(stdout, "%d resources, %d failed, %d new objects of %.1f MB\n",
+			summary.Resources, summary.Failed, summary.NewObjects, float64(summary.NewBytes)/1e6)
+		return err
+
 	case "version", "--version":
 		_, err := fmt.Fprintln(stdout, "od3", config.Version)
 		return err
@@ -160,6 +198,14 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 	default:
 		return fmt.Errorf("unknown command %q\n%s", command, usage)
 	}
+}
+
+// archiveClient bounds only the wait for a response, not the whole request:
+// the largest downloads are ZIPs of 1.7 GB.
+func archiveClient(cfg *config.Config) *http.Client {
+	transport := portal.Transport()
+	transport.ResponseHeaderTimeout = cfg.RequestTimeout
+	return &http.Client{Transport: transport}
 }
 
 func writer(output string) (func(io.Writer, any) error, error) {

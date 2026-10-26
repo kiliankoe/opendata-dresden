@@ -1,8 +1,12 @@
 package portal
 
 import (
+	"bytes"
+	"compress/gzip"
 	"context"
 	"encoding/json"
+	"net/http"
+	"net/http/httptest"
 	"strings"
 	"testing"
 
@@ -148,5 +152,31 @@ func TestDescribe(t *testing.T) {
 	stats, _ := client.GetDataset(ctx, "D2")
 	if err := client.Describe(ctx, stats); err != nil || stats.Description != "" {
 		t.Errorf("stats: err=%v description=%q", err, stats.Description)
+	}
+}
+
+// The portal's WFS endpoints end their gzip streams without the trailer, so a
+// client asking for gzip gets every byte and still an error
+func TestFetchResourceTruncatedGzip(t *testing.T) {
+	capabilities := []byte("<WFS_Capabilities></WFS_Capabilities>")
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if !strings.Contains(r.Header.Get("Accept-Encoding"), "gzip") {
+			_, _ = w.Write(capabilities)
+			return
+		}
+		var compressed bytes.Buffer
+		gz := gzip.NewWriter(&compressed)
+		_, _ = gz.Write(capabilities)
+		_ = gz.Close()
+		w.Header().Set("Content-Encoding", "gzip")
+		_, _ = w.Write(compressed.Bytes()[:compressed.Len()-8])
+	}))
+	t.Cleanup(server.Close)
+
+	client := NewClient(&config.Config{})
+	dataset := &Dataset{ID: "D1", Resources: []Resource{{Format: "WFS", URL: server.URL}}}
+	got, err := client.FetchResource(context.Background(), dataset, "WFS", FetchOptions{})
+	if err != nil || !bytes.Equal(got, capabilities) {
+		t.Errorf("got %q, err=%v", got, err)
 	}
 }

@@ -78,13 +78,33 @@ Search and info answer from this index rather than the portal, whose search has 
 
 [`data/statistics/`](data/statistics) holds the CSV download of every statistics dataset, copied byte for byte and refreshed by the same Action with `od3 index --data data/statistics`. The portal publishes only the current version of each table, so this git history is the only record of how the numbers change. The whole set is about 39 MB and roughly 8 of the 323 tables change in a month.
 
-A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot.
+A table is downloaded again when its update date moves or its file is missing, and removed when the portal stops listing the dataset. Geodata layers stay out: their attribute tables come to roughly 1.3 GB per snapshot. The [archive](#archive) keeps them.
 
 Comparing a fresh download against the mirrored copy also gives every dataset a second date. `updated` is the portal's own, which moves whenever the city republishes a dataset, whether or not the numbers moved with it. `changed` is the day the rows last actually differed, and stays empty until this project has seen that happen. Both are written dd.mm.yyyy and both are in [`data/index.json`](data/index.json), so the CLI, the MCP tools and the search page can sort and show them. This is why `od3 index --data` mirrors the tables before it writes the index.
 
 `od3 history <id>` and the `dataset_history` tool report what that history recorded, newest first, reading the commits through GitHub's API. `--diff` adds the rows that moved, at the cost of one request per change. Unauthenticated that API allows 60 requests per hour; set `GITHUB_TOKEN` to raise it. The web app reads the same API for its "Änderungen" view and the tables from `raw.githubusercontent.com`, which sends the CORS headers the portal does not.
 
 Fetching a dataset always goes to the portal, so you get the city's current numbers and never the mirror's copy of them. The portal's own charts stay as they are: the tables mix counts with rates, averages and cumulative figures, so a chart built without knowing which is which would show wrong numbers.
+
+## Archive
+
+`od3 archive --dir DIR` stores every version of every resource of the portal that holds data, geodata layers included. It is meant to run nightly on a local machine, since the whole archive is too large for this git repo: the first run downloads about 6 GB, most of it ZIPs that do not compress further, and later ones add an estimated 5–10 GB a year.
+
+Each run reads the previous catalog from `DIR/index.json`, rebuilds it from the portal as `od3 index` does, writes it back and then downloads every resource. It writes `DIR/runs/<stamp>.jsonl`, one JSON line per resource, with the stamp being the run's start in UTC, e.g. `20261027T043112Z`, so that the manifests sort in the order of their runs:
+
+```json
+{"dataset":"96129E05-…","format":"CSV","url":"https://kommisdd.dresden.de/…/L60/items?format=csv/ewkt&delimiter=semicolon","fetched":"2026-10-27T04:31:40Z","status":200,"sha256":"4ab152ae…","size":81234}
+```
+
+- `url` identifies a resource from run to run; `dataset` and `format` are the portal's.
+- `status` is the HTTP status. A resource whose previous entry had an `etag` or `lastModified` is requested conditionally, which keeps the 3D city model and terrain ZIPs of up to 1.7 GB from being downloaded every night. A `304` entry carries the hash and size of the content found unchanged.
+- `sha256` is the hash of the content as the server sent it, without compression on the wire. The content is stored as `DIR/objects/<first two hex digits>/<remaining 62>.zst`, compressed with zstd, so `zstd -dc` returns it and `sha256sum` confirms it. Content is stored once, so an unchanged resource costs a manifest line and no space.
+- `error` is set when nothing was stored, from an error status, a connection failure or a download that broke off or stalled for two minutes. `status` is then the HTTP status or missing. The next night tries again.
+- The first line, format `Katalog`, holds the catalog of that night, so `jq 'select(.format == "Katalog")'` and the object behind it tell which datasets the portal listed then.
+
+A run exits with an error only when the archive itself cannot be written; failed downloads are recorded and do not count. A run that stops halfway leaves a `.partial` manifest, which later runs ignore and which can be kept or deleted. Waiting for a response is bounded by `REQUEST_TIMEOUT_MS`, the download itself only by the stall timeout.
+
+Viewers holding no data of their own (Themenstadtplan, the statistics tables and charts, the election atlases, the OParl API and the 3D scene layers) are skipped and get no entry. Geodata layers are archived as CSV together with their OGC API collection description, format `Collection`, which lists the columns with their types, rather than as GeoJSON: the GeoJSON holds the same features and carries a request timestamp that makes every download differ. Bytes are stored as the portal sent them; normalizing them for comparison is left to whatever reads the archive. `od3 history` still reads the statistics mirror in this repository, not the archive.
 
 ## Development
 

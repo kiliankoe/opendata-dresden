@@ -15,7 +15,7 @@
           );
           src = self;
           subPackages = [ "cmd/od3" ];
-          vendorHash = "sha256-OMDyDQu+pxxEJzyS/ybNFL5mv1Ir2047GMb2/6NxAO8=";
+          vendorHash = "sha256-eV1wdrotC7bILPXLPjncfXsYNZUX3wvv8TCIDDnhObk=";
           meta = {
             description = "CLI and MCP server for Dresden's OpenData portal";
             homepage = "https://github.com/kiliankoe/opendata-dresden";

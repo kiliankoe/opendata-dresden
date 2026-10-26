@@ -272,3 +272,34 @@ func TestVersion(t *testing.T) {
 		}
 	}
 }
+
+func TestArchive(t *testing.T) {
+	fake := portaltest.New(t)
+	dir := t.TempDir()
+	// The previous catalog's description survives, as the portal reports D1
+	// unchanged since then
+	previous := &index.Index{Datasets: []portal.Dataset{{ID: "D1", Updated: "13.03.2024", Description: "aus der Vornacht"}}}
+	if err := previous.Write(filepath.Join(dir, "index.json")); err != nil {
+		t.Fatal(err)
+	}
+
+	// The broken fixture D3 fails without failing the command
+	out, err := run(t, fake, "archive", "--dir", dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if out == "" || strings.Count(out, "\n") != 1 || !strings.HasSuffix(out, "\n") {
+		t.Errorf("want a one-line summary, got %q", out)
+	}
+
+	idx, err := index.Read(filepath.Join(dir, "index.json"))
+	if err != nil || len(idx.Datasets) != 3 {
+		t.Fatalf("written catalog: err=%v datasets=%d", err, len(idx.Datasets))
+	}
+	if idx.Datasets[0].ID != "D1" || idx.Datasets[0].Description != "aus der Vornacht" {
+		t.Errorf("catalog not built on the previous one: %+v", idx.Datasets[0])
+	}
+	if manifests, _ := filepath.Glob(filepath.Join(dir, "runs", "*.jsonl")); len(manifests) != 1 {
+		t.Errorf("got manifests %v, want one completed run", manifests)
+	}
+}

@@ -39,9 +39,19 @@ func NewClient(cfg *config.Config) *Client {
 	return &Client{
 		portalURL: cfg.PortalURL,
 		httpClient: &http.Client{
-			Timeout: cfg.RequestTimeout,
+			Timeout:   cfg.RequestTimeout,
+			Transport: Transport(),
 		},
 	}
+}
+
+// Transport never asks for gzip: the WFS endpoints end their gzip streams
+// without the trailer, which Go's transparent decoding rejects after reading
+// every byte.
+func Transport() *http.Transport {
+	transport := http.DefaultTransport.(*http.Transport).Clone()
+	transport.DisableCompression = true
+	return transport
 }
 
 // SearchDatasets runs a full-text search. An empty query lists all datasets.

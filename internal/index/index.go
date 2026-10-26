@@ -48,15 +48,29 @@ func parse(data []byte) (*Index, error) {
 	return &idx, nil
 }
 
-// Write stores the index sorted by dataset ID, so that successive versions
-// diff cleanly in git.
+// Write stores the index as Marshal serializes it. It renames a complete
+// copy into place, since a truncated index fails every later Read.
 func (idx *Index) Write(path string) error {
-	slices.SortFunc(idx.Datasets, func(a, b portal.Dataset) int { return strings.Compare(a.ID, b.ID) })
-	data, err := json.MarshalIndent(idx, "", "  ")
+	data, err := idx.Marshal()
 	if err != nil {
 		return err
 	}
-	return os.WriteFile(path, append(data, '\n'), 0o644)
+	tmp := path + ".tmp"
+	if err := os.WriteFile(tmp, data, 0o644); err != nil {
+		return err
+	}
+	return os.Rename(tmp, path)
+}
+
+// Marshal serializes the index sorted by dataset ID, so that successive
+// versions diff cleanly in git and identical catalogs serialize identically.
+func (idx *Index) Marshal() ([]byte, error) {
+	slices.SortFunc(idx.Datasets, func(a, b portal.Dataset) int { return strings.Compare(a.ID, b.ID) })
+	data, err := json.MarshalIndent(idx, "", "  ")
+	if err != nil {
+		return nil, err
+	}
+	return append(data, '\n'), nil
 }
 
 // Build lists every dataset of the portal. Details are fetched only for

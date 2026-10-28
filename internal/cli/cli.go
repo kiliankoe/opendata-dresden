@@ -180,7 +180,7 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		if err := idx.Write(file); err != nil {
 			return err
 		}
-		summary, err := archive.Run(ctx, archiveClient(cfg), idx, *dir)
+		summary, err := archive.Run(ctx, &http.Client{Transport: portal.Transport()}, idx, *dir)
 		if err != nil {
 			return err
 		}
@@ -198,14 +198,6 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 	default:
 		return fmt.Errorf("unknown command %q\n%s", command, usage)
 	}
-}
-
-// archiveClient bounds only the wait for a response, not the whole request:
-// the largest downloads are ZIPs of 1.7 GB.
-func archiveClient(cfg *config.Config) *http.Client {
-	transport := portal.Transport()
-	transport.ResponseHeaderTimeout = cfg.RequestTimeout
-	return &http.Client{Transport: transport}
 }
 
 func writer(output string) (func(io.Writer, any) error, error) {

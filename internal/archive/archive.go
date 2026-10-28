@@ -88,6 +88,10 @@ type Summary struct {
 // now stamps runs and entries. Tests replace it.
 var now = time.Now
 
+// responseTimeout bounds the wait for a response. The portal builds a layer's
+// CSV before it answers, which takes minutes for the largest. Tests shorten it.
+var responseTimeout = 10 * time.Minute
+
 // idleTimeout abandons a download whose server stopped sending. Tests
 // shorten it.
 var idleTimeout = 2 * time.Minute
@@ -219,13 +223,14 @@ func download(ctx context.Context, client *http.Client, store *store, url string
 			req.Header.Set("If-Modified-Since", previous.LastModified)
 		}
 	}
+	timeout := time.AfterFunc(responseTimeout, cancel)
+	defer timeout.Stop()
 	resp, err := client.Do(req)
 	if err != nil {
 		return Entry{Fetched: fetched, Error: err.Error()}, nil
 	}
 	defer func() { _ = resp.Body.Close() }()
-	idle := time.AfterFunc(idleTimeout, cancel)
-	defer idle.Stop()
+	timeout.Reset(idleTimeout)
 
 	e := Entry{Fetched: fetched, Status: resp.StatusCode, ETag: resp.Header.Get("ETag"), LastModified: resp.Header.Get("Last-Modified")}
 	switch {
@@ -241,7 +246,7 @@ func download(ctx context.Context, client *http.Client, store *store, url string
 	case resp.StatusCode != http.StatusOK:
 		e.Error = "status " + resp.Status
 	default:
-		e.SHA256, e.Size, err = store.put(&idleReader{resp.Body, idle})
+		e.SHA256, e.Size, err = store.put(&idleReader{resp.Body, timeout})
 		var read *readError
 		if errors.As(err, &read) {
 			e.Error = read.Error()

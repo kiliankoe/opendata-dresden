@@ -845,3 +845,53 @@ func TestRunObjectsAreReadable(t *testing.T) {
 		}
 	}
 }
+
+// The portal builds a large layer's CSV before it answers, which takes longer
+// than a stall in the middle of a download is allowed to
+func TestRunWaitsForSlowResponses(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		time.Sleep(300 * time.Millisecond)
+		_, _ = w.Write([]byte("built"))
+	}))
+	t.Cleanup(server.Close)
+	defer func(idle, response time.Duration) { idleTimeout, responseTimeout = idle, response }(idleTimeout, responseTimeout)
+	idleTimeout, responseTimeout = 50*time.Millisecond, 5*time.Second
+	idx := &index.Index{Datasets: []portal.Dataset{{ID: "D1", Resources: []portal.Resource{
+		{Format: "CSV", URL: server.URL + "/slow"},
+	}}}}
+
+	at(t, day)
+	summary := run(t, idx, t.TempDir())
+	if e := entry(t, readManifest(t, summary.Manifest), server.URL+"/slow"); e.Error != "" || e.SHA256 != sum([]byte("built")) {
+		t.Errorf("entry %+v, want the slow response archived", e)
+	}
+}
+
+// A server that never answers is given up on, whatever client the run uses
+func TestRunAbandonsSilentServers(t *testing.T) {
+	release := make(chan struct{})
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		select {
+		case <-release:
+		case <-r.Context().Done():
+		}
+	}))
+	t.Cleanup(func() { close(release); server.Close() })
+	defer func(original time.Duration) { responseTimeout = original }(responseTimeout)
+	responseTimeout = 100 * time.Millisecond
+	idx := &index.Index{Datasets: []portal.Dataset{{ID: "D1", Resources: []portal.Resource{
+		{Format: "CSV", URL: server.URL + "/silent"},
+	}}}}
+
+	at(t, day)
+	done := make(chan *Summary)
+	go func() { done <- run(t, idx, t.TempDir()) }()
+	select {
+	case summary := <-done:
+		if e := entry(t, readManifest(t, summary.Manifest), server.URL+"/silent"); e.Error == "" {
+			t.Errorf("entry %+v, want the silence recorded as an error", e)
+		}
+	case <-time.After(5 * time.Second):
+		t.Fatal("the run is still waiting for a server that never answers")
+	}
+}

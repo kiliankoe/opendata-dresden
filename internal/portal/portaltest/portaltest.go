@@ -133,6 +133,7 @@ func New(t *testing.T) *Server {
 	mux.HandleFunc("/ogcapi/collections/L1527/items", func(w http.ResponseWriter, r *http.Request) {
 		fake.LastQuery = r.URL.RawQuery
 		if strings.HasPrefix(r.URL.Query().Get("format"), "csv") {
+			w.Header().Set("Content-Type", "text/csv")
 			_, _ = w.Write([]byte("\"id\";\"geom\"\n1;\"SRID=4326;POINT(13.7 51.0)\"\n"))
 			return
 		}

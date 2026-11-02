@@ -12,6 +12,7 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/kiliankoe/opendata-dresden/internal/archive"
 	"github.com/kiliankoe/opendata-dresden/internal/config"
 	"github.com/kiliankoe/opendata-dresden/internal/index"
 	"github.com/kiliankoe/opendata-dresden/internal/portal"
@@ -299,7 +300,35 @@ func TestArchive(t *testing.T) {
 	if idx.Datasets[0].ID != "D1" || idx.Datasets[0].Description != "aus der Vornacht" {
 		t.Errorf("catalog not built on the previous one: %+v", idx.Datasets[0])
 	}
-	if manifests, _ := filepath.Glob(filepath.Join(dir, "runs", "*.jsonl")); len(manifests) != 1 {
-		t.Errorf("got manifests %v, want one completed run", manifests)
+	manifests, _ := filepath.Glob(filepath.Join(dir, "runs", "*.jsonl"))
+	if len(manifests) != 1 {
+		t.Fatalf("got manifests %v, want one completed run", manifests)
+	}
+
+	// The layer's CSV is stored as rows, which the table command reads back
+	data, err := os.ReadFile(manifests[0])
+	if err != nil {
+		t.Fatal(err)
+	}
+	var rows string
+	for _, line := range strings.Split(strings.TrimSpace(string(data)), "\n") {
+		var e archive.Entry
+		if err := json.Unmarshal([]byte(line), &e); err != nil {
+			t.Fatal(err)
+		}
+		rows += e.Rows
+	}
+	if rows == "" {
+		t.Fatal("no entry with rows")
+	}
+	out, err = run(t, fake, "table", "--dir", dir, rows)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if want := "\"id\";\"geom\"\n1;\"SRID=4326;POINT(13.7 51.0)\"\n"; out != want {
+		t.Errorf("table: got %q, want %q", out, want)
+	}
+	if _, err := run(t, fake, "table", "--dir", dir, "unknown"); err == nil {
+		t.Error("want an error for unknown rows")
 	}
 }

@@ -9,6 +9,10 @@
 //	objects/ab/cdef….zst       content, addressed by sha256 "abcdef…"
 //	runs/<stamp>.jsonl         manifest of a completed run, one Entry per line
 //	runs/<stamp>.jsonl.partial manifest of a run that did not finish
+//	state/…                    latest version of each geodata layer's table, see tables
+//
+// Geodata layers' CSVs are the exception: they are stored as the records that
+// changed since the previous version, see rows.go.
 package archive
 
 import (
@@ -19,6 +23,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"hash"
 	"io"
 	"net/http"
 	"os"
@@ -73,7 +78,16 @@ type Entry struct {
 	Size         int64  `json:"size,omitempty"` // uncompressed bytes
 	ETag         string `json:"etag,omitempty"`
 	LastModified string `json:"lastModified,omitempty"`
-	Error        string `json:"error,omitempty"` // set when no content was stored
+	// Rows identifies the version of a geodata layer's table, as the SHA-256
+	// of its canonical form, see Table. Such an entry's SHA256 names the
+	// bytes the server sent, which are not stored.
+	Rows string `json:"rows,omitempty"`
+	// Delta names the object holding the records that changed against the
+	// version DeltaFrom, or the whole table when DeltaFrom is empty. It is
+	// empty when the table is unchanged.
+	Delta     string `json:"delta,omitempty"`
+	DeltaFrom string `json:"deltaFrom,omitempty"`
+	Error     string `json:"error,omitempty"` // set when no content was stored
 }
 
 // Summary describes a finished run
@@ -140,6 +154,7 @@ func Run(ctx context.Context, client *http.Client, idx *index.Index, dir string)
 	}
 
 	started := now().UTC()
+	tables := openTables(dir, store, started.Year())
 	manifest := filepath.Join(dir, "runs", started.Format(stampLayout)+".jsonl")
 	file, err := os.Create(manifest + ".partial")
 	if err != nil {
@@ -178,7 +193,7 @@ func Run(ctx context.Context, client *http.Client, idx *index.Index, dir string)
 		ds := &idx.Datasets[i]
 		for _, r := range Resources(ds) {
 			group.Go(func() error {
-				e, err := download(ctx, client, store, r.URL, previous[r.URL])
+				e, err := download(ctx, client, store, tables, r, ds.LayerID != "", previous[r.URL])
 				if err != nil {
 					return fmt.Errorf("archiving %s: %w", r.URL, err)
 				}
@@ -200,22 +215,27 @@ func Run(ctx context.Context, client *http.Client, idx *index.Index, dir string)
 	if err := os.Rename(manifest+".partial", manifest); err != nil {
 		return nil, err
 	}
+	if err := tables.commit(); err != nil {
+		return nil, err
+	}
 	summary.NewObjects, summary.NewBytes = store.added, store.addedBytes
 	return summary, nil
 }
 
-// download fetches one resource into the store. Failures of the server or the
-// network become the entry's Error; only failures to store are returned.
-func download(ctx context.Context, client *http.Client, store *store, url string, previous Entry) (Entry, error) {
+// download fetches one resource into the store, a geodata layer's table into
+// tables. Failures of the server or the network become the entry's Error; only
+// failures to store are returned.
+func download(ctx context.Context, client *http.Client, store *store, tables *tables, resource portal.Resource, layer bool, previous Entry) (Entry, error) {
 	fetched := now().UTC().Format(time.RFC3339)
 	ctx, cancel := context.WithCancel(ctx)
 	defer cancel()
-	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
+	req, err := http.NewRequestWithContext(ctx, http.MethodGet, resource.URL, nil)
 	if err != nil {
 		return Entry{Fetched: fetched, Error: err.Error()}, nil
 	}
-	// A 304 only vouches for content the archive still holds
-	if previous.SHA256 != "" && store.has(previous.SHA256) {
+	// A 304 only vouches for content the archive still holds. A layer's table
+	// is held as rows, not under its SHA256.
+	if previous.Rows != "" || previous.SHA256 != "" && store.has(previous.SHA256) {
 		if previous.ETag != "" {
 			req.Header.Set("If-None-Match", previous.ETag)
 		}
@@ -235,7 +255,7 @@ func download(ctx context.Context, client *http.Client, store *store, url string
 	e := Entry{Fetched: fetched, Status: resp.StatusCode, ETag: resp.Header.Get("ETag"), LastModified: resp.Header.Get("Last-Modified")}
 	switch {
 	case resp.StatusCode == http.StatusNotModified && req.Header.Get("If-None-Match")+req.Header.Get("If-Modified-Since") != "":
-		e.SHA256, e.Size = previous.SHA256, previous.Size
+		e.SHA256, e.Size, e.Rows = previous.SHA256, previous.Size, previous.Rows
 		// A 304 need not repeat the validators, and the next run needs them
 		if e.ETag == "" {
 			e.ETag = previous.ETag
@@ -246,16 +266,31 @@ func download(ctx context.Context, client *http.Client, store *store, url string
 	case resp.StatusCode != http.StatusOK:
 		e.Error = "status " + resp.Status
 	default:
-		e.SHA256, e.Size, err = store.put(&idleReader{resp.Body, timeout})
+		content, err := store.receive(&idleReader{resp.Body, timeout})
 		var read *readError
 		if errors.As(err, &read) {
 			e.Error = read.Error()
+			break
 		} else if err != nil {
+			return Entry{}, err
+		}
+		defer content.discard()
+		e.SHA256, e.Size = content.sum(), content.size
+		if isTable(layer, resource.Format, resp.Header.Get("Content-Type")) {
+			err = tables.update(content, resource.URL, previous, &e)
+			if err == nil {
+				break
+			} else if !errors.Is(err, errNotTable) {
+				return Entry{}, err
+			}
+			e.Rows, e.Delta, e.DeltaFrom = "", "", ""
+		}
+		if _, err := store.keep(content); err != nil {
 			return Entry{}, err
 		}
 	}
 	if e.Error != "" {
-		e.SHA256, e.Size, e.ETag, e.LastModified = "", 0, "", ""
+		e = Entry{Fetched: e.Fetched, Status: e.Status, Error: e.Error}
 	}
 	return e, nil
 }
@@ -343,53 +378,106 @@ type readError struct{ err error }
 
 func (e *readError) Error() string { return "reading response: " + e.err.Error() }
 
-// put stores content unless an object with the same hash exists. The content
-// is hashed into a temporary file first, so that the far more frequent
-// unchanged downloads cost no compression.
-func (s *store) put(content io.Reader) (string, int64, error) {
-	tmp, err := os.CreateTemp(s.tmp, "download-")
-	if err != nil {
-		return "", 0, err
-	}
-	defer func() { _ = tmp.Close(); _ = os.Remove(tmp.Name()) }()
+// staged is a temporary file in the store that hashes what is written to it.
+// The file is no embedded field, since io.Copy would write through its
+// ReadFrom and skip the hash.
+type staged struct {
+	file *os.File
+	hash hash.Hash
+	size int64
+}
 
-	hash := sha256.New()
+func (f *staged) Write(p []byte) (int, error) {
+	n, err := f.file.Write(p)
+	f.hash.Write(p[:n])
+	f.size += int64(n)
+	return n, err
+}
+
+func (f *staged) sum() string { return hex.EncodeToString(f.hash.Sum(nil)) }
+
+// reader rereads what was written
+func (f *staged) reader() (io.Reader, error) {
+	_, err := f.file.Seek(0, io.SeekStart)
+	return f.file, err
+}
+
+func (f *staged) discard() {
+	_ = f.file.Close()
+	_ = os.Remove(f.file.Name())
+}
+
+func (s *store) stage() (*staged, error) {
+	f, err := os.CreateTemp(s.tmp, "staged-")
+	if err != nil {
+		return nil, err
+	}
+	return &staged{file: f, hash: sha256.New()}, nil
+}
+
+// receive copies content into a staged file. A failure to read content is
+// returned as a readError.
+func (s *store) receive(content io.Reader) (*staged, error) {
+	f, err := s.stage()
+	if err != nil {
+		return nil, err
+	}
 	src := &trackingReader{Reader: content}
-	size, err := io.Copy(io.MultiWriter(tmp, hash), src)
+	_, err = io.Copy(f, src)
 	if src.err != nil {
-		return "", 0, &readError{src.err}
+		err = &readError{src.err}
 	}
 	if err != nil {
-		return "", 0, err
+		f.discard()
+		return nil, err
 	}
-	sha := hex.EncodeToString(hash.Sum(nil))
+	return f, nil
+}
 
+// keep stores a staged file as the object named by its hash unless that
+// exists. Content is hashed before it is compressed, so that the far more
+// frequent unchanged downloads cost no compression.
+func (s *store) keep(f *staged) (string, error) {
+	sha := f.sum()
 	s.mu.Lock()
 	exists := s.claimed[sha] || s.has(sha)
 	s.claimed[sha] = true
 	s.mu.Unlock()
 	if exists {
-		return sha, size, nil
+		return sha, nil
 	}
-
-	if _, err := tmp.Seek(0, io.SeekStart); err != nil {
-		return "", 0, err
-	}
-	written, err := s.compress(tmp, s.path(sha))
+	// Only new content gets here, a few hundred MB a night at most, so the
+	// slowest level pays off: it shrinks the largest layer forty-fold
+	written, err := s.compress(f, s.path(sha))
 	if err != nil {
-		return "", 0, err
+		return "", err
 	}
 	s.mu.Lock()
 	s.added++
 	s.addedBytes += written
 	s.mu.Unlock()
-	return sha, size, nil
+	return sha, nil
 }
 
-// compress writes src to path with zstd and returns the compressed size. It
-// writes to the temporary directory and renames, so an object is either
-// complete or absent.
-func (s *store) compress(src io.Reader, path string) (int64, error) {
+// put stores content as an object and returns its hash and size
+func (s *store) put(content io.Reader) (string, int64, error) {
+	f, err := s.receive(content)
+	if err != nil {
+		return "", 0, err
+	}
+	defer f.discard()
+	sha, err := s.keep(f)
+	return sha, f.size, err
+}
+
+// compress writes a staged file to path with zstd and returns the compressed
+// size. It writes to the temporary directory and renames, so the result is
+// either complete or absent.
+func (s *store) compress(f *staged, path string) (int64, error) {
+	src, err := f.reader()
+	if err != nil {
+		return 0, err
+	}
 	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
 		return 0, err
 	}
@@ -398,8 +486,6 @@ func (s *store) compress(src io.Reader, path string) (int64, error) {
 		return 0, err
 	}
 	defer func() { _ = dst.Close(); _ = os.Remove(dst.Name()) }()
-	// Only new content gets here, a few hundred MB a night at most, so the
-	// slowest level pays off: it shrinks the largest layer forty-fold
 	encoder, err := zstd.NewWriter(dst, zstd.WithEncoderLevel(zstd.SpeedBestCompression))
 	if err != nil {
 		return 0, err

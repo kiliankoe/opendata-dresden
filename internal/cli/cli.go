@@ -28,6 +28,7 @@ const usage = `Usage:
   od3 history [flags] <id>        show how a statistics table changed over time
   od3 index [flags]               snapshot all datasets with their descriptions
   od3 archive --dir DIR           store every version of every dataset's data in DIR
+  od3 table --dir DIR <rows>      print a geodata layer's table archived in DIR
   od3 version                     print the version
 
 Flags of search:  --limit N (default 30), --offset N, --output text|json
@@ -187,6 +188,16 @@ func runCommand(ctx context.Context, cfg *config.Config, command string, args []
 		_, err = fmt.Fprintf(stdout, "%d resources, %d failed, %d new objects of %.1f MB\n",
 			summary.Resources, summary.Failed, summary.NewObjects, float64(summary.NewBytes)/1e6)
 		return err
+
+	case "table":
+		dir := flags.String("dir", "", "")
+		if err := flags.Parse(args); err != nil {
+			return err
+		}
+		if *dir == "" || flags.NArg() != 1 {
+			return errors.New("usage: table --dir DIR <rows>")
+		}
+		return archive.Table(*dir, flags.Arg(0), stdout)
 
 	case "version", "--version":
 		_, err := fmt.Fprintln(stdout, "od3", config.Version)

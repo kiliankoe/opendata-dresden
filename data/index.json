@@ -3002,6 +3002,52 @@
       "origin": "Die Kartierung wurde von Juli 2024 bis Februar 2025 durch die Luftbild Umwelt Planung GmbH erstellt."
     },
     {
+      "id": "0E802451-DD0A-4B0B-A134-4BB83A85F3F8",
+      "title": "Eislaufarenen",
+      "updated": "24.11.2026",
+      "source": "JOYNEXT Arena",
+      "license": "dl-de/by-2-0",
+      "topics": [
+        "Kultur, Freizeit, Sport und Tourismus"
+      ],
+      "regions": [
+        "Dresden"
+      ],
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "resources": [
+        {
+          "format": "JSON",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-eislaufarenen_md1_2017ff_dresden_besucher/content.json"
+        },
+        {
+          "format": "Tabelle",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Eislaufarena_Quartalszahlen_TAB"
+        },
+        {
+          "format": "Säulen-/Balkendiagramm",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Eislaufarena_Quartalszahlen_DIABALK"
+        },
+        {
+          "format": "CSV",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-eislaufarenen_md1_2017ff_dresden_besucher/content.csv"
+        },
+        {
+          "format": "Information",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-eislaufarenen_md1_2017ff_dresden_besucher.html"
+        }
+      ]
+    },
+    {
       "id": "0E893ACD-61A0-4357-AC18-65F1A88C8405",
       "title": "Elbe -  924 cm Pegel Dresden (HQ100), potentiell überschwemmte Flächen (Modell 2017)",
       "updated": "15.03.2019",
@@ -3970,7 +4016,7 @@
     {
       "id": "12AF3111-B61A-442A-AF4B-04AC1E0FDD1D",
       "title": "Radverkehr - Dauerzählstellen - alle Zählwerte (veröffentlicht)",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -4171,7 +4217,7 @@
     {
       "id": "148898F4-4344-467C-8208-01CBB648E1E1",
       "title": "Wertstoffcontainerstandplätze",
-      "updated": "20.10.2026",
+      "updated": "23.11.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -6851,7 +6897,7 @@
     {
       "id": "23888346-9601-4BC8-8DD3-2DDA80F082F7",
       "title": "Allgemeines",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -7394,7 +7440,7 @@
     {
       "id": "26D695BF-C987-422B-AAB1-94E759C1D193",
       "title": "Entsorgung \u0026 Abfall",
-      "updated": "13.11.2026",
+      "updated": "23.11.2026",
       "source": "Amt für Stadtgrün und Abfallwirtschaft",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -8648,7 +8694,7 @@
     {
       "id": "2CA82454-EE40-40A0-BC56-5D94654EB040",
       "title": "Grundwasserisohypsen - aktuell",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -8866,7 +8912,7 @@
     {
       "id": "2E4011A1-C68B-4630-AD1B-84E642A3FBB4",
       "title": "SGB II - erwerbsfähige Leistungsberechtigte",
-      "updated": "31.12.2024",
+      "updated": "31.12.2025",
       "source": "KST - Kommunale Statistikstelle",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -8876,7 +8922,7 @@
         "Stadtteil"
       ],
       "years": [
-        "2024"
+        "2025"
       ],
       "layerId": "L383",
       "resources": [
@@ -9878,7 +9924,7 @@
     {
       "id": "340C215E-3E58-4133-8C6B-FDBBBB6E481D",
       "title": "Gemarkungen",
-      "updated": "11.11.2026",
+      "updated": "17.11.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -11984,6 +12030,52 @@
       "origin": "Die Daten stammen vom Amt für Stadtplanung und Mobilität der Landeshauptstadt Dresden."
     },
     {
+      "id": "3C874BB8-2B68-4EB2-8610-951F256A78D5",
+      "title": "Museen der Stadt Dresden",
+      "updated": "24.11.2026",
+      "source": "Museen der Stadt Dresden",
+      "license": "dl-de/by-2-0",
+      "topics": [
+        "Kultur, Freizeit, Sport und Tourismus"
+      ],
+      "regions": [
+        "Dresden"
+      ],
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "resources": [
+        {
+          "format": "Information",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-museen_md1_2017ff_dresden_besucher.html"
+        },
+        {
+          "format": "JSON",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-museen_md1_2017ff_dresden_besucher/content.json"
+        },
+        {
+          "format": "Säulen-/Balkendiagramm",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Museen_Quartalszahlen_DIABALK"
+        },
+        {
+          "format": "CSV",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-museen_md1_2017ff_dresden_besucher/content.csv"
+        },
+        {
+          "format": "Tabelle",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Museen_Quartalszahlen_TAB"
+        }
+      ]
+    },
+    {
       "id": "3D1C7190-7FA6-4E5D-BD84-D963B6C86E78",
       "title": "Bevölkerung am Ort der Hauptwohnung nach Geschlecht und Familienstand zum 31.12.2020",
       "updated": "15.07.2025",
@@ -13578,6 +13670,52 @@
       ],
       "description": "Die Landeshauptstadt Dresden ist über Schienen, Straßen, Wasser und Luftwege mit ihrer näheren und weiteren Umgebung verbunden. Auch im Stadtgebiet steht ein leistungsfähiges Verkehrsnetz zur Verfügung.",
       "origin": "Amt für Stadtplanung und Mobilität der Landeshauptstadt Dresden"
+    },
+    {
+      "id": "45DEA5B2-40DE-4342-A289-401DFD6BBF04",
+      "title": "Dresdner Bäder",
+      "updated": "24.11.2026",
+      "source": "Dresdner Bäder GmbH",
+      "license": "dl-de/by-2-0",
+      "topics": [
+        "Kultur, Freizeit, Sport und Tourismus"
+      ],
+      "regions": [
+        "Dresden"
+      ],
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "resources": [
+        {
+          "format": "Tabelle",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/B%C3%A4der_Quartalszahlen_TAB"
+        },
+        {
+          "format": "Information",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-baeder_md1_2017ff_dresden_besucher.html"
+        },
+        {
+          "format": "CSV",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-baeder_md1_2017ff_dresden_besucher/content.csv"
+        },
+        {
+          "format": "JSON",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-baeder_md1_2017ff_dresden_besucher/content.csv"
+        },
+        {
+          "format": "Säulen-/Balkendiagramm",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/B%C3%A4der_Quartalszahlen_DIABALK"
+        }
+      ]
     },
     {
       "id": "465D763A-9729-4FB7-BCE5-2A56647B2AF1",
@@ -15806,7 +15944,7 @@
     {
       "id": "509E0F7B-4F73-4386-8159-5FE94DAA79E4",
       "title": "Grundwasserflurabstände - aktuell",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Umweltamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -17488,7 +17626,7 @@
     {
       "id": "58F39D0E-9F4B-4E2A-9D2D-47F6B1CE50D9",
       "title": "Arbeitslosigkeit",
-      "updated": "31.12.2024",
+      "updated": "31.12.2025",
       "source": "KST - Kommunale Statistikstelle",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -17498,7 +17636,7 @@
         "Stadtteil"
       ],
       "years": [
-        "2024"
+        "2025"
       ],
       "layerId": "L385",
       "resources": [
@@ -27454,7 +27592,7 @@
     {
       "id": "889D3712-8F39-4DCF-83BA-5B631C7CD4BD",
       "title": "Behörden - Stadt",
-      "updated": "21.11.2026",
+      "updated": "22.11.2026",
       "source": "Amt für Geodaten und Kataster",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -31690,7 +31828,7 @@
     {
       "id": "9DB0C020-3767-4B5E-8510-DEFAB0684D9E",
       "title": "Infoportal Barrierefreiheit - Bildung: Kinderbetreuung, Schulen, Berufsschulen",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -33137,7 +33275,7 @@
     {
       "id": "A5D701F2-0A58-43C8-A2CF-5C7A70C3FAAD",
       "title": "Radverkehr - Dauerzählstellen - aktuelle Zählwerte (veröffentlicht)",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Straßen- und Tiefbauamt",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -33558,7 +33696,7 @@
     {
       "id": "A821D8E4-7B30-4448-B14F-27BE10E3C3E6",
       "title": "SGB II - nicht erwerbsfähige Leistungsberechtigte",
-      "updated": "31.12.2024",
+      "updated": "31.12.2025",
       "source": "KST - Kommunale Statistikstelle",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -33568,7 +33706,7 @@
         "Stadtteil"
       ],
       "years": [
-        "2024"
+        "2025"
       ],
       "layerId": "L384",
       "resources": [
@@ -42534,7 +42672,7 @@
     {
       "id": "D5E2F3E1-B035-494D-A399-B1C130796217",
       "title": "Infoportal Barrierefreiheit",
-      "updated": "22.11.2026",
+      "updated": "23.11.2026",
       "source": "Amt für Stadtplanung und Mobilität",
       "license": "dl-de/by-2-0",
       "topics": [
@@ -42820,6 +42958,52 @@
       ],
       "description": "Befliegungsgrenzen",
       "origin": "Hergestellt aus den Luftbildern der Bildflüge vom:\n07.03.2025: Digital Mapping Camera III, ca. 2240 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung\n27.03.2024: Digital Mapping Camera III, ca. 2240 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung\n22.04.2023: Digital Mapping Camera III, ca. 2240 m Flughöhe, Bilddaten ca. 10 cm Bodenauflösung"
+    },
+    {
+      "id": "D750D950-7B52-418C-8844-C3CF332D22E1",
+      "title": "Sportvereine",
+      "updated": "24.11.2026",
+      "source": "www.dynamo-dresden.de, www.del-2.org, www.volleyball-bundesliga.de, www.zweite-basketball-bundesliga.de,www.dresden-monarchs.de",
+      "license": "dl-de/by-2-0",
+      "topics": [
+        "Kultur, Freizeit, Sport und Tourismus"
+      ],
+      "regions": [
+        "Dresden"
+      ],
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "resources": [
+        {
+          "format": "CSV",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-sportvereine_md1_2017ff_dresden_zuschauerschnitt_und_anzahl_heimspiele/content.csv"
+        },
+        {
+          "format": "Tabelle",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Sportvereine_Quartalszahlen_TAB"
+        },
+        {
+          "format": "Liniendiagramm",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Sportvereine_Quartalszahlen_DIALINIE"
+        },
+        {
+          "format": "JSON",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-sportvereine_md1_2017ff_dresden_zuschauerschnitt_und_anzahl_heimspiele/content.json"
+        },
+        {
+          "format": "Information",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-sportvereine_md1_2017ff_dresden_zuschauerschnitt_und_anzahl_heimspiele.html"
+        }
+      ]
     },
     {
       "id": "D75B292F-8691-4692-B39D-0C499BE6056F",
@@ -49652,6 +49836,52 @@
       ]
     },
     {
+      "id": "FA36E809-33FC-4250-BC17-917A5BACAB9E",
+      "title": "Theater, Musik und Konzerte",
+      "updated": "24.11.2026",
+      "source": "Dresdner Philharmonie, Staatsoperette Dresden, Heinrich Schütz Konservatorium Dresden",
+      "license": "dl-de/by-2-0",
+      "topics": [
+        "Kultur, Freizeit, Sport und Tourismus"
+      ],
+      "regions": [
+        "Dresden"
+      ],
+      "years": [
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "resources": [
+        {
+          "format": "JSON",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-theater_musik_und_konzertwesen__md1_2017ff_dresden_besucher_veranstaltungen/content.json"
+        },
+        {
+          "format": "Tabelle",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Theater_Musik_Konzerte_Quartalszahlen_TAB"
+        },
+        {
+          "format": "CSV",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-theater_musik_und_konzertwesen__md1_2017ff_dresden_besucher_veranstaltungen/content.csv"
+        },
+        {
+          "format": "Information",
+          "url": "https://opendata.dresden.de/dcat-ap/dataset/de-sn-dresden-theater_musik_und_konzertwesen__md1_2017ff_dresden_besucher_veranstaltungen.html"
+        },
+        {
+          "format": "Säulen-/Balkendiagramm",
+          "url": "https://opendata.dresden.de/aswdb/asw.dll/?aw=Kultur,%20Freizeit,%20Sport%20und%20Tourismus/Theater_Musik_Konzerte_Quartalszahlen_DIABALK"
+        }
+      ]
+    },
+    {
       "id": "FA3FB381-1C6C-462D-9F23-EE1FAF0A5824",
       "title": "4.13.1 Hochwasser 2002",
       "updated": "31.08.2015",
@@ -50210,7 +50440,6 @@
         "Dresden"
       ],
       "years": [
-        "2024",
         "2025"
       ],
       "resources": [

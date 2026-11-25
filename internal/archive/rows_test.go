@@ -323,6 +323,8 @@ func TestRunLayerTableExample(t *testing.T) {
 }
 
 func TestRunStoresOtherCSVsRaw(t *testing.T) {
+	defer func(original int64) { maxTableSize = original }(maxTableSize)
+	maxTableSize = 40
 	s := newStubServer(t)
 	cases := []struct {
 		name        string
@@ -336,6 +338,8 @@ func TestRunStoresOtherCSVsRaw(t *testing.T) {
 		{"other content type", "L1", "CSV", "text/plain; charset=utf-8", "id;n\n2;b\n1;a\n"},
 		{"unterminated quote", "L2", "CSV", "text/csv", "id;n\n2;\"open\n1;a\n"},
 		{"not a CSV resource", "L3", "JSON", "text/csv", "id;n\n2;c\n1;a\n"},
+		// Too large to sort in memory
+		{"large table", "L4", "CSV", "text/csv", "id;n\n" + strings.Repeat("2;b\n1;a\n", 5)},
 	}
 	idx := &index.Index{}
 	for i, c := range cases {
@@ -473,11 +477,8 @@ func TestRunLayerTableWithoutState(t *testing.T) {
 		sum([]byte("id\n1\n2\n")): []byte("id\n1\n2\n"), e.Rows: []byte("id\n1\n2\n3\n")})
 }
 
-// A table larger than chunkSize is sorted in spilled chunks, and a nightly
-// append costs about as much as the appended records
+// A nightly append costs about as much as the appended records
 func TestRunLayerTableSmallAppend(t *testing.T) {
-	defer func(original int) { chunkSize = original }(chunkSize)
-	chunkSize = 1 << 14
 	r := rand.New(rand.NewSource(7))
 	records := []string{}
 	for i := range 20000 {
@@ -713,15 +714,7 @@ func toggleFinalNewline(content []byte) []byte {
 
 func TestRunLayerTableHistory(t *testing.T) {
 	for seed := int64(1); seed <= 2; seed++ {
-		for _, chunk := range []int{0, 64} {
-			t.Run(fmt.Sprintf("seed%d/chunk%d", seed, chunk), func(t *testing.T) {
-				if chunk != 0 {
-					defer func(original int) { chunkSize = original }(chunkSize)
-					chunkSize = chunk
-				}
-				tableHistoryRun(t, seed)
-			})
-		}
+		t.Run(fmt.Sprintf("seed%d", seed), func(t *testing.T) { tableHistoryRun(t, seed) })
 	}
 }
 

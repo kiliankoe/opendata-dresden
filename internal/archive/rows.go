@@ -3,9 +3,7 @@ package archive
 import (
 	"bufio"
 	"bytes"
-	"container/heap"
 	"crypto/sha256"
-	"encoding/binary"
 	"encoding/hex"
 	"encoding/json"
 	"errors"
@@ -29,9 +27,10 @@ import (
 // followed by the other records sorted by their bytes, and each version as the
 // records that left or joined it since the previous one.
 
-// chunkSize bounds the bytes of records sorted in memory at once. Larger tables
-// are sorted in chunks spilled to temporary files. Tests lower it.
-var chunkSize = 128 << 20
+// maxTableSize bounds the downloads stored as rows, since sorting holds a table
+// in memory several times over. Larger ones are stored as they came. Tests
+// lower it.
+var maxTableSize int64 = 512 << 20
 
 // errNotTable marks content that is no complete CSV table, which is then
 // stored as it came
@@ -97,8 +96,12 @@ func (t *tables) base(url, previousRows string) (*version, error) {
 
 // update stores the table in content, the download of url, as the changes
 // since its base and sets the entry's Rows, Delta and DeltaFrom. It returns
-// errNotTable for content that does not split into complete records.
+// errNotTable for content above maxTableSize or that does not split into
+// complete records.
 func (t *tables) update(content *staged, url string, previous Entry, e *Entry) error {
+	if content.size > maxTableSize {
+		return errNotTable
+	}
 	base, err := t.base(url, previous.Rows)
 	if err != nil {
 		return err
@@ -126,11 +129,10 @@ func (t *tables) write(content *staged, url string, base *version, e *Entry) err
 	if err != nil {
 		return err
 	}
-	header, sorted, cleanup, err := sortRecords(bufio.NewReader(src), t.store.tmp)
+	header, sorted, err := sortRecords(bufio.NewReader(src))
 	if err != nil {
 		return err
 	}
-	defer cleanup()
 
 	var old recordSource = emptySource{}
 	if base != nil {
@@ -611,192 +613,46 @@ func (s *splitter) next() ([]byte, error) {
 }
 
 // sortRecords reads a CSV's header and returns it with its other records in
-// sorted order. Records beyond chunkSize are sorted in chunks written to
-// temporary files in dir and merged; cleanup removes those.
-func sortRecords(src *bufio.Reader, dir string) ([]byte, recordSource, func(), error) {
+// sorted order
+func sortRecords(src *bufio.Reader) ([]byte, recordSource, error) {
 	records := &splitter{r: src}
 	header, err := records.next()
 	if err == io.EOF {
-		return nil, nil, nil, errNotTable
+		return nil, nil, errNotTable
 	} else if err != nil {
-		return nil, nil, nil, err
+		return nil, nil, err
 	}
 	header = slices.Clone(header)
-
-	var runs []*os.File
-	cleanup := func() {
-		for _, r := range runs {
-			_ = r.Close()
-			_ = os.Remove(r.Name())
-		}
-	}
-	var chunk memoryRun
+	sorted := &memoryRecords{}
 	for {
 		record, err := records.next()
-		if err != nil && err != io.EOF {
-			cleanup()
-			return nil, nil, nil, err
-		}
-		if err == nil {
-			chunk.add(record)
-		}
-		if len(chunk.data) < chunkSize && err == nil {
-			continue
-		}
-		chunk.sort()
-		if err == io.EOF && len(runs) == 0 {
-			return header, &chunk, cleanup, nil
-		}
-		run, spillErr := chunk.spill(dir)
-		if run != nil {
-			runs = append(runs, run)
-		}
-		if spillErr != nil {
-			cleanup()
-			return nil, nil, nil, spillErr
-		}
-		chunk = memoryRun{}
 		if err == io.EOF {
 			break
-		}
-	}
-
-	merged := &merger{}
-	for _, run := range runs {
-		r := &fileRun{r: bufio.NewReader(run)}
-		record, err := r.next()
-		if err == io.EOF {
-			continue
 		} else if err != nil {
-			cleanup()
-			return nil, nil, nil, err
+			return nil, nil, err
 		}
-		merged.heads = append(merged.heads, head{record, r})
+		sorted.bounds = append(sorted.bounds, [2]int{len(sorted.data), len(sorted.data) + len(record)})
+		sorted.data = append(sorted.data, record...)
 	}
-	heap.Init(merged)
-	return header, merged, cleanup, nil
+	slices.SortFunc(sorted.bounds, func(a, b [2]int) int {
+		return bytes.Compare(sorted.data[a[0]:a[1]], sorted.data[b[0]:b[1]])
+	})
+	return header, sorted, nil
 }
 
-// memoryRun holds a chunk of records back to back
-type memoryRun struct {
+// memoryRecords holds records back to back, with their bounds in the order
+// they are yielded
+type memoryRecords struct {
 	data   []byte
-	starts []int
+	bounds [][2]int
 	at     int
 }
 
-func (m *memoryRun) add(record []byte) {
-	m.starts = append(m.starts, len(m.data))
-	m.data = append(m.data, record...)
-}
-
-func (m *memoryRun) record(i int) []byte {
-	end := len(m.data)
-	if i+1 < len(m.starts) {
-		end = m.starts[i+1]
-	}
-	return m.data[m.starts[i]:end]
-}
-
-// sort orders the records by rewriting data in their sorted order
-func (m *memoryRun) sort() {
-	order := make([]int, len(m.starts))
-	for i := range order {
-		order[i] = i
-	}
-	slices.SortFunc(order, func(a, b int) int { return bytes.Compare(m.record(a), m.record(b)) })
-	data, starts := make([]byte, 0, len(m.data)), make([]int, 0, len(m.starts))
-	for _, i := range order {
-		starts = append(starts, len(data))
-		data = append(data, m.record(i)...)
-	}
-	m.data, m.starts = data, starts
-}
-
-func (m *memoryRun) next() ([]byte, error) {
-	if m.at == len(m.starts) {
+func (m *memoryRecords) next() ([]byte, error) {
+	if m.at == len(m.bounds) {
 		return nil, io.EOF
 	}
+	b := m.bounds[m.at]
 	m.at++
-	return m.record(m.at - 1), nil
-}
-
-// spill writes the sorted records to a temporary file, each preceded by its
-// length, since records may hold line breaks
-func (m *memoryRun) spill(dir string) (*os.File, error) {
-	f, err := os.CreateTemp(dir, "sort-")
-	if err != nil {
-		return nil, err
-	}
-	w := bufio.NewWriter(f)
-	for i := range m.starts {
-		record := m.record(i)
-		_, _ = w.Write(binary.AppendUvarint(nil, uint64(len(record))))
-		_, _ = w.Write(record)
-	}
-	if err := w.Flush(); err != nil {
-		return f, err
-	}
-	_, err = f.Seek(0, io.SeekStart)
-	return f, err
-}
-
-type fileRun struct {
-	r      *bufio.Reader
-	record []byte
-}
-
-func (f *fileRun) next() ([]byte, error) {
-	n, err := binary.ReadUvarint(f.r)
-	if err != nil {
-		return nil, err
-	}
-	f.record = slices.Grow(f.record[:0], int(n))[:n]
-	if _, err := io.ReadFull(f.r, f.record); err != nil {
-		return nil, err
-	}
-	return f.record, nil
-}
-
-type head struct {
-	record []byte
-	run    *fileRun
-}
-
-// merger yields the records of sorted runs in sorted order. It advances the
-// run of the record it returned on the following call, so that the record
-// stays valid until then.
-type merger struct {
-	heads []head
-	taken *fileRun
-}
-
-func (m *merger) next() ([]byte, error) {
-	if m.taken != nil {
-		record, err := m.taken.next()
-		switch {
-		case err == io.EOF:
-			heap.Pop(m)
-		case err != nil:
-			return nil, err
-		default:
-			m.heads[0].record = record
-			heap.Fix(m, 0)
-		}
-		m.taken = nil
-	}
-	if len(m.heads) == 0 {
-		return nil, io.EOF
-	}
-	m.taken = m.heads[0].run
-	return m.heads[0].record, nil
-}
-
-func (m *merger) Len() int           { return len(m.heads) }
-func (m *merger) Less(i, j int) bool { return bytes.Compare(m.heads[i].record, m.heads[j].record) < 0 }
-func (m *merger) Swap(i, j int)      { m.heads[i], m.heads[j] = m.heads[j], m.heads[i] }
-func (m *merger) Push(x any)         { m.heads = append(m.heads, x.(head)) }
-func (m *merger) Pop() any {
-	last := m.heads[len(m.heads)-1]
-	m.heads = m.heads[:len(m.heads)-1]
-	return last
+	return m.data[b[0]:b[1]], nil
 }

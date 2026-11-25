@@ -11,8 +11,8 @@
 //	runs/<stamp>.jsonl.partial manifest of a run that did not finish
 //	state/…                    latest version of each geodata layer's table, see tables
 //
-// Geodata layers' CSVs are the exception: they are stored as the records that
-// changed since the previous version, see rows.go.
+// Most geodata layers' CSVs are stored as the records that changed since the
+// previous version instead, see rows.go.
 package archive
 
 import (
@@ -28,6 +28,7 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
+	"slices"
 	"strings"
 	"sync"
 	"time"
@@ -64,6 +65,11 @@ var viewerFormats = []string{
 	"Bundestagswahlatlas", "Kommunalwahlatlas", "Landtagswahlatlas",
 	"OParl-Schnittstelle", "3D-SceneLayer (I3S)",
 }
+
+// seriesLayers are time series that keep their whole history at the source:
+// air temperature and humidity measurements and the bike counters. A snapshot
+// a year guards against the source dropping them.
+var seriesLayers = []string{"L1625", "L1780", "L1781"}
 
 // Entry is one line of a run's manifest
 type Entry struct {
@@ -138,8 +144,9 @@ func presentsOnly(format string) bool {
 }
 
 // Run archives the catalog and every resource listed by Resources for each
-// dataset of idx into dir. Resources whose previous entry carries an ETag or
-// Last-Modified are requested conditionally. A failed download becomes an
+// dataset of idx into dir. The resources of seriesLayers are downloaded once a
+// year and repeat that entry in later runs. Resources whose previous entry
+// carries an ETag or Last-Modified are requested conditionally. A failed download becomes an
 // entry with Error and does not stop the run; only errors that leave the
 // archive unusable, such as a full disk, are returned. An interrupted run
 // leaves a .partial manifest and can simply be run again.
@@ -193,9 +200,14 @@ func Run(ctx context.Context, client *http.Client, idx *index.Index, dir string)
 		ds := &idx.Datasets[i]
 		for _, r := range Resources(ds) {
 			group.Go(func() error {
-				e, err := download(ctx, client, store, tables, r, ds.LayerID != "", previous[r.URL])
-				if err != nil {
-					return fmt.Errorf("archiving %s: %w", r.URL, err)
+				series := slices.Contains(seriesLayers, ds.LayerID)
+				e, ok := carried(series, previous[r.URL], started)
+				if !ok {
+					var err error
+					e, err = download(ctx, client, store, tables, r, ds.LayerID != "" && !series, previous[r.URL])
+					if err != nil {
+						return fmt.Errorf("archiving %s: %w", r.URL, err)
+					}
 				}
 				e.Dataset, e.Format, e.URL = ds.ID, r.Format, r.URL
 				return record(e)
@@ -220,6 +232,17 @@ func Run(ctx context.Context, client *http.Client, idx *index.Index, dir string)
 	}
 	summary.NewObjects, summary.NewBytes = store.added, store.addedBytes
 	return summary, nil
+}
+
+// carried returns the previous entry of a series layer's resource when it was
+// downloaded this year, without its delta, which belongs to that run
+func carried(series bool, previous Entry, started time.Time) (Entry, bool) {
+	fetched, err := time.Parse(time.RFC3339, previous.Fetched)
+	if !series || err != nil || previous.Error != "" || fetched.UTC().Year() < started.Year() {
+		return Entry{}, false
+	}
+	previous.Delta, previous.DeltaFrom = "", ""
+	return previous, true
 }
 
 // download fetches one resource into the store, a geodata layer's table into
